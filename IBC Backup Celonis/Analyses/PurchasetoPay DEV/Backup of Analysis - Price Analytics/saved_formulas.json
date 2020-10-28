@@ -1,0 +1,58 @@
+[
+  {
+    "description": "",
+    "id": "c49df68c-2945-4725-974f-44ec573c6959",
+    "name": "Maximum Price Difference",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MAX(EKPO.<%= currency_conversion %>/EKPO.PEINH - (PU_MIN(MARA,EKPO.<%= currency_conversion %>))/EKPO.PEINH)"
+  },
+  {
+    "description": "",
+    "id": "0e148af6-25e6-49fc-9c76-e9858702865c",
+    "name": "Price Variation",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "((STDEV(EKPO.NETPR/EKPO.PEINH)/AVG(EKPO.NETPR/EKPO.PEINH))\n/\nSQRT(COUNT_TABLE(EKPO)-1))*100"
+  },
+  {
+    "description": "",
+    "id": "1e73b0a6-79cc-49e2-9aa7-2b5c58c540fa",
+    "name": "Price Trend Moving Average",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MOVING_AVG(AVG(EKPO.<%= currency_conversion %>/EKPO.PEINH),-2,2)"
+  },
+  {
+    "description": "",
+    "id": "fc701711-217f-47a2-ae4a-f7fcea7f777f",
+    "name": "Lowest Price Paid",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MIN(EKPO.<%= currency_conversion %>/\"EKPO\".\"PEINH\")"
+  },
+  {
+    "description": "",
+    "id": "4d3a9dce-f724-4004-90ee-301a650afda0",
+    "name": "ABC_Vendor",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE\r\n  WHEN  ISNULL(ABC(PU_SUM(\"LFA1\", PU_SUM(\"EKKO\", \"EKPO\".\"NETWR_CONVERTED\"))  , 0.8, 0.15)) = 1\r\n  THEN 'Vendors without orders'\r\n\r\n  WHEN ABC(PU_SUM(\"LFA1\", PU_SUM(\"EKKO\", \"EKPO\".\"NETWR_CONVERTED\"))  , 0.8, 0.15) = 1\r\n  THEN 'A'\r\n\r\n  WHEN ABC(PU_SUM(\"LFA1\", PU_SUM(\"EKKO\", \"EKPO\".\"NETWR_CONVERTED\"))  , 0.8, 0.15) = 2\r\n  THEN 'B'\r\n\r\n  ELSE 'C'\r\nEND"
+  },
+  {
+    "description": "",
+    "id": "36a4edeb-fd55-4aec-b5be-960c0c8a5abf",
+    "name": "Potential Savings",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(\n        (\n            (\"EKPO\".\"<%= currency_conversion %>\"/EKPO.PEINH) - PU_MIN(MARA,EKPO.<%= currency_conversion %>/EKPO.PEINH, EKPO.<%= currency_conversion %> > 0.0 \n            AND  ISNULL(EKPO.MATNR) = 0 \n            AND EKPO.<%= currency_conversion %> NOT IN (0.00,0.01,1.00) \n            AND EKPO.<%= currency_conversion_netwr %> NOT IN (0.00,0.01,1.00) \n            AND ( \"_CEL_P2P_ACTIVITIES\".\"CHANGED_FROM_FLOAT\" NOT IN (0.00, 0.01, 1.00) \n            OR \"_CEL_P2P_ACTIVITIES\".\"CHANGED_TO_FLOAT\" NOT IN (0.00, 0.01, 1.00))\n            ) \n        )*\"EKPO\".\"MENGE\"\n    )\n"
+  },
+  {
+    "description": "",
+    "id": "05ac145d-5e11-40f8-a948-041c7bb71476",
+    "name": "Highest Price Paid",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MAX(EKPO.<%= currency_conversion %>/\"EKPO\".\"PEINH\")"
+  }
+]

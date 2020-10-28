@@ -1,0 +1,158 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "colorMappings": [
+      {
+        "id": "736684aa-a858-4a45-8af2-0f623bc990f6",
+        "name": "Contract Usage Ratio SeriesThresholds",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": "<",
+            "formula": "50"
+          },
+          {
+            "color": "#229a00",
+            "compare": ">=",
+            "formula": "75"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "fa431198-877f-426e-b454-99e6212983af",
+        "name": "Contract Usage Ratio SeriesThresholds",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": "<",
+            "formula": "0.5"
+          },
+          {
+            "color": "#229a00",
+            "compare": ">",
+            "formula": "0.8"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "ce5e7c20-16c4-46b2-a2dc-6d1c84aa0d22",
+        "name": "Contract Classifier",
+        "thresholds": [
+          {
+            "color": "#78B604",
+            "compare": "==",
+            "formula": "Contract Release Order Item"
+          },
+          {
+            "color": "#D70A0A",
+            "compare": "==",
+            "formula": "Standard PO Item"
+          }
+        ],
+        "type": "series"
+      }
+    ],
+    "editMode": true,
+    "id": "09c075d6-1c3a-4b3c-a2aa-b62d08cd90e0",
+    "kpiViews": [
+      {
+        "activityKpi": {
+          "id": "475d7c5a-a625-48c7-89f9-0d47624c551e",
+          "name": "Automation Ratio",
+          "text": "AVG(CASE WHEN ISNULL(\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\") = 1 THEN NULL\r\nWHEN \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" IN(<%=automatic_users%>) THEN 1.0 ELSE 0.0 END)",
+          "units": "%",
+          "valueFormat": ".2f"
+        },
+        "activityKpis": [
+          {
+            "id": "475d7c5a-a625-48c7-89f9-0d47624c551e",
+            "name": "Automation Ratio",
+            "text": "AVG(CASE WHEN ISNULL(\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\") = 1 THEN NULL\r\nWHEN \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" IN(<%=automatic_users%>) THEN 1.0 ELSE 0.0 END)",
+            "units": "%",
+            "valueFormat": ".2f"
+          }
+        ],
+        "connectionKpis": [],
+        "description": "",
+        "edgesFormatting": {},
+        "icon": "icons/icon-automation.svg",
+        "id": "23f3e30a-5f2c-4849-81e3-4cedc1aa1640",
+        "nodesFormatting": {
+          "colorThresholds": [
+            {
+              "color": "#FFB55C",
+              "compare": "<",
+              "formula": "0.5"
+            },
+            {
+              "color": "#F32F2B",
+              "compare": "<",
+              "formula": "0.1"
+            },
+            {
+              "color": "#9FDF27",
+              "compare": ">",
+              "formula": "0.5"
+            }
+          ]
+        },
+        "title": "Automation"
+      },
+      {
+        "activityKpi": {
+          "id": "5b0b1d71-2452-4054-b6f9-88856babff3b",
+          "name": "Activity Re-ocurrance Rate",
+          "text": "(1.0 * COUNT_TABLE(\"EKPO\"))/(1.0 * GLOBAL(COUNT_TABLE(\"EKPO\")))*100",
+          "units": "%",
+          "valueFormat": ".2f"
+        },
+        "activityKpis": [
+          {
+            "id": "5b0b1d71-2452-4054-b6f9-88856babff3b",
+            "name": "Activity Re-ocurrance Rate",
+            "text": "(1.0 * COUNT_TABLE(\"EKPO\"))/(1.0 * GLOBAL(COUNT_TABLE(\"EKPO\")))*100",
+            "units": "%",
+            "valueFormat": ".2f"
+          }
+        ],
+        "connectionKpis": [],
+        "description": "",
+        "edgesFormatting": {},
+        "icon": "icons/icon-percentage.svg",
+        "id": "aad6618a-34c1-40db-b3ed-c1fb752efb7a",
+        "nodesFormatting": {
+          "colorThresholds": []
+        },
+        "title": "Activitiy Re-occurrance"
+      }
+    ],
+    "loadScript": "",
+    "multiselectMode": false,
+    "name": "Contract Usage",
+    "palettes": [
+      {
+        "colors": [
+          "#5BC6E6",
+          "#F32F2B"
+        ],
+        "custom": true,
+        "id": "e4cb0491-0df3-4a41-9449-24fbf0a51c92",
+        "type": "ordinal"
+      }
+    ],
+    "rawDataExportLimit": 20000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "e5ce0269-da0a-4223-813f-fbdcae734914",
+  "lastChangeDate": 1598521035657,
+  "lastChangeUserId": "79131ff5-ec28-4869-8a94-4f03938cfd85",
+  "lastChangeUserName": "christopher.knaps@cbs-consulting.de(Christopher)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

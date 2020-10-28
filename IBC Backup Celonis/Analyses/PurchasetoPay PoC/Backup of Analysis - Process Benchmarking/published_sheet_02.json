@@ -1,0 +1,4443 @@
+{
+  "components": [
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#777777",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#dddddd",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "ca38158a-88fd-4e71-9e6a-8f3d1454718e",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=21][color=#ffffff]#{KPIs} #{for} <%=benchmark1%>[/color][/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 39,
+      "x": 19,
+      "y": 1,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#777777",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#dddddd",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "88a864e3-9e61-43f5-98be-f4638b72aa3e",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=21][color=#ffffff]#{KPIs} #{for} <%=benchmark2%>[/color][/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 39,
+      "x": 60,
+      "y": 1,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#15a7d1",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "9f14e309-9f9d-4ccf-92d6-dc5d9dd950b4",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][color=#ffffff][size=25]1[/size][/color][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 3,
+      "x": 1,
+      "y": 11,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#15a7d1",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "f6afb58e-c4d6-4d4b-a97b-cb2d5df8b6ca",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][color=#ffffff][size=25]2[/size][/color][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 3,
+      "x": 1,
+      "y": 22,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#15a7d1",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "49f7a271-4694-460f-a5b2-94d7c0ac2f06",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][color=#ffffff][size=25]3[/size][/color][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 3,
+      "x": 1,
+      "y": 30,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "8e2969e6-3c1d-4a96-bc78-86568372d6f1",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=25][color=#bbbbbb]4[/color][/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 3,
+      "x": 1,
+      "y": 41,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "7f9206de-56ee-42a1-86d7-50731079a319",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "logo-component",
+      "vertical": false,
+      "width": 10,
+      "x": 4,
+      "y": 3,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "1f110941-b7bd-4a69-bdcb-93b379ee8094",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=17]#{processBenchmark}[/size][/b][/center]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 16,
+      "x": 1,
+      "y": 6,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#dddddd",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "3fe3217f-5219-44aa-a670-f0f9d6c38e7f",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][color=#00A6D7][size=16]#{select} #{a} #{benchmarkCriterion}:[/size][/color][/b][/center]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 13,
+      "x": 4,
+      "y": 11,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "#{select} #{benchmarkCriterion}",
+      "buttons": [
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"LFA1\".\"LIFNR\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmark_criterion",
+          "variableValue": "\"LFA1\".\"NAME1\"",
+          "variables": [
+            {
+              "title": "benchmark_criterion",
+              "variableName": "benchmark_criterion",
+              "variableValue": "\"LFA1\".\"NAME1\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"EKPO\".\"MATNR\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmark_criterion",
+          "variableValue": "\"EKPO\".\"MATNR_TEXT\"",
+          "variables": [
+            {
+              "title": "benchmark_criterion",
+              "variableName": "benchmark_criterion",
+              "variableValue": "\"EKPO\".\"MATNR_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"EKPO\".\"MATKL\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmark_criterion",
+          "variableValue": "\"EKPO\".\"MATKL_TEXT\"",
+          "variables": [
+            {
+              "title": "benchmark_criterion",
+              "variableName": "benchmark_criterion",
+              "variableValue": "\"EKPO\".\"MATKL_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"EKPO\".\"BUKRS\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmark_criterion",
+          "variableValue": "\"EKPO\".\"BUKRS_TEXT\"",
+          "variables": [
+            {
+              "title": "benchmark_criterion",
+              "variableName": "benchmark_criterion",
+              "variableValue": "\"EKPO\".\"BUKRS_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"EKKO\".\"EKORG\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmark_criterion",
+          "variableValue": "\"EKKO\".\"EKORG_TEXT\"",
+          "variables": [
+            {
+              "title": "benchmark_criterion",
+              "variableName": "benchmark_criterion",
+              "variableValue": "\"EKKO\".\"EKORG_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"EKKO\".\"BSART\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmark_criterion",
+          "variableValue": "\"EKKO\".\"BSART_TEXT\"",
+          "variables": [
+            {
+              "title": "benchmark_criterion",
+              "variableName": "benchmark_criterion",
+              "variableValue": "\"EKKO\".\"BSART_TEXT\""
+            }
+          ]
+        },
+        {
+          "action": "setVariable",
+          "backgroundColor": "",
+          "buttonTitle": "#{\"EKPO\".\"WERKS\"}",
+          "titleStyle": {
+            "fontColor": ""
+          },
+          "variableName": "benchmark_criterion",
+          "variableValue": "\"EKPO\".\"WERKS_TEXT\"",
+          "variables": [
+            {
+              "title": "benchmark_criterion",
+              "variableName": "benchmark_criterion",
+              "variableValue": "\"EKPO\".\"WERKS_TEXT\""
+            }
+          ]
+        }
+      ],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "2f269894-c06c-479e-b7fa-a34c0b76cf35",
+      "inputType": "Manual Input",
+      "loadEntries": {
+        "formula": {
+          "text": ""
+        },
+        "isMultiSelect": true
+      },
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "width": 16,
+      "x": 1,
+      "y": 14,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#ffffff",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "a559dd33-297e-4591-99b4-0ba67e684c16",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15]#{benchmarkCriterion}: [color=#15a7d1]<%= benchmark_criterion== '\"LFA1\".\"NAME1\"'  ? '#{\"LFA1\".\"LIFNR\"}': benchmark_criterion == '\"EKPO\".\"MATNR_TEXT\"'  ? '#{\"EKPO\".\"MATNR\"}' : benchmark_criterion == '\"EKPO\".\"MATKL_TEXT\"'  ? '#{\"EKPO\".\"MATKL\"}': benchmark_criterion == '\"EKPO\".\"BUKRS_TEXT\"'  ? '#{\"EKPO\".\"BURKS\"}': benchmark_criterion == '\"EKKO\".\"EKORG_TEXT\"'  ? '#{\"EKKO\".\"EKORG\"}': benchmark_criterion == '\"EKKO\".\"BSART_TEXT\"'  ? '#{\"EKKO\".\"BSART\"}': benchmark_criterion== '\"EKPO\".\"WERKS_TEXT\"' ? '#{\"EKPO\".\"WERKS\"}': ''%>[/color][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 16,
+      "x": 1,
+      "y": 17,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#dddddd",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "bf7c2b30-66d9-4d12-b4ff-d977147c2eb1",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][color=#00A6D7][size=16]#{select} #{a} #{filterCriterion} #{for} #{process} 1:[/size][/color][/b][/center]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 13,
+      "x": 4,
+      "y": 22,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "#{select} #{benchmark} 1",
+      "buttons": [
+        {
+          "backgroundColor": "",
+          "buttonTitle": "New dropdown entry",
+          "titleStyle": {
+            "fontColor": ""
+          }
+        }
+      ],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "453177af-b064-4bb8-ac28-97a0b60318c1",
+      "inputType": "Load Entries",
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "<%=benchmark_criterion%>"
+        },
+        "isMultiSelect": true,
+        "preview": "'Value1','Value2'",
+        "separator": ",",
+        "variableName": "benchmark1",
+        "wrappingCharEnd": "'",
+        "wrappingCharStart": "'"
+      },
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "unfilteredInput": false,
+      "vertical": false,
+      "width": 16,
+      "x": 1,
+      "y": 25,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#ffffff",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "9668aa5a-bc88-412b-b9fe-f70fd2c8fb0f",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15]#{benchmark} 1: [color=#15a7d1]<%=benchmark1%>[/color][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 16,
+      "x": 1,
+      "y": 28,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#dddddd",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "cfb52d00-a225-4ed3-bd1e-ef98a7efa025",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][color=#00A6D7][size=16]#{select} #{a} #{filterCriterion} #{for} #{process} 1:[/size][/color][/b][/center]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 13,
+      "x": 4,
+      "y": 30,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "#{select} #{benchmark} 2",
+      "buttons": [
+        {
+          "backgroundColor": "",
+          "buttonTitle": "New dropdown entry",
+          "titleStyle": {
+            "fontColor": ""
+          }
+        }
+      ],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "fe2f4725-fc39-4d6d-a025-c8d2f5cd0d64",
+      "inputType": "Load Entries",
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "<%=benchmark_criterion%>"
+        },
+        "isMultiSelect": true,
+        "preview": "'Value1','Value2'",
+        "separator": ",",
+        "variableName": "benchmark2",
+        "wrappingCharEnd": "'",
+        "wrappingCharStart": "'"
+      },
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "unfilteredInput": false,
+      "vertical": false,
+      "width": 16,
+      "x": 1,
+      "y": 33,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#ffffff",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "18f583d7-36ad-458d-96e1-5e6bdbaf8e96",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15]#{benchmark} 2: [color=#15a7d1]<%=benchmark2%>[/color][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 16,
+      "x": 1,
+      "y": 36,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#999999",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "602bc300-818b-4710-9892-e1e3be361073",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=23][color=#ffffff]#{select} #{generalFilter} (#{optional}):[/color][/size][/b][/center]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 13,
+      "x": 4,
+      "y": 41,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "dropdownSettings": {
+        "formula": {
+          "text": "\"LFA1\".\"NAME1\"",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"LOEKZ\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{\"LFA1\".\"VBUND\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"BSART\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKGRP\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKORG\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"WERKS\"}"
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"BUKRS\"}"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "ROUND_DAY(\"EKKO\".\"TS_AEDAT\")"
+          },
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "CT_Total",
+            "type": "text_replacement",
+            "value": "MEDIAN(REMAP_TIMESTAMPS(PU_FIRST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = 'Clear Invoice'), DAYS) - REMAP_TIMESTAMPS(PU_FIRST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"), DAYS))"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 4,
+                "selected": true,
+                "value": "IDES Japan"
+              }
+            ],
+            "linkedFormula": "<%=benchmark_criterion%>",
+            "name": "benchmark1",
+            "type": "text_replacement",
+            "value": "IDES Japan"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "IDES France"
+              }
+            ],
+            "linkedFormula": "<%=benchmark_criterion%>",
+            "name": "benchmark2",
+            "type": "text_replacement",
+            "value": "IDES France"
+          },
+          {
+            "name": "benchmark_criterion",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKORG_TEXT\""
+          },
+          {
+            "name": "automation_rate",
+            "type": "text_replacement",
+            "value": "AVG(CASE WHEN ISNULL(\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\") = 1 THEN NULL WHEN \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" = 'B' THEN 1.0 ELSE 0.0 END)"
+          },
+          {
+            "name": "change_rate",
+            "type": "text_replacement",
+            "value": "1.0*COUNT(DISTINCT CASE WHEN ISNULL(\"_CEL_P2P_ACTIVITIES\".\"CHANGE_NUMBER\") = 0 THEN \"EKPO\".\"MANDT\"||\"EKPO\".\"EBELN\"||\"EKPO\".\"EBELP\" ELSE NULL END)/COUNT_TABLE(\"EKPO\")"
+          },
+          {
+            "linkedEntries": [],
+            "name": "benchmark3",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"KNA1\".\"NAME1\""
+          }
+        ]
+      },
+      "dropdownText": "#{\"LFA1\".\"LIFNR\"} #{\"LFA1\".\"NAME1\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "c03fcfb5-280c-4f89-b18f-77c9e2d8c508",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "vertical": false,
+      "width": 16,
+      "x": 1,
+      "y": 44,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "dropdownSettings": {
+        "formula": {
+          "text": "\"EKPO\".\"MATNR_TEXT\"",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"LOEKZ\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{\"LFA1\".\"VBUND\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"BSART\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKGRP\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKORG\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"WERKS\"}"
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"BUKRS\"}"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "ROUND_DAY(\"EKKO\".\"TS_AEDAT\")"
+          },
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "CT_Total",
+            "type": "text_replacement",
+            "value": "MEDIAN(REMAP_TIMESTAMPS(PU_FIRST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = 'Clear Invoice'), DAYS) - REMAP_TIMESTAMPS(PU_FIRST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"), DAYS))"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 4,
+                "selected": true,
+                "value": "IDES Japan"
+              }
+            ],
+            "linkedFormula": "<%=benchmark_criterion%>",
+            "name": "benchmark1",
+            "type": "text_replacement",
+            "value": "IDES Japan"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "IDES France"
+              }
+            ],
+            "linkedFormula": "<%=benchmark_criterion%>",
+            "name": "benchmark2",
+            "type": "text_replacement",
+            "value": "IDES France"
+          },
+          {
+            "name": "benchmark_criterion",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKORG_TEXT\""
+          },
+          {
+            "name": "automation_rate",
+            "type": "text_replacement",
+            "value": "AVG(CASE WHEN ISNULL(\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\") = 1 THEN NULL WHEN \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" = 'B' THEN 1.0 ELSE 0.0 END)"
+          },
+          {
+            "name": "change_rate",
+            "type": "text_replacement",
+            "value": "1.0*COUNT(DISTINCT CASE WHEN ISNULL(\"_CEL_P2P_ACTIVITIES\".\"CHANGE_NUMBER\") = 0 THEN \"EKPO\".\"MANDT\"||\"EKPO\".\"EBELN\"||\"EKPO\".\"EBELP\" ELSE NULL END)/COUNT_TABLE(\"EKPO\")"
+          },
+          {
+            "linkedEntries": [],
+            "name": "benchmark3",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"KNA1\".\"NAME1\""
+          }
+        ]
+      },
+      "dropdownText": "#{\"EKPO\".\"MATNR_TEXT\"}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "788fc976-ef1a-4ba2-bbb2-24e22a95b705",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "vertical": false,
+      "width": 16,
+      "x": 1,
+      "y": 46,
+      "zIndex": 1
+    },
+    {
+      "activityColumnRef": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+      "activityConfigurations": [
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Price"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Quantity"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Purchase Order Item"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Purchase Requisition Item"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Record Goods Receipt"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Begin Quality Inspection"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Cancel Goods Receipt"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Cancel Invoice Receipt"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Approval for Purchase Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Contract"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Delete Purchase Order Item"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Finish Quality Inspection"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Quality: Accepted"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Quality: Rejected"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Receive advanced shipment notice (ASN)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Record Invoice Receipt"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Record Service Entry Sheet"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Send Purchase Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Send Purchase Order Update"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Vendor Creates Invoice"
+        }
+      ],
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark1%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "customActivityColumn": true,
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "#424242",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "edgeSliderState": 0,
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "fullDotLayout": true,
+      "groupsConfigurations": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 39,
+      "hiddenActivities": {},
+      "hideStartEnd": false,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "106aa4c0-ed08-4010-87f7-f1a9210e3ade",
+      "kpiView": {
+        "connectionKpi": {
+          "colorEnd": "#1190b6",
+          "colorStart": "#40c6ed",
+          "id": "FREQUENCY",
+          "name": "frequency",
+          "text": "",
+          "units": "",
+          "valueFormat": ",f"
+        },
+        "connectionKpis": [
+          {
+            "colorEnd": "#1190b6",
+            "colorStart": "#40c6ed",
+            "id": "FREQUENCY",
+            "name": "frequency",
+            "text": "",
+            "units": "",
+            "valueFormat": ",f"
+          }
+        ],
+        "icon": "icons/icon-frequency.svg",
+        "id": "FREQUENCY",
+        "inlineKpi": "caseCount",
+        "title": "frequency"
+      },
+      "maximized": false,
+      "nodeIcon": {
+        "dark": "icons/icon-singleuser.svg",
+        "light": "icons/icon-singleuser-white.svg"
+      },
+      "nodeSliderState": 0,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "simple_process",
+      "useNodeIcon": false,
+      "version": 2,
+      "vertical": false,
+      "width": 26,
+      "x": 19,
+      "y": 10,
+      "zIndex": 8
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark1%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "KPI(\"Full Match Ratio\")",
+        "translatedName": "Single KPI",
+        "units": "%",
+        "valueFormat": ",.2f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 7,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "188d1bf6-5fdd-4850-8f4b-c6cb7c009f22",
+      "kpiValue": 0,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= low_color_three_way_match_rate %>"
+          },
+          "value": 50
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_three_way_match_rate %>",
+            "units": ""
+          },
+          "value": 80
+        },
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= high_color_three_way_match_rate %>"
+          },
+          "value": 80
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 2,
+        "showMaxValue": false,
+        "singleColor": "#c8484f",
+        "singleColorEnabled": false,
+        "subtitle": "",
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= low_color_three_way_match_rate %>"
+          },
+          "value": 50
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_three_way_match_rate %>",
+            "units": ""
+          },
+          "value": 80
+        },
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= high_color_three_way_match_rate %>"
+          },
+          "value": 80
+        }
+      ],
+      "title": "#{FullMatchRate}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "unfilteredInput": false,
+      "version": 1,
+      "vertical": false,
+      "viewType": "gauge",
+      "width": 13,
+      "x": 45,
+      "y": 34,
+      "zIndex": 10
+    },
+    {
+      "action": "showMessage",
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "#{FullMatchRate}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "3eaf1f10-eba5-4e59-ad4a-83809b08babb",
+      "maximized": false,
+      "message": "<h2>#{Calculation} #{of_der} #{FullMatchRate}:</h2>\n\n#{explanationThreeWayMatch}",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#6d6d6d",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 13,
+      "x": 45,
+      "y": 34,
+      "zIndex": 14
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark1%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "KPI(\"Contract Release Order Item Ratio\")",
+        "translatedName": "Single KPI",
+        "units": "%",
+        "valueFormat": ",.2f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 7,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "b3ad7481-2708-41e8-8482-289b636ae2f5",
+      "kpiValue": 0,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= low_color_del_date_change %>",
+            "units": ""
+          }
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_del_date_change %>",
+            "units": ""
+          }
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 2,
+        "showMaxValue": false,
+        "singleColor": "#424242",
+        "singleColorEnabled": true,
+        "subtitle": "",
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#424242",
+          "formula": {
+            "text": "<%= high_color_del_date_change %>",
+            "units": ""
+          }
+        }
+      ],
+      "title": "#{ContractReleaseOrderItemRatio}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "unfilteredInput": false,
+      "version": 1,
+      "vertical": false,
+      "viewType": "gauge",
+      "width": 13,
+      "x": 45,
+      "y": 42,
+      "zIndex": 9
+    },
+    {
+      "action": "showMessage",
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "#{ContractReleaseOrderItemRatio}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "fdf90678-1926-41b7-bd06-4774ef001b16",
+      "maximized": false,
+      "message": "<h2>#{Calculation} #{of_der} #{ContractReleaseOrderItemRatio}: </h2>\n#{explanationContractReleaseOrderItem}",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#6d6d6d",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 13,
+      "x": 45,
+      "y": 42,
+      "zIndex": 18
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark1%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "KPI(\"On Time Delivery Rate\")",
+        "translatedName": "Single KPI",
+        "units": "%",
+        "valueFormat": ",.2f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 7,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "fe54a2b2-51c5-423c-b6d5-5bec35301f40",
+      "kpiValue": 0,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= low_color_on_time_delivery_rate %>",
+            "units": ""
+          },
+          "value": 50
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_on_time_delivery_rate %>"
+          },
+          "value": 80
+        },
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= high_color_on_time_delivery_rate %>"
+          },
+          "value": 80
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 2,
+        "showMaxValue": false,
+        "singleColor": "#D70A0A",
+        "singleColorEnabled": false,
+        "subtitle": "",
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= low_color_on_time_delivery_rate %>",
+            "units": ""
+          },
+          "value": 50
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_on_time_delivery_rate %>"
+          },
+          "value": 80
+        },
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= high_color_on_time_delivery_rate %>"
+          },
+          "value": 80
+        }
+      ],
+      "title": "#{onTimeDeliveryRate}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "unfilteredInput": false,
+      "version": 1,
+      "vertical": false,
+      "viewType": "gauge",
+      "width": 13,
+      "x": 45,
+      "y": 26,
+      "zIndex": 7
+    },
+    {
+      "action": "showMessage",
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "#{onTimeDeliveryRate}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "d86e8b47-e63b-4af7-a7cf-71c0933441bf",
+      "maximized": false,
+      "message": "<h2>#{Calculation} #{of_der} #{onTimeDeliveryRate}:</h2>\n\n#{explanationOnTimeDelivery}",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#6d6d6d",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button",
+      "variables": [
+        {
+          "title": "new_variable"
+        }
+      ],
+      "vertical": false,
+      "width": 13,
+      "x": 45,
+      "y": 26,
+      "zIndex": 12
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark1%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "KPI(\"Change Rate\")\n",
+        "translatedName": "Single KPI",
+        "units": "%",
+        "valueFormat": ",.2f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 7,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "856fffe9-e92e-45d7-b16a-9d3853b34773",
+      "kpiValue": 0,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= low_color_change_rate %>\r\n",
+            "units": ""
+          },
+          "value": 30
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_change_rate %>"
+          },
+          "value": 60
+        },
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= high_color_change_rate %>"
+          },
+          "value": 60
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 2,
+        "showMaxValue": false,
+        "singleColor": "#78B604",
+        "singleColorEnabled": false,
+        "subtitle": "",
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= low_color_change_rate %>\r\n",
+            "units": ""
+          },
+          "value": 30
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_change_rate %>"
+          },
+          "value": 60
+        },
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= high_color_change_rate %>"
+          },
+          "value": 60
+        }
+      ],
+      "title": "#{changeRate}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "unfilteredInput": false,
+      "version": 1,
+      "vertical": false,
+      "viewType": "gauge",
+      "width": 13,
+      "x": 45,
+      "y": 18,
+      "zIndex": 7
+    },
+    {
+      "action": "showMessage",
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "#{changeRate}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "6f3b3fbc-facb-4603-81e5-67add8440d0b",
+      "maximized": false,
+      "message": "<h2>#{Calculation} #{of_der} #{changeRate}:</h2>\n\n#{explanationChangeRate}",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#6d6d6d",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 13,
+      "x": 45,
+      "y": 18,
+      "zIndex": 11
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark1%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "KPI(\"Automation Rate\")",
+        "translatedName": "Single KPI",
+        "units": "%",
+        "valueFormat": ",.2f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 7,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "3209dbd1-4304-4908-825f-ef06632f7b84",
+      "kpiValue": 0,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= low_color_automation_rate %>",
+            "units": ""
+          },
+          "value": 30
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_automation_rate %>",
+            "units": ""
+          },
+          "value": 100
+        },
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= high_color_automation_rate %>"
+          },
+          "value": 100
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 2,
+        "showMaxValue": false,
+        "singleColor": "#c8484f",
+        "singleColorEnabled": false,
+        "subtitle": "",
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= low_color_automation_rate %>",
+            "units": ""
+          },
+          "value": 30
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_automation_rate %>",
+            "units": ""
+          },
+          "value": 100
+        },
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= high_color_automation_rate %>"
+          },
+          "value": 100
+        }
+      ],
+      "title": "#{AutomationRatio}",
+      "titleStyle": {
+        "alignment": "left",
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "unfilteredInput": false,
+      "version": 1,
+      "vertical": false,
+      "viewType": "gauge",
+      "width": 13,
+      "x": 45,
+      "y": 10,
+      "zIndex": 6
+    },
+    {
+      "action": "showMessage",
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "#{automationRate}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "839f0454-0e97-4dbb-b245-b8b03c75cdeb",
+      "maximized": false,
+      "message": "<h2>#{Calculation} #{of_der} #{automationRate}:</h2>\n\n#{explanationAutomationRate}",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#6d6d6d",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 13,
+      "x": 45,
+      "y": 10,
+      "zIndex": 17
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark1%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "COUNT_TABLE(\"EKKO\")",
+        "translatedName": "Single KPI",
+        "units": "",
+        "valueFormat": ",f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "d08854ab-b645-4095-bfa5-93905798fab2",
+      "initThresholdsCount": 1,
+      "kpiValue": 8,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        },
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 1,
+        "singleColor": "#14A9D5",
+        "singleColorEnabled": true,
+        "subtitle": "",
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#14A9D5",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "title": "# #{POs}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "bold": false,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "viewType": "number",
+      "width": 13,
+      "x": 19,
+      "y": 4,
+      "zIndex": 3
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark1%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "COUNT_TABLE(\"EKPO\")",
+        "translatedName": "Single KPI",
+        "units": "",
+        "valueFormat": ",f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "a03658b7-ac99-4647-bbbc-d9590e51d1d4",
+      "initThresholdsCount": 1,
+      "kpiValue": 8,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        },
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 1,
+        "singleColor": "#14A9D5",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#14A9D5",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "title": "# #{POItems}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "viewType": "number",
+      "width": 13,
+      "x": 32,
+      "y": 4,
+      "zIndex": 4
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark1%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "SUM(\"EKPO\".\"NETWR_CONVERTED\")",
+        "translatedName": "Single KPI",
+        "units": "\u20ac",
+        "valueFormat": ".3s"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "ebfbb6ef-be48-4ee9-a475-1330c997a8d6",
+      "initThresholdsCount": 1,
+      "kpiValue": 382.06558763600015,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        },
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 1,
+        "singleColor": "#14A9D5",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#14A9D5",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "title": "#{P2P52MBDrillDownNetOrderValue}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "viewType": "number",
+      "width": 13,
+      "x": 45,
+      "y": 4,
+      "zIndex": 5
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark2%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "COUNT_TABLE(\"EKKO\")",
+        "translatedName": "Single KPI",
+        "units": "",
+        "valueFormat": ",f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "fedfcedd-4b0b-41e2-ae4a-75a1b9363cdd",
+      "initThresholdsCount": 1,
+      "kpiValue": 36,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        },
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 1,
+        "singleColor": "#14A9D5",
+        "singleColorEnabled": true,
+        "subtitle": "",
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#14A9D5",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "title": "# #{POs}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "bold": false,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "viewType": "number",
+      "width": 13,
+      "x": 60,
+      "y": 4,
+      "zIndex": 4
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark2%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "COUNT_TABLE(\"EKPO\")",
+        "translatedName": "Single KPI",
+        "units": "",
+        "valueFormat": ",f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "ba86558b-44f0-461c-9618-771bf7a60ace",
+      "initThresholdsCount": 1,
+      "kpiValue": 69,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        },
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 1,
+        "singleColor": "#14A9D5",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#14A9D5",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "title": "# #{POItems}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "viewType": "number",
+      "width": 13,
+      "x": 73,
+      "y": 4,
+      "zIndex": 5
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark2%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "SUM(\"EKPO\".\"NETWR_CONVERTED\")",
+        "translatedName": "Single KPI",
+        "units": "\u20ac",
+        "valueFormat": ".3s"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "6b7d4843-00d8-4d65-a325-aa866e64a586",
+      "initThresholdsCount": 1,
+      "kpiValue": 132041176.28270027,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        },
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 1,
+        "singleColor": "#14A9D5",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#14A9D5",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "title": "#{P2P52MBDrillDownNetOrderValue}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "viewType": "number",
+      "width": 13,
+      "x": 86,
+      "y": 4,
+      "zIndex": 6
+    },
+    {
+      "action": "showMessage",
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "#{automationRate}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "a4bd1565-d6e6-4d9f-937d-6fd938c3bd07",
+      "maximized": false,
+      "message": "<h2>#{Calculation} #{of_der} #{automationRate}:</h2>\n\n#{explanationAutomationRate}",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#6d6d6d",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 13,
+      "x": 60,
+      "y": 10,
+      "zIndex": 18
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark2%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "KPI(\"Automation Rate\")",
+        "translatedName": "Single KPI",
+        "units": "%",
+        "valueFormat": ",.2f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 7,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "4057f40a-d9e2-4833-b4e8-720fd2027cd8",
+      "kpiValue": 0,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= low_color_automation_rate %>\r\n",
+            "units": ""
+          },
+          "value": 30
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_automation_rate %>"
+          },
+          "value": 100
+        },
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= high_color_automation_rate %>"
+          },
+          "value": 100
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 2,
+        "showMaxValue": false,
+        "singleColor": "#D70A0A",
+        "singleColorEnabled": false,
+        "subtitle": "",
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= low_color_automation_rate %>\r\n",
+            "units": ""
+          },
+          "value": 30
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_automation_rate %>"
+          },
+          "value": 100
+        },
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= high_color_automation_rate %>"
+          },
+          "value": 100
+        }
+      ],
+      "title": "#{AutomationRatio}",
+      "titleStyle": {
+        "alignment": "left",
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "unfilteredInput": false,
+      "version": 1,
+      "vertical": false,
+      "viewType": "gauge",
+      "width": 13,
+      "x": 60,
+      "y": 10,
+      "zIndex": 7
+    },
+    {
+      "action": "showMessage",
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "#{changeRate}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "fbf081ed-5e36-423c-ba2b-d9b68f80ca0d",
+      "maximized": false,
+      "message": "<h2>#{Calculation} #{of_der} #{changeRate}:</h2>\n\n#{explanationChangeRate}",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#6d6d6d",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 13,
+      "x": 60,
+      "y": 18,
+      "zIndex": 12
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark2%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "KPI(\"Change Rate\")",
+        "translatedName": "Single KPI",
+        "units": "%",
+        "valueFormat": ",.2f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 7,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "1e31fc65-7e83-4f6f-98b2-15226401fbb9",
+      "kpiValue": 1.4492753623188406,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%=low_color_change_rate%>",
+            "units": ""
+          },
+          "value": 30
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_change_rate%>",
+            "units": ""
+          },
+          "value": 60
+        },
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= high_color_change_rate%>"
+          },
+          "value": 60
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 2,
+        "showMaxValue": false,
+        "singleColor": "#D70A0A",
+        "singleColorEnabled": false,
+        "subtitle": "",
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%=low_color_change_rate%>",
+            "units": ""
+          },
+          "value": 30
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_change_rate%>",
+            "units": ""
+          },
+          "value": 60
+        },
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= high_color_change_rate%>"
+          },
+          "value": 60
+        }
+      ],
+      "title": "#{changeRate}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "unfilteredInput": false,
+      "version": 1,
+      "vertical": false,
+      "viewType": "gauge",
+      "width": 13,
+      "x": 60,
+      "y": 18,
+      "zIndex": 8
+    },
+    {
+      "action": "showMessage",
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "#{onTimeDeliveryRate}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "cb2ed448-b70b-4501-8727-efcd767d6ee8",
+      "maximized": false,
+      "message": "<h2>#{Calculation} #{of_der} #{onTimeDeliveryRate}:</h2>\n\n#{explanationOnTimeDelivery}",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#6d6d6d",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button",
+      "variables": [
+        {
+          "title": "new_variable"
+        }
+      ],
+      "vertical": false,
+      "width": 13,
+      "x": 60,
+      "y": 26,
+      "zIndex": 13
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark2%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "KPI(\"On Time Delivery Rate\")",
+        "translatedName": "Single KPI",
+        "units": "%",
+        "valueFormat": ",.2f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 7,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "91ea6c75-81fe-4cda-a9b7-d4abbf623156",
+      "kpiValue": 0,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= low_color_on_time_delivery_rate %>",
+            "units": ""
+          },
+          "value": 50
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_on_time_delivery_rate %>"
+          },
+          "value": 80
+        },
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= high_color_on_time_delivery_rate %>"
+          },
+          "value": 80
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 2,
+        "showMaxValue": false,
+        "singleColor": "#D70A0A",
+        "singleColorEnabled": false,
+        "subtitle": "",
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= low_color_on_time_delivery_rate %>",
+            "units": ""
+          },
+          "value": 50
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_on_time_delivery_rate %>"
+          },
+          "value": 80
+        },
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= high_color_on_time_delivery_rate %>"
+          },
+          "value": 80
+        }
+      ],
+      "title": "#{onTimeDeliveryRate}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "unfilteredInput": false,
+      "version": 1,
+      "vertical": false,
+      "viewType": "gauge",
+      "width": 13,
+      "x": 60,
+      "y": 26,
+      "zIndex": 8
+    },
+    {
+      "action": "showMessage",
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "#{ContractReleaseOrderItemRatio}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "7ed2a727-3c5c-47b8-8c18-492df934845a",
+      "maximized": false,
+      "message": "<h2>#{Calculation} #{of_der} #{ContractReleaseOrderItemRatio}: </h2>\n#{explanationContractReleaseOrderItem}",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#6d6d6d",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 13,
+      "x": 60,
+      "y": 42,
+      "zIndex": 19
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark2%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "KPI(\"Contract Release Order Item Ratio\")",
+        "translatedName": "Single KPI",
+        "units": "%",
+        "valueFormat": ",.2f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 7,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "eda880ef-32e8-4e9e-91a9-bf12eb7e3515",
+      "kpiValue": 73.91304347826086,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= low_color_del_date_change %>",
+            "units": ""
+          }
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_del_date_change %>",
+            "units": ""
+          }
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 2,
+        "showMaxValue": false,
+        "singleColor": "#424242",
+        "singleColorEnabled": true,
+        "subtitle": "",
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#424242",
+          "formula": {
+            "text": "<%= high_color_del_date_change %>",
+            "units": ""
+          }
+        }
+      ],
+      "title": "#{ContractReleaseOrderItemRatio}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "unfilteredInput": false,
+      "version": 1,
+      "vertical": false,
+      "viewType": "gauge",
+      "width": 13,
+      "x": 60,
+      "y": 42,
+      "zIndex": 10
+    },
+    {
+      "action": "showMessage",
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "#{FullMatchRate}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "91640747-2996-43db-adff-eceead81b77c",
+      "maximized": false,
+      "message": "<h2>#{Calculation} #{of_der} #{FullMatchRate}:</h2>\n\n#{explanationThreeWayMatch}",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#6d6d6d",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 13,
+      "x": 60,
+      "y": 34,
+      "zIndex": 15
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark2%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "KPI(\"Full Match Ratio\")",
+        "translatedName": "Single KPI",
+        "units": "%",
+        "valueFormat": ",.2f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 7,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "608fced9-8877-4236-a873-7c7852d8c543",
+      "kpiValue": 0,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= low_color_three_way_match_rate %>"
+          },
+          "value": 50
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_three_way_match_rate %>",
+            "units": ""
+          },
+          "value": 80
+        },
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= high_color_three_way_match_rate %>"
+          },
+          "value": 80
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 2,
+        "showMaxValue": false,
+        "singleColor": "#c8484f",
+        "singleColorEnabled": false,
+        "subtitle": "",
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%= low_color_three_way_match_rate %>"
+          },
+          "value": 50
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%= high_color_three_way_match_rate %>",
+            "units": ""
+          },
+          "value": 80
+        },
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "<%= high_color_three_way_match_rate %>"
+          },
+          "value": 80
+        }
+      ],
+      "title": "#{FullMatchRate}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "unfilteredInput": false,
+      "version": 1,
+      "vertical": false,
+      "viewType": "gauge",
+      "width": 13,
+      "x": 60,
+      "y": 34,
+      "zIndex": 11
+    },
+    {
+      "activityColumnRef": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+      "activityConfigurations": [
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Price"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Quantity"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Purchase Order Item"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Purchase Requisition Item"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Record Goods Receipt"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Begin Quality Inspection"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Cancel Goods Receipt"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Cancel Invoice Receipt"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Approval for Purchase Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Contract"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Delete Purchase Order Item"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Finish Quality Inspection"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Quality: Accepted"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Quality: Rejected"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Receive advanced shipment notice (ASN)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Record Invoice Receipt"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Record Service Entry Sheet"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Send Purchase Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Send Purchase Order Update"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Vendor Creates Invoice"
+        }
+      ],
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "FILTER <%=benchmark_criterion%> IN (<%=benchmark2%>)",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "customActivityColumn": true,
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "#424242",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "edgeSliderState": 0,
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "fullDotLayout": true,
+      "groupsConfigurations": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 39,
+      "hiddenActivities": {},
+      "hideStartEnd": false,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "22cfd5af-c441-4190-a3f9-77e2b647f7f4",
+      "kpiView": {
+        "connectionKpi": {
+          "colorEnd": "#1190b6",
+          "colorStart": "#40c6ed",
+          "id": "FREQUENCY",
+          "name": "frequency",
+          "text": "",
+          "units": "",
+          "valueFormat": ",f"
+        },
+        "connectionKpis": [
+          {
+            "colorEnd": "#1190b6",
+            "colorStart": "#40c6ed",
+            "id": "FREQUENCY",
+            "name": "frequency",
+            "text": "",
+            "units": "",
+            "valueFormat": ",f"
+          }
+        ],
+        "icon": "icons/icon-frequency.svg",
+        "id": "FREQUENCY",
+        "inlineKpi": "caseCount",
+        "title": "frequency"
+      },
+      "maximized": false,
+      "nodeIcon": {
+        "dark": "icons/icon-singleuser.svg",
+        "light": "icons/icon-singleuser-white.svg"
+      },
+      "nodeSliderState": 0,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "simple_process",
+      "useNodeIcon": false,
+      "version": 2,
+      "vertical": false,
+      "width": 26,
+      "x": 73,
+      "y": 10,
+      "zIndex": 9
+    }
+  ],
+  "format": "FULLSCREEN",
+  "id": "e1822609-0859-42bf-a01f-bd61ae519748",
+  "lines": [
+    {
+      "arrowType": "no-arrow",
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "color": "#3e3e3e",
+      "componentFilter": "",
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "directionType": "vertical",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 48,
+      "id": "718a5ce8-2df0-488a-99a6-d37d1ee29b90",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "stroke": "solid",
+      "thickness": 2,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "line",
+      "vertical": false,
+      "width": 30,
+      "x": 59,
+      "y": 1,
+      "zIndex": 9
+    },
+    {
+      "arrowType": "no-arrow",
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "color": "#15a7d1",
+      "componentFilter": "",
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "directionType": "vertical",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 51,
+      "id": "3e994505-fcaf-47d9-825c-9a9277da440a",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "stroke": "solid",
+      "thickness": 3,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "line",
+      "vertical": false,
+      "width": 30,
+      "x": 18,
+      "y": 0,
+      "zIndex": 1
+    },
+    {
+      "arrowType": "no-arrow",
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "color": "#3e3e3e",
+      "componentFilter": "",
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "directionType": "horizontal",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 50,
+      "id": "f330a9d8-e582-4c76-8a42-903f19109010",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "stroke": "solid",
+      "thickness": 3,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "line",
+      "vertical": false,
+      "width": 16,
+      "x": 1,
+      "y": 9,
+      "zIndex": 1
+    },
+    {
+      "arrowType": "no-arrow",
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "color": "#3e3e3e",
+      "componentFilter": "",
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "directionType": "horizontal",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 50,
+      "id": "03dbb7ea-b022-4589-8a6a-440033cec871",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "stroke": "solid",
+      "thickness": 3,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "line",
+      "vertical": false,
+      "width": 16,
+      "x": 1,
+      "y": 20,
+      "zIndex": 1
+    },
+    {
+      "arrowType": "no-arrow",
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "color": "#3e3e3e",
+      "componentFilter": "",
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "directionType": "horizontal",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 50,
+      "id": "75663bb2-0e0c-4806-b393-cca7a494429f",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "stroke": "solid",
+      "thickness": 3,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "line",
+      "vertical": false,
+      "width": 16,
+      "x": 1,
+      "y": 39,
+      "zIndex": 1
+    }
+  ],
+  "name": "#{Benchmark} #{KPIs}",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1260
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

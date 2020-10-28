@@ -1,0 +1,3227 @@
+{
+  "components": [
+    {
+      "axis0": [
+        {
+          "flex": 1,
+          "name": "#{\"EKPO\".\"EBELN\"}",
+          "text": "\"EKPO\".\"EBELN\"",
+          "translatedName": "document number",
+          "type": "dimension",
+          "units": " ",
+          "width": 138
+        },
+        {
+          "flex": 1,
+          "name": "#{\"EKPO\".\"EBELP\"}",
+          "text": "\"EKPO\".\"EBELP\"",
+          "translatedName": "item number",
+          "type": "dimension",
+          "units": " ",
+          "width": 128
+        },
+        {
+          "function": {
+            "DATE": true,
+            "displayName": "Round Day",
+            "example": "2015-02-22",
+            "name": "Round_Day",
+            "valueFormat": "%Y-%m-%d"
+          },
+          "name": "#{EKKO.AEDAT}",
+          "text": "ROUND_DAY(\"EKKO\".\"TS_AEDAT\")",
+          "translatedName": "Created on",
+          "type": "dimension",
+          "units": "",
+          "valueFormat": "%Y-%m-%d"
+        },
+        {
+          "flex": 1,
+          "name": "#{\"EKKO\".\"BSART\"}",
+          "text": "\"EKKO\".\"BSART_TEXT\"",
+          "translatedName": "Purchasing Doc. Type",
+          "type": "dimension",
+          "units": " "
+        },
+        {
+          "name": "#{EKPO.MATNR}",
+          "text": "\"EKPO\".\"MATNR\"",
+          "translatedName": "Material",
+          "type": "dimension",
+          "units": ""
+        },
+        {
+          "name": "#{EKPO.MATNR_TEXT}",
+          "text": "\"EKPO\".\"MATNR_TEXT\"",
+          "translatedName": "Material Text",
+          "type": "dimension",
+          "units": ""
+        },
+        {
+          "name": "#{EKPO.MATKL}",
+          "text": "\"EKPO\".\"MATKL\"",
+          "translatedName": "Material Group",
+          "type": "dimension",
+          "units": ""
+        },
+        {
+          "name": "#{EKPO.MATKL_TEXT}",
+          "text": "\"EKPO\".\"MATKL_TEXT\"",
+          "translatedName": "Material Group Text",
+          "type": "dimension",
+          "units": ""
+        },
+        {
+          "name": "#{LFA1.LIFNR}",
+          "text": "\"LFA1\".\"NAME1\"",
+          "translatedName": "Vendor",
+          "type": "dimension",
+          "units": "",
+          "valueFormat": ""
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "lineColor": "#DEDEDE"
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "fontSize": 9
+          },
+          "dataLabelsPosition": "top",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "flex": 1,
+          "ignoreSeriesPalettes": true,
+          "name": "#{NetOrderValue}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "#eeeeee",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "SUM(\"EKPO\".\"NETWR_CONVERTED\")",
+          "textColor": "#666666",
+          "textColorMapping": "",
+          "translatedName": "Net Order Value",
+          "units": " <%=currency_symbol%>",
+          "valueFormat": ",f",
+          "width": 143.0625
+        },
+        {
+          "dataLabelStyle": {
+            "fontSize": 9
+          },
+          "dataLabelsPosition": "top",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "flex": 1,
+          "ignoreSeriesPalettes": true,
+          "name": "#{ShortWithWithoutPR}",
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "f0bf7441-ad20-4330-b720-19f910bf1d5f",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "KPI(\"Purchase Requisitions Indicator\")",
+          "textColor": "#FFFFFF",
+          "textColorMapping": "",
+          "translatedName": "w/ w/o PR",
+          "units": " ",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "table",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e8e8e8",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 41,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "32618fa4-8f32-4a23-93d1-a8944e8cab76",
+      "legendFontStyle": {
+        "backgroundColor": "transparent"
+      },
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "NO_LIMIT",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "small 13px",
+          "value": 13
+        },
+        "fontColor": "",
+        "fontSize": 13
+      },
+      "title": "#{DetailsOfPOItems}",
+      "titleStyle": {
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "width": 83,
+      "x": 15,
+      "y": 8,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 50,
+      "id": "b0cba5bc-b8ab-4f96-883f-025db42cd5ef",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 14,
+      "x": 0,
+      "y": 0,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "351de610-935a-4dc2-b62d-b86214cf700f",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "logo-component",
+      "vertical": false,
+      "width": 14,
+      "x": 0,
+      "y": 2,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 3,
+      "id": "82d21a5a-8347-40e2-b0b2-7a79d5331452",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][size=14][b]#{PR}[/b][/size][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 12,
+      "x": 1,
+      "y": 5,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "COUNT_TABLE(\"EKPO\")",
+        "units": " ",
+        "valueFormat": ",f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "140a3d81-ee5e-43b1-a0c7-fd60d22b1156",
+      "kpiValue": 5451,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#666666",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#666666",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "# #{POItems}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 18,
+      "x": 15,
+      "y": 1,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "SUM(\"EKPO\".\"NETWR_CONVERTED\")",
+        "units": "<%=currency_symbol%>",
+        "valueFormat": ".3s"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "6194b2b5-8e2e-4439-b056-6f1cb3e556d9",
+      "kpiValue": 57996892448.599884,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#666666",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#666666",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "#{NetOrderValue}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 18,
+      "x": 34,
+      "y": 1,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "KPI(\"Purchase Requisition Ratio\")",
+        "units": "%",
+        "valueFormat": ",.2f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "b8bf107b-e19f-4ed9-9a7e-28b404fcda35",
+      "kpiValue": 0.0183452577508714,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#D70A0A",
+          "formula": {
+            "text": "<%=low_color%>",
+            "units": ""
+          }
+        },
+        {
+          "color": "#78B604",
+          "formula": {
+            "text": "100"
+          }
+        },
+        {
+          "color": "#FF8B00",
+          "formula": {
+            "text": "<%=high_color%>"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#D70A0A",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#D70A0A",
+            "formula": {
+              "text": "<%=low_color%>",
+              "units": ""
+            }
+          },
+          "value": 40
+        },
+        {
+          "color": "#FF8B00",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#FF8B00",
+            "formula": {
+              "text": "<%=high_color%>"
+            }
+          },
+          "value": 55
+        },
+        {
+          "color": "#78B604",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#78B604",
+            "formula": {
+              "text": "100"
+            }
+          },
+          "value": 100
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#00A4DA",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#00A4DA",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "#{PRRatio}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 18,
+      "x": 53,
+      "y": 1,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "KPI(\"Purchase Requisitions\")",
+        "units": " ",
+        "valueFormat": ",f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 6,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "63ad0ded-da29-4517-a55c-e9f0b01b1fcd",
+      "kpiValue": 1,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#286782",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#286782",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "# #{ShortPOItemsWithShortPR}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 18,
+      "x": 72,
+      "y": 1,
+      "zIndex": 1
+    },
+    {
+      "action": "showMessage",
+      "allowDataLink": false,
+      "backgroundColor": "#aaaaaa",
+      "border": false,
+      "buttonTitle": "#{Help}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "9ad1d802-a2b7-449b-89f3-cda85da71d44",
+      "maximized": false,
+      "message": "#{AnalysisHelpHeading}\n\n#{AnalysisHelpText1}#{AnalysisHelpText2}#{AnalysisHelpText3}\n\n#{AnalysisHelpFeedbackLink}#{AnalysisHelpFeedback1}#{AnalysisHelpP2P01FeedbackName}#{AnalysisHelpP2P01Feedback2}\n#{AnalysisHelpLinks}",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#ffffff",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 5,
+      "x": 93,
+      "y": 1,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "f836636a-bb36-43ec-b06a-730e0a7e713a",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b][color=#00A6D7][font=sans-serif][size=15]#{FilterByFiscalYear}:[/size][/font][/color][/b]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 1,
+      "y": 8,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "dropdownSettings": {
+        "formula": {
+          "text": "\"RSEG\".\"GJAHR\"",
+          "units": "",
+          "valueFormat": "%Y-%m"
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "IDES Deutschland"
+              }
+            ],
+            "linkedFormula": "<%=benchmark_criterion%>",
+            "name": "benchmark2",
+            "type": "text_replacement",
+            "value": "IDES Deutschland"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 2,
+                "selected": true,
+                "value": "Einkaufsorg. 0001"
+              }
+            ],
+            "linkedFormula": "<%=benchmark_criterion%>",
+            "name": "benchmark1",
+            "type": "text_replacement",
+            "value": "Einkaufsorg. 0001"
+          },
+          {
+            "name": "benchmark_criterion",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKORG_TEXT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Adjustment Charge"
+              },
+              {
+                "available": true,
+                "id": 2,
+                "selected": true,
+                "value": "Block Purchase Order Item"
+              },
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "Cancel Goods Receipt"
+              },
+              {
+                "available": true,
+                "id": 4,
+                "selected": true,
+                "value": "Cancel Invoice Receipt"
+              },
+              {
+                "available": true,
+                "id": 5,
+                "selected": true,
+                "value": "Change Currency"
+              },
+              {
+                "available": true,
+                "id": 6,
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "available": true,
+                "id": 7,
+                "selected": true,
+                "value": "Change Quantity"
+              },
+              {
+                "available": true,
+                "id": 8,
+                "selected": true,
+                "value": "Change Vendor"
+              },
+              {
+                "available": true,
+                "id": 12,
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              },
+              {
+                "available": true,
+                "id": 13,
+                "selected": true,
+                "value": "Dun Order Confirmation"
+              },
+              {
+                "available": true,
+                "id": 15,
+                "selected": true,
+                "value": "Reactivate Purchase Order Item"
+              },
+              {
+                "available": true,
+                "id": 21,
+                "selected": true,
+                "value": "Send Overdue Notice"
+              },
+              {
+                "available": true,
+                "id": 22,
+                "selected": true,
+                "value": "Send Purchase Order Update"
+              }
+            ],
+            "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+            "name": "rework_activities",
+            "type": "text_replacement",
+            "value": "'Adjustment Charge','Block Purchase Order Item','Cancel Goods Receipt','Cancel Invoice Receipt','Change Currency','Change Price','Change Quantity','Change Vendor','Delete Purchase Order Item','Dun Order Confirmation','Reactivate Purchase Order Item','Send Overdue Notice','Send Purchase Order Update'"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"TS_AEDAT\""
+          },
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color_automation_rate",
+            "type": "text_replacement",
+            "value": "40"
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color_automation_rate",
+            "type": "text_replacement",
+            "value": "20"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color_rework_rate",
+            "type": "text_replacement",
+            "value": "50"
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color_rework_rate",
+            "type": "text_replacement",
+            "value": "20"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color_change_rate",
+            "type": "text_replacement",
+            "value": "50"
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color_change_rate",
+            "type": "text_replacement",
+            "value": "20"
+          },
+          {
+            "name": "unitTCT",
+            "type": "text_replacement",
+            "value": "days"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color_CT",
+            "type": "text_replacement",
+            "value": "40"
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color_CT",
+            "type": "text_replacement",
+            "value": "10"
+          },
+          {
+            "name": "unit",
+            "type": "text_replacement",
+            "value": "days"
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"BUKRS\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"WERKS\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKORG\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKGRP\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"BSART\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{\"LFA1\".\"VBUND\"}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"LOEKZ\"}"
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 1,
+                "selected": true,
+                "value": "Cancel Goods Receipt"
+              },
+              {
+                "available": true,
+                "id": 2,
+                "selected": true,
+                "value": "Cancel Invoice Receipt"
+              },
+              {
+                "available": true,
+                "id": 9,
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "available": true,
+                "id": 10,
+                "selected": true,
+                "value": "Change Quantity"
+              },
+              {
+                "available": true,
+                "id": 14,
+                "selected": true,
+                "value": "Create Purchase Order Item"
+              },
+              {
+                "available": true,
+                "id": 15,
+                "selected": true,
+                "value": "Create Purchase Requisition Item"
+              },
+              {
+                "available": true,
+                "id": 16,
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              },
+              {
+                "available": true,
+                "id": 17,
+                "selected": true,
+                "value": "Reactivate Purchase Order Item"
+              },
+              {
+                "available": true,
+                "id": 18,
+                "selected": true,
+                "value": "Receive Order Confirmation"
+              },
+              {
+                "available": true,
+                "id": 19,
+                "selected": true,
+                "value": "Record Goods Receipt"
+              },
+              {
+                "available": true,
+                "id": 20,
+                "selected": true,
+                "value": "Record Invoice Receipt"
+              },
+              {
+                "available": true,
+                "id": 22,
+                "selected": true,
+                "value": "Release Purchase Requisition"
+              }
+            ],
+            "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+            "name": "activities_used_in_automation_rate",
+            "type": "text_replacement",
+            "value": "'Cancel Goods Receipt','Cancel Invoice Receipt','Change Price','Change Quantity','Create Purchase Order Item','Create Purchase Requisition Item','Delete Purchase Order Item','Reactivate Purchase Order Item','Receive Order Confirmation','Record Goods Receipt','Record Invoice Receipt','Release Purchase Requisition'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "NETPR",
+                "selected": true,
+                "value": "NETPR"
+              },
+              {
+                "formattedValue": "FRGKE",
+                "selected": true,
+                "value": "FRGKE"
+              },
+              {
+                "formattedValue": "WAERS",
+                "selected": true,
+                "value": "WAERS"
+              },
+              {
+                "formattedValue": "MENGE",
+                "selected": true,
+                "value": "MENGE"
+              }
+            ],
+            "name": "ChangedFields",
+            "type": "text_replacement",
+            "value": "'NETPR','FRGKE','WAERS','MENGE'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "auto_user_type",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Purchase Order Item",
+                "selected": true,
+                "value": "Create Purchase Order Item"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Create Purchase Order Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Clear Invoice",
+                "selected": true,
+                "value": "Clear Invoice"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Clear Invoice'"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS\" || ' - ' || \"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"MATKL\" || ' - ' || \"EKPO\".\"MATKL_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"LIFNR\" || ' - ' || \"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown4",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"LIFNR\" || ' - ' || \"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"MATNR\" || ' - ' || \"EKPO\".\"MATNR_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          }
+        ]
+      },
+      "dropdownText": "#{FiscalYear}",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "c4e0afa7-c51b-4e79-9789-74c9ff41cb55",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "vertical": false,
+      "width": 12,
+      "x": 1,
+      "y": 10,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "4fc3feab-fd9f-4be5-b61e-a3ed369631f4",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7][font=sans-serif]#{FilterByPOCreationDate}:[/font][/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 1,
+      "y": 13,
+      "zIndex": 1
+    },
+    {
+      "alignment": "vertical",
+      "autoAlign": true,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "datepickerSettings": {
+        "formula": {
+          "text": "<%=date_picker%>",
+          "units": " "
+        }
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 0
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 6,
+      "id": "4350b0a6-dee5-48fa-a86d-a81117f4da5e",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "#eeeeee",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "cssClass": "font-size-sm",
+          "name": "Small",
+          "value": 13
+        },
+        "fontColor": "#14A9D5",
+        "fontSize": 13
+      },
+      "toolBorder": false,
+      "type": "date_picker",
+      "width": 12,
+      "x": 1,
+      "y": 15,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "b091b26b-b7f8-4d68-a726-da46c8da7d22",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7][font=sans-serif]#{FilterByOrg}:[/font][/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 1,
+      "y": 21,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter1%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "ROUND_DAY(\"EKKO\".\"TS_AEDAT\")"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 11,
+                "selected": true,
+                "value": "Create Purchase Requisition Item"
+              }
+            ],
+            "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "create_purchase_requisition_activity",
+            "type": "text_replacement",
+            "value": "'Create Purchase Requisition Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "auto_user_type",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "EC",
+                "selected": true,
+                "value": "EC"
+              }
+            ],
+            "name": "target_process_type",
+            "type": "text_replacement",
+            "value": "'EC'"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"BUKRS\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"WERKS\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKORG\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKGRP\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"BSART\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{\"LFA1\".\"VBUND\"}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"LOEKZ\"}"
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color",
+            "type": "text_replacement",
+            "value": "40"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color",
+            "type": "text_replacement",
+            "value": "55"
+          }
+        ]
+      },
+      "dropdownText": "<%=filter1_text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "60e7f073-bf87-411d-98c8-3c0efe6c63cf",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "#e4e4e4",
+        "borderColor": "",
+        "currentFontSize": {
+          "cssClass": "font-size-sm",
+          "name": "Small",
+          "value": 13
+        },
+        "fontColor": "",
+        "fontSize": 13
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 23,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter2%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "ROUND_DAY(\"EKKO\".\"TS_AEDAT\")"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 11,
+                "selected": true,
+                "value": "Create Purchase Requisition Item"
+              }
+            ],
+            "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "create_purchase_requisition_activity",
+            "type": "text_replacement",
+            "value": "'Create Purchase Requisition Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "auto_user_type",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "EC",
+                "selected": true,
+                "value": "EC"
+              }
+            ],
+            "name": "target_process_type",
+            "type": "text_replacement",
+            "value": "'EC'"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"BUKRS\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"WERKS\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKORG\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKGRP\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"BSART\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{\"LFA1\".\"VBUND\"}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"LOEKZ\"}"
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color",
+            "type": "text_replacement",
+            "value": "40"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color",
+            "type": "text_replacement",
+            "value": "55"
+          }
+        ]
+      },
+      "dropdownText": "<%=filter2_text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "8ab16b92-5765-4bd5-873b-19b5249a3922",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 26,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter3%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "ROUND_DAY(\"EKKO\".\"TS_AEDAT\")"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 11,
+                "selected": true,
+                "value": "Create Purchase Requisition Item"
+              }
+            ],
+            "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "create_purchase_requisition_activity",
+            "type": "text_replacement",
+            "value": "'Create Purchase Requisition Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "auto_user_type",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "EC",
+                "selected": true,
+                "value": "EC"
+              }
+            ],
+            "name": "target_process_type",
+            "type": "text_replacement",
+            "value": "'EC'"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"BUKRS\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"WERKS\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKORG\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKGRP\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"BSART\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{\"LFA1\".\"VBUND\"}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"LOEKZ\"}"
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color",
+            "type": "text_replacement",
+            "value": "40"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color",
+            "type": "text_replacement",
+            "value": "55"
+          }
+        ]
+      },
+      "dropdownText": "<%=filter3_text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "395c5bab-ccba-4a4c-aecc-438ac1be707f",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 29,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter4%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "ROUND_DAY(\"EKKO\".\"TS_AEDAT\")"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 11,
+                "selected": true,
+                "value": "Create Purchase Requisition Item"
+              }
+            ],
+            "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "create_purchase_requisition_activity",
+            "type": "text_replacement",
+            "value": "'Create Purchase Requisition Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "auto_user_type",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "EC",
+                "selected": true,
+                "value": "EC"
+              }
+            ],
+            "name": "target_process_type",
+            "type": "text_replacement",
+            "value": "'EC'"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"BUKRS\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"WERKS\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKORG\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKGRP\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"BSART\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{\"LFA1\".\"VBUND\"}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"LOEKZ\"}"
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color",
+            "type": "text_replacement",
+            "value": "40"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color",
+            "type": "text_replacement",
+            "value": "55"
+          }
+        ]
+      },
+      "dropdownText": "<%=filter4_text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "ad50b186-797d-4062-b7ca-f9afbcc5dbe5",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 32,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "ecd2df17-5a92-4a15-b94b-c18d56bb0e54",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#00A6D7][font=sans-serif]#{FilterByOrderInfo}:[/font][/color][/b][/size]",
+      "title": "",
+      "toolBorder": false,
+      "type": "text",
+      "width": 12,
+      "x": 1,
+      "y": 36,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter5%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "ROUND_DAY(\"EKKO\".\"TS_AEDAT\")"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 11,
+                "selected": true,
+                "value": "Create Purchase Requisition Item"
+              }
+            ],
+            "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "create_purchase_requisition_activity",
+            "type": "text_replacement",
+            "value": "'Create Purchase Requisition Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "auto_user_type",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "EC",
+                "selected": true,
+                "value": "EC"
+              }
+            ],
+            "name": "target_process_type",
+            "type": "text_replacement",
+            "value": "'EC'"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"BUKRS\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"WERKS\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKORG\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKGRP\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"BSART\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{\"LFA1\".\"VBUND\"}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"LOEKZ\"}"
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color",
+            "type": "text_replacement",
+            "value": "40"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color",
+            "type": "text_replacement",
+            "value": "55"
+          }
+        ]
+      },
+      "dropdownText": "<%=filter5_text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "ab499d95-cbe0-48c8-a50e-a205c572f513",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 38,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter6%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "ROUND_DAY(\"EKKO\".\"TS_AEDAT\")"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 11,
+                "selected": true,
+                "value": "Create Purchase Requisition Item"
+              }
+            ],
+            "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "create_purchase_requisition_activity",
+            "type": "text_replacement",
+            "value": "'Create Purchase Requisition Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "auto_user_type",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "EC",
+                "selected": true,
+                "value": "EC"
+              }
+            ],
+            "name": "target_process_type",
+            "type": "text_replacement",
+            "value": "'EC'"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"BUKRS\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"WERKS\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKORG\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKGRP\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"BSART\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{\"LFA1\".\"VBUND\"}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"LOEKZ\"}"
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color",
+            "type": "text_replacement",
+            "value": "40"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color",
+            "type": "text_replacement",
+            "value": "55"
+          }
+        ]
+      },
+      "dropdownText": "<%=filter6_text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "bc84c269-a500-41ce-9e1d-f052aa6af0d3",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 41,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=filter7%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "language",
+            "type": "text_replacement",
+            "value": "EN"
+          },
+          {
+            "name": "date_picker",
+            "type": "text_replacement",
+            "value": "ROUND_DAY(\"EKKO\".\"TS_AEDAT\")"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 11,
+                "selected": true,
+                "value": "Create Purchase Requisition Item"
+              }
+            ],
+            "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+            "name": "create_purchase_requisition_activity",
+            "type": "text_replacement",
+            "value": "'Create Purchase Requisition Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "auto_user_type",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "EC",
+                "selected": true,
+                "value": "EC"
+              }
+            ],
+            "name": "target_process_type",
+            "type": "text_replacement",
+            "value": "'EC'"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+          },
+          {
+            "name": "filter1_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"BUKRS\"}"
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"WERKS\"}"
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKORG\"}"
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKGRP\"}"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"BSART\"}"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{\"LFA1\".\"VBUND\"}"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"LOEKZ\"}"
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u20ac"
+          },
+          {
+            "linkedEntries": [],
+            "name": "low_color",
+            "type": "text_replacement",
+            "value": "40"
+          },
+          {
+            "linkedEntries": [],
+            "name": "high_color",
+            "type": "text_replacement",
+            "value": "55"
+          }
+        ]
+      },
+      "dropdownText": "<%=filter7_text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "bc0e6403-50b0-4bea-af6a-f08f7fe257cb",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 12,
+      "x": 1,
+      "y": 44,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "function": {
+            "DATE": true,
+            "displayName": "Round Day",
+            "example": "2015-02-22",
+            "name": "Round_Day",
+            "valueFormat": "%Y-%m-%d"
+          },
+          "name": "First",
+          "text": "MIN(ROUND_DAY(\"EKKO\".\"TS_AEDAT\"))",
+          "textColorMapping": "",
+          "translatedName": "First",
+          "units": "",
+          "valueFormat": "%Y-%m-%d"
+        },
+        {
+          "name": "Last",
+          "text": "MAX(ROUND_DAY(\"EKKO\".\"TS_AEDAT\"))",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": "%Y-%m-%d"
+        }
+      ],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 3,
+      "id": "c1876e6d-1576-4a96-bd42-e90acb2a1ae3",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][size=21](#{TimeFrame}: ${First}  -  ${Last})[/size][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 9,
+      "x": 90,
+      "y": 3,
+      "zIndex": 16
+    }
+  ],
+  "contentType": "blank-sheet",
+  "format": "FULLSCREEN",
+  "id": "458855c6-58a0-4159-a753-c76e9cc9cb0e",
+  "name": "#{Details}",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

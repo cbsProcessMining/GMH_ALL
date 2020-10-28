@@ -1,0 +1,16 @@
+{
+  "components": [],
+  "contentType": "case-explorer",
+  "format": "FULLSCREEN",
+  "id": "0417539c-57aa-4b25-b13c-0d89970881e9",
+  "name": "Case Explorer 6",
+  "position": {
+    "height": 800,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

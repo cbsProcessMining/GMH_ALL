@@ -1,0 +1,67 @@
+/*DESCRIPTION:
+1. Transformation Description:
+This transformation creates a view with the following name: P2P_EKET
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Required Tables:
+EKET
+_CEL_P2P_CASES
+
+3. Required Columns:
+EKET.*
+EKET.ALTDT
+EKET.DAT01
+EKET.EBELN
+EKET.EBELP
+EKET.EINDT
+EKET.ELDAT
+EKET.LDDAT
+EKET.MANDT
+EKET.MBDAT
+EKET.SLFDT
+_CEL_P2P_CASES.EBELN
+_CEL_P2P_CASES.EBELP
+_CEL_P2P_CASES.MANDT
+
+4. Columns used for timestamp:
+None
+
+5. Parameters used in where clause:
+None
+
+6. Parameters used in joins:
+None
+*/
+DROP VIEW IF EXISTS P2P_EKET;
+
+CREATE VIEW P2P_EKET AS 
+SELECT DISTINCT 
+    EKET.*,
+    CAST(EKET.ALTDT AS DATE) AS TS_ALTDT, 
+    CAST(EKET.DAT01 AS DATE) AS TS_DAT01, 
+    CAST(EKET.EINDT AS DATE) AS TS_EINDT, 
+    CAST(EKET.ELDAT AS DATE) AS TS_ELDAT, 
+    CAST(EKET.LDDAT AS DATE) AS TS_LDDAT, 
+    CAST(EKET.MBDAT AS DATE) AS TS_MBDAT, 
+    CAST(EKET.SLFDT AS DATE) AS TS_SLFDT
+FROM 
+    EKET
+    INNER JOIN _CEL_P2P_CASES AS CASES ON 1=1
+        AND EKET.MANDT = CASES.MANDT
+        AND EKET.EBELN = CASES.EBELN
+        AND EKET.EBELP = CASES.EBELP;

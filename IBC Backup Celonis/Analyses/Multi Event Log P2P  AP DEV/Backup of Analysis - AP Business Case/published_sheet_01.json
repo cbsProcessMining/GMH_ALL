@@ -1,0 +1,1685 @@
+{
+  "components": [
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "c3c439a2-26ba-487d-88ee-c4f2b5f14fb0",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=17][b]Discount Losses: How many potential discounts is the company missing out on?[/b][/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 79,
+      "x": 20,
+      "y": 1,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "58bea5c4-8b70-4c7a-b3f1-333feaaaf474",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b][size=15] Not capitalizing on discounts can lead to unnecessary losses in capital[/size][/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 79,
+      "x": 20,
+      "y": 4,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=SETUP_BG_COLOR_ASSUMPTIONS%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "3d3ae078-b7ef-472b-9784-714629958653",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[color=#ffffff][size=21] Assumptions:[/size][/color]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 49,
+      "x": 1,
+      "y": 11,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=SETUP_BG_COLOR_1%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "'<%= SETUP_CURRENCY %>'",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ""
+        }
+      ],
+      "hasBackground": true,
+      "height": 6,
+      "id": "e46c1b84-f537-4e7b-9306-24f0824d5884",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[color=#ffffff][size=21][b] Annual financial impact (${New Expression})[/b][/size][/color]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 51,
+      "y": 43,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#14A9D5",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "51259149-93fc-418e-8e09-f70ef3e1b775",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b] Financial impact = Value of invoices with discount (USD) * Average discount percentage (%) * Potential to optimize (%)[/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 79,
+      "x": 20,
+      "y": 7,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "d5eb4e65-d197-47c9-b92d-9debc0edd67c",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": " Assumed potential for optimization (%)",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 1,
+      "y": 13,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=SETUP_BG_COLOR_ANALYSES%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "2b890b6f-7bb4-498b-814d-d055621c3496",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[color=#ffffff][size=21] Analysis results (unscaled):[/size][/color]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 49,
+      "x": 51,
+      "y": 11,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "f35d63e5-f615-4785-968c-243932b2f479",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b][size=15] Number of invoices with discount[/size][/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 51,
+      "y": 13,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "c44be840-bebc-4bcf-9144-955a17463cee",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b]Savings Potential[/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 51,
+      "y": 26,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "SUM(CASE WHEN \"AP_BSEG\".\"ZBD1P\" > 0 THEN 1.0 ELSE 0.0 END)",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "bc5b30af-c8a8-4032-afec-5bf13c5368a1",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=15]${New Expression}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 13,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "SUM(CASE WHEN \"AP_BSEG\".\"ZBD1P\" > 0 THEN \"AP_BSEG\".\"SKFBT_CONVERTED\" ELSE 0.0 END)",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "5ae8abf2-a9e8-4012-9f95-4cc0d28e9117",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=15]${New Expression} [/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 15,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "(SUM(KPI(\"MAX CD\"))-SUM(KPI(\"CD Netto\")))\n\n\n*\n\n<%=cd_potential%>",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "6c0e7dd0-c067-4c7a-9e6d-483b68a6ee7f",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=15]${New Expression}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 26,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "<%= SETUP_TIME_FACTOR %>",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ",.2f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "fd9bf6ae-d217-462f-b701-619a0c8f4937",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=15]${New Expression}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 41,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=SETUP_BG_COLOR_1%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "(SUM(KPI(\"MAX CD\"))-SUM(KPI(\"CD Netto\")))\n\n\n*\n\n<%=cd_potential%>",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 6,
+      "id": "4c68fe84-942b-4f13-8e83-aec4a20d1386",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][color=#ffffff][size=21][b]  ${New Expression}[/b][/size][/color][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 43,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "37ba536a-c655-42a3-911e-90cad2de7fe5",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15] Time factor (scaling factor for a full 1 year period)[/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 51,
+      "y": 41,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "9619e267-aacf-4339-b8bc-d4ecdc1e00c4",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=21][color=#000000][b] Benefit:[/b][/color][/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 19,
+      "x": 1,
+      "y": 4,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#286782",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "545e77bb-4725-4430-9ddb-93b00586ba0a",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=21][color=#000000][b] Analysis:[/b][/color][/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 19,
+      "x": 1,
+      "y": 1,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "f1435b7c-bab5-4ae4-a61e-029051df2bba",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[color=#000000][b][size=21] Calculation:[/size][/b][/color]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 19,
+      "x": 1,
+      "y": 7,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "277f6536-cad7-4718-9550-b76f5cb79e85",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b][size=15] Possible cash discount (<%= SETUP_CURRENCY %>)[/size][/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 51,
+      "y": 17,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "10cf6a38-f653-4d48-9864-131919d526be",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b][size=15] Volume of invoices with discount (<%= SETUP_CURRENCY %>)[/size][/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 51,
+      "y": 15,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "1615b126-31ac-45b9-ab2b-9ce8510a6ee5",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b]Skonto Rate[/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 51,
+      "y": 19,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "--FILTER YEAR(\"BSEG\".\"AUGDT\") > 0",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "SUM(KPI(\"CD Netto\"))/SUM(KPI(\"MAX CD\"))",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ".2%"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "a97a5376-566b-4484-ac57-24427b7a2d73",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=15]${New Expression}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 19,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "SUM(1.0*\"AP_BSEG\".\"SKFBT_CONVERTED\"*\"AP_BSEG\".\"ZBD1P\"/100)",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "eba28057-1357-4a73-8f4a-5f9522ac1185",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=15]${New Expression}[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 17,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "1ae7476b-ff8b-42f9-b3e8-b21cf4ad2b68",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b]Lost Cash Discount[/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 51,
+      "y": 23,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "SUM(KPI(\"MAX CD\"))-SUM(KPI(\"CD Netto\"))",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "4bc3bafa-f88c-456a-8534-1ef147e2f2f5",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=15]${New Expression}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 23,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "6b100987-38a6-4ab7-ab1a-e06b7b0dc718",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "cd_potential",
+      "vertical": false,
+      "width": 14,
+      "x": 36,
+      "y": 13,
+      "zIndex": 1
+    },
+    {
+      "axis0": [
+        {
+          "meta": {
+            "columnName": "Vendor",
+            "columnType": "string",
+            "expressionLhs": "\"AP_LFA1\".\"NAME1\" AS \"Vendor\"",
+            "format": ""
+          },
+          "name": "Vendor",
+          "notIncluded": false,
+          "sortingIndex": null,
+          "text": "\"AP_LFA1\".\"NAME1\"",
+          "type": "dimension",
+          "valueFormat": ""
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "gapWidth": 0.1,
+        "gridlineStyle": {},
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "color": "#6FA7D1",
+          "lineColor": "",
+          "lineOpacity": 1,
+          "lineWidth": 1,
+          "opacityInDec": 100
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "fontColor": ""
+          },
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#444444",
+          "meta": {
+            "columnName": "SUM ( ( \"AP_BSEG\".\"SKFBT_CONVERTED\" * \"AP_BSEG\".\"ZBD1P\" / 100.0 ) ) - SUM ( ( \"AP_BSEG\".\"SKNTO_CONVERTED\" ) ) AS \"\" FORMAT \".2s\"",
+            "columnType": "float",
+            "expressionLhs": null,
+            "format": ".2s"
+          },
+          "name": "#{lostCashDiscount} [<%=currency_symbol%>]",
+          "notIncluded": false,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "#<%=SETUP_BG_COLOR_ANALYSES%>",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "text": "SUM(KPI(\"MAX CD\"))-SUM(KPI(\"CD Netto\"))",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "lostCashDiscount [<%=currency_symbol%>]",
+          "units": "",
+          "valueFormat": ".2s"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "column",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#cccccc",
+        "lineOpacity": 1,
+        "lineWidth": 2,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "fillStyle": {
+        "opacity": 1
+      },
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 30,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "20e54981-d97c-4f77-9027-b2813d33994d",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "fontColor": ""
+      },
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "SCROLL",
+      "limitNumber": 20,
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "seriesColor": "",
+      "seriesColorMapping": "",
+      "seriesPalette": "",
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "small 13px",
+          "value": 13
+        },
+        "fontColor": "",
+        "fontSize": 13
+      },
+      "title": "Late Payments by Vendor",
+      "titleStyle": {
+        "alignment": "left",
+        "backgroundColor": "#<%=SETUP_BG_COLOR_ANALYSES%>",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#ffffff",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": true,
+      "width": 50,
+      "x": 0,
+      "y": 19,
+      "zIndex": 7
+    }
+  ],
+  "contentType": "blank-sheet",
+  "format": "FULLSCREEN",
+  "id": "f8f5a7b6-61de-405e-9a9e-cc57f6fe7874",
+  "name": "Discount losses",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": "FILTER DOMAIN ROUND_MONTH ( TO_TIMESTAMP ( \"AP_BKPF\".\"CPUDT\" , 'YYYYMMDD' ) ) AS \"#{Time}\" FORMAT \"%Y-%m\" IN ( {t 1564617600000}, {t 1567296000000}, {t 1569888000000}, {t 1572566400000}, {t 1575158400000}, {t 1577836800000}, {t 1580515200000}, {t 1583020800000}, {t 1585699200000}, {t 1588291200000}, {t 1590969600000}, {t 1593561600000} );\r\nFILTER DOMAIN CASE WHEN COALESCE ( \"AP_LFA1\".\"VBUND\" , '' ) = '' THEN 'External' ELSE 'Internal' END IN ( 'External' );"
+  }
+}

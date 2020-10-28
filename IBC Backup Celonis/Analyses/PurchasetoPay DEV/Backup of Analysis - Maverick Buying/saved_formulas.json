@@ -1,0 +1,34 @@
+[
+  {
+    "description": "",
+    "id": "12b623de-0a2d-4852-9d95-ee91fbeaae57",
+    "name": "MB affected Value",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(CASE WHEN\r\n     PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_MINUTE(\"EKKO\".\"TS_AEDAT\") \r\n         AND <%= MBTypeSelector %> = 1 \r\n          THEN \"EKPO\".\"NETWR\"\r\n          \r\n    WHEN PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"TS_AEDAT\")\r\n         AND <%= MBTypeSelector %> = 2\r\n         THEN \"EKPO\".\"NETWR\"\r\n    \r\n    WHEN <%= MBTypeSelector %> = 3\r\n         AND PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"TS_AEDAT\") OR \r\n         <%= MBTypeSelector %> = 3 \r\n         AND PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB2 %>) <= ROUND_MINUTE(\"EKKO\".\"TS_AEDAT\")\r\n         THEN \"EKPO\".\"NETWR\"\r\n    ELSE 0.00\r\nEND)\r\n\r\n\r\n"
+  },
+  {
+    "description": "",
+    "id": "1ae08c53-1b90-46a4-b378-2208eee8e0fc",
+    "name": "MB Ratio",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(CASE WHEN\r\n     PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_MINUTE(\"EKKO\".\"TS_AEDAT\") \r\n         AND <%= MBTypeSelector %> = 1 \r\n          THEN 1.00\r\n          \r\n    WHEN PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"TS_AEDAT\")\r\n         AND <%= MBTypeSelector %> = 2\r\n         THEN 1.00\r\n    \r\n    WHEN <%= MBTypeSelector %> = 3\r\n         AND PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"TS_AEDAT\") OR \r\n         <%= MBTypeSelector %> = 3\r\n         AND PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB2 %>) <= ROUND_MINUTE(\"EKKO\".\"TS_AEDAT\")\r\n         THEN 1.00\r\n    ELSE 0.00\r\nEND) / COUNT_TABLE(\"EKPO\") \r\n"
+  },
+  {
+    "description": "",
+    "id": "2c9cc61d-3aa6-49ea-8a52-e2a8398f6e5e",
+    "name": "MB PO Items Count",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(CASE WHEN\r\n     PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_MINUTE(\"EKKO\".\"TS_AEDAT\") \r\n         AND <%= MBTypeSelector %> = 1 \r\n          THEN 1.00\r\n          \r\n    WHEN PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"TS_AEDAT\")\r\n         AND <%= MBTypeSelector %> = 2\r\n         THEN 1.00\r\n    \r\n    WHEN <%= MBTypeSelector %> = 3\r\n         AND PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"TS_AEDAT\") OR\r\n         <%= MBTypeSelector %> = 3 AND\r\n         PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB2 %>) <= ROUND_MINUTE(\"EKKO\".\"TS_AEDAT\")\r\n         THEN 1.00\r\n    ELSE 0.00\r\nEND)"
+  },
+  {
+    "description": "",
+    "id": "2f4d84a1-c469-453e-ab2f-4ac44dd5a995",
+    "name": "MB Indicator",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE WHEN\n     PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_MINUTE(\"EKKO\".\"TS_AEDAT\") \n         AND <%= MBTypeSelector %> = 1 \n          THEN 'affected'\n     WHEN PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"TS_AEDAT\")\n         AND <%= MBTypeSelector %> = 2\n          THEN 'affected'\n     WHEN <%= MBTypeSelector %> = 3\n          AND PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"TS_AEDAT\") OR\n          <%= MBTypeSelector %> = 3\n          AND PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"TS_BUDAT\"),<%= TypeOfMB2 %>) <= ROUND_MINUTE(\"EKKO\".\"TS_AEDAT\")\n          THEN 'affected'\n    ELSE 'not affected'\n    END \n    \n    \n"
+  }
+]

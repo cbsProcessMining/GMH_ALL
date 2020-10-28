@@ -1,0 +1,90 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "allowBpmnExport": true,
+    "allowRawDataExport": true,
+    "colorMappings": [
+      {
+        "id": "b079288f-e527-4153-aad4-b2433b240906",
+        "name": "Evaluation Ratio",
+        "thresholds": [
+          {
+            "color": "#5d0000",
+            "compare": ">",
+            "formula": "1.5"
+          },
+          {
+            "color": "#FF8B00",
+            "compare": "<=",
+            "formula": "1.5"
+          },
+          {
+            "color": "#658927",
+            "compare": "<=",
+            "formula": "1.2"
+          },
+          {
+            "color": "#FF8B00",
+            "compare": "<=",
+            "formula": "0.8"
+          },
+          {
+            "color": "#5d0000",
+            "compare": "<=",
+            "formula": "0.5"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "9a4d7650-4d26-4cbc-bcf6-982b10099120",
+        "name": "Evaluation Ratio",
+        "thresholds": [
+          {
+            "color": "#911027",
+            "compare": ">",
+            "formula": "1.5"
+          },
+          {
+            "color": "#FF8B00",
+            "compare": "<=",
+            "formula": "1.5"
+          },
+          {
+            "color": "#658927",
+            "compare": "<=",
+            "formula": "1.2"
+          },
+          {
+            "color": "#FF8B00",
+            "compare": "<=",
+            "formula": "0.8"
+          },
+          {
+            "color": "#911027",
+            "compare": "<=",
+            "formula": "0.5"
+          }
+        ],
+        "type": "series"
+      }
+    ],
+    "editMode": true,
+    "id": "fa9c1493-4349-462c-9ef2-c063828dc13e",
+    "kpiViews": [],
+    "name": "cbs Master Data Quality",
+    "palettes": [],
+    "rawDataExportLimit": 20000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "9b52dee1-7f49-4bc0-994d-b48e9cefbda1",
+  "lastChangeDate": 1598440495230,
+  "lastChangeUserId": "79131ff5-ec28-4869-8a94-4f03938cfd85",
+  "lastChangeUserName": "christopher.knaps@cbs-consulting.de(Christopher)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

@@ -1,0 +1,418 @@
+[
+  {
+    "description": "",
+    "id": "0af56e10-1feb-4e10-a1dd-742ae78b1e4c",
+    "name": "CT Total",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": " MEDIAN(CALC_THROUGHPUT(CASE_START TO CASE_END, REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", DAYS)))\r\n\r\n"
+  },
+  {
+    "description": "",
+    "id": "29f83316-5f21-4151-8062-cf43d1a8bb0b",
+    "name": "Order Message Type",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "\"NAST\".\"NACHA_TEXT\""
+  },
+  {
+    "description": "",
+    "id": "f51914f5-582e-40f1-ab35-1b613fa9c551",
+    "name": "Count Items",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "COUNT_TABLE(\"EKPO\")"
+  },
+  {
+    "description": "",
+    "id": "b0b1b4f9-dc8a-4cc4-bc17-3c33b2791b9b",
+    "name": "Count Header",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "COUNT_TABLE(\"EKKO\")"
+  },
+  {
+    "description": "",
+    "id": "e5b48c8e-da77-4e6d-ad80-d30372323b80",
+    "name": "Manual Price Change Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(CASE WHEN PU_COUNT(EKPO, \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = 'Change Price' AND \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" NOT IN (<%=automatic_users%>))>=1\nTHEN 1.0\nELSE 0.0\nEND)"
+  },
+  {
+    "description": "",
+    "id": "e71eac0f-3e6e-4701-a034-20a3ed307eeb",
+    "name": "AP_MB_Flag",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE WHEN \"AP_BKPF\".\"AWTYP\" = 'RMRP' THEN 0.0 ELSE 1.0 END"
+  },
+  {
+    "description": "",
+    "id": "ff0edabb-55be-4eef-823a-56aa89768a44",
+    "name": "Mail Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(\nCASE WHEN \"NAST\".\"NACHA\" IN (<%=Mail%>) AND ISNULL(\"NAST\".\"DATVR\")=0 THEN 1.0\n    WHEN ISNULL(NAST.DATVR)=1 THEN NULL\n    WHEN ISNULL(\"NAST\".\"UHRVR\")=1 THEN NULL\n    ELSE 0.0 END)"
+  },
+  {
+    "description": "",
+    "id": "537b632f-1611-4a44-b70f-173ca404fe84",
+    "name": "Free Text Order Value",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(\nCASE \n    WHEN COALESCE(\"EKPO\".\"MATNR\",'') = '' \n    THEN \n        \"EKPO\".\"NETWR_CONVERTED\" \n    ELSE\n        0.0 \nEND)"
+  },
+  {
+    "description": "",
+    "id": "9c73bb55-4d84-407b-83b6-67b2e4106f71",
+    "name": "Touchless Orders",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(CASE\r\n    WHEN (PU_COUNT(\"EKPO\",\"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" \r\n    IN (<%= automatic_users %>) AND \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" \r\n    IN (<%=automated_activities%>)) \r\n\t = PU_COUNT(\"EKPO\",\"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"\r\n\t IN (<%=automated_activities%>)))\r\n    THEN 1.0\r\n    ELSE 0.0\r\nEND)\r\n"
+  },
+  {
+    "description": "",
+    "id": "b17b5b31-d200-4207-a518-57ca21f38bc9",
+    "name": "CD Netto",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "\"AP_BSEG\".\"SKNTO_CONVERTED\""
+  },
+  {
+    "description": "",
+    "id": "170f06a4-cda9-4c28-b528-111834b1f4c4",
+    "name": "MAX CD",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "\"AP_BSEG\".\"SKFBT_CONVERTED\"* \"AP_BSEG\".\"ZBD1P\"/100.0"
+  },
+  {
+    "description": "",
+    "id": "8a90baa0-f638-4582-81b3-d6f5aa18a80a",
+    "name": "Possible CD",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(\"AP_BSEG\".\"SKFBT_CONVERTED\"* \"AP_BSEG\".\"ZBD1P\")/100.0"
+  },
+  {
+    "description": "",
+    "id": "713dda42-5ddd-4ec2-a28a-753f1dac7b32",
+    "name": "Average Days Until CD due date",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "avg(datediff(dd, <%= date %>, PU_MIN(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_EN\" = 'Cash Discount Due Date passed')))"
+  },
+  {
+    "description": "",
+    "id": "5892f4bd-15e8-4179-9535-6c16817d64d5",
+    "name": "Paid Too Late",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(CASE WHEN KPI(\"Payment After\")- KPI(\"Due After\") > <%=buffer%> THEN 1.0 ELSE 0.0 END)"
+  },
+  {
+    "description": "",
+    "id": "dd55ab24-20bf-4adc-bd17-1598db78af89",
+    "name": "Paid Too Early",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(CASE WHEN KPI(\"Payment After\") - KPI(\"Due After\") < -1*<%=buffer%> THEN 1.0 ELSE 0.0 END)"
+  },
+  {
+    "description": "Percentage of cases with matching quantity in purchase order, goods receipt and invoice.",
+    "id": "800af343-e554-4b49-bebb-fae9c0eb5baf",
+    "name": "Quantity Match Ratio",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "(1.0*COUNT(DISTINCT \r\n    CASE \r\n    WHEN \"EKPO\".\"MENGE\" = 0.0 THEN NULL\r\n        WHEN\r\n        \r\n    --Order Quantity = GR Quantity\r\n    (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \r\n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\r\n    -- Order Quantity = IR Quantity\r\n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \r\n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\r\n   -- IR Quantity = GR Quantity (with tolerance of Order Quantity)\r\n  AND (((1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\")) - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \r\n    AND (((1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\")) - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\r\n\r\n            THEN \"EKPO\".\"MANDT\"||\"EKPO\".\"EBELN\"||\"EKPO\".\"EBELP\" \r\n        ELSE NULL \r\n    END)\r\n/COUNT_TABLE(\"EKPO\"))"
+  },
+  {
+    "description": "",
+    "id": "e6ced7cb-2e38-4cb0-8acf-226064f6b0e7",
+    "name": "MB Indicator",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE WHEN\n     PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_MINUTE(\"EKKO\".\"AEDAT\") \n         AND <%= MBTypeSelector %> = 1 \n          THEN 'affected'\n     WHEN PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"AEDAT\")\n         AND <%= MBTypeSelector %> = 2\n          THEN 'affected'\n     WHEN <%= MBTypeSelector %> = 3\n          AND PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"AEDAT\") OR\n          <%= MBTypeSelector %> = 3\n          AND PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"BUDAT\"),<%= TypeOfMB2 %>) <= ROUND_MINUTE(\"EKKO\".\"AEDAT\")\n          THEN 'affected'\n    ELSE 'not affected'\n    END \n    "
+  },
+  {
+    "description": "",
+    "id": "a861828e-4060-40b1-8f8e-7b11eac6c648",
+    "name": "Message Type Classification",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE\n  WHEN ISNULL(PU_FIRST(\"EKKO\",\"NAST\".\"NACHA\")) = 1 THEN 'No order message'\n  WHEN PU_FIRST(\"EKKO\",\"NAST\".\"NACHA\", \"NAST\".\"KSCHL\" = 'NEU') IN (<%=EDI%>) THEN 'Electronic order message'\n  WHEN PU_FIRST(\"EKKO\",\"NAST\".\"NACHA\", \"NAST\".\"KSCHL\" = 'NEU') IN (<%=Print%>) THEN 'Print order message'\n  WHEN PU_FIRST(\"EKKO\",\"NAST\".\"NACHA\", \"NAST\".\"KSCHL\" = 'NEU') IN (<%=Mail%>) THEN 'Mail order message'\n  ELSE 'Other'\nEND"
+  },
+  {
+    "description": "",
+    "id": "c986b558-e3cd-4822-89f3-815c1bd37ba9",
+    "name": "First Time Right Ratio",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(CASE WHEN PU_COUNT_DISTINCT(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\", \"_CEL_P2P_ACTIVITIES\".ACTIVITY_<%=language%> IN (<%=rework_activities%>)) > 0 THEN 0.0 ELSE 1.0 END) / COUNT_TABLE(\"EKPO\")\n"
+  },
+  {
+    "description": null,
+    "id": "4b45f2d9-cc67-4f99-94e5-8268c50c2085",
+    "name": "Paper Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(\r\nCASE WHEN \"NAST\".\"NACHA\" IN (<%=Print%>) AND ISNULL(\"NAST\".\"DATVR\")=0 THEN 1.0\r\n    WHEN ISNULL(NAST.DATVR)=1 THEN NULL\r\n    WHEN ISNULL(\"NAST\".\"UHRVR\")=1 THEN NULL\r\n    ELSE 0.0 END)"
+  },
+  {
+    "description": "",
+    "id": "6ddaa4ee-e2f3-4471-a1a2-f9b88e2ecc8c",
+    "name": "Fax Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(\nCASE WHEN \"NAST\".\"NACHA\" IN (<%=Fax%>) AND ISNULL(\"NAST\".\"DATVR\")=0 THEN 1.0\n    WHEN ISNULL(NAST.DATVR)=1 THEN NULL\n    WHEN ISNULL(\"NAST\".\"UHRVR\")=1 THEN NULL\n    ELSE 0.0 END)"
+  },
+  {
+    "description": "",
+    "id": "ec27180f-12bb-40df-86da-dfb9e94ad56f",
+    "name": "Cycle Time Median EDI",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(REMAP_TIMESTAMPS(PU_LAST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = <%=To_EDI%>), days) - \nREMAP_TIMESTAMPS(PU_FIRST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = <%=From_EDI%>), days))"
+  },
+  {
+    "description": "",
+    "id": "b5b8ef74-d806-4bfc-a60a-4c786dc7e9f0",
+    "name": "Count Amount",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(\"EKPO\".\"NETWR_CONVERTED\")"
+  },
+  {
+    "description": "",
+    "id": "8e0c453a-06ec-4272-aced-1def241736c2",
+    "name": "Automation_Rate_Case_Level",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(CASE WHEN ISNULL(\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\") = 1 THEN NULL\r\nELSE PU_COUNT(EKPO, \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\", \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" IN (<%=automatic_users%>))/\r\n(PU_COUNT(EKPO, \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\")*1.0)END)"
+  },
+  {
+    "description": "",
+    "id": "956fc6c1-ce9d-472b-861a-2222a050f97d",
+    "name": "Cycle Time Total",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(REMAP_TIMESTAMPS(PU_LAST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"), DAYS) - REMAP_TIMESTAMPS(PU_FIRST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"), DAYS))"
+  },
+  {
+    "description": "",
+    "id": "6b8ca74d-b7c4-49ce-882e-cf84cd76bace",
+    "name": "Too early",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100* AVG(\r\nCASE \r\n        -- no reqeusted due date (not part of the analysis)\r\n        WHEN ISNULL(<%= Due_Date %>) = 1 THEN NULL \r\n        -- requested due date in the future \r\n        WHEN ISNULL(<%= GR_VARIABLE %>) = 1 AND DAYS_BETWEEN(TODAY(),<%= Due_Date %>) >= 0 THEN NULL \r\n        -- no goods receipt and requested due date more than the tolerance in the past, seen as 'overdue' \r\n        WHEN ISNULL(<%= GR_VARIABLE %>) = 1 AND DAYS_BETWEEN(TODAY(),<%= Due_Date %>) < (-1.0 * <%= OTD_upper %>) THEN 0.0 \r\n        -- no goods receipt and requested due date in the past, but still in the tolerance buffer\r\n        WHEN ISNULL(<%= GR_VARIABLE %>) = 1 THEN NULL\r\n        -- delivery too early\r\n        WHEN DAYS_BETWEEN(<%= Due_Date %>, <%= GR_VARIABLE %>) < (-1.0 * <%= OTD_lower %>)\r\n        THEN 1.0 \r\n        -- else: delivery on-time or too late\r\n        ELSE 0.0 \r\n    END\r\n)"
+  },
+  {
+    "description": "",
+    "id": "79e5dc01-949e-4613-8a3b-bdb54dabe9d6",
+    "name": "Telex",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(\nCASE WHEN \"NAST\".\"NACHA\" IN (<%=Telex%>) AND ISNULL(\"NAST\".\"DATVR\")=0 THEN 1.0\n    WHEN ISNULL(NAST.DATVR)=1 THEN NULL\n    WHEN ISNULL(\"NAST\".\"UHRVR\")=1 THEN NULL\n    ELSE 0.0 END)"
+  },
+  {
+    "description": "Percentage of cases with matching quantity in purchase order, goods receipt and invoice and matching price per unit in purchase order and invoice",
+    "id": "40c157a4-a806-4938-bcc6-4467b7621557",
+    "name": "Full Match Ratio",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "(1.0*COUNT(DISTINCT CASE \r\n-- No quantity match if order quantity is 0\r\nWHEN \"EKPO\".\"MENGE\" = 0.0 THEN NULL\r\nWHEN\r\n-- Quantity match\r\n\r\n    --Order Quantity = GR Quantity\r\n    (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \r\n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\r\n    -- Order Quantity = IR Quantity\r\n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \r\n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\r\n  -- IR Quantity = GR Quantity (with tolerance of Order Quanitty)\r\n  AND (((1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\")) - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \r\n    AND (((1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\")) - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\r\n\r\n-- Value match \r\n--(Price per Unit (PO) - Price per Unit (Invoice) >= -price increase tolerance (diff is negative when price increases) \r\n--and Price per Unit (PO) - Price per Unit (Invoice) <= price decrease tolerance (diff is positive when price decreases))\r\n    AND(((<%=netwr%>/EKPO.MENGE) - (PU_SUM(\"EKPO\",\"RSEG\".\"WRBTR\")/PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) >= (-1*((<%=netwr%>/EKPO.MENGE)*(<%=tolerance_high_price%>/100.00)))) \r\n    AND (((<%=netwr%>/EKPO.MENGE) - (PU_SUM(\"EKPO\",\"RSEG\".\"WRBTR\")/PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) <= (((<%=netwr%>/EKPO.MENGE)*(<%=tolerance_low_price%>/100.00))))\r\n    \r\n    THEN \"EKPO\".\"MANDT\"||\"EKPO\".\"EBELN\"||\"EKPO\".\"EBELP\" \r\n    ELSE NULL \r\n\r\nEND)/COUNT_TABLE(\"EKPO\"))"
+  },
+  {
+    "description": "",
+    "id": "95b4657f-e3be-4900-ad4a-abf6bb73ece4",
+    "name": "Type of Price Change",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE WHEN PU_AVG(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"CHANGED_TO_FLOAT\"/\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FROM_FLOAT\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = 'Change Price') > 1 \r\nAND PU_COUNT(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\",\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = 'Change Price') > 0 THEN 'Increase in Price'\r\nWHEN PU_AVG(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"CHANGED_TO_FLOAT\"/\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FROM_FLOAT\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = 'Change Price') <= 1\r\nAND PU_COUNT(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\",\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = 'Change Price') > 0 THEN 'Decrease in Price'\r\nELSE '' END\r\n"
+  },
+  {
+    "description": "",
+    "id": "fcb7f5f6-7b61-4285-9a52-9e384d631956",
+    "name": "MB PO Items Count",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(CASE WHEN\r\n     PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_MINUTE(\"EKKO\".\"AEDAT\") \r\n         AND <%= MBTypeSelector %> = 1 \r\n          THEN 1.00\r\n          \r\n    WHEN PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"AEDAT\")\r\n         AND <%= MBTypeSelector %> = 2\r\n         THEN 1.00\r\n    \r\n    WHEN <%= MBTypeSelector %> = 3\r\n         AND PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"AEDAT\") OR\r\n         <%= MBTypeSelector %> = 3 AND\r\n         PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"BUDAT\"),<%= TypeOfMB2 %>) <= ROUND_MINUTE(\"EKKO\".\"AEDAT\")\r\n         THEN 1.00\r\n    ELSE 0.00\r\nEND)"
+  },
+  {
+    "description": "",
+    "id": "bef61d4d-7c24-4e87-89a7-6e5d60273166",
+    "name": "Free Text Orders",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(\nCASE \n    WHEN COALESCE(\"EKPO\".\"MATNR\",'') = '' \n    THEN \n        1.0 \n    ELSE \n        0.0 \nEND)"
+  },
+  {
+    "description": "",
+    "id": "14735b2a-3c1c-45a7-86db-00118ea4c484",
+    "name": "Cycle Time Sub",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "<%=agg%>(CALC_THROUGHPUT(<%=from_occ%>_OCCURRENCE[<%=From%>] TO <%=to_occ%>_OCCURRENCE[<%=To%>], REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", <%=unit%>)))"
+  },
+  {
+    "description": "",
+    "id": "d68dea05-d4c8-462c-802b-77fa1d072293",
+    "name": "MB affected Value",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(CASE WHEN\r\n     PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_MINUTE(\"EKKO\".\"AEDAT\") \r\n         AND <%= MBTypeSelector %> = 1 \r\n          THEN \"EKPO\".\"NETWR\"\r\n          \r\n    WHEN PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"AEDAT\")\r\n         AND <%= MBTypeSelector %> = 2\r\n         THEN \"EKPO\".\"NETWR\"\r\n    \r\n    WHEN <%= MBTypeSelector %> = 3\r\n         AND PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"AEDAT\") OR \r\n         <%= MBTypeSelector %> = 3 \r\n         AND PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"BUDAT\"),<%= TypeOfMB2 %>) <= ROUND_MINUTE(\"EKKO\".\"AEDAT\")\r\n         THEN \"EKPO\".\"NETWR\"\r\n    ELSE 0.00\r\nEND)\r\n"
+  },
+  {
+    "description": "Classification of cases based on price and quantity match.",
+    "id": "eac9d8aa-164e-44bb-b783-506671f1d8ca",
+    "name": "Classification",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE\r\n-- No quantity match if order quantity is 0\r\nWHEN \"EKPO\".\"MENGE\" = 0.0 THEN 'No order quantity'\r\nWHEN-- Quantity match\r\n\r\n    --Order Quantity = GR Quantity\r\n    (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \r\n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\r\n    -- Order Quantity = IR Quantity\r\n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \r\n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\r\n    -- IR Quantity = GR Quantity (with tolerance of Order Quanitty)\r\n  AND (((1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\")) - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \r\n    AND (((1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\")) - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\r\n\r\n-- Value match \r\n--(Price per Unit (PO) - Price per Unit (Invoice) >= -price increase tolerance (diff is negative when price increases) \r\n--and Price per Unit (PO) - Price per Unit (Invoice) <= price decrease tolerance (diff is positive when price decreases))\r\n    AND(((<%=netwr%>/EKPO.MENGE) - (PU_SUM(\"EKPO\",\"RSEG\".\"WRBTR\")/PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) >= (-1*((<%=netwr%>/EKPO.MENGE)*(<%=tolerance_high_price%>/100.00)))) \r\n    AND (((<%=netwr%>/EKPO.MENGE) - (PU_SUM(\"EKPO\",\"RSEG\".\"WRBTR\")/PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) <= (((<%=netwr%>/EKPO.MENGE)*(<%=tolerance_low_price%>/100.00))))\r\nTHEN 'Full Match'\r\n    WHEN(    --Order Quantity = GR Quantity\r\n    (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \r\n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\r\n    -- Order Quantity = IR Quantity\r\n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \r\n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\r\n    -- GR Quantity = IR Quantity (with tolerance of Order Quanitty)\r\n    AND (((1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S')) - (1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \r\n    AND (((1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S')) - (1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\r\n)\r\n    THEN 'Only Quantity Match'\r\n    WHEN\r\n        ((((<%=netwr%>/EKPO.MENGE) - (PU_SUM(\"EKPO\",\"RSEG\".\"WRBTR\")/PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) >= (-1*((<%=netwr%>/EKPO.MENGE)*(<%=tolerance_high_price%>/100.00)))) AND\r\n        (((<%=netwr%>/EKPO.MENGE) - (PU_SUM(\"EKPO\",\"RSEG\".\"WRBTR\")/PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) <= (((<%=netwr%>/EKPO.MENGE)*(<%=tolerance_low_price%>/100.00)))))\r\n    THEN 'Only Price Match'\r\n    ELSE 'No Match'\r\nEND"
+  },
+  {
+    "description": null,
+    "id": "7b3eda3a-62b9-485d-8bec-b514ac19ec75",
+    "name": "Automation Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(CASE WHEN ISNULL(\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\") = 1 THEN NULL \r\nWHEN \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" IN(<%=automatic_users%>) THEN 1.0 ELSE 0.0 END)"
+  },
+  {
+    "description": null,
+    "id": "b49b23a2-bc67-46be-9265-0f46ec2cb4e2",
+    "name": "EDI Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(\nCASE WHEN \"NAST\".\"NACHA\" IN (<%=EDI%>) AND ISNULL(\"NAST\".\"DATVR\")=0 THEN 1.0\n    WHEN ISNULL(NAST.DATVR)=1 THEN NULL\n    WHEN ISNULL(\"NAST\".\"UHRVR\")=1 THEN NULL\n    ELSE 0.0 END)"
+  },
+  {
+    "description": null,
+    "id": "6d14e94d-2662-4774-943f-a3d1a080cd9d",
+    "name": "Price Change Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "COUNT(\nDISTINCT \nCASE \nWHEN PU_COUNT(EKPO,\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = 'Change Price') >0 AND ISNULL(\"_CEL_P2P_ACTIVITIES\".\"CHANGE_NUMBER\") = 0\nTHEN EKPO.MANDT || EKPO.EBELN || EKPO.EBELP \nELSE NULL \nEND)*1.0\n/COUNT(DISTINCT EKPO.MANDT || EKPO.EBELN || EKPO.EBELP)"
+  },
+  {
+    "description": "",
+    "id": "fe63336e-8f9c-4699-8e50-ada2eff0234b",
+    "name": "External Send",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(\nCASE WHEN \"NAST\".\"NACHA\" IN (<%=External_Send%>) AND ISNULL(\"NAST\".\"DATVR\")=0 THEN 1.0\n    WHEN ISNULL(NAST.DATVR)=1 THEN NULL\n    WHEN ISNULL(\"NAST\".\"UHRVR\")=1 THEN NULL\n    ELSE 0.0 END)"
+  },
+  {
+    "description": "",
+    "id": "7f1f16cb-6f81-4785-8ba8-c7f809ed1a2c",
+    "name": "MB Ratio",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(CASE WHEN\r\n     PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_MINUTE(\"EKKO\".\"AEDAT\") \r\n         AND <%= MBTypeSelector %> = 1 \r\n          THEN 1.00\r\n          \r\n    WHEN PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"AEDAT\")\r\n         AND <%= MBTypeSelector %> = 2\r\n         THEN 1.00\r\n    \r\n    WHEN <%= MBTypeSelector %> = 3\r\n         AND PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"BUDAT\"),<%= TypeOfMB1 %>) <= ROUND_DAY(\"EKKO\".\"AEDAT\") OR \r\n         <%= MBTypeSelector %> = 3\r\n         AND PU_FIRST(\"EKPO\",ROUND_MINUTE(\"EKBE\".\"BUDAT\"),<%= TypeOfMB2 %>) <= ROUND_MINUTE(\"EKKO\".\"AEDAT\")\r\n         THEN 1.00\r\n    ELSE 0.00\r\nEND) / COUNT_TABLE(\"EKPO\") "
+  },
+  {
+    "description": "",
+    "id": "85c34390-f7e8-4f2f-a902-da1c6929751c",
+    "name": "Too late",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "\r\n100* AVG(\r\nCASE \r\n        -- no reqeusted due date (not part of the analysis)\r\n        WHEN ISNULL(<%= Due_Date %>) = 1 THEN NULL \r\n        -- requested due date in the future \r\n        WHEN ISNULL(<%= GR_VARIABLE %>) = 1 AND DAYS_BETWEEN(TODAY(),<%= Due_Date %>) >= 0 THEN NULL \r\n        -- no goods receipt and requested due date more than the tolerance in the past, seen as 'overdue' \r\n        WHEN ISNULL(<%= GR_VARIABLE %>) = 1 AND DAYS_BETWEEN(TODAY(),<%= Due_Date %>) < (-1.0 * <%= OTD_upper %>) THEN 0.0\r\n        -- no goods receipt and requested due date in the past, but still in the tolerance buffer\r\n        WHEN ISNULL(<%= GR_VARIABLE %>) = 1 THEN NULL\r\n        -- delivery too early\r\n        WHEN DAYS_BETWEEN(<%= Due_Date %>, <%= GR_VARIABLE %>) > <%= OTD_upper %>\r\n        THEN 1.0 \r\n        -- else: delivery on-time or too early\r\n        ELSE 0.0 \r\n    END\r\n)"
+  },
+  {
+    "description": "",
+    "id": "bc638026-1d19-41e1-b9b5-3478d351d99b",
+    "name": "Rework_Classification",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE WHEN PU_COUNT_DISTINCT(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\", \n\"_CEL_P2P_ACTIVITIES\".ACTIVITY_<%=language%> IN (<%=rework_activities%>)) > 0 THEN 'With rework'\nELSE 'First-Time-Right' END"
+  },
+  {
+    "description": "Percentage of cases with matching price per unit in purchase order and invoice.",
+    "id": "02818bfe-693a-4dec-84a5-5700f594f38e",
+    "name": "Price Match Ratio",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "(1.0*COUNT(DISTINCT\r\n    CASE \r\n        WHEN \r\n        ((((<%=netwr%>/EKPO.MENGE) - (PU_SUM(\"EKPO\",\"RSEG\".\"WRBTR\")/PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) >= (-1*((<%=netwr%>/EKPO.MENGE)*(<%=tolerance_high_price%>/100.00)))) AND\r\n        (((<%=netwr%>/EKPO.MENGE) - (PU_SUM(\"EKPO\",\"RSEG\".\"WRBTR\")/PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) <= (((<%=netwr%>/EKPO.MENGE)*(<%=tolerance_low_price%>/100.00)))))\r\n        THEN \"EKPO\".\"MANDT\"||\"EKPO\".\"EBELN\"||\"EKPO\".\"EBELP\"\r\n        ELSE NULL\r\n    END)\r\n/COUNT_TABLE(\"EKPO\"))"
+  },
+  {
+    "description": "the absolute number of purchase orders that are created and recorded as received by the same user",
+    "id": "2d119949-0890-4ff4-a9bf-b8f20bee92e3",
+    "name": "SOD Count",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "sum(\r\n    case\r\n    when PU_first(EKPO,\"_CEL_P2P_ACTIVITIES\".\"USER_NAME\", \"_CEL_P2P_ACTIVITIES\".ACTIVITY_<%=language%> = '<%=FromSOD%>' AND \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" NOT IN (<%=automatic_users%>)) = PU_first(EKPO,\"_CEL_P2P_ACTIVITIES\".\"USER_NAME\", \"_CEL_P2P_ACTIVITIES\".ACTIVITY_<%=language%> = '<%=ToSOD%>')\r\n        then 1.0\r\n    else 0.0\r\nend\r\n)"
+  },
+  {
+    "description": "--calculates the ratio of purchase orders where the user who does one activity also does another one",
+    "id": "f7f5dd9d-ff68-4ab3-8bbe-156c5a6fda66",
+    "name": "SOD Ratio",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "avg(\r\n    case\r\n    when PU_first(EKPO,\"_CEL_P2P_ACTIVITIES\".\"USER_NAME\", \"_CEL_P2P_ACTIVITIES\".ACTIVITY_<%=language%> = '<%=FromSOD%>'  AND \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" NOT IN (<%=automatic_users%>)) = PU_first(EKPO,\"_CEL_P2P_ACTIVITIES\".\"USER_NAME\", \"_CEL_P2P_ACTIVITIES\".ACTIVITY_<%=language%> = '<%=ToSOD%>') \r\n        then 1.0\r\n    else 0.0\r\nend\r\n) * 100"
+  },
+  {
+    "description": "",
+    "id": "09c66f1b-6970-4b79-8ae7-d0b91b0a1c2a",
+    "name": "Due Date Classification",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE\n   WHEN ISNULL(<%= GR_VARIABLE %>) = 1 AND (DATEDIFF(dd,TO_TIMESTAMP ( <%= Due_Date %>, 'YYYYMMDD' ), TO_TIMESTAMP(<%=Days_back%>, 'DD-MM-YYYY')))  >= 0 THEN 'No Goods Receipt and Future Due Date'\n   WHEN ISNULL(<%= GR_VARIABLE %>) = 1 AND (DATEDIFF(dd,TO_TIMESTAMP ( <%= Due_Date %>, 'YYYYMMDD' ), TO_TIMESTAMP(<%=Days_back%>, 'DD-MM-YYYY')))  < (-1.0 * <%= OTD_upper %>) THEN 'No Goods Receipt and Due Date passed (Overdue)'\n   WHEN ISNULL(<%= GR_VARIABLE %>) = 1 AND (DATEDIFF(dd,TO_TIMESTAMP ( <%= Due_Date %>, 'YYYYMMDD' ), TO_TIMESTAMP(<%=Days_back%>, 'DD-MM-YYYY'))) < 0 THEN 'No Goods Receipt, but still in due date tolerance buffer' \n   WHEN DAYS_BETWEEN(TO_TIMESTAMP ( <%= Due_Date %>, 'YYYYMMDD' ), TO_TIMESTAMP ( <%= GR_VARIABLE %>, 'YYYYMMDD' )) <= <%= OTD_upper %> \n    AND DAYS_BETWEEN(TO_TIMESTAMP ( <%= Due_Date %>, 'YYYYMMDD' ), TO_TIMESTAMP ( <%= GR_VARIABLE %>, 'YYYYMMDD' )) >= (-1.0 * <%= OTD_lower %>) \n        THEN 'Delivery on time'\n   WHEN DAYS_BETWEEN(TO_TIMESTAMP ( <%= Due_Date %>, 'YYYYMMDD' ), TO_TIMESTAMP ( <%= GR_VARIABLE %>, 'YYYYMMDD' )) > <%= OTD_upper %> THEN 'Delivery too late'\n   WHEN DAYS_BETWEEN(TO_TIMESTAMP ( <%= Due_Date %>, 'YYYYMMDD' ), TO_TIMESTAMP ( <%= GR_VARIABLE %>, 'YYYYMMDD' )) < (-1.0 * <%= OTD_lower %>) THEN 'Delivery too early'\n   WHEN ISNULL(<%= Due_Date%>) = 1 AND ISNULL(<%= GR_VARIABLE %>) = 1 THEN 'No Goods Receipt and No On-Time Delivery Date'\n   WHEN ISNULL(<%= Due_Date%>) = 1 THEN 'Goods Receipt but No On-Time Delivery Date'\n   ELSE 'Other'\nEND\n\n\n\n"
+  },
+  {
+    "description": null,
+    "id": "54c883ed-f9fd-4786-a1f1-946f6366a2d1",
+    "name": "OTD Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(CASE WHEN (CASE\r\n   WHEN ISNULL(<%= GR_VARIABLE %>) = 1 AND (DATEDIFF(dd,TO_TIMESTAMP ( <%= Due_Date %>, 'YYYYMMDD' ), TO_TIMESTAMP(<%=Days_back%>, 'DD-MM-YYYY')))  >= 0 THEN 'No Goods Receipt and Future Due Date'\r\n   WHEN ISNULL(<%= GR_VARIABLE %>) = 1 AND (DATEDIFF(dd,TO_TIMESTAMP ( <%= Due_Date %>, 'YYYYMMDD' ), TO_TIMESTAMP(<%=Days_back%>, 'DD-MM-YYYY')))  < (-1.0 * <%= OTD_upper %>) THEN 'No Goods Receipt and Due Date passed (Overdue)'\r\n   WHEN ISNULL(<%= GR_VARIABLE %>) = 1 AND (DATEDIFF(dd,TO_TIMESTAMP ( <%= Due_Date %>, 'YYYYMMDD' ), TO_TIMESTAMP(<%=Days_back%>, 'DD-MM-YYYY'))) < 0 THEN 'No Goods Receipt, but still in due date tolerance buffer' \r\n   WHEN DAYS_BETWEEN(TO_TIMESTAMP ( <%= Due_Date %>, 'YYYYMMDD' ), TO_TIMESTAMP ( <%= GR_VARIABLE %>, 'YYYYMMDD' )) <= <%= OTD_upper %> \r\n    AND DAYS_BETWEEN(TO_TIMESTAMP ( <%= Due_Date %>, 'YYYYMMDD' ), TO_TIMESTAMP ( <%= GR_VARIABLE %>, 'YYYYMMDD' )) >= (-1.0 * <%= OTD_lower %>) \r\n        THEN 'Delivery on time'\r\n   WHEN DAYS_BETWEEN(TO_TIMESTAMP ( <%= Due_Date %>, 'YYYYMMDD' ), TO_TIMESTAMP ( <%= GR_VARIABLE %>, 'YYYYMMDD' )) > <%= OTD_upper %> THEN 'Delivery too late'\r\n   WHEN DAYS_BETWEEN(TO_TIMESTAMP ( <%= Due_Date %>, 'YYYYMMDD' ), TO_TIMESTAMP ( <%= GR_VARIABLE %>, 'YYYYMMDD' )) < (-1.0 * <%= OTD_lower %>) THEN 'Delivery too early'\r\n   WHEN ISNULL(<%= Due_Date%>) = 1 AND ISNULL(<%= GR_VARIABLE %>) = 1 THEN 'No Goods Receipt and No On-Time Delivery Date'\r\n   WHEN ISNULL(<%= Due_Date%>) = 1 THEN 'Goods Receipt but No On-Time Delivery Date'\r\n   ELSE 'Other'\r\nEND) = 'Delivery on time'\r\nTHEN 1.0 ELSE 0.0 END)\r\n\r\n\r\n\r\n\r\n\r\n"
+  },
+  {
+    "description": "",
+    "id": "9167a3a2-6135-48d0-abfd-75e9ab7f9203",
+    "name": "Free Text Order Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100*(SUM(\n    CASE \n        WHEN COALESCE(\"EKPO\".\"MATNR\",'') = ''\n        -- ISNULL(\"EKPO\".\"MATNR\") = 1 \n        THEN\n            1.0 \n        ELSE \n            0.0 \n    END)\n/COUNT_TABLE(\"EKPO\"))"
+  },
+  {
+    "description": "",
+    "id": "fb0a74e7-8485-4fb8-94d8-17499bc93aea",
+    "name": "Free Text Orders Indicator",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE \n    WHEN COALESCE(\"EKPO\".\"MATNR\",'') = ''\n    THEN\n        'Free-Text Order' \n    ELSE\n        'No Free-Text Order' \nEND\n\n"
+  },
+  {
+    "description": "",
+    "id": "15858cb2-66a0-42d8-9a65-c4abd816bf10",
+    "name": "Paid in Time",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(CASE WHEN ISNULL(DATEDIFF(dd,\"BSEG\".\"ZFBDT\",\"BSEG\".\"AUGDT\")) = 1 AND DATEDIFF(dd, PU_LAST(\"BSEG\", ROUND_DAY(\"_CEL_AP_ACTIVITIES\".\"EVENTTIME\"), \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_EN\" = 'Due Date passed'), TODAY()) > 0\n     THEN 0.0\n     \n     WHEN (DATEDIFF(dd,\"BSEG\".\"ZFBDT\",\"BSEG\".\"AUGDT\")) - (CASE WHEN \"BSEG\".\"ZBD3T\" > 0 THEN \"BSEG\".\"ZBD3T\" \nWHEN \"BSEG\".\"ZBD2T\" > 0 AND \"BSEG\".\"ZBD3T\" = 0.0 THEN \"BSEG\".\"ZBD2T\" \nWHEN \"BSEG\".\"ZBD1T\" > 0 AND \"BSEG\".\"ZBD3T\" = 0.0 AND \"BSEG\".\"ZBD2T\" = 0.0 THEN \"BSEG\".\"ZBD1T\" \nELSE 0.0 END)> 2\n     THEN 0.0\n     \n     WHEN (DATEDIFF(dd,\"BSEG\".\"ZFBDT\",\"BSEG\".\"AUGDT\")) - (CASE WHEN \"BSEG\".\"ZBD3T\" > 0 THEN \"BSEG\".\"ZBD3T\" \nWHEN \"BSEG\".\"ZBD2T\" > 0 AND \"BSEG\".\"ZBD3T\" = 0.0 THEN \"BSEG\".\"ZBD2T\" \nWHEN \"BSEG\".\"ZBD1T\" > 0 AND \"BSEG\".\"ZBD3T\" = 0.0 AND \"BSEG\".\"ZBD2T\" = 0.0 THEN \"BSEG\".\"ZBD1T\" \nELSE 0.0 END) < -1*2\n     THEN 0.0\n\n     ELSE 1.0\nEND)"
+  },
+  {
+    "description": "",
+    "id": "9f2f84e5-9f81-4903-aa1c-ddf00bea37d0",
+    "name": "MB_Flag_GMH",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE WHEN \n\"AP_BKPF\".\"BLART\" IN ( 'AN', 'ER', 'KA', 'KR', 'RE', 'RN', 'SA' ) AND\n\"AP_BSEG\".\"VBUND\" IN ( '' ) AND\n\"BSEG_S\".\"FLAG\"  IN ( 'X' )\nTHEN 'MB' ELSE 'not MB' END)\n "
+  },
+  {
+    "description": "",
+    "id": "112e030d-a4d5-46da-8844-d5fbd169374b",
+    "name": "Payment After",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "-- DATEDIFF(dd,TO_TIMESTAMP(\"AP_BSEG\".\"TS_ZFBDT\",'YYYYMMDD'),TO_TIMESTAMP(\"AP_BSEG\".\"AUGDT\",'YYYYMMDD'))\n\nDATEDIFF(dd,\"AP_BSEG\".\"TS_ZFBDT\",\"AP_BSEG\".\"TS_AUGDT\")"
+  },
+  {
+    "description": "",
+    "id": "078e75b4-a495-4a86-a10e-ab88ef7b0909",
+    "name": "Due After",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE WHEN \"AP_BSEG\".\"ZBD3T\" > 0 THEN \"AP_BSEG\".\"ZBD3T\" \nWHEN \"AP_BSEG\".\"ZBD2T\" > 0 AND \"AP_BSEG\".\"ZBD3T\" = 0.0 THEN \"AP_BSEG\".\"ZBD2T\" \nWHEN \"AP_BSEG\".\"ZBD1T\" > 0 AND \"AP_BSEG\".\"ZBD3T\" = 0.0 AND \"AP_BSEG\".\"ZBD2T\" = 0.0 THEN \"AP_BSEG\".\"ZBD1T\" \nELSE 0.0 END"
+  }
+]

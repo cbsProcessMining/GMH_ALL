@@ -1,0 +1,4582 @@
+[
+  {
+    "name": "Company_Color1",
+    "type": "text_replacement",
+    "value": "E2001A"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MB_SAVING_AP",
+    "type": "text_replacement",
+    "value": "1.5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MB_POT_AP",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "name": "CU_Potential_Vendor",
+    "type": "static_value",
+    "value": "113000000"
+  },
+  {
+    "name": "CU_Base_Vendor",
+    "type": "static_value",
+    "value": "0.3936"
+  },
+  {
+    "name": "Dimensionbutton_Overview",
+    "type": "text_replacement",
+    "value": "\"LFA1\".\"NAME1\""
+  },
+  {
+    "name": "Dimensionbutton",
+    "type": "text_replacement",
+    "value": "#{vendors}"
+  },
+  {
+    "name": "MB_value_AP",
+    "type": "text_replacement",
+    "value": "26300000"
+  },
+  {
+    "name": "MB_value_p2p",
+    "type": "text_replacement",
+    "value": "14700000"
+  },
+  {
+    "name": "CHANGE_ACT_1_OC",
+    "type": "text_replacement",
+    "value": "SUM(\nPU_COUNT(\n    \"EKPO\",\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_1 %>'\n)\n)"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 2,
+        "selected": true,
+        "value": "\"GGC > 2\"\"\""
+      },
+      {
+        "available": true,
+        "id": 3,
+        "selected": true,
+        "value": "2D Seis.Data acq"
+      },
+      {
+        "available": true,
+        "id": 4,
+        "selected": true,
+        "value": "3D Seis. Data proc."
+      },
+      {
+        "available": true,
+        "id": 5,
+        "selected": true,
+        "value": "3D Seis.Data acq"
+      },
+      {
+        "available": true,
+        "id": 6,
+        "selected": true,
+        "value": "4D Seis. Data proc."
+      },
+      {
+        "available": true,
+        "id": 7,
+        "selected": true,
+        "value": "4D Seis.Data acq"
+      },
+      {
+        "available": true,
+        "id": 8,
+        "selected": true,
+        "value": "Abr.,Polish.,Comp.>"
+      },
+      {
+        "available": true,
+        "id": 9,
+        "selected": true,
+        "value": "Actuator and acc"
+      },
+      {
+        "available": true,
+        "id": 10,
+        "selected": true,
+        "value": "Additives,Refinery"
+      },
+      {
+        "available": true,
+        "id": 11,
+        "selected": true,
+        "value": "Adsorbents & cer.bal"
+      },
+      {
+        "available": true,
+        "id": 12,
+        "selected": true,
+        "value": "Air Coolers"
+      },
+      {
+        "available": true,
+        "id": 13,
+        "selected": true,
+        "value": "Air Fans"
+      },
+      {
+        "available": true,
+        "id": 14,
+        "selected": true,
+        "value": "Air/Gas Engines"
+      },
+      {
+        "available": true,
+        "id": 15,
+        "selected": true,
+        "value": "Anch/Buoy/Ship gear"
+      },
+      {
+        "available": true,
+        "id": 16,
+        "selected": true,
+        "value": "Annulus testing"
+      },
+      {
+        "available": true,
+        "id": 17,
+        "selected": true,
+        "value": "Anodes"
+      },
+      {
+        "available": true,
+        "id": 18,
+        "selected": true,
+        "value": "Anodes Line Pipe"
+      },
+      {
+        "available": true,
+        "id": 19,
+        "selected": true,
+        "value": "Aquistic equip& tele"
+      },
+      {
+        "available": true,
+        "id": 20,
+        "selected": true,
+        "value": "Audio/Video Equipmen"
+      },
+      {
+        "available": true,
+        "id": 21,
+        "selected": true,
+        "value": "Auditing Services"
+      },
+      {
+        "available": true,
+        "id": 22,
+        "selected": true,
+        "value": "BOP and accessories"
+      },
+      {
+        "available": true,
+        "id": 23,
+        "selected": true,
+        "value": "Ball Valves"
+      },
+      {
+        "available": true,
+        "id": 24,
+        "selected": true,
+        "value": "Base oil"
+      },
+      {
+        "available": true,
+        "id": 25,
+        "selected": true,
+        "value": "Bearings / Seals"
+      },
+      {
+        "available": true,
+        "id": 26,
+        "selected": true,
+        "value": "Blowers and Fans"
+      },
+      {
+        "available": true,
+        "id": 27,
+        "selected": true,
+        "value": "Bolts,Nuts,Fasteners"
+      },
+      {
+        "available": true,
+        "id": 28,
+        "selected": true,
+        "value": "Bottles / Cans"
+      },
+      {
+        "available": true,
+        "id": 29,
+        "selected": true,
+        "value": "Boxes"
+      },
+      {
+        "available": true,
+        "id": 30,
+        "selected": true,
+        "value": "Branded event/exhib"
+      },
+      {
+        "available": true,
+        "id": 31,
+        "selected": true,
+        "value": "Breathing apparatus"
+      },
+      {
+        "available": true,
+        "id": 32,
+        "selected": true,
+        "value": "Brokers"
+      },
+      {
+        "available": true,
+        "id": 33,
+        "selected": true,
+        "value": "Brownfield - Other"
+      },
+      {
+        "available": true,
+        "id": 34,
+        "selected": true,
+        "value": "Building Contracting"
+      },
+      {
+        "available": true,
+        "id": 35,
+        "selected": true,
+        "value": "Building Material"
+      },
+      {
+        "available": true,
+        "id": 36,
+        "selected": true,
+        "value": "Bus. Intelligence"
+      },
+      {
+        "available": true,
+        "id": 37,
+        "selected": true,
+        "value": "Butterfly Valves"
+      },
+      {
+        "available": true,
+        "id": 38,
+        "selected": true,
+        "value": "COF"
+      },
+      {
+        "available": true,
+        "id": 39,
+        "selected": true,
+        "value": "Cabinets/junc.box"
+      },
+      {
+        "available": true,
+        "id": 40,
+        "selected": true,
+        "value": "Cable Racks / Trays"
+      },
+      {
+        "available": true,
+        "id": 41,
+        "selected": true,
+        "value": "Casing cutting serv."
+      },
+      {
+        "available": true,
+        "id": 42,
+        "selected": true,
+        "value": "Casing pulling serv"
+      },
+      {
+        "available": true,
+        "id": 43,
+        "selected": true,
+        "value": "Casing running serv."
+      },
+      {
+        "available": true,
+        "id": 44,
+        "selected": true,
+        "value": "Casing, tubing- OCTG"
+      },
+      {
+        "available": true,
+        "id": 45,
+        "selected": true,
+        "value": "Cat & Ads. handling"
+      },
+      {
+        "available": true,
+        "id": 46,
+        "selected": true,
+        "value": "Catalysts"
+      },
+      {
+        "available": true,
+        "id": 47,
+        "selected": true,
+        "value": "Catering"
+      },
+      {
+        "available": true,
+        "id": 48,
+        "selected": true,
+        "value": "Catering supplies"
+      },
+      {
+        "available": true,
+        "id": 49,
+        "selected": true,
+        "value": "Cath.Protect. equip"
+      },
+      {
+        "available": true,
+        "id": 50,
+        "selected": true,
+        "value": "Cement & additives"
+      },
+      {
+        "available": true,
+        "id": 51,
+        "selected": true,
+        "value": "Cementing Equipment"
+      },
+      {
+        "available": true,
+        "id": 52,
+        "selected": true,
+        "value": "Cementing services"
+      },
+      {
+        "available": true,
+        "id": 53,
+        "selected": true,
+        "value": "Certif.of Cranes/Lif"
+      },
+      {
+        "available": true,
+        "id": 54,
+        "selected": true,
+        "value": "Certif.of Pressurise"
+      },
+      {
+        "available": true,
+        "id": 55,
+        "selected": true,
+        "value": "Cessation - Other"
+      },
+      {
+        "available": true,
+        "id": 56,
+        "selected": true,
+        "value": "Check Valves"
+      },
+      {
+        "available": true,
+        "id": 57,
+        "selected": true,
+        "value": "Chemical Inject. Sys"
+      },
+      {
+        "available": true,
+        "id": 58,
+        "selected": true,
+        "value": "Circ.Breakers/Junc/T"
+      },
+      {
+        "available": true,
+        "id": 59,
+        "selected": true,
+        "value": "Civil works - mat"
+      },
+      {
+        "available": true,
+        "id": 60,
+        "selected": true,
+        "value": "Civil works-services"
+      },
+      {
+        "available": true,
+        "id": 61,
+        "selected": true,
+        "value": "Cleaning"
+      },
+      {
+        "available": true,
+        "id": 62,
+        "selected": true,
+        "value": "Cleaning chemicals"
+      },
+      {
+        "available": true,
+        "id": 63,
+        "selected": true,
+        "value": "Cleaning supplies"
+      },
+      {
+        "available": true,
+        "id": 64,
+        "selected": true,
+        "value": "Coating Line Pipe"
+      },
+      {
+        "available": true,
+        "id": 65,
+        "selected": true,
+        "value": "Coiled Tubing Tools"
+      },
+      {
+        "available": true,
+        "id": 66,
+        "selected": true,
+        "value": "Coiled Tubing serv"
+      },
+      {
+        "available": true,
+        "id": 67,
+        "selected": true,
+        "value": "Columns and acc"
+      },
+      {
+        "available": true,
+        "id": 68,
+        "selected": true,
+        "value": "Commercial flights"
+      },
+      {
+        "available": true,
+        "id": 69,
+        "selected": true,
+        "value": "Compl. Fluids"
+      },
+      {
+        "available": true,
+        "id": 70,
+        "selected": true,
+        "value": "Compl. Fluids serv"
+      },
+      {
+        "available": true,
+        "id": 71,
+        "selected": true,
+        "value": "Completion equipment"
+      },
+      {
+        "available": true,
+        "id": 72,
+        "selected": true,
+        "value": "Completion fluids"
+      },
+      {
+        "available": true,
+        "id": 73,
+        "selected": true,
+        "value": "Compressor sparepart"
+      },
+      {
+        "available": true,
+        "id": 74,
+        "selected": true,
+        "value": "Compressors"
+      },
+      {
+        "available": true,
+        "id": 75,
+        "selected": true,
+        "value": "Conductor Casing"
+      },
+      {
+        "available": true,
+        "id": 76,
+        "selected": true,
+        "value": "Conductor piling"
+      },
+      {
+        "available": true,
+        "id": 77,
+        "selected": true,
+        "value": "Container/Basket"
+      },
+      {
+        "available": true,
+        "id": 78,
+        "selected": true,
+        "value": "Control Valves"
+      },
+      {
+        "available": true,
+        "id": 79,
+        "selected": true,
+        "value": "Control system/equip"
+      },
+      {
+        "available": true,
+        "id": 80,
+        "selected": true,
+        "value": "Controlpanel/station"
+      },
+      {
+        "available": true,
+        "id": 81,
+        "selected": true,
+        "value": "Conveyors, Feeders A"
+      },
+      {
+        "available": true,
+        "id": 82,
+        "selected": true,
+        "value": "Cooling and Refriger"
+      },
+      {
+        "available": true,
+        "id": 83,
+        "selected": true,
+        "value": "Coring services"
+      },
+      {
+        "available": true,
+        "id": 84,
+        "selected": true,
+        "value": "Corrosion Monitoring"
+      },
+      {
+        "available": true,
+        "id": 85,
+        "selected": true,
+        "value": "Courses/Seminars"
+      },
+      {
+        "available": true,
+        "id": 86,
+        "selected": true,
+        "value": "Crane Mngmt services"
+      },
+      {
+        "available": true,
+        "id": 87,
+        "selected": true,
+        "value": "Cranes"
+      },
+      {
+        "available": true,
+        "id": 88,
+        "selected": true,
+        "value": "Cutting Injections"
+      },
+      {
+        "available": true,
+        "id": 89,
+        "selected": true,
+        "value": "DMI services"
+      },
+      {
+        "available": true,
+        "id": 90,
+        "selected": true,
+        "value": "DO NOT USE"
+      },
+      {
+        "available": true,
+        "id": 91,
+        "selected": true,
+        "value": "Dampers and acc"
+      },
+      {
+        "available": true,
+        "id": 92,
+        "selected": true,
+        "value": "Data comm. Hardware"
+      },
+      {
+        "available": true,
+        "id": 93,
+        "selected": true,
+        "value": "Data storage/backup"
+      },
+      {
+        "available": true,
+        "id": 94,
+        "selected": true,
+        "value": "Databases, Software"
+      },
+      {
+        "available": true,
+        "id": 95,
+        "selected": true,
+        "value": "Deleted. Use 1.03.01"
+      },
+      {
+        "available": true,
+        "id": 96,
+        "selected": true,
+        "value": "Deleted. Use 1.10.05"
+      },
+      {
+        "available": true,
+        "id": 97,
+        "selected": true,
+        "value": "Deleted. Use 1.16.03"
+      },
+      {
+        "available": true,
+        "id": 98,
+        "selected": true,
+        "value": "Deleted. Use 2.01.01"
+      },
+      {
+        "available": true,
+        "id": 99,
+        "selected": true,
+        "value": "Deleted. Use 2.03.01"
+      },
+      {
+        "available": true,
+        "id": 100,
+        "selected": true,
+        "value": "Deleted. Use 2.03.07"
+      },
+      {
+        "available": true,
+        "id": 101,
+        "selected": true,
+        "value": "Deleted. Use 2.12.06"
+      },
+      {
+        "available": true,
+        "id": 102,
+        "selected": true,
+        "value": "Deleted. Use 3.06.01"
+      },
+      {
+        "available": true,
+        "id": 103,
+        "selected": true,
+        "value": "Deleted. Use 3.99.13"
+      },
+      {
+        "available": true,
+        "id": 104,
+        "selected": true,
+        "value": "Deleted.Use3.05.08 B"
+      },
+      {
+        "available": true,
+        "id": 105,
+        "selected": true,
+        "value": "Deluge&sprinkle syst"
+      },
+      {
+        "available": true,
+        "id": 106,
+        "selected": true,
+        "value": "Design /Adv.agencies"
+      },
+      {
+        "available": true,
+        "id": 107,
+        "selected": true,
+        "value": "Directional Surveyin"
+      },
+      {
+        "available": true,
+        "id": 108,
+        "selected": true,
+        "value": "Directional drill.s."
+      },
+      {
+        "available": true,
+        "id": 109,
+        "selected": true,
+        "value": "Disp.Serv./Waste Tra"
+      },
+      {
+        "available": true,
+        "id": 110,
+        "selected": true,
+        "value": "Diving"
+      },
+      {
+        "available": true,
+        "id": 111,
+        "selected": true,
+        "value": "Down Hole Press.C.Eq"
+      },
+      {
+        "available": true,
+        "id": 112,
+        "selected": true,
+        "value": "Drill Pipe Rental"
+      },
+      {
+        "available": true,
+        "id": 113,
+        "selected": true,
+        "value": "Drill eq.rent& serv"
+      },
+      {
+        "available": true,
+        "id": 114,
+        "selected": true,
+        "value": "Drill. facility mod"
+      },
+      {
+        "available": true,
+        "id": 115,
+        "selected": true,
+        "value": "Drilling Machinery"
+      },
+      {
+        "available": true,
+        "id": 116,
+        "selected": true,
+        "value": "Drilling bits"
+      },
+      {
+        "available": true,
+        "id": 117,
+        "selected": true,
+        "value": "Drilling bits equip."
+      },
+      {
+        "available": true,
+        "id": 118,
+        "selected": true,
+        "value": "Drilling equipment"
+      },
+      {
+        "available": true,
+        "id": 119,
+        "selected": true,
+        "value": "Drilling fluids"
+      },
+      {
+        "available": true,
+        "id": 120,
+        "selected": true,
+        "value": "Drilling fluids serv"
+      },
+      {
+        "available": true,
+        "id": 121,
+        "selected": true,
+        "value": "Drilling/Compl.Eng."
+      },
+      {
+        "available": true,
+        "id": 122,
+        "selected": true,
+        "value": "Drums"
+      },
+      {
+        "available": true,
+        "id": 123,
+        "selected": true,
+        "value": "El.magn.Seism.Acq."
+      },
+      {
+        "available": true,
+        "id": 124,
+        "selected": true,
+        "value": "Elec. Power supply"
+      },
+      {
+        "available": true,
+        "id": 125,
+        "selected": true,
+        "value": "Elec.Connectors Subs"
+      },
+      {
+        "available": true,
+        "id": 126,
+        "selected": true,
+        "value": "Elec.wireline logg."
+      },
+      {
+        "available": true,
+        "id": 127,
+        "selected": true,
+        "value": "Electric Heaters"
+      },
+      {
+        "available": true,
+        "id": 128,
+        "selected": true,
+        "value": "Electric Motors"
+      },
+      {
+        "available": true,
+        "id": 129,
+        "selected": true,
+        "value": "Electrical Engineeri"
+      },
+      {
+        "available": true,
+        "id": 130,
+        "selected": true,
+        "value": "Electrical Services"
+      },
+      {
+        "available": true,
+        "id": 131,
+        "selected": true,
+        "value": "Electro cables/wires"
+      },
+      {
+        "available": true,
+        "id": 132,
+        "selected": true,
+        "value": "Elevators"
+      },
+      {
+        "available": true,
+        "id": 133,
+        "selected": true,
+        "value": "Emergency showers"
+      },
+      {
+        "available": true,
+        "id": 134,
+        "selected": true,
+        "value": "Engineering services"
+      },
+      {
+        "available": true,
+        "id": 135,
+        "selected": true,
+        "value": "Environment equip"
+      },
+      {
+        "available": true,
+        "id": 136,
+        "selected": true,
+        "value": "Environmental serv"
+      },
+      {
+        "available": true,
+        "id": 137,
+        "selected": true,
+        "value": "FPSO"
+      },
+      {
+        "available": true,
+        "id": 138,
+        "selected": true,
+        "value": "FSU"
+      },
+      {
+        "available": true,
+        "id": 139,
+        "selected": true,
+        "value": "Filters/Strainers"
+      },
+      {
+        "available": true,
+        "id": 140,
+        "selected": true,
+        "value": "Financial Management"
+      },
+      {
+        "available": true,
+        "id": 141,
+        "selected": true,
+        "value": "Fire Doors"
+      },
+      {
+        "available": true,
+        "id": 142,
+        "selected": true,
+        "value": "Fire Protection Mate"
+      },
+      {
+        "available": true,
+        "id": 143,
+        "selected": true,
+        "value": "Fire extinguishers"
+      },
+      {
+        "available": true,
+        "id": 144,
+        "selected": true,
+        "value": "Fire/Smoke/Gas/Heat"
+      },
+      {
+        "available": true,
+        "id": 145,
+        "selected": true,
+        "value": "Firefighting clothes"
+      },
+      {
+        "available": true,
+        "id": 146,
+        "selected": true,
+        "value": "Fishing services"
+      },
+      {
+        "available": true,
+        "id": 147,
+        "selected": true,
+        "value": "Fishing/Repair Tools"
+      },
+      {
+        "available": true,
+        "id": 148,
+        "selected": true,
+        "value": "Flex.risers & pipes"
+      },
+      {
+        "available": true,
+        "id": 149,
+        "selected": true,
+        "value": "Floating substruc"
+      },
+      {
+        "available": true,
+        "id": 150,
+        "selected": true,
+        "value": "Flow Instruments"
+      },
+      {
+        "available": true,
+        "id": 151,
+        "selected": true,
+        "value": "Fluid Bags/Container"
+      },
+      {
+        "available": true,
+        "id": 152,
+        "selected": true,
+        "value": "Food/beverage prod"
+      },
+      {
+        "available": true,
+        "id": 153,
+        "selected": true,
+        "value": "Freight Forwarding S"
+      },
+      {
+        "available": true,
+        "id": 154,
+        "selected": true,
+        "value": "Fresh Water Treatmen"
+      },
+      {
+        "available": true,
+        "id": 155,
+        "selected": true,
+        "value": "Furniture"
+      },
+      {
+        "available": true,
+        "id": 156,
+        "selected": true,
+        "value": "Gangways, Rails etc"
+      },
+      {
+        "available": true,
+        "id": 157,
+        "selected": true,
+        "value": "Gas Bottles"
+      },
+      {
+        "available": true,
+        "id": 158,
+        "selected": true,
+        "value": "Gas Expanders"
+      },
+      {
+        "available": true,
+        "id": 159,
+        "selected": true,
+        "value": "Gas Treatment Units"
+      },
+      {
+        "available": true,
+        "id": 160,
+        "selected": true,
+        "value": "Gas proc.&ref.plants"
+      },
+      {
+        "available": true,
+        "id": 161,
+        "selected": true,
+        "value": "Gas services"
+      },
+      {
+        "available": true,
+        "id": 162,
+        "selected": true,
+        "value": "Gask.,Joint.,Pack. >"
+      },
+      {
+        "available": true,
+        "id": 163,
+        "selected": true,
+        "value": "Gate Valves"
+      },
+      {
+        "available": true,
+        "id": 164,
+        "selected": true,
+        "value": "Gear Box/Gear Unit >"
+      },
+      {
+        "available": true,
+        "id": 165,
+        "selected": true,
+        "value": "Gen. Supply Vessels"
+      },
+      {
+        "available": true,
+        "id": 166,
+        "selected": true,
+        "value": "General subsea serv."
+      },
+      {
+        "available": true,
+        "id": 167,
+        "selected": true,
+        "value": "Generators, Power So"
+      },
+      {
+        "available": true,
+        "id": 168,
+        "selected": true,
+        "value": "Geol/Reserv. Eval."
+      },
+      {
+        "available": true,
+        "id": 169,
+        "selected": true,
+        "value": "Geotechnical Service"
+      },
+      {
+        "available": true,
+        "id": 170,
+        "selected": true,
+        "value": "Globe Valves"
+      },
+      {
+        "available": true,
+        "id": 171,
+        "selected": true,
+        "value": "GravityAcq.Proc.serv"
+      },
+      {
+        "available": true,
+        "id": 172,
+        "selected": true,
+        "value": "Greenfield - Other"
+      },
+      {
+        "available": true,
+        "id": 173,
+        "selected": true,
+        "value": "HVAC System Packages"
+      },
+      {
+        "available": true,
+        "id": 174,
+        "selected": true,
+        "value": "HVAC equipment"
+      },
+      {
+        "available": true,
+        "id": 175,
+        "selected": true,
+        "value": "Heat Exchangers"
+      },
+      {
+        "available": true,
+        "id": 176,
+        "selected": true,
+        "value": "Heat Treating and De"
+      },
+      {
+        "available": true,
+        "id": 177,
+        "selected": true,
+        "value": "Heat exchangers"
+      },
+      {
+        "available": true,
+        "id": 178,
+        "selected": true,
+        "value": "Heaters/Boilers/acc"
+      },
+      {
+        "available": true,
+        "id": 179,
+        "selected": true,
+        "value": "Heating Coils / Unit"
+      },
+      {
+        "available": true,
+        "id": 180,
+        "selected": true,
+        "value": "Helicopter services"
+      },
+      {
+        "available": true,
+        "id": 181,
+        "selected": true,
+        "value": "Helideck Systems/Pac"
+      },
+      {
+        "available": true,
+        "id": 182,
+        "selected": true,
+        "value": "Helifuel system"
+      },
+      {
+        "available": true,
+        "id": 183,
+        "selected": true,
+        "value": "Hoses"
+      },
+      {
+        "available": true,
+        "id": 184,
+        "selected": true,
+        "value": "Hotel and Conference"
+      },
+      {
+        "available": true,
+        "id": 185,
+        "selected": true,
+        "value": "Humidifiers, Dryers"
+      },
+      {
+        "available": true,
+        "id": 186,
+        "selected": true,
+        "value": "Hydraulic Drivers"
+      },
+      {
+        "available": true,
+        "id": 187,
+        "selected": true,
+        "value": "Hydraulic Units acc"
+      },
+      {
+        "available": true,
+        "id": 188,
+        "selected": true,
+        "value": "IS-Well Mgt./ConsSer"
+      },
+      {
+        "available": true,
+        "id": 189,
+        "selected": true,
+        "value": "IT Accessories"
+      },
+      {
+        "available": true,
+        "id": 190,
+        "selected": true,
+        "value": "IT Subscriptions"
+      },
+      {
+        "available": true,
+        "id": 191,
+        "selected": true,
+        "value": "IT managed services"
+      },
+      {
+        "available": true,
+        "id": 192,
+        "selected": true,
+        "value": "IT-as-a-service"
+      },
+      {
+        "available": true,
+        "id": 193,
+        "selected": true,
+        "value": "In Site Machining"
+      },
+      {
+        "available": true,
+        "id": 194,
+        "selected": true,
+        "value": "InService Inspection"
+      },
+      {
+        "available": true,
+        "id": 195,
+        "selected": true,
+        "value": "Industrial Cleaning"
+      },
+      {
+        "available": true,
+        "id": 196,
+        "selected": true,
+        "value": "Industrial Gases"
+      },
+      {
+        "available": true,
+        "id": 197,
+        "selected": true,
+        "value": "Insp, maint & repair"
+      },
+      {
+        "available": true,
+        "id": 198,
+        "selected": true,
+        "value": "Installation service"
+      },
+      {
+        "available": true,
+        "id": 199,
+        "selected": true,
+        "value": "Instr-tub/fitt/valve"
+      },
+      {
+        "available": true,
+        "id": 200,
+        "selected": true,
+        "value": "Instrument services"
+      },
+      {
+        "available": true,
+        "id": 201,
+        "selected": true,
+        "value": "Insulation services"
+      },
+      {
+        "available": true,
+        "id": 202,
+        "selected": true,
+        "value": "Integrity Management"
+      },
+      {
+        "available": true,
+        "id": 203,
+        "selected": true,
+        "value": "Jackets"
+      },
+      {
+        "available": true,
+        "id": 204,
+        "selected": true,
+        "value": "Jetty equip./Loading"
+      },
+      {
+        "available": true,
+        "id": 205,
+        "selected": true,
+        "value": "Laboratory Chemicals"
+      },
+      {
+        "available": true,
+        "id": 206,
+        "selected": true,
+        "value": "Laboratory apparatus"
+      },
+      {
+        "available": true,
+        "id": 207,
+        "selected": true,
+        "value": "Laboratory services"
+      },
+      {
+        "available": true,
+        "id": 208,
+        "selected": true,
+        "value": "Lamps, Lighting Fixt"
+      },
+      {
+        "available": true,
+        "id": 209,
+        "selected": true,
+        "value": "Leak Sealing"
+      },
+      {
+        "available": true,
+        "id": 210,
+        "selected": true,
+        "value": "Lease process.cap."
+      },
+      {
+        "available": true,
+        "id": 211,
+        "selected": true,
+        "value": "Legal Advice"
+      },
+      {
+        "available": true,
+        "id": 212,
+        "selected": true,
+        "value": "Legal Litigation"
+      },
+      {
+        "available": true,
+        "id": 213,
+        "selected": true,
+        "value": "Legal Transactions"
+      },
+      {
+        "available": true,
+        "id": 214,
+        "selected": true,
+        "value": "Leisure equip"
+      },
+      {
+        "available": true,
+        "id": 215,
+        "selected": true,
+        "value": "Level Instruments"
+      },
+      {
+        "available": true,
+        "id": 216,
+        "selected": true,
+        "value": "Life boats"
+      },
+      {
+        "available": true,
+        "id": 217,
+        "selected": true,
+        "value": "Life rafts"
+      },
+      {
+        "available": true,
+        "id": 218,
+        "selected": true,
+        "value": "Lifting Gear"
+      },
+      {
+        "available": true,
+        "id": 219,
+        "selected": true,
+        "value": "Light portable hoses"
+      },
+      {
+        "available": true,
+        "id": 220,
+        "selected": true,
+        "value": "Linepipe,equip & ac."
+      },
+      {
+        "available": true,
+        "id": 221,
+        "selected": true,
+        "value": "Liner Hanger equip."
+      },
+      {
+        "available": true,
+        "id": 222,
+        "selected": true,
+        "value": "Liner Hanger serv"
+      },
+      {
+        "available": true,
+        "id": 223,
+        "selected": true,
+        "value": "Living Quarter"
+      },
+      {
+        "available": true,
+        "id": 224,
+        "selected": true,
+        "value": "Load Testing"
+      },
+      {
+        "available": true,
+        "id": 225,
+        "selected": true,
+        "value": "Lub. Finished goods"
+      },
+      {
+        "available": true,
+        "id": 226,
+        "selected": true,
+        "value": "Lubricants"
+      },
+      {
+        "available": true,
+        "id": 227,
+        "selected": true,
+        "value": "M&M Contractor"
+      },
+      {
+        "available": true,
+        "id": 228,
+        "selected": true,
+        "value": "M.Service Bolt Tensi"
+      },
+      {
+        "available": true,
+        "id": 229,
+        "selected": true,
+        "value": "M.Service Diesel Agr"
+      },
+      {
+        "available": true,
+        "id": 230,
+        "selected": true,
+        "value": "M.Service Mod.pumps"
+      },
+      {
+        "available": true,
+        "id": 231,
+        "selected": true,
+        "value": "M.Service Pipe Cutti"
+      },
+      {
+        "available": true,
+        "id": 232,
+        "selected": true,
+        "value": "M.Service Steel/Pipi"
+      },
+      {
+        "available": true,
+        "id": 233,
+        "selected": true,
+        "value": "M.Service Waste Disp"
+      },
+      {
+        "available": true,
+        "id": 234,
+        "selected": true,
+        "value": "M.Service Welding"
+      },
+      {
+        "available": true,
+        "id": 235,
+        "selected": true,
+        "value": "MWD/LWD services"
+      },
+      {
+        "available": true,
+        "id": 236,
+        "selected": true,
+        "value": "Machining Services"
+      },
+      {
+        "available": true,
+        "id": 237,
+        "selected": true,
+        "value": "Maint Hoses"
+      },
+      {
+        "available": true,
+        "id": 238,
+        "selected": true,
+        "value": "Maint/Rental  tools"
+      },
+      {
+        "available": true,
+        "id": 239,
+        "selected": true,
+        "value": "Maintenance plan"
+      },
+      {
+        "available": true,
+        "id": 240,
+        "selected": true,
+        "value": "Man overboard boats"
+      },
+      {
+        "available": true,
+        "id": 241,
+        "selected": true,
+        "value": "Man.Press.Drill(MPD)"
+      },
+      {
+        "available": true,
+        "id": 242,
+        "selected": true,
+        "value": "Marine Survey"
+      },
+      {
+        "available": true,
+        "id": 243,
+        "selected": true,
+        "value": "Marine Technology"
+      },
+      {
+        "available": true,
+        "id": 244,
+        "selected": true,
+        "value": "Marine operations"
+      },
+      {
+        "available": true,
+        "id": 245,
+        "selected": true,
+        "value": "Marketing research"
+      },
+      {
+        "available": true,
+        "id": 246,
+        "selected": true,
+        "value": "Mech. Joints"
+      },
+      {
+        "available": true,
+        "id": 247,
+        "selected": true,
+        "value": "Mech. wireline serv"
+      },
+      {
+        "available": true,
+        "id": 248,
+        "selected": true,
+        "value": "Mech.Separator/Tumbl"
+      },
+      {
+        "available": true,
+        "id": 249,
+        "selected": true,
+        "value": "Medical equipment"
+      },
+      {
+        "available": true,
+        "id": 250,
+        "selected": true,
+        "value": "Medical services"
+      },
+      {
+        "available": true,
+        "id": 251,
+        "selected": true,
+        "value": "Membership"
+      },
+      {
+        "available": true,
+        "id": 252,
+        "selected": true,
+        "value": "Metering equip/syst"
+      },
+      {
+        "available": true,
+        "id": 253,
+        "selected": true,
+        "value": "Mgmt & BD Consulting"
+      },
+      {
+        "available": true,
+        "id": 254,
+        "selected": true,
+        "value": "Mis.Cooler/Condenser"
+      },
+      {
+        "available": true,
+        "id": 255,
+        "selected": true,
+        "value": "Misc.Docking equip."
+      },
+      {
+        "available": true,
+        "id": 256,
+        "selected": true,
+        "value": "Mixer/Agitator/Blen"
+      },
+      {
+        "available": true,
+        "id": 257,
+        "selected": true,
+        "value": "Mobile telephony"
+      },
+      {
+        "available": true,
+        "id": 258,
+        "selected": true,
+        "value": "Modular valves"
+      },
+      {
+        "available": true,
+        "id": 259,
+        "selected": true,
+        "value": "Moving Services"
+      },
+      {
+        "available": true,
+        "id": 260,
+        "selected": true,
+        "value": "Mud and Ass.Additive"
+      },
+      {
+        "available": true,
+        "id": 261,
+        "selected": true,
+        "value": "Mud fluids"
+      },
+      {
+        "available": true,
+        "id": 262,
+        "selected": true,
+        "value": "Mud-logging services"
+      },
+      {
+        "available": true,
+        "id": 263,
+        "selected": true,
+        "value": "Multi-client licens."
+      },
+      {
+        "available": true,
+        "id": 264,
+        "selected": true,
+        "value": "Newspapers/magazine"
+      },
+      {
+        "available": true,
+        "id": 265,
+        "selected": true,
+        "value": "Noise aband. equip"
+      },
+      {
+        "available": true,
+        "id": 266,
+        "selected": true,
+        "value": "Non-Life Insurance"
+      },
+      {
+        "available": true,
+        "id": 267,
+        "selected": true,
+        "value": "Notif.Body Machinery"
+      },
+      {
+        "available": true,
+        "id": 268,
+        "selected": true,
+        "value": "Notif.Body PressEqui"
+      },
+      {
+        "available": true,
+        "id": 269,
+        "selected": true,
+        "value": "Notified Body f.Lift"
+      },
+      {
+        "available": true,
+        "id": 270,
+        "selected": true,
+        "value": "OBC Seism.Acq.serv"
+      },
+      {
+        "available": true,
+        "id": 271,
+        "selected": true,
+        "value": "OCTG equipment"
+      },
+      {
+        "available": true,
+        "id": 272,
+        "selected": true,
+        "value": "OCTG services"
+      },
+      {
+        "available": true,
+        "id": 273,
+        "selected": true,
+        "value": "Oceanographic Servic"
+      },
+      {
+        "available": true,
+        "id": 274,
+        "selected": true,
+        "value": "Office Automation SW"
+      },
+      {
+        "available": true,
+        "id": 275,
+        "selected": true,
+        "value": "Office Telecom Equip"
+      },
+      {
+        "available": true,
+        "id": 276,
+        "selected": true,
+        "value": "Office supplies"
+      },
+      {
+        "available": true,
+        "id": 277,
+        "selected": true,
+        "value": "Offshore Waste handl"
+      },
+      {
+        "available": true,
+        "id": 278,
+        "selected": true,
+        "value": "Oil Recovery equip"
+      },
+      {
+        "available": true,
+        "id": 279,
+        "selected": true,
+        "value": "Oil/Diesel Engines"
+      },
+      {
+        "available": true,
+        "id": 280,
+        "selected": true,
+        "value": "Onshore Waste handl"
+      },
+      {
+        "available": true,
+        "id": 281,
+        "selected": true,
+        "value": "Other Automobiles"
+      },
+      {
+        "available": true,
+        "id": 282,
+        "selected": true,
+        "value": "Other Certification"
+      },
+      {
+        "available": true,
+        "id": 283,
+        "selected": true,
+        "value": "Other Chemicals,Oil>"
+      },
+      {
+        "available": true,
+        "id": 284,
+        "selected": true,
+        "value": "Other Consumables"
+      },
+      {
+        "available": true,
+        "id": 285,
+        "selected": true,
+        "value": "Other Drivers & acc"
+      },
+      {
+        "available": true,
+        "id": 286,
+        "selected": true,
+        "value": "Other Elect. equip"
+      },
+      {
+        "available": true,
+        "id": 287,
+        "selected": true,
+        "value": "Other Heat Transfer"
+      },
+      {
+        "available": true,
+        "id": 288,
+        "selected": true,
+        "value": "Other Inspn Services"
+      },
+      {
+        "available": true,
+        "id": 289,
+        "selected": true,
+        "value": "Other Inst.equip"
+      },
+      {
+        "available": true,
+        "id": 290,
+        "selected": true,
+        "value": "Other Insul/Refrac.M"
+      },
+      {
+        "available": true,
+        "id": 291,
+        "selected": true,
+        "value": "Other Lab. equip"
+      },
+      {
+        "available": true,
+        "id": 292,
+        "selected": true,
+        "value": "Other Mech. equip"
+      },
+      {
+        "available": true,
+        "id": 293,
+        "selected": true,
+        "value": "Other Onshore Svcs"
+      },
+      {
+        "available": true,
+        "id": 294,
+        "selected": true,
+        "value": "Other Packing Mater."
+      },
+      {
+        "available": true,
+        "id": 295,
+        "selected": true,
+        "value": "Other R&D services"
+      },
+      {
+        "available": true,
+        "id": 296,
+        "selected": true,
+        "value": "Other Safety equip"
+      },
+      {
+        "available": true,
+        "id": 297,
+        "selected": true,
+        "value": "Other Seismic Servic"
+      },
+      {
+        "available": true,
+        "id": 298,
+        "selected": true,
+        "value": "Other Tanks/Vessels>"
+      },
+      {
+        "available": true,
+        "id": 299,
+        "selected": true,
+        "value": "Other Testg Services"
+      },
+      {
+        "available": true,
+        "id": 300,
+        "selected": true,
+        "value": "Other Trans/Sup serv"
+      },
+      {
+        "available": true,
+        "id": 301,
+        "selected": true,
+        "value": "Other Valves and acc"
+      },
+      {
+        "available": true,
+        "id": 302,
+        "selected": true,
+        "value": "Other WTG equip"
+      },
+      {
+        "available": true,
+        "id": 303,
+        "selected": true,
+        "value": "Other Waste Disposal"
+      },
+      {
+        "available": true,
+        "id": 304,
+        "selected": true,
+        "value": "Other escape equip"
+      },
+      {
+        "available": true,
+        "id": 305,
+        "selected": true,
+        "value": "Other industry equip"
+      },
+      {
+        "available": true,
+        "id": 306,
+        "selected": true,
+        "value": "P.Vessel/Drum/Accumu"
+      },
+      {
+        "available": true,
+        "id": 307,
+        "selected": true,
+        "value": "PC, devices, tablets"
+      },
+      {
+        "available": true,
+        "id": 308,
+        "selected": true,
+        "value": "PR agencies"
+      },
+      {
+        "available": true,
+        "id": 309,
+        "selected": true,
+        "value": "Packing equipment"
+      },
+      {
+        "available": true,
+        "id": 310,
+        "selected": true,
+        "value": "Packing,Crating/Boxi"
+      },
+      {
+        "available": true,
+        "id": 311,
+        "selected": true,
+        "value": "Pallets"
+      },
+      {
+        "available": true,
+        "id": 312,
+        "selected": true,
+        "value": "Passenger Cars & Acc"
+      },
+      {
+        "available": true,
+        "id": 313,
+        "selected": true,
+        "value": "PassengerCar&accesso"
+      },
+      {
+        "available": true,
+        "id": 314,
+        "selected": true,
+        "value": "Perforating Service"
+      },
+      {
+        "available": true,
+        "id": 315,
+        "selected": true,
+        "value": "Personal protection"
+      },
+      {
+        "available": true,
+        "id": 316,
+        "selected": true,
+        "value": "Petrochemicals (R&D)"
+      },
+      {
+        "available": true,
+        "id": 317,
+        "selected": true,
+        "value": "Petrol prod. & Fuel"
+      },
+      {
+        "available": true,
+        "id": 318,
+        "selected": true,
+        "value": "Petroleum products"
+      },
+      {
+        "available": true,
+        "id": 319,
+        "selected": true,
+        "value": "Photo/film"
+      },
+      {
+        "available": true,
+        "id": 320,
+        "selected": true,
+        "value": "Pigging Equip., Acc"
+      },
+      {
+        "available": true,
+        "id": 321,
+        "selected": true,
+        "value": "Pipelaying"
+      },
+      {
+        "available": true,
+        "id": 322,
+        "selected": true,
+        "value": "Pipeline commission"
+      },
+      {
+        "available": true,
+        "id": 323,
+        "selected": true,
+        "value": "Pipeline repair syst"
+      },
+      {
+        "available": true,
+        "id": 324,
+        "selected": true,
+        "value": "Piping & flange serv"
+      },
+      {
+        "available": true,
+        "id": 325,
+        "selected": true,
+        "value": "Piping &flanges"
+      },
+      {
+        "available": true,
+        "id": 326,
+        "selected": true,
+        "value": "Platform drilling"
+      },
+      {
+        "available": true,
+        "id": 327,
+        "selected": true,
+        "value": "Plug & Abandonment"
+      },
+      {
+        "available": true,
+        "id": 328,
+        "selected": true,
+        "value": "Plug Valves"
+      },
+      {
+        "available": true,
+        "id": 329,
+        "selected": true,
+        "value": "Prefabricated spools"
+      },
+      {
+        "available": true,
+        "id": 330,
+        "selected": true,
+        "value": "Preservation service"
+      },
+      {
+        "available": true,
+        "id": 331,
+        "selected": true,
+        "value": "Press.Test. Line Pi"
+      },
+      {
+        "available": true,
+        "id": 332,
+        "selected": true,
+        "value": "Press.test.(Pi & St)"
+      },
+      {
+        "available": true,
+        "id": 333,
+        "selected": true,
+        "value": "Pressure Instruments"
+      },
+      {
+        "available": true,
+        "id": 334,
+        "selected": true,
+        "value": "PressureTest Onshore"
+      },
+      {
+        "available": true,
+        "id": 335,
+        "selected": true,
+        "value": "Primer/Coating/Paint"
+      },
+      {
+        "available": true,
+        "id": 336,
+        "selected": true,
+        "value": "Print and plotters"
+      },
+      {
+        "available": true,
+        "id": 337,
+        "selected": true,
+        "value": "Printing and Copying"
+      },
+      {
+        "available": true,
+        "id": 338,
+        "selected": true,
+        "value": "Prod. & process chem"
+      },
+      {
+        "available": true,
+        "id": 339,
+        "selected": true,
+        "value": "Prod. chemical serv"
+      },
+      {
+        "available": true,
+        "id": 340,
+        "selected": true,
+        "value": "Project studies"
+      },
+      {
+        "available": true,
+        "id": 341,
+        "selected": true,
+        "value": "Promotional products"
+      },
+      {
+        "available": true,
+        "id": 342,
+        "selected": true,
+        "value": "Propulsion Units/acc"
+      },
+      {
+        "available": true,
+        "id": 343,
+        "selected": true,
+        "value": "Pumping material"
+      },
+      {
+        "available": true,
+        "id": 344,
+        "selected": true,
+        "value": "Pumping services"
+      },
+      {
+        "available": true,
+        "id": 345,
+        "selected": true,
+        "value": "Pumps"
+      },
+      {
+        "available": true,
+        "id": 346,
+        "selected": true,
+        "value": "Pumps spareparts"
+      },
+      {
+        "available": true,
+        "id": 347,
+        "selected": true,
+        "value": "R&D Geologic./Geoph."
+      },
+      {
+        "available": true,
+        "id": 348,
+        "selected": true,
+        "value": "R&D Information Tech"
+      },
+      {
+        "available": true,
+        "id": 349,
+        "selected": true,
+        "value": "R&D Reservoir"
+      },
+      {
+        "available": true,
+        "id": 350,
+        "selected": true,
+        "value": "R&D Reservoir WL"
+      },
+      {
+        "available": true,
+        "id": 351,
+        "selected": true,
+        "value": "R&D Safety and Envir"
+      },
+      {
+        "available": true,
+        "id": 352,
+        "selected": true,
+        "value": "R&D Subsea"
+      },
+      {
+        "available": true,
+        "id": 353,
+        "selected": true,
+        "value": "ROV"
+      },
+      {
+        "available": true,
+        "id": 354,
+        "selected": true,
+        "value": "ROV's, ROV Tools acc"
+      },
+      {
+        "available": true,
+        "id": 355,
+        "selected": true,
+        "value": "Recreation Services"
+      },
+      {
+        "available": true,
+        "id": 356,
+        "selected": true,
+        "value": "Rect.,Inv.,Converter"
+      },
+      {
+        "available": true,
+        "id": 357,
+        "selected": true,
+        "value": "Rent gas equipment"
+      },
+      {
+        "available": true,
+        "id": 358,
+        "selected": true,
+        "value": "Rental cargo carrier"
+      },
+      {
+        "available": true,
+        "id": 359,
+        "selected": true,
+        "value": "Rental of properties"
+      },
+      {
+        "available": true,
+        "id": 360,
+        "selected": true,
+        "value": "Rental-Cranes/Spec.V"
+      },
+      {
+        "available": true,
+        "id": 361,
+        "selected": true,
+        "value": "Required TV licenses"
+      },
+      {
+        "available": true,
+        "id": 362,
+        "selected": true,
+        "value": "Research & Dev (R&D)"
+      },
+      {
+        "available": true,
+        "id": 363,
+        "selected": true,
+        "value": "Restaurant services"
+      },
+      {
+        "available": true,
+        "id": 364,
+        "selected": true,
+        "value": "Return for repair"
+      },
+      {
+        "available": true,
+        "id": 365,
+        "selected": true,
+        "value": "Rig Positioning"
+      },
+      {
+        "available": true,
+        "id": 366,
+        "selected": true,
+        "value": "Rig support"
+      },
+      {
+        "available": true,
+        "id": 367,
+        "selected": true,
+        "value": "Riser Tens.systems"
+      },
+      {
+        "available": true,
+        "id": 368,
+        "selected": true,
+        "value": "Ropes/Chains"
+      },
+      {
+        "available": true,
+        "id": 369,
+        "selected": true,
+        "value": "SAS and E&I"
+      },
+      {
+        "available": true,
+        "id": 370,
+        "selected": true,
+        "value": "SW Services"
+      },
+      {
+        "available": true,
+        "id": 371,
+        "selected": true,
+        "value": "Safety Equipt."
+      },
+      {
+        "available": true,
+        "id": 372,
+        "selected": true,
+        "value": "Safety Management"
+      },
+      {
+        "available": true,
+        "id": 373,
+        "selected": true,
+        "value": "Safety Valves"
+      },
+      {
+        "available": true,
+        "id": 374,
+        "selected": true,
+        "value": "Scaffolding"
+      },
+      {
+        "available": true,
+        "id": 375,
+        "selected": true,
+        "value": "Scaffolding services"
+      },
+      {
+        "available": true,
+        "id": 376,
+        "selected": true,
+        "value": "Security"
+      },
+      {
+        "available": true,
+        "id": 377,
+        "selected": true,
+        "value": "Security equipment"
+      },
+      {
+        "available": true,
+        "id": 378,
+        "selected": true,
+        "value": "Seismic interpret."
+      },
+      {
+        "available": true,
+        "id": 379,
+        "selected": true,
+        "value": "Semi-Submersible"
+      },
+      {
+        "available": true,
+        "id": 380,
+        "selected": true,
+        "value": "Serv Boats"
+      },
+      {
+        "available": true,
+        "id": 381,
+        "selected": true,
+        "value": "Serv Firefighting"
+      },
+      {
+        "available": true,
+        "id": 382,
+        "selected": true,
+        "value": "Serv fire doors"
+      },
+      {
+        "available": true,
+        "id": 383,
+        "selected": true,
+        "value": "Serv survival suits"
+      },
+      {
+        "available": true,
+        "id": 384,
+        "selected": true,
+        "value": "Servers"
+      },
+      {
+        "available": true,
+        "id": 385,
+        "selected": true,
+        "value": "Service St. Pumps"
+      },
+      {
+        "available": true,
+        "id": 386,
+        "selected": true,
+        "value": "ServicesPassengerCar"
+      },
+      {
+        "available": true,
+        "id": 387,
+        "selected": true,
+        "value": "Signs and Boards"
+      },
+      {
+        "available": true,
+        "id": 388,
+        "selected": true,
+        "value": "Simulator Systems"
+      },
+      {
+        "available": true,
+        "id": 389,
+        "selected": true,
+        "value": "Site Clean-up serv"
+      },
+      {
+        "available": true,
+        "id": 390,
+        "selected": true,
+        "value": "Site Surveys"
+      },
+      {
+        "available": true,
+        "id": 391,
+        "selected": true,
+        "value": "Social investment"
+      },
+      {
+        "available": true,
+        "id": 392,
+        "selected": true,
+        "value": "Software maintenance"
+      },
+      {
+        "available": true,
+        "id": 393,
+        "selected": true,
+        "value": "Software purchase"
+      },
+      {
+        "available": true,
+        "id": 394,
+        "selected": true,
+        "value": "Software rental"
+      },
+      {
+        "available": true,
+        "id": 395,
+        "selected": true,
+        "value": "Soil Investigation"
+      },
+      {
+        "available": true,
+        "id": 396,
+        "selected": true,
+        "value": "Solids Disposal"
+      },
+      {
+        "available": true,
+        "id": 397,
+        "selected": true,
+        "value": "Sonar/Radar/DP"
+      },
+      {
+        "available": true,
+        "id": 398,
+        "selected": true,
+        "value": "Spare parts"
+      },
+      {
+        "available": true,
+        "id": 399,
+        "selected": true,
+        "value": "Special Vehicles and"
+      },
+      {
+        "available": true,
+        "id": 400,
+        "selected": true,
+        "value": "Sponsoring"
+      },
+      {
+        "available": true,
+        "id": 401,
+        "selected": true,
+        "value": "Stacks, Flares /ass"
+      },
+      {
+        "available": true,
+        "id": 402,
+        "selected": true,
+        "value": "Staff Search/Selecti"
+      },
+      {
+        "available": true,
+        "id": 403,
+        "selected": true,
+        "value": "Stand-by Vessels"
+      },
+      {
+        "available": true,
+        "id": 404,
+        "selected": true,
+        "value": "Steel/Metal"
+      },
+      {
+        "available": true,
+        "id": 405,
+        "selected": true,
+        "value": "Stimulation Services"
+      },
+      {
+        "available": true,
+        "id": 406,
+        "selected": true,
+        "value": "Storage & loading"
+      },
+      {
+        "available": true,
+        "id": 407,
+        "selected": true,
+        "value": "Storage Tanks incl.S"
+      },
+      {
+        "available": true,
+        "id": 408,
+        "selected": true,
+        "value": "Store Equipment"
+      },
+      {
+        "available": true,
+        "id": 409,
+        "selected": true,
+        "value": "Structural Reanalys."
+      },
+      {
+        "available": true,
+        "id": 410,
+        "selected": true,
+        "value": "Structure instal."
+      },
+      {
+        "available": true,
+        "id": 411,
+        "selected": true,
+        "value": "Sub. Completion"
+      },
+      {
+        "available": true,
+        "id": 412,
+        "selected": true,
+        "value": "Sub. Drilling"
+      },
+      {
+        "available": true,
+        "id": 413,
+        "selected": true,
+        "value": "Sub. First time mob"
+      },
+      {
+        "available": true,
+        "id": 414,
+        "selected": true,
+        "value": "Sub. LWI"
+      },
+      {
+        "available": true,
+        "id": 415,
+        "selected": true,
+        "value": "Sub. MM CM"
+      },
+      {
+        "available": true,
+        "id": 416,
+        "selected": true,
+        "value": "Sub. MM PM"
+      },
+      {
+        "available": true,
+        "id": 417,
+        "selected": true,
+        "value": "Sub. Misc Services"
+      },
+      {
+        "available": true,
+        "id": 418,
+        "selected": true,
+        "value": "Sub. Mod Equipment"
+      },
+      {
+        "available": true,
+        "id": 419,
+        "selected": true,
+        "value": "Sub. Mod Tools"
+      },
+      {
+        "available": true,
+        "id": 420,
+        "selected": true,
+        "value": "Sub. Overhaul FCM"
+      },
+      {
+        "available": true,
+        "id": 421,
+        "selected": true,
+        "value": "Sub. Overhaul Other"
+      },
+      {
+        "available": true,
+        "id": 422,
+        "selected": true,
+        "value": "Sub. Overhaul PnC"
+      },
+      {
+        "available": true,
+        "id": 423,
+        "selected": true,
+        "value": "Sub. Overhaul SCM"
+      },
+      {
+        "available": true,
+        "id": 424,
+        "selected": true,
+        "value": "Sub. Overhaul TH"
+      },
+      {
+        "available": true,
+        "id": 425,
+        "selected": true,
+        "value": "Sub. Overhaul XT"
+      },
+      {
+        "available": true,
+        "id": 426,
+        "selected": true,
+        "value": "Sub. P&A"
+      },
+      {
+        "available": true,
+        "id": 427,
+        "selected": true,
+        "value": "Sub. Recertification"
+      },
+      {
+        "available": true,
+        "id": 428,
+        "selected": true,
+        "value": "Sub. Rig operations"
+      },
+      {
+        "available": true,
+        "id": 429,
+        "selected": true,
+        "value": "Sub. Services Proj."
+      },
+      {
+        "available": true,
+        "id": 430,
+        "selected": true,
+        "value": "Submersible Motors"
+      },
+      {
+        "available": true,
+        "id": 431,
+        "selected": true,
+        "value": "Subsea Processing"
+      },
+      {
+        "available": true,
+        "id": 432,
+        "selected": true,
+        "value": "Subsea Valves"
+      },
+      {
+        "available": true,
+        "id": 433,
+        "selected": true,
+        "value": "Subsea prod. systems"
+      },
+      {
+        "available": true,
+        "id": 434,
+        "selected": true,
+        "value": "Subsea rock instal."
+      },
+      {
+        "available": true,
+        "id": 435,
+        "selected": true,
+        "value": "Subsea services(SOS)"
+      },
+      {
+        "available": true,
+        "id": 436,
+        "selected": true,
+        "value": "Subsea-packages"
+      },
+      {
+        "available": true,
+        "id": 437,
+        "selected": true,
+        "value": "Sup. Delivery Other"
+      },
+      {
+        "available": true,
+        "id": 438,
+        "selected": true,
+        "value": "Sup. Delivery XT"
+      },
+      {
+        "available": true,
+        "id": 439,
+        "selected": true,
+        "value": "Supply Base/Warehous"
+      },
+      {
+        "available": true,
+        "id": 440,
+        "selected": true,
+        "value": "SurfRentTool Onshore"
+      },
+      {
+        "available": true,
+        "id": 441,
+        "selected": true,
+        "value": "Surface Treatm. serv"
+      },
+      {
+        "available": true,
+        "id": 442,
+        "selected": true,
+        "value": "Survival suits"
+      },
+      {
+        "available": true,
+        "id": 443,
+        "selected": true,
+        "value": "Switch/Control equip"
+      },
+      {
+        "available": true,
+        "id": 444,
+        "selected": true,
+        "value": "T&I Platform&modules"
+      },
+      {
+        "available": true,
+        "id": 445,
+        "selected": true,
+        "value": "TS Administrative"
+      },
+      {
+        "available": true,
+        "id": 446,
+        "selected": true,
+        "value": "TS Automation techn"
+      },
+      {
+        "available": true,
+        "id": 447,
+        "selected": true,
+        "value": "TS Completion & LCI"
+      },
+      {
+        "available": true,
+        "id": 448,
+        "selected": true,
+        "value": "TS Cost and Planning"
+      },
+      {
+        "available": true,
+        "id": 449,
+        "selected": true,
+        "value": "TS Drilling & Well"
+      },
+      {
+        "available": true,
+        "id": 450,
+        "selected": true,
+        "value": "TS Electrical techn"
+      },
+      {
+        "available": true,
+        "id": 451,
+        "selected": true,
+        "value": "TS Process techn"
+      },
+      {
+        "available": true,
+        "id": 452,
+        "selected": true,
+        "value": "TS Project Mgmt"
+      },
+      {
+        "available": true,
+        "id": 453,
+        "selected": true,
+        "value": "TS Quality Assurance"
+      },
+      {
+        "available": true,
+        "id": 454,
+        "selected": true,
+        "value": "TS Tech doc Control"
+      },
+      {
+        "available": true,
+        "id": 455,
+        "selected": true,
+        "value": "Tank Maintenance"
+      },
+      {
+        "available": true,
+        "id": 456,
+        "selected": true,
+        "value": "Tank/Vessel/Column I"
+      },
+      {
+        "available": true,
+        "id": 457,
+        "selected": true,
+        "value": "Tanks & Containers"
+      },
+      {
+        "available": true,
+        "id": 458,
+        "selected": true,
+        "value": "Tarpaulins"
+      },
+      {
+        "available": true,
+        "id": 459,
+        "selected": true,
+        "value": "Tele Comm. Engineeri"
+      },
+      {
+        "available": true,
+        "id": 460,
+        "selected": true,
+        "value": "Telecom Install&supp"
+      },
+      {
+        "available": true,
+        "id": 461,
+        "selected": true,
+        "value": "Telecom Lines Rental"
+      },
+      {
+        "available": true,
+        "id": 462,
+        "selected": true,
+        "value": "Telephony Subscript."
+      },
+      {
+        "available": true,
+        "id": 463,
+        "selected": true,
+        "value": "Temp Staff HSE"
+      },
+      {
+        "available": true,
+        "id": 464,
+        "selected": true,
+        "value": "TempStaff IT"
+      },
+      {
+        "available": true,
+        "id": 465,
+        "selected": true,
+        "value": "TempStaff Marine"
+      },
+      {
+        "available": true,
+        "id": 466,
+        "selected": true,
+        "value": "TempStaff Mechanical"
+      },
+      {
+        "available": true,
+        "id": 467,
+        "selected": true,
+        "value": "TempStaff Technical"
+      },
+      {
+        "available": true,
+        "id": 468,
+        "selected": true,
+        "value": "Temperature Instrume"
+      },
+      {
+        "available": true,
+        "id": 469,
+        "selected": true,
+        "value": "Temporary camps"
+      },
+      {
+        "available": true,
+        "id": 470,
+        "selected": true,
+        "value": "Thermal Insul.Mat"
+      },
+      {
+        "available": true,
+        "id": 471,
+        "selected": true,
+        "value": "Third Party Serv."
+      },
+      {
+        "available": true,
+        "id": 472,
+        "selected": true,
+        "value": "Tie-in"
+      },
+      {
+        "available": true,
+        "id": 473,
+        "selected": true,
+        "value": "Topsides"
+      },
+      {
+        "available": true,
+        "id": 474,
+        "selected": true,
+        "value": "Total facility serv."
+      },
+      {
+        "available": true,
+        "id": 475,
+        "selected": true,
+        "value": "Tractor conve serv"
+      },
+      {
+        "available": true,
+        "id": 476,
+        "selected": true,
+        "value": "Tractor power mech."
+      },
+      {
+        "available": true,
+        "id": 477,
+        "selected": true,
+        "value": "Transformers & acc"
+      },
+      {
+        "available": true,
+        "id": 478,
+        "selected": true,
+        "value": "Transits and Glands"
+      },
+      {
+        "available": true,
+        "id": 479,
+        "selected": true,
+        "value": "Translation Services"
+      },
+      {
+        "available": true,
+        "id": 480,
+        "selected": true,
+        "value": "Travel Agencies, Car"
+      },
+      {
+        "available": true,
+        "id": 481,
+        "selected": true,
+        "value": "Truck Pack. Transp."
+      },
+      {
+        "available": true,
+        "id": 482,
+        "selected": true,
+        "value": "Trucks"
+      },
+      {
+        "available": true,
+        "id": 483,
+        "selected": true,
+        "value": "Trucks and acc. serv"
+      },
+      {
+        "available": true,
+        "id": 484,
+        "selected": true,
+        "value": "Tugs"
+      },
+      {
+        "available": true,
+        "id": 485,
+        "selected": true,
+        "value": "Turbines"
+      },
+      {
+        "available": true,
+        "id": 486,
+        "selected": true,
+        "value": "Turrets"
+      },
+      {
+        "available": true,
+        "id": 487,
+        "selected": true,
+        "value": "ULSD"
+      },
+      {
+        "available": true,
+        "id": 488,
+        "selected": true,
+        "value": "Umbilicals"
+      },
+      {
+        "available": true,
+        "id": 489,
+        "selected": true,
+        "value": "Uniforms/Clothing"
+      },
+      {
+        "available": true,
+        "id": 490,
+        "selected": true,
+        "value": "Use 1.16.03 A-F"
+      },
+      {
+        "available": true,
+        "id": 491,
+        "selected": true,
+        "value": "Use 1.16.04 A-E"
+      },
+      {
+        "available": true,
+        "id": 492,
+        "selected": true,
+        "value": "Use 3.05.99 a-d"
+      },
+      {
+        "available": true,
+        "id": 493,
+        "selected": true,
+        "value": "Use. 3.10.01 A-C"
+      },
+      {
+        "available": true,
+        "id": 494,
+        "selected": true,
+        "value": "Utility Software"
+      },
+      {
+        "available": true,
+        "id": 495,
+        "selected": true,
+        "value": "Valve spareparts"
+      },
+      {
+        "available": true,
+        "id": 496,
+        "selected": true,
+        "value": "Valve testing/repair"
+      },
+      {
+        "available": true,
+        "id": 497,
+        "selected": true,
+        "value": "Valves,Pipe,Fittings"
+      },
+      {
+        "available": true,
+        "id": 498,
+        "selected": true,
+        "value": "Vehicle Maintenance"
+      },
+      {
+        "available": true,
+        "id": 499,
+        "selected": true,
+        "value": "Ventilation/Heating/"
+      },
+      {
+        "available": true,
+        "id": 500,
+        "selected": true,
+        "value": "Vessel Offshore Ops."
+      }
+    ],
+    "linkedFormula": "\"EKPO\".\"MATKL_TEXT\"",
+    "name": "STOCK_REL",
+    "type": "text_replacement",
+    "value": "'\"GGC > 2\"\"\"','2D Seis.Data acq','3D Seis. Data proc.','3D Seis.Data acq','4D Seis. Data proc.','4D Seis.Data acq','Abr.,Polish.,Comp.>','Actuator and acc','Additives,Refinery','Adsorbents & cer.bal','Air Coolers','Air Fans','Air/Gas Engines','Anch/Buoy/Ship gear','Annulus testing','Anodes','Anodes Line Pipe','Aquistic equip& tele','Audio/Video Equipmen','Auditing Services','BOP and accessories','Ball Valves','Base oil','Bearings / Seals','Blowers and Fans','Bolts,Nuts,Fasteners','Bottles / Cans','Boxes','Branded event/exhib','Breathing apparatus','Brokers','Brownfield - Other','Building Contracting','Building Material','Bus. Intelligence','Butterfly Valves','COF','Cabinets/junc.box','Cable Racks / Trays','Casing cutting serv.','Casing pulling serv','Casing running serv.','Casing, tubing- OCTG','Cat & Ads. handling','Catalysts','Catering','Catering supplies','Cath.Protect. equip','Cement & additives','Cementing Equipment','Cementing services','Certif.of Cranes/Lif','Certif.of Pressurise','Cessation - Other','Check Valves','Chemical Inject. Sys','Circ.Breakers/Junc/T','Civil works - mat','Civil works-services','Cleaning','Cleaning chemicals','Cleaning supplies','Coating Line Pipe','Coiled Tubing Tools','Coiled Tubing serv','Columns and acc','Commercial flights','Compl. Fluids','Compl. Fluids serv','Completion equipment','Completion fluids','Compressor sparepart','Compressors','Conductor Casing','Conductor piling','Container/Basket','Control Valves','Control system/equip','Controlpanel/station','Conveyors, Feeders A','Cooling and Refriger','Coring services','Corrosion Monitoring','Courses/Seminars','Crane Mngmt services','Cranes','Cutting Injections','DMI services','DO NOT USE','Dampers and acc','Data comm. Hardware','Data storage/backup','Databases, Software','Deleted. Use 1.03.01','Deleted. Use 1.10.05','Deleted. Use 1.16.03','Deleted. Use 2.01.01','Deleted. Use 2.03.01','Deleted. Use 2.03.07','Deleted. Use 2.12.06','Deleted. Use 3.06.01','Deleted. Use 3.99.13','Deleted.Use3.05.08 B','Deluge&sprinkle syst','Design /Adv.agencies','Directional Surveyin','Directional drill.s.','Disp.Serv./Waste Tra','Diving','Down Hole Press.C.Eq','Drill Pipe Rental','Drill eq.rent& serv','Drill. facility mod','Drilling Machinery','Drilling bits','Drilling bits equip.','Drilling equipment','Drilling fluids','Drilling fluids serv','Drilling/Compl.Eng.','Drums','El.magn.Seism.Acq.','Elec. Power supply','Elec.Connectors Subs','Elec.wireline logg.','Electric Heaters','Electric Motors','Electrical Engineeri','Electrical Services','Electro cables/wires','Elevators','Emergency showers','Engineering services','Environment equip','Environmental serv','FPSO','FSU','Filters/Strainers','Financial Management','Fire Doors','Fire Protection Mate','Fire extinguishers','Fire/Smoke/Gas/Heat','Firefighting clothes','Fishing services','Fishing/Repair Tools','Flex.risers & pipes','Floating substruc','Flow Instruments','Fluid Bags/Container','Food/beverage prod','Freight Forwarding S','Fresh Water Treatmen','Furniture','Gangways, Rails etc','Gas Bottles','Gas Expanders','Gas Treatment Units','Gas proc.&ref.plants','Gas services','Gask.,Joint.,Pack. >','Gate Valves','Gear Box/Gear Unit >','Gen. Supply Vessels','General subsea serv.','Generators, Power So','Geol/Reserv. Eval.','Geotechnical Service','Globe Valves','GravityAcq.Proc.serv','Greenfield - Other','HVAC System Packages','HVAC equipment','Heat Exchangers','Heat Treating and De','Heat exchangers','Heaters/Boilers/acc','Heating Coils / Unit','Helicopter services','Helideck Systems/Pac','Helifuel system','Hoses','Hotel and Conference','Humidifiers, Dryers','Hydraulic Drivers','Hydraulic Units acc','IS-Well Mgt./ConsSer','IT Accessories','IT Subscriptions','IT managed services','IT-as-a-service','In Site Machining','InService Inspection','Industrial Cleaning','Industrial Gases','Insp, maint & repair','Installation service','Instr-tub/fitt/valve','Instrument services','Insulation services','Integrity Management','Jackets','Jetty equip./Loading','Laboratory Chemicals','Laboratory apparatus','Laboratory services','Lamps, Lighting Fixt','Leak Sealing','Lease process.cap.','Legal Advice','Legal Litigation','Legal Transactions','Leisure equip','Level Instruments','Life boats','Life rafts','Lifting Gear','Light portable hoses','Linepipe,equip & ac.','Liner Hanger equip.','Liner Hanger serv','Living Quarter','Load Testing','Lub. Finished goods','Lubricants','M&M Contractor','M.Service Bolt Tensi','M.Service Diesel Agr','M.Service Mod.pumps','M.Service Pipe Cutti','M.Service Steel/Pipi','M.Service Waste Disp','M.Service Welding','MWD/LWD services','Machining Services','Maint Hoses','Maint/Rental  tools','Maintenance plan','Man overboard boats','Man.Press.Drill(MPD)','Marine Survey','Marine Technology','Marine operations','Marketing research','Mech. Joints','Mech. wireline serv','Mech.Separator/Tumbl','Medical equipment','Medical services','Membership','Metering equip/syst','Mgmt & BD Consulting','Mis.Cooler/Condenser','Misc.Docking equip.','Mixer/Agitator/Blen','Mobile telephony','Modular valves','Moving Services','Mud and Ass.Additive','Mud fluids','Mud-logging services','Multi-client licens.','Newspapers/magazine','Noise aband. equip','Non-Life Insurance','Notif.Body Machinery','Notif.Body PressEqui','Notified Body f.Lift','OBC Seism.Acq.serv','OCTG equipment','OCTG services','Oceanographic Servic','Office Automation SW','Office Telecom Equip','Office supplies','Offshore Waste handl','Oil Recovery equip','Oil/Diesel Engines','Onshore Waste handl','Other Automobiles','Other Certification','Other Chemicals,Oil>','Other Consumables','Other Drivers & acc','Other Elect. equip','Other Heat Transfer','Other Inspn Services','Other Inst.equip','Other Insul/Refrac.M','Other Lab. equip','Other Mech. equip','Other Onshore Svcs','Other Packing Mater.','Other R&D services','Other Safety equip','Other Seismic Servic','Other Tanks/Vessels>','Other Testg Services','Other Trans/Sup serv','Other Valves and acc','Other WTG equip','Other Waste Disposal','Other escape equip','Other industry equip','P.Vessel/Drum/Accumu','PC, devices, tablets','PR agencies','Packing equipment','Packing,Crating/Boxi','Pallets','Passenger Cars & Acc','PassengerCar&accesso','Perforating Service','Personal protection','Petrochemicals (R&D)','Petrol prod. & Fuel','Petroleum products','Photo/film','Pigging Equip., Acc','Pipelaying','Pipeline commission','Pipeline repair syst','Piping & flange serv','Piping &flanges','Platform drilling','Plug & Abandonment','Plug Valves','Prefabricated spools','Preservation service','Press.Test. Line Pi','Press.test.(Pi & St)','Pressure Instruments','PressureTest Onshore','Primer/Coating/Paint','Print and plotters','Printing and Copying','Prod. & process chem','Prod. chemical serv','Project studies','Promotional products','Propulsion Units/acc','Pumping material','Pumping services','Pumps','Pumps spareparts','R&D Geologic./Geoph.','R&D Information Tech','R&D Reservoir','R&D Reservoir WL','R&D Safety and Envir','R&D Subsea','ROV','ROV's, ROV Tools acc','Recreation Services','Rect.,Inv.,Converter','Rent gas equipment','Rental cargo carrier','Rental of properties','Rental-Cranes/Spec.V','Required TV licenses','Research & Dev (R&D)','Restaurant services','Return for repair','Rig Positioning','Rig support','Riser Tens.systems','Ropes/Chains','SAS and E&I','SW Services','Safety Equipt.','Safety Management','Safety Valves','Scaffolding','Scaffolding services','Security','Security equipment','Seismic interpret.','Semi-Submersible','Serv Boats','Serv Firefighting','Serv fire doors','Serv survival suits','Servers','Service St. Pumps','ServicesPassengerCar','Signs and Boards','Simulator Systems','Site Clean-up serv','Site Surveys','Social investment','Software maintenance','Software purchase','Software rental','Soil Investigation','Solids Disposal','Sonar/Radar/DP','Spare parts','Special Vehicles and','Sponsoring','Stacks, Flares /ass','Staff Search/Selecti','Stand-by Vessels','Steel/Metal','Stimulation Services','Storage & loading','Storage Tanks incl.S','Store Equipment','Structural Reanalys.','Structure instal.','Sub. Completion','Sub. Drilling','Sub. First time mob','Sub. LWI','Sub. MM CM','Sub. MM PM','Sub. Misc Services','Sub. Mod Equipment','Sub. Mod Tools','Sub. Overhaul FCM','Sub. Overhaul Other','Sub. Overhaul PnC','Sub. Overhaul SCM','Sub. Overhaul TH','Sub. Overhaul XT','Sub. P&A','Sub. Recertification','Sub. Rig operations','Sub. Services Proj.','Submersible Motors','Subsea Processing','Subsea Valves','Subsea prod. systems','Subsea rock instal.','Subsea services(SOS)','Subsea-packages','Sup. Delivery Other','Sup. Delivery XT','Supply Base/Warehous','SurfRentTool Onshore','Surface Treatm. serv','Survival suits','Switch/Control equip','T&I Platform&modules','TS Administrative','TS Automation techn','TS Completion & LCI','TS Cost and Planning','TS Drilling & Well','TS Electrical techn','TS Process techn','TS Project Mgmt','TS Quality Assurance','TS Tech doc Control','Tank Maintenance','Tank/Vessel/Column I','Tanks & Containers','Tarpaulins','Tele Comm. Engineeri','Telecom Install&supp','Telecom Lines Rental','Telephony Subscript.','Temp Staff HSE','TempStaff IT','TempStaff Marine','TempStaff Mechanical','TempStaff Technical','Temperature Instrume','Temporary camps','Thermal Insul.Mat','Third Party Serv.','Tie-in','Topsides','Total facility serv.','Tractor conve serv','Tractor power mech.','Transformers & acc','Transits and Glands','Translation Services','Travel Agencies, Car','Truck Pack. Transp.','Trucks','Trucks and acc. serv','Tugs','Turbines','Turrets','ULSD','Umbilicals','Uniforms/Clothing','Use 1.16.03 A-F','Use 1.16.04 A-E','Use 3.05.99 a-d','Use. 3.10.01 A-C','Utility Software','Valve spareparts','Valve testing/repair','Valves,Pipe,Fittings','Vehicle Maintenance','Ventilation/Heating/','Vessel Offshore Ops.'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Open_PO_REL",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Open_PO_TH",
+    "type": "text_replacement",
+    "value": "60"
+  },
+  {
+    "linkedEntries": null,
+    "name": "OTD_lower",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Days_back",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": null,
+    "name": "NEW_VARIABLE",
+    "type": "text_replacement",
+    "value": "PU_LAST(\"EKPO\",\"EKET\".\"EINDT\")"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Due_Date",
+    "type": "text_replacement",
+    "value": "PU_LAST(\"EKPO\",\"EKET\".\"EINDT\")"
+  },
+  {
+    "linkedEntries": null,
+    "name": "OTD_upper",
+    "type": "text_replacement",
+    "value": "60"
+  },
+  {
+    "linkedEntries": [],
+    "name": "THREEWAY_OC_PROB",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "PB_3_REL",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [],
+    "name": "PB_2_REL",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [],
+    "name": "PB_3_TIME",
+    "type": "text_replacement",
+    "value": "60"
+  },
+  {
+    "linkedEntries": [],
+    "name": "PB_2_TIME",
+    "type": "text_replacement",
+    "value": "60"
+  },
+  {
+    "linkedEntries": [],
+    "name": "PB_1_REL",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [],
+    "name": "PB_1_TIME",
+    "type": "text_replacement",
+    "value": "60"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ToPB3",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "FromPB3",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "ToPB2",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "FromPB2",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 19,
+        "selected": true,
+        "value": "Record Goods Receipt"
+      }
+    ],
+    "name": "ToPB1",
+    "type": "text_replacement",
+    "value": "Record Goods Receipt"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 20,
+        "selected": true,
+        "value": "Record Invoice Receipt"
+      }
+    ],
+    "name": "FromPB1",
+    "type": "text_replacement",
+    "value": "Record Invoice Receipt"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SOD_REL",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Change Price",
+        "selected": true,
+        "value": "Change Price"
+      }
+    ],
+    "name": "ToSOD4",
+    "type": "text_replacement",
+    "value": "Change Price"
+  },
+  {
+    "linkedEntries": [],
+    "name": "FromSOD4",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "ToSOD3",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Create Purchase Order Item",
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      }
+    ],
+    "name": "FromSOD3",
+    "type": "text_replacement",
+    "value": "Create Purchase Order Item"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ToSOD2",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Create Purchase Order Item",
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      }
+    ],
+    "name": "FromSOD2",
+    "type": "text_replacement",
+    "value": "Create Purchase Order Item"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Record Invoice Receipt",
+        "selected": true,
+        "value": "Record Invoice Receipt"
+      }
+    ],
+    "name": "ToSOD1",
+    "type": "text_replacement",
+    "value": "Record Invoice Receipt"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Record Goods Receipt",
+        "selected": true,
+        "value": "Record Goods Receipt"
+      }
+    ],
+    "name": "FromSOD1",
+    "type": "text_replacement",
+    "value": "Record Goods Receipt"
+  },
+  {
+    "linkedEntries": [],
+    "name": "PI_THRESHOLD",
+    "type": "text_replacement",
+    "value": "100"
+  },
+  {
+    "linkedEntries": [],
+    "name": "PI_REALIZATION",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "PI_Dummy3",
+    "type": "text_replacement",
+    "value": "0.01"
+  },
+  {
+    "linkedEntries": [],
+    "name": "PI_Dummy2",
+    "type": "text_replacement",
+    "value": "0.11"
+  },
+  {
+    "linkedEntries": [],
+    "name": "PI_Dummy1",
+    "type": "text_replacement",
+    "value": "1.00"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BREAKEVEN_INTEREST",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "linkedEntries": [],
+    "name": "IMPACT_POV",
+    "type": "text_replacement",
+    "value": "1000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "COSTS_IM",
+    "type": "text_replacement",
+    "value": "100000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "COSTS_OP",
+    "type": "text_replacement",
+    "value": "100000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "COSTS_LI",
+    "type": "text_replacement",
+    "value": "500000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "START_YEAR",
+    "type": "text_replacement",
+    "value": "2025"
+  },
+  {
+    "linkedEntries": [],
+    "name": "FULFIL3",
+    "type": "text_replacement",
+    "value": "100"
+  },
+  {
+    "linkedEntries": [],
+    "name": "FULFIL2",
+    "type": "text_replacement",
+    "value": "75"
+  },
+  {
+    "linkedEntries": [],
+    "name": "FULFIL1",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [],
+    "name": "LIC",
+    "type": "text_replacement",
+    "value": "4"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Test",
+    "type": "text_replacement",
+    "value": "SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_1 %>'\r\n)\r\n)"
+  },
+  {
+    "linkedEntries": null,
+    "name": "FreeText_POT",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Freetext_TAR",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Freetext_Negotiation",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "linkedEntries": null,
+    "name": "netwr",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"NETWR\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "tolerance_high_quantity",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "linkedEntries": null,
+    "name": "tolerance_low_quantity",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "linkedEntries": null,
+    "name": "tolerance_high_price",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "linkedEntries": null,
+    "name": "tolerance_low_price",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "linkedEntries": null,
+    "name": "THREEWAY_TIME_POT",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": null,
+    "name": "THREEWAY_TIME",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_POT_5",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_POT_4",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_POT_3",
+    "type": "text_replacement",
+    "value": "53"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_POT_2",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_CONSOLFACTOR_5",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_CONSOLFACTOR_4",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_CONSOLFACTOR_3",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_CONSOLFACTOR_2",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_MAT_5",
+    "type": "text_replacement",
+    "value": "R220303"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_MAT_4",
+    "type": "text_replacement",
+    "value": "R444701"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_MAT_3",
+    "type": "text_replacement",
+    "value": "R240504"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_MAT_2",
+    "type": "text_replacement",
+    "value": "R220708"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_NEGOTIATION_5",
+    "type": "text_replacement",
+    "value": "1.0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_NEGOTIATION_4",
+    "type": "text_replacement",
+    "value": "1.0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_NEGOTIATION_3",
+    "type": "text_replacement",
+    "value": "1.0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_NEGOTIATION_2",
+    "type": "text_replacement",
+    "value": "1.0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_POT_1",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_CONSOLFACTOR_1",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_MAT_1",
+    "type": "text_replacement",
+    "value": "R510505"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SC_NEGOTIATION_1",
+    "type": "text_replacement",
+    "value": "1.0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OB_CALENDARWEEKS",
+    "type": "text_replacement",
+    "value": "52"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OB_YEAR",
+    "type": "text_replacement",
+    "value": "2018"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BG_COLOR_ANALYSES",
+    "type": "text_replacement",
+    "value": "555555"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BG_COLOR_ASSUMPTIONS",
+    "type": "text_replacement",
+    "value": "FFB710"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Standard PO"
+      }
+    ],
+    "linkedFormula": "\"EKKO\".\"BSART_TEXT\"",
+    "name": "CU_DOCTYPES",
+    "type": "text_replacement",
+    "value": "'Standard PO'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BG_COLOR_1",
+    "type": "text_replacement",
+    "value": "14A9D5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CU_POT",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CU_TARGET",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CU_NEGOTIATION",
+    "type": "text_replacement",
+    "value": "1.5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OTD_LATESTDATE",
+    "type": "text_replacement",
+    "value": "20180501"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OTD_LATE_SAFETYSTOCK",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": null,
+    "name": "OTD_LATE_POT",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OTD_LATE_INVENTORYCOST",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OTD_EARLY_INVENTORYCOST",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": null,
+    "name": "OTD_EARLY_POT",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ShortNoticeThreshold",
+    "type": "text_replacement",
+    "value": "7"
+  },
+  {
+    "linkedEntries": null,
+    "name": "OKIfDeliveredXdaysEarly",
+    "type": "text_replacement",
+    "value": "7"
+  },
+  {
+    "linkedEntries": null,
+    "name": "OKIfDeliveredXdaysLate",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": null,
+    "name": "GR_VARIABLE",
+    "type": "text_replacement",
+    "value": "PU_LAST(\"EKPO\", \"EKBE\".\"CPUDT\", \"EKBE\".\"VGABE\" = '1' AND \"EKBE\".\"SHKZG\" = 'S')"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ANALYSIS_KPI",
+    "type": "text_replacement",
+    "value": "PU_LAST(\"EKPO\",\"EKET\".\"EINDT\")"
+  },
+  {
+    "linkedEntries": null,
+    "name": "MB_THRESHOLD",
+    "type": "text_replacement",
+    "value": "0.5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MB_POT",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "linkedEntries": null,
+    "name": "MB_SAVING",
+    "type": "text_replacement",
+    "value": "2.5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OB_EXT_THRESH",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OB_EXT_POT",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OB_EXT_NEGO",
+    "type": "text_replacement",
+    "value": "1.0"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "EDI"
+      }
+    ],
+    "linkedFormula": "\"NAST\".\"NACHA_TEXT\"",
+    "name": "EDI_ALLOWED",
+    "type": "text_replacement",
+    "value": "'EDI'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "FTE_HOURS",
+    "type": "text_replacement",
+    "value": "1880"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Time_Factor",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ITT_TARGET",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ITT_MAX",
+    "type": "text_replacement",
+    "value": "180"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ITT_POT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REJ_EFF_POT",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REJ_REV_POT",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Factor",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Currency",
+    "type": "text_replacement",
+    "value": "EUR"
+  },
+  {
+    "linkedEntries": null,
+    "name": "automation_rate",
+    "type": "text_replacement",
+    "value": "SUM(CASE WHEN ISNULL(\"_CEL_O2C_ACTIVITIES\".\"USER_TYPE\")=1 THEN 0.0 WHEN \"_CEL_O2C_ACTIVITIES\".\"USER_TYPE\" = 'B' OR \"_CEL_O2C_ACTIVITIES\".\"USER_TYPE\" = 'S' THEN 1.0 ELSE 0.0 END) / (CASE WHEN SUM(CASE WHEN ISNULL(\"_CEL_O2C_ACTIVITIES\".\"USER_TYPE\") = 0 THEN 1.0 ELSE 0.0 END)=0.0 THEN 1.0 ELSE SUM(CASE WHEN ISNULL(\"_CEL_O2C_ACTIVITIES\".\"USER_TYPE\") = 0 THEN 1.0 ELSE 0.0 END) END)"
+  },
+  {
+    "linkedEntries": [],
+    "name": "LP_POT",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "linkedEntries": [],
+    "name": "LP_TARGET",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "LP_MAX",
+    "type": "text_replacement",
+    "value": "60"
+  },
+  {
+    "linkedEntries": [],
+    "name": "FTR_POT",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "linkedEntries": null,
+    "name": "FTR_TARGET",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "linkedEntries": null,
+    "name": "FTR_MAX",
+    "type": "text_replacement",
+    "value": "16"
+  },
+  {
+    "linkedEntries": [],
+    "name": "rework_activities",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "number_of_FTE",
+    "type": "text_replacement",
+    "value": "100"
+  },
+  {
+    "linkedEntries": [],
+    "name": "percentageofYE",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ROIC",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "GrossProfitMargin",
+    "type": "text_replacement",
+    "value": "49"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REJREASON_REVENUE",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "REJREASON_EFFORT",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Cancel Goods Receipt"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "REWORK_ACT_1",
+    "type": "text_replacement",
+    "value": "Cancel Goods Receipt"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Quantity"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "REWORK_ACT_2",
+    "type": "text_replacement",
+    "value": "Change Quantity"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Cancel Invoice Receipt"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "REWORK_ACT_3",
+    "type": "text_replacement",
+    "value": "Cancel Invoice Receipt"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Delete Purchase Order Item"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "REWORK_ACT_4",
+    "type": "text_replacement",
+    "value": "Delete Purchase Order Item"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Delete Invoice EASY"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "REWORK_ACT_5",
+    "type": "text_replacement",
+    "value": "Delete Invoice EASY"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_1_EFF",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_2_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_3_EFF",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_4_EFF",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_5_EFF",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_1_POT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_2_POT",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_3_POT",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_4_POT",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_5_POT",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Price"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "CHANGE_ACT_1",
+    "type": "text_replacement",
+    "value": "Change Price"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Quantity"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "CHANGE_ACT_2",
+    "type": "text_replacement",
+    "value": "Change Quantity"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Cancel Goods Receipt"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "CHANGE_ACT_3",
+    "type": "text_replacement",
+    "value": "Cancel Goods Receipt"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Delete Purchase Order Item"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "CHANGE_ACT_4",
+    "type": "text_replacement",
+    "value": "Delete Purchase Order Item"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Delete Invoice EASY"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "CHANGE_ACT_5",
+    "type": "text_replacement",
+    "value": "Delete Invoice EASY"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Storage Location"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "CHANGE_ACT_6",
+    "type": "text_replacement",
+    "value": "Change Storage Location"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Update Order Confirmation"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "CHANGE_ACT_7",
+    "type": "text_replacement",
+    "value": "Update Order Confirmation"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Reactivate Purchase Order Item"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "CHANGE_ACT_8",
+    "type": "text_replacement",
+    "value": "Reactivate Purchase Order Item"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_9",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_10",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_1_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_2_EFF",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_3_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_4_EFF",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_5_EFF",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_6_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_7_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_8_EFF",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_9_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_10_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_1_POT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_2_POT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_3_POT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_4_POT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_5_POT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_6_POT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_7_POT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_8_POT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_9_POT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CHANGE_ACT_10_POT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Remove Payment Block",
+        "selected": true,
+        "value": "Remove Payment Block"
+      }
+    ],
+    "name": "BLOCK_ACT_1",
+    "type": "text_replacement",
+    "value": "Remove Payment Block"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Set Payment Block",
+        "selected": true,
+        "value": "Set Payment Block"
+      }
+    ],
+    "name": "BLOCK_ACT_2",
+    "type": "text_replacement",
+    "value": "Set Payment Block"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_3",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_1_EFF",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_2_EFF",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_3_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_1_POT",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_2_POT",
+    "type": "text_replacement",
+    "value": "25"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_3_POT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 15,
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      }
+    ],
+    "name": "AUTOMATION_ACT_1",
+    "type": "text_replacement",
+    "value": "Create Purchase Order Item"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 19,
+        "selected": true,
+        "value": "Record Goods Receipt"
+      }
+    ],
+    "name": "AUTOMATION_ACT_2",
+    "type": "text_replacement",
+    "value": "Record Goods Receipt"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 20,
+        "selected": true,
+        "value": "Record Invoice Receipt"
+      }
+    ],
+    "name": "AUTOMATION_ACT_3",
+    "type": "text_replacement",
+    "value": "Record Invoice Receipt"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_4",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_5",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_6",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_7",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_8",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_1_EFF",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_2_EFF",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Cancel Goods Issue",
+        "selected": true,
+        "value": "Cancel Goods Issue"
+      }
+    ],
+    "name": "AUTOMATION_ACT_3_EFF",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_4_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_5_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_6_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_7_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_8_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_1_TRGT",
+    "type": "text_replacement",
+    "value": "55"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_2_TRGT",
+    "type": "text_replacement",
+    "value": "55"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_3_TRGT",
+    "type": "text_replacement",
+    "value": "90"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_4_TRGT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_5_TRGT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_6_TRGT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_7_TRGT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_8_TRGT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "EDI_SAVINGS",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "EDI_TRGT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BUSINESS_PROCESS",
+    "type": "text_replacement",
+    "value": "Purchase to Pay"
+  },
+  {
+    "linkedEntries": [],
+    "name": "COMPANY_NAME",
+    "type": "text_replacement",
+    "value": "Customer"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ITT_ACT_FROM",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "ITT_ACT_TO",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "LP_ACT_FROM",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "LP_ACT_TO",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": null,
+    "name": "FTE_COST",
+    "type": "text_replacement",
+    "value": "60000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "FTR_MEDIAN_DIFFERENCE",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "linkedEntries": [],
+    "name": "NOTOUCH_POT",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "linkedEntries": [],
+    "name": "NOTOUCH_TARGET",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "linkedEntries": [],
+    "name": "NOTOUCH_MEDIAN_DIFFERENCE",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": null,
+    "name": "REJ_EFF_TIME",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": null,
+    "name": "OB_MEDIAN_YEAR",
+    "type": "text_replacement",
+    "value": "MEDIAN(YEAR(\"VBAK\".\"ERDAT\"))"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OB_THRESHOLD",
+    "type": "text_replacement",
+    "value": "100"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OB_TIMESAVED",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OB_POT",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OB_OBSERVEDYEAR",
+    "type": "text_replacement",
+    "value": "2016"
+  },
+  {
+    "linkedEntries": [],
+    "name": "currenttimefactor",
+    "type": "text_replacement",
+    "value": "1.2"
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "colorMappings": [
+      {
+        "id": "c4aa6c2c-95f4-4f38-bbe3-fe9a80173d08",
+        "name": "Automation Rate",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": "<",
+            "formula": "0.15"
+          },
+          {
+            "color": "#229a00",
+            "compare": ">=",
+            "formula": "0.3"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "78cdc5ab-f4e5-47fd-86de-79cdf769ccbf",
+        "name": "Rework Rate",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": ">",
+            "formula": "30"
+          },
+          {
+            "color": "#229a00",
+            "compare": "<=",
+            "formula": "10"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "1e559010-7888-459c-ad7d-5fe57a777508",
+        "name": "% Changes",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": ">",
+            "formula": "0.3"
+          },
+          {
+            "color": "#229a00",
+            "compare": "<",
+            "formula": "0.16"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "ac1979f4-f96e-45e5-ba78-f68b01a0dcc9",
+        "name": "Change Flag",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": "==",
+            "formula": "With Change"
+          },
+          {
+            "color": "#229a00",
+            "compare": "==",
+            "formula": "Without Change"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "dea9f2c9-ccd7-4c77-92a9-65a507008d3c",
+        "name": "CT total",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": ">",
+            "formula": "25"
+          },
+          {
+            "color": "#229a00",
+            "compare": "<=",
+            "formula": "13"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "4ef4046e-e376-421c-83d2-630979c2e380",
+        "name": "New Expression SeriesThresholds",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": ">",
+            "formula": "0.5"
+          },
+          {
+            "color": "#229a00",
+            "compare": "<",
+            "formula": "0.1"
+          }
+        ],
+        "type": "series"
+      }
+    ],
+    "editMode": true,
+    "id": "6a3b5bea-e22a-467a-892e-fc7a2f17a5ba",
+    "kpiViews": [],
+    "loadScript": "",
+    "multiselectMode": false,
+    "name": "Process Benchmarking",
+    "palettes": [],
+    "rawDataExportLimit": 20000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "4b853697-8d7d-4336-85c3-7ae6650af724",
+  "lastChangeDate": 1596025622323,
+  "lastChangeUserId": "f1fe7945-5d72-40b0-b86c-2b41ceeee231",
+  "lastChangeUserName": "josef.rieger@cbs-consulting.de(Josef.rieger@cbs-consulting.de)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

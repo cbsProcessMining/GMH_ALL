@@ -1,0 +1,90 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "allowBpmnExport": true,
+    "allowRawDataExport": true,
+    "colorMappings": [
+      {
+        "id": "b079288f-e527-4153-aad4-b2433b240906",
+        "name": "Evaluation Ratio",
+        "thresholds": [
+          {
+            "color": "#5d0000",
+            "compare": ">",
+            "formula": "1.5"
+          },
+          {
+            "color": "#FF8B00",
+            "compare": "<=",
+            "formula": "1.5"
+          },
+          {
+            "color": "#658927",
+            "compare": "<=",
+            "formula": "1.2"
+          },
+          {
+            "color": "#FF8B00",
+            "compare": "<=",
+            "formula": "0.8"
+          },
+          {
+            "color": "#5d0000",
+            "compare": "<=",
+            "formula": "0.5"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "9a4d7650-4d26-4cbc-bcf6-982b10099120",
+        "name": "Evaluation Ratio",
+        "thresholds": [
+          {
+            "color": "#911027",
+            "compare": ">",
+            "formula": "1.5"
+          },
+          {
+            "color": "#FF8B00",
+            "compare": "<=",
+            "formula": "1.5"
+          },
+          {
+            "color": "#658927",
+            "compare": "<=",
+            "formula": "1.2"
+          },
+          {
+            "color": "#FF8B00",
+            "compare": "<=",
+            "formula": "0.8"
+          },
+          {
+            "color": "#911027",
+            "compare": "<=",
+            "formula": "0.5"
+          }
+        ],
+        "type": "series"
+      }
+    ],
+    "editMode": false,
+    "id": "4e6d1f3a-21d1-4249-92d1-191a09e9959c",
+    "kpiViews": [],
+    "name": "cbs Master Data Quality",
+    "palettes": [],
+    "rawDataExportLimit": 20000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "63b70e39-5a7c-4747-9a11-751f16f3bc74",
+  "lastChangeDate": 1598381088534,
+  "lastChangeUserId": "5c6e78e7-128c-4c1a-aa69-6f61a5280242",
+  "lastChangeUserName": "andreas.weber@cbs-consulting.de(Andreas Weber)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

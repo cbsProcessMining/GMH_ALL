@@ -1,0 +1,285 @@
+{
+  "components": [],
+  "contentType": "process-explorer",
+  "format": "FULLSCREEN",
+  "id": "a5b109c1-c49b-4801-ab0d-7ad0d2905967",
+  "name": "Process Explorer 11",
+  "position": {
+    "height": 800,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "processExplorerComponent": {
+    "activityColumnRef": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_DE\"",
+    "activityConfigurations": [
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Bestellfreigabe Ende"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Bestellfreigabe Start"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Entferne Zahlsperre"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erfasse Leistungserfassungsblatt"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erfasse Rechnungseingang"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erfasse Wareneingang"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erhalte Auftragsbest\u00e4tigung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erhalte Lieferavis"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erh\u00f6he Vertrags Preis"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erreiche Skontofrist"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erreiche Zahlfrist"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Gebe BANF frei"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Gleiche Rechnung aus"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Lege BANF Position an"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Lege Bestellposition an"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Lehne BANF ab"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Lieferant erstellt Rechnung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "L\u00f6sche Bestellposition"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Mahne Auftragsbest\u00e4tigung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Qualit\u00e4t: Akzeptiert"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Qualit\u00e4tspr\u00fcfung Beginn"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Qualit\u00e4tspr\u00fcfung Ende"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Reaktiviere Bestellposition"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Sende Bestellung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Senke Vertrags Preis"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Setze Zahlsperre"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Sperre Bestellposition"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Start Banffreigabe"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Storniere Rechnungseingang"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Storniere Wareneingang"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Vertrag erstellt"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Auftragsbest\u00e4tigung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Endauslieferungskennzeichen"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Endlieferungskennzeichen"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Endrechnungskennzeichen"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Freigabe f\u00fcr Bestellung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Lagerort"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Lieferant"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Menge"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Preis"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Vertrag"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere W\u00e4hrung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Beginn Rechnungsfreigabe EASY"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Ende Rechnungsfreigabe EASY"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "L\u00f6sche Rechnung EASY"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Rechnungseingang EASY"
+      }
+    ],
+    "edgeSliderState": 0,
+    "fullDotLayout": true,
+    "groupsConfigurations": [],
+    "hiddenActivities": {
+      "Ende Rechnungsfreigabe (BE)": true,
+      "Ende Rechnungsfreigabe (ZF)": true,
+      "Erstpr\u00fcfung Rechnung": true,
+      "Rechnungseingang Start": true,
+      "Verbuchung Rechnungseingang": true
+    },
+    "id": "PROCESS_EXPLORER",
+    "kpiView": {
+      "connectionKpi": {
+        "id": "THROUGHPUT_AVG",
+        "name": "Throughput Time (AVG)",
+        "valueFormat": ",f"
+      },
+      "connectionKpis": [
+        {
+          "id": "THROUGHPUT_AVG",
+          "name": "Throughput Time (AVG)",
+          "valueFormat": ",f"
+        }
+      ],
+      "icon": "icons/icon-throughput.svg",
+      "id": "THROUGHPUT_AVG",
+      "supportsParams": true,
+      "title": "throughput_avg"
+    },
+    "nodeSliderState": 0,
+    "preventResize": true,
+    "throughputUnits": "days",
+    "type": "simple_process",
+    "version": 2
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "currency_conversion_netwr",
+    "type": "text_replacement",
+    "value": "NETWR"
+  },
+  {
+    "name": "currency_conversion",
+    "type": "text_replacement",
+    "value": "NETPR"
+  },
+  {
+    "linkedEntries": [],
+    "name": "currency",
+    "type": "text_replacement",
+    "value": "\u20ac"
+  },
+  {
+    "name": "time_unit",
+    "type": "text_replacement",
+    "value": "MONTH"
+  }
+]

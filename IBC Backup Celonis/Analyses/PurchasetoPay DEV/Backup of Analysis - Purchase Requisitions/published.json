@@ -1,0 +1,85 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "colorMappings": [
+      {
+        "id": "f0bf7441-ad20-4330-b720-19f910bf1d5f",
+        "name": "w/ or w/o PR",
+        "thresholds": [
+          {
+            "color": "#78B604",
+            "compare": "==",
+            "formula": "with PR"
+          },
+          {
+            "color": "#D70A0A",
+            "compare": "==",
+            "formula": "without PR"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "dbfc2a31-d6d1-4e1c-a91f-9ed881971a3a",
+        "name": "PR ratio SeriesThresholds",
+        "thresholds": [
+          {
+            "color": "#D70A0A",
+            "compare": "<",
+            "formula": "<%=low_color%>"
+          },
+          {
+            "color": "#78B604",
+            "compare": ">",
+            "formula": "<%=high_color%>"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "f522e9ff-598c-463a-ad53-d8798f22435c",
+        "name": "PR ratio",
+        "thresholds": [
+          {
+            "color": "#D70A0A",
+            "compare": "<",
+            "formula": "<%=low_color%>"
+          },
+          {
+            "color": "#78B604",
+            "compare": ">",
+            "formula": "<%=high_color%>"
+          }
+        ],
+        "title": "New Color Mapping",
+        "type": "series"
+      }
+    ],
+    "editMode": true,
+    "id": "1c5cd488-fb73-4789-b20e-018c7067b744",
+    "isPublished": true,
+    "kpiViews": [],
+    "loadScript": "",
+    "multiselectMode": false,
+    "name": "Purchase Requisitions",
+    "palettes": [],
+    "preventVariants": true,
+    "rawDataExportLimit": 20000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {
+      "Classification for PO Items without PR": {
+        "de": "Klassifizierung von Bestellungen ohne Bestellanforderung",
+        "en": "Classification for PO Items without PR"
+      }
+    }
+  },
+  "id": "fdb36f6a-f100-4e71-92ad-75e31d3bdae9",
+  "lastChangeDate": 1594985945841,
+  "lastChangeUserId": "79131ff5-ec28-4869-8a94-4f03938cfd85",
+  "lastChangeUserName": "christopher.knaps@cbs-consulting.de(Christopher)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

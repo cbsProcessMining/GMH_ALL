@@ -1,0 +1,160 @@
+{
+  "components": [],
+  "contentType": "process-explorer",
+  "format": "FULLSCREEN",
+  "id": "626a0e1a-b639-48ca-abf1-ba6aca50cc6d",
+  "name": "Process Explorer",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "processExplorerComponent": {
+    "activityColumnRef": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "activityConfigurations": [
+      {
+        "color": "#14a9d5",
+        "fixedColor": "",
+        "hidden": false,
+        "name": "Cancel Goods Receipt"
+      },
+      {
+        "color": "#14a9d5",
+        "fixedColor": "",
+        "hidden": false,
+        "name": "Cancel Invoice Receipt"
+      },
+      {
+        "color": "#14a9d5",
+        "fixedColor": "",
+        "hidden": false,
+        "name": "Change Approval for Purchase Order"
+      },
+      {
+        "color": "#14a9d5",
+        "fixedColor": "#ff0000",
+        "hidden": false,
+        "name": "Change Price"
+      },
+      {
+        "color": "#14a9d5",
+        "fixedColor": "",
+        "hidden": false,
+        "name": "Change Quantity"
+      },
+      {
+        "color": "#14a9d5",
+        "fixedColor": "",
+        "hidden": false,
+        "name": "Create Purchase Order Item"
+      },
+      {
+        "color": "#14a9d5",
+        "fixedColor": "",
+        "hidden": false,
+        "name": "Create Purchase Requisition Item"
+      },
+      {
+        "color": "#14a9d5",
+        "fixedColor": "",
+        "hidden": false,
+        "name": "Delete Purchase Order Item"
+      },
+      {
+        "color": "#14a9d5",
+        "fixedColor": "",
+        "hidden": false,
+        "name": "Record Goods Receipt"
+      },
+      {
+        "color": "#14a9d5",
+        "fixedColor": "",
+        "hidden": false,
+        "name": "Record Invoice Receipt"
+      },
+      {
+        "color": "#14a9d5",
+        "fixedColor": "",
+        "hidden": false,
+        "name": "Record Service Entry Sheet"
+      },
+      {
+        "color": "#14a9d5",
+        "fixedColor": "",
+        "hidden": false,
+        "name": "Send Purchase Order"
+      },
+      {
+        "color": "#14a9d5",
+        "fixedColor": "",
+        "hidden": false,
+        "name": "Send Purchase Order Update"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Begin Quality Inspection"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Change Schedule Line Date"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Finish Quality Inspection"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Quality: Accepted"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Quality: Rejected"
+      }
+    ],
+    "customActivityColumn": true,
+    "edgeSliderState": 0,
+    "fullDotLayout": true,
+    "groupsConfigurations": [],
+    "hiddenActivities": {},
+    "id": "PROCESS_EXPLORER",
+    "kpiView": {
+      "connectionKpi": {
+        "colorEnd": "#1190b6",
+        "colorStart": "#40c6ed",
+        "id": "FREQUENCY",
+        "name": "frequency",
+        "text": "",
+        "units": "",
+        "valueFormat": ",f"
+      },
+      "connectionKpis": [
+        {
+          "colorEnd": "#1190b6",
+          "colorStart": "#40c6ed",
+          "id": "FREQUENCY",
+          "name": "frequency",
+          "text": "",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "icon": "icons/icon-frequency.svg",
+      "id": "FREQUENCY",
+      "inlineKpi": "caseCount",
+      "title": "frequency"
+    },
+    "nodeSliderState": 0,
+    "preventResize": true,
+    "type": "simple_process",
+    "version": 1
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

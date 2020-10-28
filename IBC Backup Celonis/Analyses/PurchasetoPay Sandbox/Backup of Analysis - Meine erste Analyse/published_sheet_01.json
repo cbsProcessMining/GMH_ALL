@@ -1,0 +1,289 @@
+{
+  "components": [
+    {
+      "allowDataLink": false,
+      "axis0": [
+        {
+          "name": "#{EKKO.BUKRS}",
+          "sorting": "DESC",
+          "sortingIndex": 2,
+          "text": "\"EKKO\".\"BUKRS\"",
+          "translatedName": "BUKRS",
+          "type": "dimension",
+          "valueFormat": ""
+        },
+        {
+          "name": "#{EKKO.BSART}",
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "text": "\"EKKO\".\"BSART\"",
+          "translatedName": "BSART",
+          "type": "dimension",
+          "valueFormat": ""
+        },
+        {
+          "name": "#{LFA1.NAME1}",
+          "text": "\"LFA1\".\"NAME1\"",
+          "type": "dimension",
+          "valueFormat": ""
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "meta": {
+            "columnName": "Anzahl F\u00e4lle",
+            "columnType": "int",
+            "expressionLhs": null,
+            "format": ",f"
+          },
+          "name": "Anzahl F\u00e4lle",
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "sorting": "DESC",
+          "sortingIndex": 1,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "COUNT_TABLE(\"EKPO\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "valueFormat": ",f"
+        },
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "meta": {
+            "columnName": "Gesamt-Durchlaufzeit in Tagen",
+            "columnType": "float",
+            "expressionLhs": null,
+            "format": ",.2f"
+          },
+          "name": "Gesamt-Durchlaufzeit in Tagen",
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "sorting": "DESC",
+          "sortingIndex": 3,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "80px"
+          },
+          "text": "AVG(CALC_THROUGHPUT(ALL_OCCURRENCE['Process Start'] TO ALL_OCCURRENCE['Process End'], REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", DAYS)))",
+          "textColor": "",
+          "textColorMapping": "",
+          "throughputTime": true,
+          "type": "FLOAT",
+          "valueFormat": ",.2f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "table",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 40,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "7c69dea3-a853-43ba-a960-2ddac05df607",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "LIMIT",
+      "limitNumber": 100,
+      "maximized": false,
+      "multisort": true,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "Durchlaufzeit",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 64,
+      "x": 11,
+      "y": 4,
+      "zIndex": 1
+    }
+  ],
+  "contentType": "blank-sheet",
+  "format": "FULLSCREEN",
+  "id": "ed6218a0-be37-4ccb-b3f3-05ef0270322b",
+  "name": "Neue App 3",
+  "position": {
+    "height": 800,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

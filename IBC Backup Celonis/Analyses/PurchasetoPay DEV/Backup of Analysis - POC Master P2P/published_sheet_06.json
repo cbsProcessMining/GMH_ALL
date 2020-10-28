@@ -1,0 +1,4308 @@
+{
+  "components": [
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=Company_Color1%>",
+        "opacity": 0.3
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 7,
+      "id": "6052bb98-7a53-4ebb-849f-9febb8c2008d",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 0,
+      "y": 0,
+      "zIndex": 5
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#cccccc",
+        "opacity": 0.15
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 50,
+      "id": "261d4aaa-eda7-4baf-aae7-adc5dc1c669f",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 0,
+      "y": 0,
+      "zIndex": 3
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "d363d472-85c5-481d-99dd-ef876a98bf81",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][color=#<%=Text_Color1%>][size=19]#{FTRRatio}[/size][/color][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 0,
+      "y": 9,
+      "zIndex": 46
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "2f608c1c-de96-4051-9737-87428fa93fbc",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[left][color=#<%=Text_Color1%>][size=15]#{filter} #{by} #{time}:[/size][/color][/left]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 11,
+      "x": 1,
+      "y": 14,
+      "zIndex": 47
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "8eb81e96-b3d9-49f3-ae51-9a819df9ab29",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[left][color=#<%=Text_Color1%>][size=15]#{filter} #{by} #{organization}:[/size][/color][/left]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 11,
+      "x": 1,
+      "y": 22,
+      "zIndex": 48
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "9fb38521-34ad-43f6-b8e2-be17debc0ae8",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[left][size=15][color=#<%=Text_Color1%>]#{filter} #{by} #{Order} #{Details}:[/color][/size][/left]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 11,
+      "x": 1,
+      "y": 34,
+      "zIndex": 47
+    },
+    {
+      "action": "deleteSelections",
+      "allowDataLink": false,
+      "backgroundColor": "",
+      "border": false,
+      "buttonTitle": "#{Reset}",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "730a19e8-9279-472a-ae55-1616de5e2daf",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 11,
+      "x": 1,
+      "y": 46,
+      "zIndex": 16
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 5,
+      "id": "f4c1cc06-123c-44f6-a689-5812d1f081a0",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "logo-component",
+      "vertical": false,
+      "width": 13,
+      "x": 0,
+      "y": 1,
+      "zIndex": 48
+    },
+    {
+      "alignment": "vertical",
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "datepickerSettings": {
+        "formula": {
+          "name": "",
+          "text": "\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\""
+        }
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 5,
+      "id": "13c52274-4534-4da3-bc34-6139db42406f",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "date_picker",
+      "vertical": false,
+      "width": 11,
+      "x": 1,
+      "y": 16,
+      "zIndex": 48
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "dropdownSettings": {
+        "formula": {
+          "text": "<%=Filter_Option3%>",
+          "units": ""
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "unit",
+            "type": "text_replacement",
+            "value": "days"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 9,
+                "selected": true,
+                "value": "Lege Bestellposition an"
+              }
+            ],
+            "name": "From",
+            "type": "text_replacement",
+            "value": "'Lege Bestellposition an'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 4,
+                "selected": true,
+                "value": "Erfasse Wareneingang"
+              }
+            ],
+            "name": "To",
+            "type": "text_replacement",
+            "value": "'Erfasse Wareneingang'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 13,
+                "selected": true,
+                "value": "Create Purchase Order Item"
+              }
+            ],
+            "name": "From_EDI",
+            "type": "text_replacement",
+            "value": "'Create Purchase Order Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 12,
+                "selected": true,
+                "value": "Clear Invoice"
+              }
+            ],
+            "name": "To_EDI",
+            "type": "text_replacement",
+            "value": "'Clear Invoice'"
+          },
+          {
+            "name": "Print",
+            "type": "text_replacement",
+            "value": "'1'"
+          },
+          {
+            "name": "Mail",
+            "type": "text_replacement",
+            "value": "'7', '2'"
+          },
+          {
+            "name": "EDI",
+            "type": "text_replacement",
+            "value": "'6'"
+          },
+          {
+            "linkedEntries": [],
+            "name": "Days_back",
+            "type": "text_replacement",
+            "value": "50"
+          },
+          {
+            "name": "tolerance_high_price_text",
+            "type": "text_replacement",
+            "value": "1%"
+          },
+          {
+            "name": "tolerance_low_price_text",
+            "type": "text_replacement",
+            "value": "2%"
+          },
+          {
+            "name": "tolerance_high_quantity_text",
+            "type": "text_replacement",
+            "value": "2%"
+          },
+          {
+            "name": "tolerance_low_quantity_text",
+            "type": "text_replacement",
+            "value": "1%"
+          },
+          {
+            "name": "netwr",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"NETWR\""
+          },
+          {
+            "name": "Filter_Option3_Text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"MATKL\"}"
+          },
+          {
+            "name": "Filter_Option2_Text",
+            "type": "text_replacement",
+            "value": "#{\"EBAN\".\"BSART\"}"
+          },
+          {
+            "name": "Filter_Option1_Text",
+            "type": "text_replacement",
+            "value": "#{vendors}"
+          },
+          {
+            "name": "Filter_Option3",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"MATKL_TEXT\""
+          },
+          {
+            "name": "Filter_Option2",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "Filter_Option1",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 13,
+                "selected": true,
+                "value": "Anschlusssyst.Strom"
+              }
+            ],
+            "name": "B2",
+            "type": "text_replacement",
+            "value": "'Anschlusssyst.Strom'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 21,
+                "selected": true,
+                "value": "Balgengasz\u00c3\u00a4hler"
+              }
+            ],
+            "name": "B1",
+            "type": "text_replacement",
+            "value": "'Balgengasz\u00c3\u00a4hler'"
+          },
+          {
+            "name": "Benchmarking_Dimension",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"MATKL_TEXT\""
+          },
+          {
+            "name": "Benchmarking_Dimension_Text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"MATKL\"}"
+          },
+          {
+            "name": "Due_Date_Text",
+            "type": "text_replacement",
+            "value": "#{RequestedDeliveryDate}"
+          },
+          {
+            "name": "Dimensionbutton",
+            "type": "text_replacement",
+            "value": "#{vendors}"
+          },
+          {
+            "name": "tolerance_low_quantity",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "name": "tolerance_high_quantity",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "tolerance_low_price",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "tolerance_high_price",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "linkedEntries": [],
+            "name": "Company_Color2",
+            "type": "text_replacement",
+            "value": "eeeeee"
+          },
+          {
+            "linkedEntries": [],
+            "name": "Company_Color1",
+            "type": "text_replacement",
+            "value": "00A4DA"
+          },
+          {
+            "linkedEntries": [],
+            "name": "OTD_upper",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "linkedEntries": [],
+            "name": "OTD_lower",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Purchase Order Item",
+                "selected": true,
+                "value": "Create Purchase Order Item"
+              }
+            ],
+            "name": "FromSOD",
+            "type": "text_replacement",
+            "value": "Create Purchase Order Item"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Record Goods Receipt",
+                "selected": true,
+                "value": "Record Goods Receipt"
+              }
+            ],
+            "name": "ToSOD",
+            "type": "text_replacement",
+            "value": "Record Goods Receipt"
+          },
+          {
+            "name": "Dimensionbutton_Overview",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u00e2\u201a\u00ac"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 0,
+                "selected": true,
+                "value": null
+              },
+              {
+                "available": true,
+                "id": 2,
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "automatic_users",
+            "type": "text_replacement",
+            "value": "'null','B'"
+          },
+          {
+            "name": "GR_VARIABLE",
+            "type": "text_replacement",
+            "value": "PU_LAST(\"EKPO\", \"EKBE\".\"CPUDT\", \"EKBE\".\"VGABE\" = '1' AND \"EKBE\".\"SHKZG\" = 'S')"
+          },
+          {
+            "name": "Due_Date",
+            "type": "text_replacement",
+            "value": "PU_LAST(\"EKPO\",\"EKET\".\"EINDT\")"
+          }
+        ]
+      },
+      "dropdownText": "<%=Filter_Option3_Text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "8fb9bd5f-7e9a-4596-be8f-23ad2e89e5de",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "vertical": false,
+      "width": 11,
+      "x": 1,
+      "y": 30,
+      "zIndex": 8
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "KPI(\"Count Items\")",
+        "units": "",
+        "valueFormat": ",f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 5,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "b2ba620a-3309-4c19-962c-ea2bdad03c5a",
+      "kpiValue": 50073,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#<%=Company_Color2%>",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        },
+        {
+          "color": "#<%=Company_Color1%>",
+          "formula": {
+            "text": 1500
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedFontSize": 40,
+        "fixedTextSize": true,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#<%=Company_Color1%>",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#<%=Company_Color1%>",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "# #{purchaseOrderItems}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#1b1b1b",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 10,
+      "x": 25,
+      "y": 1,
+      "zIndex": 49
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "COUNT_TABLE(\"EKKO\")",
+        "units": "",
+        "valueFormat": ",f"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 5,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "ecef16d6-9444-4a71-b0ac-19a5b112cca6",
+      "kpiValue": 16102,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#<%=Company_Color1%>",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        },
+        {
+          "color": "#6baed6",
+          "formula": {
+            "text": 1500
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedFontSize": 40,
+        "fixedTextSize": true,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#<%=Company_Color1%>",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#<%=Company_Color1%>",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "# #{POs}",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#1b1b1b",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 10,
+      "x": 14,
+      "y": 1,
+      "zIndex": 50
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "KPI(\"Count Amount\")",
+        "units": "",
+        "valueFormat": ".3s"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 5,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "999d81a8-6f69-42dc-93c9-3fdd00a9e878",
+      "kpiValue": 3663125.5999998823,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedFontSize": 40,
+        "fixedTextSize": true,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#<%=Company_Color1%>",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#<%=Company_Color1%>",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "#{NetOrderValue} [<%=currency_symbol%>]",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "transparent",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#1b1b1b",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 10,
+      "x": 36,
+      "y": 1,
+      "zIndex": 51
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "text": "(SUM(CASE \nWHEN \"NAST\".\"NACHA\" IN ('6','9','A') AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END)\n/\nSUM(CASE \nWHEN ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END))\n\n",
+        "valueFormat": ".2%"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 5,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "6d12d1fd-8a0b-4289-a643-a544f623281b",
+      "kpiValue": 1,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#3182bd",
+          "formula": {
+            "text": "0"
+          }
+        },
+        {
+          "color": "#76d1bb",
+          "formula": {
+            "text": "500"
+          }
+        },
+        {
+          "color": "#ffd062",
+          "formula": {
+            "text": "1000"
+          }
+        },
+        {
+          "color": "#ff8884",
+          "formula": {
+            "text": "1500"
+          }
+        }
+      ],
+      "segmentsResult": [
+        {
+          "color": "#3182bd",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#3182bd",
+            "formula": {
+              "text": "0"
+            }
+          },
+          "value": 0
+        },
+        {
+          "color": "#76d1bb",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#76d1bb",
+            "formula": {
+              "text": "500"
+            }
+          },
+          "value": 500
+        },
+        {
+          "color": "#ffd062",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ffd062",
+            "formula": {
+              "text": "1000"
+            }
+          },
+          "value": 1000
+        },
+        {
+          "color": "#ff8884",
+          "openPopup": false,
+          "relatedFormula": {
+            "color": "#ff8884",
+            "formula": {
+              "text": "1500"
+            }
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedFontSize": 40,
+        "fixedTextSize": true,
+        "maxValue": 1500,
+        "minValue": 0,
+        "singleColor": "#<%=Company_Color1%>",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#<%=Company_Color1%>",
+          "formula": {
+            "text": "0"
+          },
+          "value": 0
+        }
+      ],
+      "title": "EDI Ratio",
+      "titleStyle": {
+        "alignment": "center",
+        "backgroundColor": "",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#1b1b1b",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "width": 13,
+      "x": 47,
+      "y": 1,
+      "zIndex": 8
+    },
+    {
+      "activityColumnRef": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+      "activityConfigurations": [
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Cancel Goods Receipt"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Currency"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Price"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Quantity"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Clear Invoice"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Purchase Order Item"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Purchase Requisition Item"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Delete Purchase Order Item"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Record Goods Receipt"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Record Invoice Receipt"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Block Purchase Order Item"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Receive Order Confirmation"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Cancel Invoice Receipt"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Approval for Purchase Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Contract"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Delivery Indicator"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Final Invoice Indicator"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Storage Location"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Vendor"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Decrease Contract Net Price"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Increase Contract Net Price"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Reactivate Purchase Order Item"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Receive advanced shipment notice (ASN)"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Record Service Entry Sheet"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Refuse Purchase Requisition"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Release Purchase Requisition"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Update Order Confirmation"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Vendor Creates Invoice"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Approval PO End"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Approval PO Start"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Begin Quality Inspection"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Change Outward Delivery Indicator"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Contract"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Dun Order Confirmation"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Finish Quality Inspection"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Quality: Accepted"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Start PR Release"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Cash Discount Due Date passed"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Delete Invoice EASY"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Due Date passed"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "End Invoice Release EASY"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Invoice Receipt EASY"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Remove Payment Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Send Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Send Purchase Order"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Set Payment Block"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Start Invoice Release EASY"
+        },
+        {
+          "color": "#14a9d5",
+          "hidden": false,
+          "name": "Create Purchase Order (Header)"
+        }
+      ],
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "customActivityColumn": true,
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#cccccc",
+        "lineOpacity": 1,
+        "lineWidth": 2,
+        "opacityInDec": 100
+      },
+      "edgeSliderState": 0,
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "fullDotLayout": true,
+      "groupsConfigurations": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 41,
+      "hiddenActivities": {},
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "495aa58c-0dad-4215-abc0-23de39a6365b",
+      "kpiView": {
+        "connectionKpi": {
+          "id": "THROUGHPUT_AVG",
+          "name": "Throughput Time (AVG)",
+          "valueFormat": ",f"
+        },
+        "connectionKpis": [
+          {
+            "id": "THROUGHPUT_AVG",
+            "name": "Throughput Time (AVG)",
+            "valueFormat": ",f"
+          }
+        ],
+        "icon": "icons/icon-throughput.svg",
+        "id": "THROUGHPUT_AVG",
+        "supportsParams": true,
+        "title": "throughput_avg"
+      },
+      "maximized": false,
+      "nodeSliderState": 1,
+      "selection": [],
+      "showHeader": true,
+      "throughputUnits": "minutes",
+      "title": "#{ProcessExplorer}",
+      "titleStyle": {
+        "backgroundColor": "",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontColor": "#<%=Text_Color1%>",
+        "fontSize": 14
+      },
+      "toolBorder": false,
+      "type": "simple_process",
+      "version": 2,
+      "vertical": false,
+      "width": 33,
+      "x": 14,
+      "y": 8,
+      "zIndex": 9
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=Filter_Option1%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "tolerance_high_price_text",
+            "type": "text_replacement",
+            "value": "1%"
+          },
+          {
+            "name": "tolerance_low_price_text",
+            "type": "text_replacement",
+            "value": "2%"
+          },
+          {
+            "name": "tolerance_high_quantity_text",
+            "type": "text_replacement",
+            "value": "2%"
+          },
+          {
+            "name": "tolerance_low_quantity_text",
+            "type": "text_replacement",
+            "value": "1%"
+          },
+          {
+            "name": "netwr",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"NETWR\""
+          },
+          {
+            "name": "Filter_Option3_Text",
+            "type": "text_replacement",
+            "value": "#{ccodes}"
+          },
+          {
+            "name": "Filter_Option2_Text",
+            "type": "text_replacement",
+            "value": "#{MaterialGroups}"
+          },
+          {
+            "name": "Filter_Option1_Text",
+            "type": "text_replacement",
+            "value": "#{purchaseAmount}"
+          },
+          {
+            "name": "Filter_Option3",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "Filter_Option2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"MATKL_TEXT\""
+          },
+          {
+            "name": "Filter_Option1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"OIVATF\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 5,
+                "selected": true,
+                "value": "208-Finalin in Dettingen"
+              }
+            ],
+            "name": "B2",
+            "type": "text_replacement",
+            "value": "'208-Finalin in Dettingen'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "200-Finalin GmbH"
+              }
+            ],
+            "name": "B1",
+            "type": "text_replacement",
+            "value": "'200-Finalin GmbH'"
+          },
+          {
+            "name": "Benchmarking_Dimension",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS\" || '-' ||\"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "Benchmarking_Dimension_Text",
+            "type": "text_replacement",
+            "value": "Plant"
+          },
+          {
+            "name": "Due_Date_Text",
+            "type": "text_replacement",
+            "value": "#{RequestedDeliveryDate}"
+          },
+          {
+            "name": "Dimensionbutton",
+            "type": "text_replacement",
+            "value": "#{Materials}"
+          },
+          {
+            "name": "tolerance_low_quantity",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "name": "tolerance_high_quantity",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "tolerance_low_price",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "tolerance_high_price",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "linkedEntries": [],
+            "name": "Company_Color2",
+            "type": "text_replacement",
+            "value": "eeeeee"
+          },
+          {
+            "linkedEntries": [],
+            "name": "Company_Color1",
+            "type": "text_replacement",
+            "value": "00A4DA"
+          },
+          {
+            "linkedEntries": [],
+            "name": "OTD_upper",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "linkedEntries": [],
+            "name": "OTD_lower",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Purchase Order Item",
+                "selected": true,
+                "value": "Create Purchase Order Item"
+              }
+            ],
+            "name": "FromSOD",
+            "type": "text_replacement",
+            "value": "Create Purchase Order Item"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Record Goods Receipt",
+                "selected": true,
+                "value": "Record Goods Receipt"
+              }
+            ],
+            "name": "ToSOD",
+            "type": "text_replacement",
+            "value": "Record Goods Receipt"
+          },
+          {
+            "name": "Dimensionbutton_Overview",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"MATNR\"|| '-' || \"EKPO\".\"MATNR_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u00e2\u201a\u00ac"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "automatic_users",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "name": "GR_VARIABLE",
+            "type": "text_replacement",
+            "value": "PU_LAST(\"EKPO\", \"EKBE\".\"CPUDT\", \"EKBE\".\"VGABE\" = '1' AND \"EKBE\".\"SHKZG\" = 'S')"
+          },
+          {
+            "name": "Due_Date",
+            "type": "text_replacement",
+            "value": "PU_LAST(\"EKPO\",\"EKET\".\"EINDT\")"
+          }
+        ]
+      },
+      "dropdownText": "<%=Filter_Option1_Text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "421bea34-608e-4249-94ac-3906427121b9",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "#e4e4e4",
+        "borderColor": "",
+        "currentFontSize": {
+          "cssClass": "font-size-sm",
+          "name": "Small",
+          "value": 13
+        },
+        "fontColor": "",
+        "fontSize": 13
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 11,
+      "x": 1,
+      "y": 24,
+      "zIndex": 8
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dropdownSettings": {
+        "formula": {
+          "seriesColor": "",
+          "text": "<%=Filter_Option2%>",
+          "textColor": "",
+          "units": " "
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "tolerance_high_price_text",
+            "type": "text_replacement",
+            "value": "1%"
+          },
+          {
+            "name": "tolerance_low_price_text",
+            "type": "text_replacement",
+            "value": "2%"
+          },
+          {
+            "name": "tolerance_high_quantity_text",
+            "type": "text_replacement",
+            "value": "2%"
+          },
+          {
+            "name": "tolerance_low_quantity_text",
+            "type": "text_replacement",
+            "value": "1%"
+          },
+          {
+            "name": "netwr",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"NETWR\""
+          },
+          {
+            "name": "Filter_Option3_Text",
+            "type": "text_replacement",
+            "value": "#{ccodes}"
+          },
+          {
+            "name": "Filter_Option2_Text",
+            "type": "text_replacement",
+            "value": "#{MaterialGroups}"
+          },
+          {
+            "name": "Filter_Option1_Text",
+            "type": "text_replacement",
+            "value": "#{purchaseAmount}"
+          },
+          {
+            "name": "Filter_Option3",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "name": "Filter_Option2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"MATKL_TEXT\""
+          },
+          {
+            "name": "Filter_Option1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"OIVATF\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 5,
+                "selected": true,
+                "value": "208-Finalin in Dettingen"
+              }
+            ],
+            "name": "B2",
+            "type": "text_replacement",
+            "value": "'208-Finalin in Dettingen'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "available": true,
+                "id": 3,
+                "selected": true,
+                "value": "200-Finalin GmbH"
+              }
+            ],
+            "name": "B1",
+            "type": "text_replacement",
+            "value": "'200-Finalin GmbH'"
+          },
+          {
+            "name": "Benchmarking_Dimension",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS\" || '-' ||\"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "Benchmarking_Dimension_Text",
+            "type": "text_replacement",
+            "value": "Plant"
+          },
+          {
+            "name": "Due_Date_Text",
+            "type": "text_replacement",
+            "value": "#{RequestedDeliveryDate}"
+          },
+          {
+            "name": "Dimensionbutton",
+            "type": "text_replacement",
+            "value": "#{Materials}"
+          },
+          {
+            "name": "tolerance_low_quantity",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "name": "tolerance_high_quantity",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "tolerance_low_price",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "tolerance_high_price",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "linkedEntries": [],
+            "name": "Company_Color2",
+            "type": "text_replacement",
+            "value": "eeeeee"
+          },
+          {
+            "linkedEntries": [],
+            "name": "Company_Color1",
+            "type": "text_replacement",
+            "value": "00A4DA"
+          },
+          {
+            "linkedEntries": [],
+            "name": "OTD_upper",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "linkedEntries": [],
+            "name": "OTD_lower",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Purchase Order Item",
+                "selected": true,
+                "value": "Create Purchase Order Item"
+              }
+            ],
+            "name": "FromSOD",
+            "type": "text_replacement",
+            "value": "Create Purchase Order Item"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Record Goods Receipt",
+                "selected": true,
+                "value": "Record Goods Receipt"
+              }
+            ],
+            "name": "ToSOD",
+            "type": "text_replacement",
+            "value": "Record Goods Receipt"
+          },
+          {
+            "name": "Dimensionbutton_Overview",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"MATNR\"|| '-' || \"EKPO\".\"MATNR_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u00e2\u201a\u00ac"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "automatic_users",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "name": "GR_VARIABLE",
+            "type": "text_replacement",
+            "value": "PU_LAST(\"EKPO\", \"EKBE\".\"CPUDT\", \"EKBE\".\"VGABE\" = '1' AND \"EKBE\".\"SHKZG\" = 'S')"
+          },
+          {
+            "name": "Due_Date",
+            "type": "text_replacement",
+            "value": "PU_LAST(\"EKPO\",\"EKET\".\"EINDT\")"
+          }
+        ]
+      },
+      "dropdownText": "<%=Filter_Option2_Text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "014b4f68-90c3-437d-b5aa-8e39e1976870",
+      "maximized": false,
+      "newFullscreen": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "backgroundColor": "#e4e4e4",
+        "borderColor": "",
+        "currentFontSize": {
+          "cssClass": "font-size-sm",
+          "name": "Small",
+          "value": 13
+        },
+        "fontColor": "",
+        "fontSize": 13
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "width": 11,
+      "x": 1,
+      "y": 27,
+      "zIndex": 7
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "dropdownSettings": {
+        "formula": {
+          "text": "<%=Filter_Option4%>"
+        },
+        "isMultiSelect": true,
+        "variables": [
+          {
+            "name": "Filter_Option3_Text",
+            "type": "text_replacement",
+            "value": "#{DocumentType}"
+          },
+          {
+            "name": "Filter_Option2_Text",
+            "type": "text_replacement",
+            "value": "#{MaterialGroups}"
+          },
+          {
+            "name": "Filter_Option1_Text",
+            "type": "text_replacement",
+            "value": "#{ccodes}"
+          },
+          {
+            "name": "Filter_Option3",
+            "type": "text_replacement",
+            "value": "\"EBAN\".\"BSART\""
+          },
+          {
+            "name": "Filter_Option2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"MATKL_TEXT\""
+          },
+          {
+            "name": "Filter_Option1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "3rd Party Cont SV",
+                "selected": true,
+                "value": "3rd Party Cont SV"
+              }
+            ],
+            "name": "B2",
+            "type": "text_replacement",
+            "value": "'3rd Party Cont SV'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Aircr.Chart.Ad-Hoc",
+                "selected": true,
+                "value": "Aircr.Chart.Ad-Hoc"
+              }
+            ],
+            "name": "B1",
+            "type": "text_replacement",
+            "value": "'Aircr.Chart.Ad-Hoc'"
+          },
+          {
+            "name": "Benchmarking_Dimension",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"MATKL_TEXT\""
+          },
+          {
+            "name": "Benchmarking_Dimension_Text",
+            "type": "text_replacement",
+            "value": "Material Group"
+          },
+          {
+            "name": "delivery_date",
+            "type": "text_replacement",
+            "value": "statistical delivery date"
+          },
+          {
+            "name": "Three_way_match_filter",
+            "type": "text_replacement",
+            "value": "Filter PROCESS EQUALS 'Record Goods Receipt';\nFilter PROCESS EQUALS 'Record Invoice Receipt';"
+          },
+          {
+            "name": "Dimensionbutton",
+            "type": "text_replacement",
+            "value": "Material Group"
+          },
+          {
+            "name": "tolerance_low_quantity",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"UNTTO\""
+          },
+          {
+            "name": "tolerance_high_quantity",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"UEBTO\""
+          },
+          {
+            "name": "tolerance_low_price",
+            "type": "text_replacement",
+            "value": "10"
+          },
+          {
+            "name": "tolerance_high_price",
+            "type": "text_replacement",
+            "value": "5"
+          },
+          {
+            "name": "netwr",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"NETWR\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "Company_Color2",
+            "type": "text_replacement",
+            "value": "fffff"
+          },
+          {
+            "linkedEntries": [],
+            "name": "Company_Color1",
+            "type": "text_replacement",
+            "value": "00A4DA"
+          },
+          {
+            "linkedEntries": [],
+            "name": "OTD_upper",
+            "type": "text_replacement",
+            "value": "0"
+          },
+          {
+            "linkedEntries": [],
+            "name": "OTD_lower",
+            "type": "text_replacement",
+            "value": "-3"
+          },
+          {
+            "name": "A_kpi",
+            "type": "text_replacement",
+            "value": "KPI (\"Change Rate\")"
+          },
+          {
+            "name": "A_dim",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "A2_T",
+            "type": "text_replacement",
+            "value": "5"
+          },
+          {
+            "linkedEntries": [],
+            "name": "A1_T",
+            "type": "text_replacement",
+            "value": "4"
+          },
+          {
+            "name": "CI_T",
+            "type": "text_replacement",
+            "value": "4"
+          },
+          {
+            "name": "CG_T",
+            "type": "text_replacement",
+            "value": "20"
+          },
+          {
+            "name": "SO_T",
+            "type": "text_replacement",
+            "value": "10"
+          },
+          {
+            "name": "ChQ_T",
+            "type": "text_replacement",
+            "value": "10"
+          },
+          {
+            "name": "ChP_T",
+            "type": "text_replacement",
+            "value": "10"
+          },
+          {
+            "name": "SPO_T",
+            "type": "text_replacement",
+            "value": "0"
+          },
+          {
+            "name": "DP_T",
+            "type": "text_replacement",
+            "value": "20"
+          },
+          {
+            "name": "RPR_T",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "name": "CPR_T",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "linkedEntries": [],
+            "name": "ChA_T",
+            "type": "text_replacement",
+            "value": "10"
+          },
+          {
+            "name": "TpFTE",
+            "type": "text_replacement",
+            "value": "1880"
+          },
+          {
+            "name": "CpFTE",
+            "type": "text_replacement",
+            "value": "80000"
+          },
+          {
+            "name": "Z_T",
+            "type": "text_replacement",
+            "value": "0"
+          },
+          {
+            "linkedEntries": [],
+            "name": "AO_T",
+            "type": "text_replacement",
+            "value": "6"
+          },
+          {
+            "name": "SP_T",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "RP_T",
+            "type": "text_replacement",
+            "value": "2"
+          },
+          {
+            "name": "RI_T",
+            "type": "text_replacement",
+            "value": "4"
+          },
+          {
+            "name": "RG_T",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "name": "CP_T",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "name": "REWORK",
+            "type": "text_replacement",
+            "value": "5"
+          },
+          {
+            "name": "filter7_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"LOEKZ\"}"
+          },
+          {
+            "name": "filter7",
+            "type": "text_replacement",
+            "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+          },
+          {
+            "name": "filter6_text",
+            "type": "text_replacement",
+            "value": "#{\"LFA1\".\"VBUND\"}"
+          },
+          {
+            "name": "filter6",
+            "type": "text_replacement",
+            "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+          },
+          {
+            "name": "filter5_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"BSART\"}"
+          },
+          {
+            "name": "filter5",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+          },
+          {
+            "name": "filter4_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKGRP\"}"
+          },
+          {
+            "name": "filter4",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+          },
+          {
+            "name": "filter3_text",
+            "type": "text_replacement",
+            "value": "#{\"EKKO\".\"EKORG\"}"
+          },
+          {
+            "name": "filter3",
+            "type": "text_replacement",
+            "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+          },
+          {
+            "name": "filter2_text",
+            "type": "text_replacement",
+            "value": "#{\"EKPO\".\"WERKS\"}"
+          },
+          {
+            "name": "filter2",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "high_color",
+            "type": "text_replacement",
+            "value": "70"
+          },
+          {
+            "name": "low_color",
+            "type": "text_replacement",
+            "value": "20"
+          },
+          {
+            "name": "NAST_NACHA_PER_PO",
+            "type": "text_replacement",
+            "value": "PU_LAST(\"EKKO\",\"NAST\".\"NACHA\")"
+          },
+          {
+            "name": "abs_percent",
+            "type": "text_replacement",
+            "value": "absolut"
+          },
+          {
+            "linkedEntries": [],
+            "name": "act",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "name": "material_type",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [],
+            "name": "CC2",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [],
+            "name": "CC1",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [],
+            "name": "VOLUME_BASE",
+            "type": "text_replacement",
+            "value": "625"
+          },
+          {
+            "name": "W_VOLUME",
+            "type": "text_replacement",
+            "value": "0"
+          },
+          {
+            "linkedEntries": [],
+            "name": "W_OTD",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "linkedEntries": [],
+            "name": "W_CHANGEPRICE",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "linkedEntries": [],
+            "name": "W_REWORK",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "linkedEntries": [],
+            "name": "W_AUTOMATION",
+            "type": "text_replacement",
+            "value": "1"
+          },
+          {
+            "name": "DROPDOWNX",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              }
+            ],
+            "name": "DRILLDOWN_ACTIVITY",
+            "type": "text_replacement",
+            "value": "'Delete Purchase Order Item'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Purchase Requisition Item",
+                "selected": true,
+                "value": "Create Purchase Requisition Item"
+              }
+            ],
+            "name": "FromSOD",
+            "type": "text_replacement",
+            "value": "Create Purchase Requisition Item"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Create Purchase Order Item",
+                "selected": true,
+                "value": "Create Purchase Order Item"
+              }
+            ],
+            "name": "ToSOD",
+            "type": "text_replacement",
+            "value": "Create Purchase Order Item"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Block Purchase Order Item",
+                "selected": true,
+                "value": "Block Purchase Order Item"
+              },
+              {
+                "formattedValue": "Cancel Goods Receipt",
+                "selected": true,
+                "value": "Cancel Goods Receipt"
+              },
+              {
+                "formattedValue": "Cancel Invoice Receipt",
+                "selected": true,
+                "value": "Cancel Invoice Receipt"
+              },
+              {
+                "formattedValue": "Delete Purchase Order Item",
+                "selected": true,
+                "value": "Delete Purchase Order Item"
+              },
+              {
+                "formattedValue": "Remove Payment Block",
+                "selected": true,
+                "value": "Remove Payment Block"
+              },
+              {
+                "formattedValue": "Set Payment Block",
+                "selected": true,
+                "value": "Set Payment Block"
+              }
+            ],
+            "name": "rework_activities",
+            "type": "text_replacement",
+            "value": "'Block Purchase Order Item','Cancel Goods Receipt','Cancel Invoice Receipt','Delete Purchase Order Item','Remove Payment Block','Set Payment Block'"
+          },
+          {
+            "name": "exclude_CHANGED_FIELD",
+            "type": "text_replacement",
+            "value": "('KEY','LOEKZ')"
+          },
+          {
+            "name": "ButtonDrilldown1",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown2",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"LIFNR\" || ' - ' || \"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "ButtonDrilldown3",
+            "type": "text_replacement",
+            "value": "\"LFA1\".\"NAME1\""
+          },
+          {
+            "name": "Dimensionbutton_Overview",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"MATKL_TEXT\""
+          },
+          {
+            "name": "ButtonDrilldown5",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"BUKRS_TEXT\""
+          },
+          {
+            "linkedEntries": [],
+            "name": "currency_symbol",
+            "type": "text_replacement",
+            "value": "\u00e2\u201a\u00ac"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Change Price ",
+                "selected": true,
+                "value": "Change Price"
+              }
+            ],
+            "name": "Ratio_Change",
+            "type": "text_replacement",
+            "value": "'Change Price'"
+          },
+          {
+            "linkedEntries": [],
+            "name": "Plant_1",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [],
+            "name": "Plant_2",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "Change Currency",
+                "selected": true,
+                "value": "Change Currency"
+              },
+              {
+                "formattedValue": "Change Delivery Indicator",
+                "selected": true,
+                "value": "Change Delivery Indicator"
+              },
+              {
+                "formattedValue": "Change Final Invoice Indicator",
+                "selected": true,
+                "value": "Change Final Invoice Indicator"
+              },
+              {
+                "formattedValue": "Change Price",
+                "selected": true,
+                "value": "Change Price"
+              },
+              {
+                "formattedValue": "Change Quantity",
+                "selected": true,
+                "value": "Change Quantity"
+              },
+              {
+                "formattedValue": "Change Storage Location",
+                "selected": true,
+                "value": "Change Storage Location"
+              },
+              {
+                "formattedValue": "Change Vendor",
+                "selected": true,
+                "value": "Change Vendor"
+              }
+            ],
+            "name": "change_activities",
+            "type": "text_replacement",
+            "value": "'Change Currency','Change Delivery Indicator','Change Final Invoice Indicator','Change Price','Change Quantity','Change Storage Location','Change Vendor'"
+          },
+          {
+            "linkedEntries": [
+              {
+                "formattedValue": "B",
+                "selected": true,
+                "value": "B"
+              }
+            ],
+            "name": "automatic_users",
+            "type": "text_replacement",
+            "value": "'B'"
+          },
+          {
+            "name": "KPI_Dropdown",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "name": "KPI_Variable",
+            "type": "text_replacement",
+            "value": "1.0*SUM(CASE WHEN <%=change_activities%> THEN 1.0 ELSE 0.0 END)/COUNT_TABLE(\"EKPO\")"
+          },
+          {
+            "name": "GR_VARIABLE",
+            "type": "text_replacement",
+            "value": "PU_LAST(\"EKPO\", \"EKBE\".\"CPUDT\", \"EKBE\".\"VGABE\" = '1' AND \"EKBE\".\"SHKZG\" = 'S')"
+          },
+          {
+            "name": "ANALYSIS_KPI",
+            "type": "text_replacement",
+            "value": "PU_LAST(\"EKPO\",\"EKET\".\"EINDT\")"
+          },
+          {
+            "name": "high_color",
+            "type": "text_replacement",
+            "value": "high_color"
+          },
+          {
+            "name": "low_color",
+            "type": "text_replacement",
+            "value": "0.3"
+          },
+          {
+            "name": "ButtonDrilldown6",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"MATKL_TEXT\""
+          },
+          {
+            "name": "TableType",
+            "type": "text_replacement",
+            "value": ""
+          },
+          {
+            "name": "ButtonDrilldown7",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"MATKL\" || ' - ' || \"EKPO\".\"MATKL_TEXT\""
+          },
+          {
+            "name": "B_DIM",
+            "type": "text_replacement",
+            "value": "\"EKPO\".\"WERKS_TEXT\""
+          },
+          {
+            "name": "B_KPI",
+            "type": "text_replacement",
+            "value": "AVG( CASE          WHEN ISNULL(<%= ANALYSIS_KPI %>) = 1 THEN NULL         WHEN ISNULL(<%= GR_VARIABLE %>) = 1 AND DAYS_BETWEEN(TODAY(),<%= ANALYSIS_KPI %>) >= 0 THEN 1.0         WHEN ISNULL(<%= GR_VARIABLE %>) = 1 THEN 0.0         WHEN DAYS_BETWEEN(<%= ANALYSIS_KPI %>, <%= GR_VARIABLE %>) <= 0         AND  DAYS_BETWEEN(<%= ANALYSIS_KPI %>, <%= GR_VARIABLE %>) >= -3     THEN 1.0      ELSE 0.0      END )"
+          },
+          {
+            "name": "MB_THRESHOLD",
+            "type": "text_replacement",
+            "value": "1"
+          }
+        ]
+      },
+      "dropdownText": "<%=Filter_Option4_Text%>",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "38374ff1-7c36-4a24-a868-ddfa63a13598",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "dropdown",
+      "vertical": false,
+      "width": 11,
+      "x": 1,
+      "y": 36,
+      "zIndex": 7
+    },
+    {
+      "axis0": [
+        {
+          "meta": {
+            "columnName": "#{NAST.NACHA_TEXT}",
+            "columnType": "string",
+            "expressionLhs": "\"NAST\".\"NACHA\" || ' - ' || \"NAST\".\"NACHA_TEXT\" AS \"#{NAST.NACHA_TEXT}\"",
+            "format": ""
+          },
+          "name": "#{NAST.NACHA_TEXT}",
+          "notIncluded": false,
+          "sortingIndex": null,
+          "text": "\"NAST\".\"NACHA\" ||' - ' || \"NAST\".\"NACHA_TEXT\"",
+          "translatedName": "NACHA_TEXT",
+          "type": "dimension",
+          "units": " "
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "currentFontSize": {
+              "name": "large 15px",
+              "value": 15
+            },
+            "fontColor": "",
+            "fontSize": 15
+          },
+          "dataLabelsPosition": "middle",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#E2001A",
+          "meta": {
+            "columnName": "Quantity",
+            "columnType": "int",
+            "expressionLhs": null,
+            "format": ",f"
+          },
+          "name": "Quantity",
+          "noFunction": true,
+          "notIncluded": false,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "#<%=Company_Color1%>",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": true,
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "text": "COUNT_TABLE(\"NAST\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Quantity",
+          "type": "INTEGER",
+          "units": " ",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "column",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 18,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "319858e3-1488-4e67-9d7c-175c0dbb6715",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "SCROLL",
+      "limitNumber": 4,
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "Overall transmission medium usage",
+      "titleStyle": {
+        "backgroundColor": "",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 51,
+      "x": 48,
+      "y": 8,
+      "zIndex": 3
+    },
+    {
+      "allowDataLink": false,
+      "axis0": [
+        {
+          "name": "#{LFA1.NAME1}",
+          "text": "\"LFA1\".\"NAME1\"",
+          "translatedName": "Name",
+          "type": "dimension",
+          "valueFormat": ""
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "name": "Purchase Order Items",
+          "notIncluded": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "SUM(CASE \nWHEN ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END)",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Purchase Order Items",
+          "valueFormat": ",f"
+        },
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "name": "EDI Ratio",
+          "notIncluded": false,
+          "ratioFormula": {},
+          "seriesColor": "",
+          "seriesColorMapping": "c4aa6c2c-95f4-4f38-bbe3-fe9a80173d08",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "text": "(SUM(CASE \nWHEN \"NAST\".\"NACHA\" IN ('6','9','A') AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END)\n/\nSUM(CASE \nWHEN ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END))\n\n*100",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "EDI Ratio",
+          "units": " %",
+          "valueFormat": ",f"
+        },
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "name": "Paper Rate",
+          "notIncluded": true,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "(SUM(CASE \nWHEN \"NAST\".\"NACHA\" IN ('1') AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END)\n/\nSUM(CASE \nWHEN ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END))\n\n*100",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Paper Rate",
+          "units": " %",
+          "valueFormat": ",f"
+        },
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "name": "Mail Rate",
+          "notIncluded": true,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "(SUM(CASE \nWHEN \"NAST\".\"NACHA\" IN ('5') AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END)\n/\nSUM(CASE \nWHEN ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END))\n\n*100",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Mail Rate",
+          "units": " % ",
+          "valueFormat": ",f"
+        },
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "name": "Other",
+          "notIncluded": true,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "ABS(\n\n100 - \n\n(\n(SUM(CASE \nWHEN \"NAST\".\"NACHA\" IN ('5') AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END)\n/\nSUM(CASE \nWHEN ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END))\n\n*100\n\n+\n\n(SUM(CASE \nWHEN \"NAST\".\"NACHA\" IN ('1') AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END)\n/\nSUM(CASE \nWHEN ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END))\n\n*100\n\n+\n\n(SUM(CASE \nWHEN \"NAST\".\"NACHA\" IN ('6','9','A') AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END)\n/\nSUM(CASE \nWHEN ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL NOT IN ('MAHN','AUFB') AND NAST.AENDE <> 'X' THEN 1.0\nWHEN ISNULL(NAST.DATVR)=1 THEN 0.0\nELSE 0.0 END))\n\n*100\n))",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": " %",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "table",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 22,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "b8ff9a0b-e467-4f0b-bf8d-a3bf4f84923d",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "NO_LIMIT",
+      "limitNumber": 100,
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "Vendor Drilldown",
+      "titleStyle": {
+        "backgroundColor": "",
+        "bold": true,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 51,
+      "x": 48,
+      "y": 27,
+      "zIndex": 3
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "AVG(\nCASE WHEN ISNULL(LFA1.VBUND)= 1 \nTHEN 1.0 \nELSE 0.0 \nEND)",
+        "translatedName": "Single KPI",
+        "valueFormat": ".2%"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 5,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "5d4fe8ec-7bac-4a08-a8ee-cc621cf24e7b",
+      "initThresholdsCount": 1,
+      "kpiValue": 0,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        },
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 1,
+        "singleColor": "#1f77b4",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "title": "isnull",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "viewType": "number",
+      "width": 13,
+      "x": 63,
+      "y": 1,
+      "zIndex": 51
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteredThresholds": false,
+      "filteringSelf": true,
+      "formula": {
+        "name": "Single KPI",
+        "text": "AVG(\nCASE WHEN COALESCE(LFA1.VBUND, '') = '' \nTHEN 1.0 \nELSE 0.0 \nEND)",
+        "translatedName": "Single KPI",
+        "valueFormat": ".2%"
+      },
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 5,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "8695a401-0c73-4ff2-91f6-4a33287315fb",
+      "initThresholdsCount": 1,
+      "kpiValue": 0.9285714285714286,
+      "maximized": false,
+      "minHeight": 2,
+      "minWidth": 2,
+      "segmentsInput": [
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        },
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "selection": [],
+      "settings": {
+        "fixedTextSize": false,
+        "initThresholdsCount": 1,
+        "singleColor": "#1f77b4",
+        "singleColorEnabled": true,
+        "subtitlePosition": "left",
+        "viewType": "number"
+      },
+      "showHeader": true,
+      "thresholds": [
+        {
+          "color": "#1f77b4",
+          "formula": {
+            "text": "1500"
+          },
+          "value": 1500
+        }
+      ],
+      "title": "coalesce",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "single-kpi",
+      "version": 1,
+      "vertical": false,
+      "viewType": "number",
+      "width": 10,
+      "x": 76,
+      "y": 1,
+      "zIndex": 52
+    },
+    {
+      "allowDataLink": false,
+      "axis0": [
+        {
+          "name": "#{NAST.NACHA}",
+          "text": "\"NAST\".\"NACHA\"",
+          "type": "dimension",
+          "valueFormat": ""
+        },
+        {
+          "name": "#{NAST.NACHA_TEXT}",
+          "text": "\"NAST\".\"NACHA_TEXT\"",
+          "type": "dimension",
+          "valueFormat": ""
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "name": "Case count EKKO",
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "styles": {
+            "left": "0px",
+            "position": "absolute",
+            "right": "4px",
+            "top": "0px"
+          },
+          "text": "COUNT_TABLE(\"EKKO\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Case count",
+          "valueFormat": ",f"
+        },
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "name": "EBELP per EBELN",
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "PU_COUNT(EKKO, EKPO.EBELP)",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "table",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 10,
+      "id": "ba0e80d5-2988-4534-be61-391b1f2b97b2",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "NO_LIMIT",
+      "limitNumber": 100,
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 30,
+      "x": 20,
+      "y": 16,
+      "zIndex": 52
+    },
+    {
+      "allowDataLink": false,
+      "axis0": [
+        {
+          "name": "#{NAST.NACHA}",
+          "text": "\"NAST\".\"NACHA\"",
+          "type": "dimension",
+          "valueFormat": ""
+        },
+        {
+          "name": "#{NAST.NACHA_TEXT}",
+          "text": "\"NAST\".\"NACHA_TEXT\"",
+          "type": "dimension",
+          "valueFormat": ""
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "name": "EBELP per EBELN",
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "SUM(PU_COUNT(EKKO, EKPO.EBELP))",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "EBELP per EBELN",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "table",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 10,
+      "id": "772bf63a-49dd-44d1-b1b3-d198d809d713",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "NO_LIMIT",
+      "limitNumber": 100,
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 30,
+      "x": 32,
+      "y": 27,
+      "zIndex": 53
+    }
+  ],
+  "contentType": "blank-sheet",
+  "format": "FULLSCREEN",
+  "id": "3177e8a3-0a9b-4454-b9a8-026f93d9b61b",
+  "lines": [
+    {
+      "allowDataLink": false,
+      "arrow": "no-arrow",
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "color": "#9b9b9b",
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "directionType": "horizontal",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 1,
+      "id": "93012ac0-ddf6-476b-8186-9e5c026e91ee",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "stroke": "solid",
+      "thickness": 3,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "line",
+      "vertical": false,
+      "width": 3,
+      "x": 5,
+      "y": 11,
+      "zIndex": 46
+    },
+    {
+      "allowDataLink": false,
+      "arrow": "no-arrow",
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "color": "#cccccc",
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "directionType": "horizontal",
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 1,
+      "id": "57284788-2f1b-4306-84a8-01a594e309fb",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "stroke": "solid",
+      "thickness": 2,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "line",
+      "vertical": false,
+      "width": 85,
+      "x": 14,
+      "y": 7,
+      "zIndex": 58
+    }
+  ],
+  "name": "EDI Messages",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

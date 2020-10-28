@@ -1,0 +1,291 @@
+{
+  "components": [],
+  "contentType": "process-explorer",
+  "format": "FULLSCREEN",
+  "id": "d0016e79-a15f-476b-bfb0-9ceec383cbda",
+  "name": "Process Explorer",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "processExplorerComponent": {
+    "activityColumnRef": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_DE\"",
+    "activityConfigurations": [
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Bestellfreigabe Ende"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Bestellfreigabe Start"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erfasse Leistungserfassungsblatt"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erfasse Rechnungseingang"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erfasse Wareneingang"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erhalte Auftragsbest\u00e4tigung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erhalte Lieferavis"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erh\u00f6he Vertrags Preis"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Gebe BANF frei"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Gleiche Rechnung aus"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Lege BANF Position an"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Lege Bestellposition an"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Lehne BANF ab"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Lieferant erstellt Rechnung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "L\u00f6sche Bestellposition"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Mahne Auftragsbest\u00e4tigung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Qualit\u00e4t: Akzeptiert"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Qualit\u00e4tspr\u00fcfung Beginn"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Qualit\u00e4tspr\u00fcfung Ende"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Reaktiviere Bestellposition"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Sende Mahnung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Senke Vertrags Preis"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Sperre Bestellposition"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Start Banffreigabe"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Storniere Rechnungseingang"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Storniere Wareneingang"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Vertrag erstellt"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Auftragsbest\u00e4tigung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Endauslieferungskennzeichen"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Endlieferungskennzeichen"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Endrechnungskennzeichen"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Freigabe f\u00fcr Bestellung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Lagerort"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Lieferant"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Menge"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Preis"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere Vertrag"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "\u00c4ndere W\u00e4hrung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Entferne Zahlsperre"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erreiche Skontofrist"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Erreiche Zahlfrist"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Sende Bestellung"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Setze Zahlsperre"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Beginn Rechnungsfreigabe EASY"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Ende Rechnungsfreigabe EASY"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "L\u00f6sche Rechnung EASY"
+      },
+      {
+        "color": "#14a9d5",
+        "hidden": false,
+        "name": "Rechnungseingang EASY"
+      }
+    ],
+    "edgeSliderState": 0,
+    "fullDotLayout": true,
+    "groupsConfigurations": [],
+    "hiddenActivities": {},
+    "id": "PROCESS_EXPLORER",
+    "kpiView": {
+      "connectionKpi": {
+        "colorEnd": "#1190b6",
+        "colorStart": "#40c6ed",
+        "id": "FREQUENCY",
+        "name": "frequency",
+        "text": "",
+        "units": "",
+        "valueFormat": ",f"
+      },
+      "connectionKpis": [
+        {
+          "colorEnd": "#1190b6",
+          "colorStart": "#40c6ed",
+          "id": "FREQUENCY",
+          "name": "frequency",
+          "text": "",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "icon": "icons/icon-frequency.svg",
+      "id": "FREQUENCY",
+      "inlineKpi": "caseCount",
+      "title": "frequency"
+    },
+    "nodeSliderState": 0,
+    "preventResize": true,
+    "type": "simple_process",
+    "version": 2
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

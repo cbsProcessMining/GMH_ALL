@@ -1,0 +1,22 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "colorMappings": [],
+    "editMode": true,
+    "id": "419b7720-55e9-4836-9849-9ec172d8af1a",
+    "kpiViews": [],
+    "name": "Ad hoc Validation",
+    "rawDataExportLimit": 20000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "4a8b592f-0872-477b-9b4e-b96895924cd6",
+  "lastChangeDate": 1595501826477,
+  "lastChangeUserId": "79131ff5-ec28-4869-8a94-4f03938cfd85",
+  "lastChangeUserName": "christopher.knaps@cbs-consulting.de(Christopher)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

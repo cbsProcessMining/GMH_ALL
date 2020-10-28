@@ -1,0 +1,347 @@
+[
+  {
+    "name": "Message_Types",
+    "type": "text_replacement",
+    "value": "'ZNEU','NEU','MAHN','AUFB'"
+  },
+  {
+    "name": "Order_Message_Activities",
+    "type": "text_replacement",
+    "value": "'Send Purchase Order', 'Send Purchase Order Update', 'Dun Order Confirmation', 'Send Overdue Notice'"
+  },
+  {
+    "name": "unit3",
+    "type": "text_replacement",
+    "value": "MONTH"
+  },
+  {
+    "name": "automatic_users",
+    "type": "text_replacement",
+    "value": "'B','S'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 2,
+        "selected": true,
+        "value": "2"
+      }
+    ],
+    "linkedFormula": "\"NAST\".\"NACHA\"",
+    "name": "Fax",
+    "type": "text_replacement",
+    "value": "'2'"
+  },
+  {
+    "name": "process_explorer_classification",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ABC_lower_limit",
+    "type": "static_value",
+    "value": "0.10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ABC_upper_limit",
+    "type": "static_value",
+    "value": "0.80"
+  },
+  {
+    "name": "filter8_text",
+    "type": "text_replacement",
+    "value": "ABC filter for Vendor on Net Order Value"
+  },
+  {
+    "name": "Dimensionbutton",
+    "type": "text_replacement",
+    "value": "#{vendors}"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 19,
+        "selected": true,
+        "value": "Record Goods Receipt"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "To_EDI",
+    "type": "text_replacement",
+    "value": "'Record Goods Receipt'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 14,
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "From_EDI",
+    "type": "text_replacement",
+    "value": "'Create Purchase Order Item'"
+  },
+  {
+    "name": "Dun_Order_Confirmation",
+    "type": "text_replacement",
+    "value": "'MAHN'"
+  },
+  {
+    "name": "Send_Overdue_Notice",
+    "type": "text_replacement",
+    "value": "'Send Overdue Notice'"
+  },
+  {
+    "name": "Send_PO",
+    "type": "text_replacement",
+    "value": "'ZNEU', 'NEU'"
+  },
+  {
+    "name": "Send_PO_Update",
+    "type": "text_replacement",
+    "value": "'ZNEU'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Send Purchase Order"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "EDI_Activity",
+    "type": "text_replacement",
+    "value": "'Send Purchase Order'"
+  },
+  {
+    "name": "unit2",
+    "type": "text_replacement",
+    "value": "MONTH"
+  },
+  {
+    "name": "ButtonDrilldown4",
+    "type": "text_replacement",
+    "value": "CASE WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+  },
+  {
+    "name": "ButtonDrilldown3",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"BUKRS\" || ' - ' || \"EKPO\".\"BUKRS_TEXT\""
+  },
+  {
+    "name": "language",
+    "type": "text_replacement",
+    "value": "EN"
+  },
+  {
+    "name": "date_picker",
+    "type": "text_replacement",
+    "value": "ROUND_DAY(\"EKKO\".\"TS_AEDAT\")"
+  },
+  {
+    "name": "unit",
+    "type": "text_replacement",
+    "value": "hours"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 19,
+        "selected": true,
+        "value": "Record Goods Receipt"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "To",
+    "type": "text_replacement",
+    "value": "'Record Goods Receipt'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 14,
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "From",
+    "type": "text_replacement",
+    "value": "'Create Purchase Order Item'"
+  },
+  {
+    "name": "ButtonDrilldown2",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+  },
+  {
+    "name": "NAST_NACHA_PER_PO",
+    "type": "text_replacement",
+    "value": "PU_LAST(\"EKKO\",\"NAST\".\"NACHA\")"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 3,
+        "selected": true,
+        "value": "6"
+      },
+      {
+        "available": true,
+        "id": 5,
+        "selected": true,
+        "value": "9"
+      },
+      {
+        "available": true,
+        "id": 6,
+        "selected": true,
+        "value": "A"
+      }
+    ],
+    "linkedFormula": "\"NAST\".\"NACHA\"",
+    "name": "EDI",
+    "type": "text_replacement",
+    "value": "'6','9','A'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 4,
+        "selected": true,
+        "value": "7"
+      }
+    ],
+    "linkedFormula": "\"NAST\".\"NACHA\"",
+    "name": "Mail",
+    "type": "text_replacement",
+    "value": "'7'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "1",
+        "selected": true,
+        "value": "1"
+      }
+    ],
+    "name": "Print",
+    "type": "text_replacement",
+    "value": "'1'"
+  },
+  {
+    "name": "ButtonDrilldown1",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"MATNR\" || ' - ' || \"EKPO\".\"MATNR_TEXT\""
+  },
+  {
+    "name": "filter1",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+  },
+  {
+    "name": "filter2",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+  },
+  {
+    "name": "filter3",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+  },
+  {
+    "name": "filter4",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+  },
+  {
+    "name": "filter5",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+  },
+  {
+    "name": "filter6",
+    "type": "text_replacement",
+    "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+  },
+  {
+    "name": "filter7",
+    "type": "text_replacement",
+    "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+  },
+  {
+    "name": "filter1_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"BUKRS\"}"
+  },
+  {
+    "name": "filter2_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"WERKS\"}"
+  },
+  {
+    "name": "filter3_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKORG\"}"
+  },
+  {
+    "name": "filter4_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKGRP\"}"
+  },
+  {
+    "name": "filter5_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"BSART\"}"
+  },
+  {
+    "name": "filter6_text",
+    "type": "text_replacement",
+    "value": "#{\"LFA1\".\"VBUND\"}"
+  },
+  {
+    "name": "filter7_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"LOEKZ\"}"
+  },
+  {
+    "linkedEntries": [],
+    "name": "currency_symbol",
+    "type": "text_replacement",
+    "value": "\u20ac"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color",
+    "type": "text_replacement",
+    "value": "70"
+  },
+  {
+    "name": "ButtonDrilldownText1",
+    "type": "text_replacement",
+    "value": "#{Hours}"
+  },
+  {
+    "name": "ButtonDrilldownText2",
+    "type": "text_replacement",
+    "value": "#{Month}"
+  }
+]

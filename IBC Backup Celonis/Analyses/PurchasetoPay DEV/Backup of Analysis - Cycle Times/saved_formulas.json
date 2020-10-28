@@ -1,0 +1,50 @@
+[
+  {
+    "description": "Time between the first and last activity of an order items.",
+    "id": "a2c51d66-67ac-4018-882c-b07dff59cb8c",
+    "name": "CT Total",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CALC_THROUGHPUT(CASE_START TO CASE_END, REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", <%=unit%>))"
+  },
+  {
+    "description": "This formula defines the median time between the 'start activity' and 'end activity', as defined by the user in the settings.",
+    "id": "a9ab79f2-3208-4f89-8ebe-d24bfd4ae387",
+    "name": "CT Subprocess Median",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(\n\nCALC_THROUGHPUT(FIRST_OCCURRENCE['<%= start_activity %>'] TO LAST_OCCURRENCE['<%= end_activity %>'], REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", <%=unit%>))\n\n)\n"
+  },
+  {
+    "description": "Time between the 'start activity' and the 'end activity' of the PO item",
+    "id": "1134b766-806d-4ec2-8b59-4d60ffdb12bf",
+    "name": "CT Subprocess",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CALC_THROUGHPUT(FIRST_OCCURRENCE['<%= start_activity %>'] TO LAST_OCCURRENCE['<%= end_activity %>'], REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", <%=unit%>))\r\n"
+  },
+  {
+    "description": "This formula defines the median time between the first activity and last activity of all order items.",
+    "id": "677df572-15a3-4c34-a47d-6fcd5516cf0f",
+    "name": "CT Total Average",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(\n   CALC_THROUGHPUT(CASE_START TO CASE_END, REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", <%=unit%>))\n) \n\n\n"
+  },
+  {
+    "description": "",
+    "id": "6a43073c-fd5f-4fd1-870c-b5bbf25d3a77",
+    "name": "ABC_Vendor",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE\r\n  WHEN  ISNULL(ABC(PU_SUM(\"LFA1\", PU_SUM(\"EKKO\", \"EKPO\".\"NETWR_CONVERTED\"))  , 0.8, 0.15)) = 1\r\n  THEN 'Vendors without orders'\r\n\r\n  WHEN ABC(PU_SUM(\"LFA1\", PU_SUM(\"EKKO\", \"EKPO\".\"NETWR_CONVERTED\"))  , 0.8, 0.15) = 1\r\n  THEN 'A'\r\n\r\n  WHEN ABC(PU_SUM(\"LFA1\", PU_SUM(\"EKKO\", \"EKPO\".\"NETWR_CONVERTED\"))  , 0.8, 0.15) = 2\r\n  THEN 'B'\r\n\r\n  ELSE 'C'\r\nEND"
+  },
+  {
+    "description": "This formula defines the median time between the first activity and last activity of all order items.",
+    "id": "fbde637d-754e-41ca-9e15-c8172838ae18",
+    "name": "CT Total Median",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(\nCALC_THROUGHPUT(CASE_START TO CASE_END, REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", <%=unit%>))\n)"
+  }
+]

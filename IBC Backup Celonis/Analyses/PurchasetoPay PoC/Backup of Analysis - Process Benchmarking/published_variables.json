@@ -1,0 +1,294 @@
+[
+  {
+    "linkedEntries": [],
+    "name": "high_color_three_way_match_rate",
+    "type": "text_replacement",
+    "value": "80"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_three_way_match_rate",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_on_time_delivery_rate",
+    "type": "text_replacement",
+    "value": "80"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_on_time_delivery_rate",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_change_rate",
+    "type": "text_replacement",
+    "value": "60"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_change_rate",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "MENGE"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FIELD\"",
+    "name": "ChangedFields",
+    "type": "text_replacement",
+    "value": "'MENGE'"
+  },
+  {
+    "name": "low_color_automation_rate",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_automation_rate",
+    "type": "text_replacement",
+    "value": "100"
+  },
+  {
+    "name": "netwr",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"NETWR\""
+  },
+  {
+    "name": "tolerance_high_price",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "name": "tolerance_low_price",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "name": "tolerance_low_quantity",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "name": "tolerance_high_quantity",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "name": "tolerance_time_minus",
+    "type": "text_replacement",
+    "value": "3"
+  },
+  {
+    "name": "record_goods_receipt_activity",
+    "type": "text_replacement",
+    "value": "Record Goods Receipt"
+  },
+  {
+    "name": "tolerance_time_plus",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "name": "DayOfDataExtract",
+    "type": "text_replacement",
+    "value": "TODAY()"
+  },
+  {
+    "name": "forExtractChar",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "name": "GR_VARIABLE",
+    "type": "text_replacement",
+    "value": "PU_MAX(\"EKPO\", \"EKBE\".\"CPUDT\", \"EKBE\".\"VGABE\" = '1' AND \"EKBE\".\"SHKZG\" = 'S')"
+  },
+  {
+    "name": "ANALYSIS_KPI",
+    "type": "text_replacement",
+    "value": "PU_MAX(\"EKPO\",\"EKET\".\"SLFDT\")"
+  },
+  {
+    "name": "unit",
+    "type": "text_replacement",
+    "value": "days"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "B"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"",
+    "name": "auto_user_type",
+    "type": "text_replacement",
+    "value": "'B'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Approval for Purchase Order"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Create Purchase Requisition Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Send Purchase Order"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "white_listed_activities",
+    "type": "text_replacement",
+    "value": "'Change Approval for Purchase Order','Create Purchase Requisition Item','Send Purchase Order'"
+  },
+  {
+    "name": "filter7_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"LOEKZ\"}"
+  },
+  {
+    "name": "filter6_text",
+    "type": "text_replacement",
+    "value": "#{\"LFA1\".\"VBUND\"}"
+  },
+  {
+    "name": "filter5_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"BSART\"}"
+  },
+  {
+    "name": "filter4_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKGRP\"}"
+  },
+  {
+    "name": "filter3_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKORG\"}"
+  },
+  {
+    "name": "filter2_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"WERKS\"}"
+  },
+  {
+    "name": "filter1_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"BUKRS\"}"
+  },
+  {
+    "name": "filter7",
+    "type": "text_replacement",
+    "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+  },
+  {
+    "name": "filter6",
+    "type": "text_replacement",
+    "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+  },
+  {
+    "name": "filter5",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+  },
+  {
+    "name": "filter4",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+  },
+  {
+    "name": "filter3",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+  },
+  {
+    "name": "filter2",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+  },
+  {
+    "name": "filter1",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+  },
+  {
+    "name": "date_picker",
+    "type": "text_replacement",
+    "value": "ROUND_DAY(\"EKKO\".\"TS_AEDAT\")"
+  },
+  {
+    "name": "language",
+    "type": "text_replacement",
+    "value": "EN"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "AFS-VENDOR"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "IDES Consumer Products"
+      }
+    ],
+    "linkedFormula": "<%=benchmark_criterion%>",
+    "name": "benchmark1",
+    "type": "text_replacement",
+    "value": "'AFS-VENDOR','IDES Consumer Products'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "AFS-VENDOR"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "IDES Consumer Products"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Meyer Hardware Inc."
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "PA Electronics"
+      }
+    ],
+    "linkedFormula": "<%=benchmark_criterion%>",
+    "name": "benchmark2",
+    "type": "text_replacement",
+    "value": "'AFS-VENDOR','IDES Consumer Products','Meyer Hardware Inc.','PA Electronics'"
+  },
+  {
+    "name": "benchmark_criterion",
+    "type": "text_replacement",
+    "value": "\"LFA1\".\"NAME1\""
+  }
+]

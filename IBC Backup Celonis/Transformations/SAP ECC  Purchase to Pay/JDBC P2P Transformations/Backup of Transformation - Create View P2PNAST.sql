@@ -1,0 +1,161 @@
+/*DESCRIPTION:
+1. Transformation Description:
+This transformation creates a view with the following name: P2P_NAST
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Required Tables:
+DD07T
+NAST
+_CEL_P2P_CASES
+
+3. Required Columns:
+DD07T.DDLANGUAGE
+DD07T.DDTEXT
+DD07T.DOMNAME
+DD07T.DOMVALUE_L
+DD07T.IFNULL
+NAST.*
+NAST.MANDT
+NAST.NACHA
+NAST.OBJKY
+_CEL_P2P_CASES.EBELN
+_CEL_P2P_CASES.MANDT
+
+4. Columns used for timestamp:
+None
+
+5. Parameters used in where clause:
+None
+
+6. Parameters used in joins:
+primaryLanguageKey
+*/
+DROP VIEW IF EXISTS P2P_NAST;
+
+CREATE VIEW P2P_NAST AS
+SELECT DISTINCT
+    "NAST"."MANDT"
+    ,"NAST"."KAPPL"
+    ,"NAST"."OBJKY"
+    ,"NAST"."KSCHL"
+    ,"NAST"."SPRAS"
+    ,"NAST"."PARNR"
+    ,"NAST"."PARVW"
+    ,"NAST"."ERDAT"
+    ,"NAST"."ERUHR"
+    ,"NAST"."ADRNR"
+    ,"NAST"."ANZAL"
+    ,"NAST"."VSZTP"
+    ,"NAST"."VSDAT"
+    ,"NAST"."VSURA"
+    ,"NAST"."VSURB"
+    ,"NAST"."MANUE"
+    ,"NAST"."DATVR"
+    ,"NAST"."UHRVR"
+    ,"NAST"."DATRE"
+    ,"NAST"."USNAM"
+    ,"NAST"."VSTAT"
+    ,"NAST"."AKTIV"
+    ,"NAST"."TCODE"
+    ,"NAST"."LDEST"
+    ,"NAST"."DSNAM"
+    ,"NAST"."DSUF1"
+    ,"NAST"."DSUF2"
+    ,"NAST"."DIMME"
+    ,"NAST"."DELET"
+    ,"NAST"."TELFX"
+    ,"NAST"."TELX1"
+    ,"NAST"."TELTX"
+    ,"NAST"."AENDE"
+    ,"NAST"."REPET"
+    ,"NAST"."REPID"
+    ,CASE WHEN CASES.BSART = 'ZP4T' THEN '6' ELSE NAST.NACHA END AS NACHA
+    ,CASE WHEN CASES.BSART = 'ZP4T' THEN 'EDI' ELSE IFNULL(DD07T.DDTEXT,'') END AS NACHA_TEXT,
+    CAST(NAST.ERDAT AS DATE) AS TS_ERDAT,
+    CAST(NAST.VSDAT AS DATE) AS TS_VSDAT,
+    CAST(NAST.DATVR AS DATE) AS TS_DATVR,
+    CAST(NAST.DATRE AS DATE) AS TS_DATRE
+FROM 
+    NAST
+    INNER JOIN _CEL_P2P_CASES AS CASES ON 1=1
+        AND NAST.MANDT = CASES.MANDT
+        AND NAST.OBJKY = CASES.EBELN
+    LEFT JOIN DD07T AS DD07T ON 1=1
+	    AND DD07T.DOMVALUE_L = NAST.NACHA 
+	    AND DD07T.DOMNAME = 'NA_NACHA'
+	    AND DD07T.DDLANGUAGE = '<%=primaryLanguageKey%>'
+
+WHERE CASES.BSART = 'ZP4T'
+;
+
+SELECT DISTINCT
+    "NAST"."MANDT"
+    ,"NAST"."KAPPL"
+    ,"NAST"."OBJKY"
+    ,"NAST"."KSCHL"
+    ,"NAST"."SPRAS"
+    ,"NAST"."PARNR"
+    ,"NAST"."PARVW"
+    ,"NAST"."ERDAT"
+    ,"NAST"."ERUHR"
+    ,"NAST"."ADRNR"
+    ,"NAST"."ANZAL"
+    ,"NAST"."VSZTP"
+    ,"NAST"."VSDAT"
+    ,"NAST"."VSURA"
+    ,"NAST"."VSURB"
+    ,"NAST"."MANUE"
+    ,"NAST"."DATVR"
+    ,"NAST"."UHRVR"
+    ,"NAST"."DATRE"
+    ,"NAST"."USNAM"
+    ,"NAST"."VSTAT"
+    ,"NAST"."AKTIV"
+    ,"NAST"."TCODE"
+    ,"NAST"."LDEST"
+    ,"NAST"."DSNAM"
+    ,"NAST"."DSUF1"
+    ,"NAST"."DSUF2"
+    ,"NAST"."DIMME"
+    ,"NAST"."DELET"
+    ,"NAST"."TELFX"
+    ,"NAST"."TELX1"
+    ,"NAST"."TELTX"
+    ,"NAST"."AENDE"
+    ,"NAST"."REPET"
+    ,"NAST"."REPID"
+    ,CASE WHEN CASES.BSART = 'ZP4T' THEN '6' ELSE NAST.NACHA END AS NACHA
+    ,CASE WHEN CASES.BSART = 'ZP4T' THEN 'EDI' ELSE IFNULL(DD07T.DDTEXT,'') END AS NACHA_TEXT,
+    CAST(NAST.ERDAT AS DATE) AS TS_ERDAT,
+    CAST(NAST.VSDAT AS DATE) AS TS_VSDAT,
+    CAST(NAST.DATVR AS DATE) AS TS_DATVR,
+    CAST(NAST.DATRE AS DATE) AS TS_DATRE
+FROM 
+    NAST
+    INNER JOIN _CEL_P2P_CASES AS CASES ON 1=1
+        AND NAST.MANDT = CASES.MANDT
+        AND NAST.OBJKY = CASES.EBELN
+    LEFT JOIN DD07T AS DD07T ON 1=1
+	    AND DD07T.DOMVALUE_L = NAST.NACHA 
+	    AND DD07T.DOMNAME = 'NA_NACHA'
+	    AND DD07T.DDLANGUAGE = '<%=primaryLanguageKey%>'
+        
+;
+
+-- SELECT COUNT (*) FROM _CEL_P2P_CASES
+-- WHERE _CEL_P2P_CASES.BSART = 'ZP4T'

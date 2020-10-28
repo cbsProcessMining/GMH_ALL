@@ -1,0 +1,228 @@
+[
+  {
+    "name": "sameDayOperator_text",
+    "type": "text_replacement",
+    "value": "Yes"
+  },
+  {
+    "name": "sameDayOperator",
+    "type": "text_replacement",
+    "value": "<"
+  },
+  {
+    "name": "ButtonDrilldown5",
+    "type": "text_replacement",
+    "value": "TARGET"
+  },
+  {
+    "name": "Activity_Type2",
+    "type": "text_replacement",
+    "value": "Activity before"
+  },
+  {
+    "name": "Activity_Type",
+    "type": "text_replacement",
+    "value": "Activity after"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ButtonDrilldown4",
+    "type": "text_replacement",
+    "value": "SOURCE"
+  },
+  {
+    "name": "unit_1",
+    "type": "text_replacement",
+    "value": "YEAR"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "A"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"",
+    "name": "manual_user_type",
+    "type": "text_replacement",
+    "value": "'A'"
+  },
+  {
+    "name": "NEW_VARIABLE",
+    "type": "text_replacement",
+    "value": "'Record Goods Receipt'"
+  },
+  {
+    "name": "TypeOfMB2",
+    "type": "text_replacement",
+    "value": "\"EKBE\".\"VGABE\" = '2'"
+  },
+  {
+    "name": "TypeOfMB1",
+    "type": "text_replacement",
+    "value": "\"EKBE\".\"VGABE\" = '1'"
+  },
+  {
+    "name": "MBTypeSelector",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "name": "MB_Type",
+    "type": "text_replacement",
+    "value": "Goods Receipt before PO Creation"
+  },
+  {
+    "name": "DatediffMB",
+    "type": "text_replacement",
+    "value": "CASE WHEN PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"BUDAT\"),\"EKBE\".\"VGABE\" = '1') <=\nROUND_DAY(\"EKPO\".\"AEDAT\") \nTHEN DATEDIFF(dd, PU_FIRST(\"EKPO\",ROUND_DAY(\"EKBE\".\"BUDAT\"),\"EKBE\".\"VGABE\" = '1'), ROUND_DAY(\"EKPO\".\"AEDAT\") )\nELSE NULL\nEND"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ABC_upper_limit",
+    "type": "text_replacement",
+    "value": "0.15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ABC_lower_limit",
+    "type": "text_replacement",
+    "value": "0.07"
+  },
+  {
+    "name": "ButtonDrilldown3",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"MATKL\" || ' - ' || \"EKPO\".\"MATKL_TEXT\""
+  },
+  {
+    "name": "ButtonDrilldown2",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 1,
+        "selected": true,
+        "value": "Cancel Goods Receipt"
+      },
+      {
+        "available": true,
+        "id": 2,
+        "selected": true,
+        "value": "Cancel Invoice Receipt"
+      },
+      {
+        "available": true,
+        "id": 3,
+        "selected": true,
+        "value": "Change Approval for Purchase Order"
+      },
+      {
+        "available": true,
+        "id": 23,
+        "selected": true,
+        "value": "Remove Payment Block"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "activities_white_listed_in_automation_rate",
+    "type": "text_replacement",
+    "value": "'Cancel Goods Receipt','Cancel Invoice Receipt','Change Approval for Purchase Order','Remove Payment Block'"
+  },
+  {
+    "name": "unit",
+    "type": "text_replacement",
+    "value": "WEEK"
+  },
+  {
+    "name": "date_picker",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"TS_AEDAT\""
+  },
+  {
+    "name": "language",
+    "type": "text_replacement",
+    "value": "EN"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "B"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"",
+    "name": "auto_user_type",
+    "type": "text_replacement",
+    "value": "'B'"
+  },
+  {
+    "name": "ButtonDrilldown1",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+  },
+  {
+    "name": "filter1",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+  },
+  {
+    "name": "filter2",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+  },
+  {
+    "name": "filter3",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+  },
+  {
+    "name": "filter4",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+  },
+  {
+    "name": "filter5",
+    "type": "text_replacement",
+    "value": "\"LFA1\".\"LIFNR\" || ' - ' || \"LFA1\".\"NAME1\""
+  },
+  {
+    "name": "filter6",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"EMATN\" || ' - ' || \"EKPO\".\"MATNR_TEXT\""
+  },
+  {
+    "name": "filter1_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"BUKRS\"}"
+  },
+  {
+    "name": "filter2_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"WERKS\"}"
+  },
+  {
+    "name": "filter3_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKORG\"}"
+  },
+  {
+    "name": "filter4_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKGRP\"}"
+  },
+  {
+    "name": "filter5_text",
+    "type": "text_replacement",
+    "value": "#{\"LFA1\".\"LIFNR\"}"
+  },
+  {
+    "name": "filter6_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"MATKL\"}"
+  }
+]

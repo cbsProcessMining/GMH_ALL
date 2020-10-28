@@ -1,0 +1,2167 @@
+{
+  "components": [
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "c3c439a2-26ba-487d-88ee-c4f2b5f14fb0",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=17][b] Early Payments: How many invoices are paid too early?[/b][/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 79,
+      "x": 20,
+      "y": 1,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "58bea5c4-8b70-4c7a-b3f1-333feaaaf474",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b][size=15] Early Payments lead to significant working capital losses as you have to allocate funds earlier than planned.[/size][/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 79,
+      "x": 20,
+      "y": 4,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=SETUP_BG_COLOR_ASSUMPTIONS%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "3d3ae078-b7ef-472b-9784-714629958653",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[color=#ffffff][size=21] Assumptions:[/size][/color]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 49,
+      "x": 1,
+      "y": 11,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=SETUP_BG_COLOR_1%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "'<%= SETUP_CURRENCY %>'",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ""
+        }
+      ],
+      "hasBackground": true,
+      "height": 6,
+      "id": "e46c1b84-f537-4e7b-9306-24f0824d5884",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[color=#ffffff][size=21][b] Annual financial impact (${New Expression})[/b][/size][/color]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 34,
+      "x": 50,
+      "y": 43,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#14A9D5",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "51259149-93fc-418e-8e09-f70ef3e1b775",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b] Financial Impact = (Volume paid too early (EUR) *days too early/365 (days) * Assumed potential for optimization  (%) * Cost of capital (%))[/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 79,
+      "x": 20,
+      "y": 7,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "d5eb4e65-d197-47c9-b92d-9debc0edd67c",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "Assumed potential for optimization (%)",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 1,
+      "y": 19,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "f35d63e5-f615-4785-968c-243932b2f479",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b][size=15] Number of invoices paid between <%=EARLY_PAYMENT_THRESH_MIN%> and <%=EARLY_PAYMENT_THRESH_MAX%> days early[/size][/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 50,
+      "y": 13,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=SETUP_BG_COLOR_2%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "'<%= SETUP_CURRENCY %>'",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ""
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "e67c59cc-fee4-44f4-a0d9-e581b11abe97",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[color=#ffffff][size=17][b] Financial impact (${New Expression})[/b][/size][/color]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 34,
+      "x": 50,
+      "y": 39,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=SETUP_BG_COLOR_2%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "-- --SETUP_DUE_DATE = required payment date\n-- --SETUP_CLEARING_DATE = Actual payment date\n-- --OTD_Latest = latest date in dataset\n-- --DAYS_BETWEEN(X,Y) = Y - X [days]\n\n-- SUM(CASE\n    \n--     --NO Due Date\n--     WHEN ISNULL(<%= SETUP_DUE_DATE %>) = 1 \n--     THEN 0.0\n    \n--     --ON TIME (POTENTIALLY)\n--     WHEN ISNULL(<%= SETUP_CLEARING_DATE %>) = 1 \n--     AND DAYS_BETWEEN(TO_TIMESTAMP('<%= OTD_LATEST %>','YYYYMMDD'),<%= SETUP_DUE_DATE %>) >= 0 \n--     THEN 0.0\n--     --'No payment but future due date'\n    \n--     --TOO LATE, NO Payment\n--     WHEN ISNULL(<%= SETUP_CLEARING_DATE %>) = 1 \n--     AND DAYS_BETWEEN(TO_TIMESTAMP('<%= OTD_LATEST %>','YYYYMMDD'),<%= SETUP_DUE_DATE %>)  < 0 \n--     THEN 0.0\n--     --'No goods receipt and due date passed'\n--     --'Late delivery'\n    \n--     --ON TIME WITH EARLY INTERVAL\n--     WHEN DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) >= <%= LATE_PAYMENT_THRESH_MIN %>\n--     AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MIN %>\n--     THEN 0.0\n--     --'On time delivery'\n--     --although a little early, it is within the early interval of everything between 0 to x days early\n     \n--     --TOO EARLY\n--     --'Early delivery'\n--     --outside the On time delivery interval, too early\n\n--     WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DISCOUNT_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %>\n--     AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MAX %>\n--     AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n--     THEN \"AP_BSEG\".\"WRBTR_CONVERTED\"*(DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>)/365.0)*(<%= SETUP_ROIC %>/100.0) --Paid too early before discount date\n    \n    \n--     WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DUE_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %>\n--     AND PU_COUNT(AP_BSEG,_CEL_AP_ACTIVITIES.ACTIVITY_EN,_CEL_AP_ACTIVITIES.ACTIVITY_EN = 'Cash Discount Due Date passed') = 0 \n--     AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MAX %>\n--     AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n--     THEN \"AP_BSEG\".\"WRBTR_CONVERTED\"*(DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>)/365.0)*(<%= SETUP_ROIC %>/100.0)--paid too early when no cash discount due date exists\n    \n    \n    \n--     WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DUE_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %>\n--     AND DAYS_BETWEEN(<%=SETUP_DISCOUNT_DATE%>,<%=SETUP_CLEARING_DATE%>) > 0  \n--     AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MAX %>    \n--     AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n--     THEN \"AP_BSEG\".\"WRBTR_CONVERTED\"*(DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>)/365.0)*(<%= SETUP_ROIC %>/100.0) --paid too early when a cash discount due date exists (and was missed)\n   \n\n    \n    \n--     --TOO LATE\n--     WHEN DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) < <%= LATE_PAYMENT_THRESH_MIN %>\n--     THEN 0.0\n--     --'Late delivery'\n--     --outside the On time delivery interval, too late\n    \n--     ELSE 0.0\n--     --'Other'\n    \n-- END)*(1.0*<%= EARLY_PAYMENT_OPT %>/100)\n\n\n\nSUM(KPI(\"Differenz_GMH\") / 365 * \"AP_BSEG\".\"WRBTR_CONVERTED\" * <%= SETUP_ROIC %>* -0.01 * <%= EARLY_PAYMENT_OPT %> *0.01 )\n\n",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "5243877d-1e4f-4beb-82f8-ac021ab606f4",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][color=#ffffff][b][size=19]${New Expression}[/size][/b][/color][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 14,
+      "x": 85,
+      "y": 39,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "<%= SETUP_TIME_FACTOR %>",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ",.2f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "fd9bf6ae-d217-462f-b701-619a0c8f4937",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=15]${New Expression}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 14,
+      "x": 85,
+      "y": 41,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=SETUP_BG_COLOR_1%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "--SETUP_DUE_DATE = required payment date\n--SETUP_CLEARING_DATE = Actual payment date\n--OTD_Latest = latest date in dataset\n--DAYS_BETWEEN(X,Y) = Y - X [days]\n\nSUM(CASE\n    \n    --NO Due Date\n    WHEN ISNULL(<%= SETUP_DUE_DATE %>) = 1 \n    THEN 0.0\n    \n    --ON TIME (POTENTIALLY)\n    WHEN ISNULL(<%= SETUP_CLEARING_DATE %>) = 1 \n    AND DAYS_BETWEEN(TO_TIMESTAMP('<%= OTD_LATEST %>','YYYYMMDD'),<%= SETUP_DUE_DATE %>) >= 0 \n    THEN 0.0\n    --'No payment but future due date'\n    \n    --TOO LATE, NO Payment\n    WHEN ISNULL(<%= SETUP_CLEARING_DATE %>) = 1 \n    AND DAYS_BETWEEN(TO_TIMESTAMP('<%= OTD_LATEST %>','YYYYMMDD'),<%= SETUP_DUE_DATE %>)  < 0 \n    THEN 0.0\n    --'No goods receipt and due date passed'\n    --'Late delivery'\n    \n    --ON TIME WITH EARLY INTERVAL\n    WHEN DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) >= <%= LATE_PAYMENT_THRESH_MIN %>\n    AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MIN %>\n    THEN 0.0\n    --'On time delivery'\n    --although a little early, it is within the early interval of everything between 0 to x days early\n     \n    --TOO EARLY\n    --'Early delivery'\n    --outside the On time delivery interval, too early\n\n    WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DISCOUNT_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %>\n    AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MAX %>\n    AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n    THEN \"AP_BSEG\".\"WRBTR_CONVERTED\"*(DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>)/365.0)*(<%= SETUP_ROIC %>/100.0) --Paid too early before discount date\n    \n    \n    WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DUE_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %>\n    AND PU_COUNT(AP_BSEG,_CEL_AP_ACTIVITIES.ACTIVITY_EN,_CEL_AP_ACTIVITIES.ACTIVITY_EN = 'Cash Discount Due Date passed') = 0 \n    AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MAX %>\n    AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n    THEN \"AP_BSEG\".\"WRBTR_CONVERTED\"*(DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>)/365.0)*(<%= SETUP_ROIC %>/100.0)--paid too early when no cash discount due date exists\n    \n    \n    \n    WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DUE_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %>\n    AND DAYS_BETWEEN(<%=SETUP_DISCOUNT_DATE%>,<%=SETUP_CLEARING_DATE%>) > 0  \n    AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MAX %>    \n    AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n    THEN \"AP_BSEG\".\"WRBTR_CONVERTED\"*(DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>)/365.0)*(<%= SETUP_ROIC %>/100.0) --paid too early when a cash discount due date exists (and was missed)\n   \n\n    \n    \n    --TOO LATE\n    WHEN DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) < <%= LATE_PAYMENT_THRESH_MIN %>\n    THEN 0.0\n    --'Late delivery'\n    --outside the On time delivery interval, too late\n    \n    ELSE 0.0\n    --'Other'\n    \nEND)*(1.0*<%= EARLY_PAYMENT_OPT %>/100)\n\n\n",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 6,
+      "id": "4c68fe84-942b-4f13-8e83-aec4a20d1386",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][color=#ffffff][size=21][b]  ${New Expression}[/b][/size][/color][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 14,
+      "x": 85,
+      "y": 43,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "45551493-d43d-4144-b3a2-1c915f34cd03",
+      "maximized": false,
+      "placeholder": "EARLY_PAYMENT_OPT",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "EARLY_PAYMENT_OPT",
+      "vertical": false,
+      "width": 14,
+      "x": 36,
+      "y": 19,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "37ba536a-c655-42a3-911e-90cad2de7fe5",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15] Time factor (scaling factor for a full 1 year period)[/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 34,
+      "x": 50,
+      "y": 41,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "9619e267-aacf-4339-b8bc-d4ecdc1e00c4",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=21][color=#000000][b] Benefit:[/b][/color][/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 19,
+      "x": 1,
+      "y": 4,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#286782",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "545e77bb-4725-4430-9ddb-93b00586ba0a",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=21][color=#000000][b] Analysis:[/b][/color][/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 19,
+      "x": 1,
+      "y": 1,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "f1435b7c-bab5-4ae4-a61e-029051df2bba",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[color=#000000][b][size=21] Calculation:[/size][/b][/color]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 19,
+      "x": 1,
+      "y": 7,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "3e4b594e-6301-4524-a550-81d3ae86c9c9",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "Threshold for early payments (days):",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 1,
+      "y": 13,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "b26de4cd-bd6b-4388-955a-eff9e45652b0",
+      "maximized": false,
+      "placeholder": "EARLY_PAYMENT_THRESH_MIN",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "EARLY_PAYMENT_THRESH_MIN",
+      "vertical": false,
+      "width": 14,
+      "x": 36,
+      "y": 13,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "5303082c-545c-4a02-9070-51b1108918c0",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "Cost of capital (%)",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 1,
+      "y": 17,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "277f6536-cad7-4718-9550-b76f5cb79e85",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b][size=14] Total working capital losses from invoices paid between <%=EARLY_PAYMENT_THRESH_MIN%> and <%=EARLY_PAYMENT_THRESH_MAX%> days early (<%= SETUP_CURRENCY %>)[/size][/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 50,
+      "y": 17,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "10cf6a38-f653-4d48-9864-131919d526be",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b][size=14] Volume of invoices paid between <%=EARLY_PAYMENT_THRESH_MIN%> and <%=EARLY_PAYMENT_THRESH_MAX%> days early (<%= SETUP_CURRENCY %>)[/size][/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 50,
+      "y": 15,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "--SETUP_DUE_DATE = required payment date\n--SETUP_CLEARING_DATE = Actual payment date\n--OTD_Latest = latest date in dataset\n--DAYS_BETWEEN(X,Y) = Y - X [days]\n\n\n\n-- SUM(CASE\n    \n--     --NO Due Date\n--     WHEN ISNULL(<%= SETUP_DUE_DATE %>) = 1 \n--     THEN 0.0\n    \n--     --ON TIME (POTENTIALLY)\n--     WHEN ISNULL(<%= SETUP_CLEARING_DATE %>) = 1 \n--     AND DAYS_BETWEEN(TO_TIMESTAMP('<%= OTD_LATEST %>','YYYYMMDD'),<%= SETUP_DUE_DATE %>) >= 0 \n--     THEN 0.0\n--     --'No payment but future due date'\n    \n--     --TOO LATE, NO Payment\n--     WHEN ISNULL(<%= SETUP_CLEARING_DATE %>) = 1 \n--     AND DAYS_BETWEEN(TO_TIMESTAMP('<%= OTD_LATEST %>','YYYYMMDD'),<%= SETUP_DUE_DATE %>)  < 0 \n--     THEN 0.0\n--     --'No goods receipt and due date passed'\n--     --'Late delivery'\n    \n--     --ON TIME WITH EARLY INTERVAL\n--     WHEN DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) >= <%= LATE_PAYMENT_THRESH_MIN %>\n--     AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MIN %>\n--     THEN 0.0\n--     --'On time delivery'\n--     --although a little early, it is within the early interval of everything between 0 to x days early\n     \n--     --TOO EARLY\n--     --'Early delivery'\n--     --outside the On time delivery interval, too early\n\n--     WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DISCOUNT_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %>\n--     AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MAX %>\n--     AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n--     THEN \"AP_BSEG\".\"WRBTR_CONVERTED\"*(DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>)/365.0)*(<%= SETUP_ROIC %>/100.0) --Paid too early before discount date\n    \n    \n--     WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DUE_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %>\n--     AND PU_COUNT(AP_BSEG,_CEL_AP_ACTIVITIES.ACTIVITY_EN,_CEL_AP_ACTIVITIES.ACTIVITY_EN = 'Cash Discount Due Date passed') = 0 \n--     AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MAX %>\n--     AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n--     THEN \"AP_BSEG\".\"WRBTR_CONVERTED\"*(DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>)/365.0)*(<%= SETUP_ROIC %>/100.0)--paid too early when no cash discount due date exists\n    \n    \n    \n--     WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DUE_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %>\n--     AND DAYS_BETWEEN(<%=SETUP_DISCOUNT_DATE%>,<%=SETUP_CLEARING_DATE%>) > 0  \n--     AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MAX %>    \n--     AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n--     THEN \"AP_BSEG\".\"WRBTR_CONVERTED\"*(DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>)/365.0)*(<%= SETUP_ROIC %>/100.0) --paid too early when a cash discount due date exists (and was missed)\n   \n\n    \n    \n--     --TOO LATE\n--     WHEN DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) < <%= LATE_PAYMENT_THRESH_MIN %>\n--     THEN 0.0\n--     --'Late delivery'\n--     --outside the On time delivery interval, too late\n    \n--     ELSE 0.0\n--     --'Other'\n    \n-- END)\n\nSUM(KPI(\"Differenz_GMH\") / 365 * \"AP_BSEG\".\"WRBTR_CONVERTED\" * <%= SETUP_ROIC %>* -0.01)\n\n\n",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "eba28057-1357-4a73-8f4a-5f9522ac1185",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=15]${New Expression}[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 14,
+      "x": 85,
+      "y": 17,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "COUNT_TABLE(AP_BSEG)\n--**************************\n-- SUM(CASE \n--   WHEN KPI(\"Payment After\") - KPI(\"Due After_GMH\") >= <%=EARLY_PAYMENT_THRESH_MIN%> AND \n--   KPI(\"Payment After\") - KPI(\"Due After_GMH\") < <%=EARLY_PAYMENT_THRESH_MAX%>\n--   THEN 1.0\n--   ELSE 0.0\n--   END\n--   )\n--***********************************\n-- SUM(CASE \n--     WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DISCOUNT_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %> AND DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DISCOUNT_DATE%>) < <%= EARLY_PAYMENT_THRESH_MAX %>\n--     AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n--     THEN 1.0 --Paid too early before discount date\n--     WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DUE_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %> AND DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DUE_DATE%>) < <%= EARLY_PAYMENT_THRESH_MAX %> \n--     AND PU_COUNT(AP_BSEG,_CEL_AP_ACTIVITIES.ACTIVITY_EN,_CEL_AP_ACTIVITIES.ACTIVITY_EN = 'Cash Discount Due Date passed') = 0 \n--     AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n--     THEN 1.0 --paid too early when no cash discount due date exists\n--     WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DUE_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %> AND DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DUE_DATE%>) < <%= EARLY_PAYMENT_THRESH_MAX %>\n--     AND DAYS_BETWEEN(<%=SETUP_DISCOUNT_DATE%>,<%=SETUP_CLEARING_DATE%>) > 0  \n--     AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n--     THEN 1.0 --paid too early when a cash discount due date exists (and was missed)\n--     ELSE 0.0 \n-- END)\n\n",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "2ac836ff-9c5c-43de-ad73-3502d45e01d1",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=15]${New Expression}[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 14,
+      "x": 85,
+      "y": 13,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "\n\n--**********************\n\n--SETUP_DUE_DATE = required payment date\n--SETUP_CLEARING_DATE = Actual payment date\n--OTD_Latest = latest date in dataset\n--DAYS_BETWEEN(X,Y) = Y - X [days]\n\n-- SUM(CASE\n    \n--     --NO Due Date\n--     WHEN ISNULL(<%= SETUP_DUE_DATE %>) = 1 \n--     THEN 0.0\n    \n--     --ON TIME (POTENTIALLY)\n--     WHEN ISNULL(<%= SETUP_CLEARING_DATE %>) = 1 \n--     AND DAYS_BETWEEN(TO_TIMESTAMP('<%= OTD_LATEST %>','YYYYMMDD'),<%= SETUP_DUE_DATE %>) >= 0 \n--     THEN 0.0\n--     --'No payment but future due date'\n    \n--     --TOO LATE, NO Payment\n--     WHEN ISNULL(<%= SETUP_CLEARING_DATE %>) = 1 \n--     AND DAYS_BETWEEN(TO_TIMESTAMP('<%= OTD_LATEST %>','YYYYMMDD'),<%= SETUP_DUE_DATE %>)  < 0 \n--     THEN 0.0\n--     --'No goods receipt and due date passed'\n--     --'Late delivery'\n    \n--     --ON TIME WITH EARLY INTERVAL\n--     WHEN DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) >= <%= LATE_PAYMENT_THRESH_MIN %>\n--     AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MIN %>\n--     THEN 0.0\n--     --'On time delivery'\n--     --although a little early, it is within the early interval of everything between 0 to x days early\n     \n--     --TOO EARLY\n--     --'Early delivery'\n--     --outside the On time delivery interval, too early\n\n--     WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DISCOUNT_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %>\n--     AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MAX %>\n--     AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n--     THEN \"AP_BSEG\".\"WRBTR_CONVERTED\"\n    \n    \n--     WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DUE_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %>\n--     AND PU_COUNT(AP_BSEG,_CEL_AP_ACTIVITIES.ACTIVITY_EN,_CEL_AP_ACTIVITIES.ACTIVITY_EN = 'Cash Discount Due Date passed') = 0 \n--     AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MAX %>\n--     AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n--     THEN \"AP_BSEG\".\"WRBTR_CONVERTED\"\n    \n    \n    \n--     WHEN DAYS_BETWEEN(<%=SETUP_CLEARING_DATE%>,<%=SETUP_DUE_DATE%>) > <%= EARLY_PAYMENT_THRESH_MIN %>\n--     AND DAYS_BETWEEN(<%=SETUP_DISCOUNT_DATE%>,<%=SETUP_CLEARING_DATE%>) > 0  \n--     AND DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) <= <%= EARLY_PAYMENT_THRESH_MAX %>    \n--     AND COALESCE(AP_LFA1.VBUND, '' ) = ''\n--     THEN \"AP_BSEG\".\"WRBTR_CONVERTED\"\n   \n\n    \n    \n--     --TOO LATE\n--     WHEN DAYS_BETWEEN(<%= SETUP_CLEARING_DATE %>, <%= SETUP_DUE_DATE %>) < <%= LATE_PAYMENT_THRESH_MIN %>\n--     THEN 0.0\n--     --'Late delivery'\n--     --outside the On time delivery interval, too late\n    \n--     ELSE 0.0\n--     --'Other'\n    \n-- END)\n\nSUM(\"AP_BSEG\".\"WRBTR_CONVERTED\")",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "311aa17b-fa72-4b47-b312-5e8f43828f70",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b]${New Expression}[/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 14,
+      "x": 85,
+      "y": 15,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "axis0": [
+        {
+          "legendMarkerColor": "#ffd062",
+          "name": "Distribution",
+          "seriesColor": "#ffd062",
+          "text": "KPI(\"Payment After\") - KPI(\"Due After_GMH\")",
+          "translatedName": "Distribution",
+          "type": "dimension",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showAxisTitle": false,
+        "showTickLines": true,
+        "title": "distribution"
+      },
+      "axis1": [
+        {
+          "fillStyle": {
+            "opacity": 1
+          },
+          "name": "Occurrences",
+          "noExpression": true,
+          "seriesColor": "#ffd062",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showAxisTitle": true,
+        "showGridlines": true,
+        "showTickLines": true,
+        "title": "number_of_occurrences"
+      },
+      "axis2": [],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "histogram",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "dataType": "float",
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 27,
+      "histogram": {
+        "boundaries": [
+          {
+            "value": 0
+          },
+          {
+            "value": 2
+          },
+          {
+            "value": 4
+          },
+          {
+            "value": 6
+          },
+          {
+            "value": 8
+          },
+          {
+            "value": 10
+          },
+          {
+            "value": 12
+          }
+        ],
+        "bucketCount": 13,
+        "noLowerBound": false,
+        "noUpperBound": true,
+        "partitionRule": "SPECIFIC_BUCKET_COUNT",
+        "widthSize": 10
+      },
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "RIGHT",
+      "id": "2074d3a7-8c30-496d-95a8-b2052bb2b339",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "Number of invoices paid early by days early",
+      "titleStyle": {
+        "backgroundColor": "#<%=SETUP_BG_COLOR_ANALYSES%>",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#ffffff",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "histogram-chart",
+      "vertical": false,
+      "width": 49,
+      "x": 1,
+      "y": 22,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=SETUP_BG_COLOR_ANALYSES%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "05a046de-cef1-4f3a-89c2-c2271d77074b",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[color=#ffffff][size=21] Analysis results (unscaled):[/size][/color]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 49,
+      "x": 50,
+      "y": 11,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "308ddd6c-f8f3-436f-a1e4-10a0f8c53a42",
+      "maximized": false,
+      "placeholder": "EARLY_PAYMENT_THRESH_MAX",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "EARLY_PAYMENT_THRESH_MAX",
+      "vertical": false,
+      "width": 14,
+      "x": 36,
+      "y": 15,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "69e1e628-26e3-4756-978a-b1d7b7c2eda2",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "Max days early\n",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 1,
+      "y": 15,
+      "zIndex": 1
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "<%= SETUP_ROIC %>*0.01",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": "",
+          "valueFormat": "%"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "3037ea0d-e8a3-4c17-96c6-3b658a01f054",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[left][size=15]${New Expression}[/size][/left]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 14,
+      "x": 36,
+      "y": 17,
+      "zIndex": 1
+    },
+    {
+      "allowDataLink": false,
+      "axis0": [
+        {
+          "name": "#{AP_BSEG.BUKRS}",
+          "notIncluded": true,
+          "sortingIndex": null,
+          "text": "\"AP_BSEG\".\"BUKRS\"",
+          "type": "dimension",
+          "valueFormat": ""
+        },
+        {
+          "name": "#{AP_BSEG.BELNR}",
+          "notIncluded": false,
+          "sortingIndex": null,
+          "text": "\"AP_BSEG\".\"BELNR\"",
+          "translatedName": "BELNR",
+          "type": "dimension",
+          "valueFormat": ""
+        },
+        {
+          "name": "#{AP_BSEG.BUZEI}",
+          "notIncluded": false,
+          "sortingIndex": null,
+          "text": "\"AP_BSEG\".\"BUZEI\"",
+          "type": "dimension",
+          "valueFormat": ""
+        },
+        {
+          "name": "#{AP_BSEG.AUGDT}",
+          "notIncluded": true,
+          "text": "\"AP_BSEG\".\"AUGDT\"",
+          "type": "dimension",
+          "valueFormat": ""
+        },
+        {
+          "name": "Zahltag",
+          "notIncluded": false,
+          "sortingIndex": null,
+          "text": "CASE \nWHEN DAY_OF_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Gleiche Rechnung aus') ) = 1 THEN 'Montag' || ' - KW' || TO_STRING (CALENDAR_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Gleiche Rechnung aus') ))\nWHEN DAY_OF_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Gleiche Rechnung aus') ) = 2 THEN 'Dienstag' || ' - KW' || TO_STRING (CALENDAR_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Gleiche Rechnung aus') ))\nWHEN DAY_OF_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Gleiche Rechnung aus') ) = 3 THEN 'Mittwoch' || ' - KW' || TO_STRING (CALENDAR_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Gleiche Rechnung aus') ))\nWHEN DAY_OF_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Gleiche Rechnung aus') ) = 4 THEN 'Donnerstag' || ' - KW' || TO_STRING (CALENDAR_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Gleiche Rechnung aus') ))\nWHEN DAY_OF_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Gleiche Rechnung aus') ) = 5 THEN 'Freitag' || ' - KW' || TO_STRING (CALENDAR_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Gleiche Rechnung aus') ))\nWHEN DAY_OF_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Gleiche Rechnung aus') ) = 6 THEN 'Samstag' || ' - KW' || TO_STRING (CALENDAR_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Gleiche Rechnung aus') ))\nWHEN DAY_OF_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Gleiche Rechnung aus') ) = 0 THEN 'Sonntag' || ' - KW' || TO_STRING (CALENDAR_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Gleiche Rechnung aus') ))\nELSE NULL END\n\n\n\n\n\n",
+          "translatedName": "Zahltag",
+          "type": "dimension",
+          "valueFormat": ""
+        },
+        {
+          "name": "Tag Zahlfrist",
+          "notIncluded": false,
+          "sortingIndex": null,
+          "text": "CASE \nWHEN DAY_OF_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Erreiche Zahlfrist') ) = 1 THEN 'Montag' || ' - KW' || TO_STRING (CALENDAR_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Erreiche Zahlfrist') ))\nWHEN DAY_OF_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Erreiche Zahlfrist') ) = 2 THEN 'Dienstag' || ' - KW' || TO_STRING (CALENDAR_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Erreiche Zahlfrist') ))\nWHEN DAY_OF_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Erreiche Zahlfrist') ) = 3 THEN 'Mittwoch' || ' - KW' || TO_STRING (CALENDAR_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Erreiche Zahlfrist') ))\nWHEN DAY_OF_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Erreiche Zahlfrist') ) = 4 THEN 'Donnerstag' || ' - KW' || TO_STRING (CALENDAR_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Erreiche Zahlfrist') ))\nWHEN DAY_OF_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Erreiche Zahlfrist') ) = 5 THEN 'Freitag' || ' - KW' || TO_STRING (CALENDAR_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Erreiche Zahlfrist') ))\nWHEN DAY_OF_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Erreiche Zahlfrist') ) = 6 THEN 'Samstag' || ' - KW' || TO_STRING (CALENDAR_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Erreiche Zahlfrist') ))\nWHEN DAY_OF_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Erreiche Zahlfrist') ) = 0 THEN 'Sonntag' || ' - KW' || TO_STRING (CALENDAR_WEEK ( PU_FIRST(\"AP_BSEG\", \"_CEL_AP_ACTIVITIES\".\"EVENTTIME\", \"_CEL_AP_ACTIVITIES\".\"ACTIVITY_DE\" = 'Erreiche Zahlfrist') ))\nELSE NULL END",
+          "translatedName": "Tag Zahlfrist",
+          "type": "dimension",
+          "valueFormat": ""
+        },
+        {
+          "name": "#{AP_BSEG.ZFBDT}",
+          "notIncluded": true,
+          "text": "\"AP_BSEG\".\"ZFBDT\"",
+          "type": "dimension",
+          "valueFormat": ""
+        },
+        {
+          "name": "#{AP_BKPF.BLDAT}",
+          "notIncluded": true,
+          "text": "\"AP_BKPF\".\"BLDAT\"",
+          "type": "dimension",
+          "valueFormat": ""
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "name": "Bezahlt Nach",
+          "notIncluded": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "sortingIndex": null,
+          "text": "(KPI(\"Payment After\"))",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Bezahlt Nach",
+          "valueFormat": ""
+        },
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "name": "F\u00e4llig nach",
+          "notIncluded": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "sortingIndex": null,
+          "text": "KPI(\"Due After_GMH\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "F\u00e4llig nach_neu",
+          "valueFormat": ""
+        },
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "name": "Diff",
+          "notIncluded": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "sortingIndex": null,
+          "text": "AVG(KPI(\"Payment After\") - KPI(\"Due After_GMH\"))",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Differenz_neu",
+          "valueFormat": ""
+        },
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": true,
+          "name": "Potential",
+          "notIncluded": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "(KPI(\"Differenz_GMH\")/365* \"AP_BSEG\".\"WRBTR_CONVERTED\" * <%= SETUP_ROIC %>* -0.01 * <%= EARLY_PAYMENT_OPT %> *0.01 )\n",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "valueFormat": ",.2f"
+        },
+        {
+          "dataLabelStyle": {},
+          "dataLabelsPosition": "custom",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "function": null,
+          "ignoreSeriesPalettes": true,
+          "name": "Net Value",
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": false,
+          "text": "\"AP_BSEG\".\"WRBTR_CONVERTED\"",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "WRBTR_CONVERTED",
+          "valueFormat": ""
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "table",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 16,
+      "hoverButtonFixed": false,
+      "hoverButtonPosition": "LEFT",
+      "id": "313689c1-09af-40f6-bb05-078df3e6dd68",
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": true,
+      "limitMode": "NO_LIMIT",
+      "limitNumber": 100,
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "vertical": false,
+      "width": 48,
+      "x": 51,
+      "y": 20,
+      "zIndex": 51
+    }
+  ],
+  "contentType": "blank-sheet",
+  "format": "FULLSCREEN",
+  "id": "afd1ef27-686b-4cf5-881b-a3f2124e0e67",
+  "name": "Early Payments",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": "FILTER DOMAIN ROUND_MONTH ( TO_TIMESTAMP ( \"AP_BKPF\".\"CPUDT\" , 'YYYYMMDD' ) ) AS \"#{Time}\" FORMAT \"%Y-%m\" IN ( {t 1564617600000}, {t 1567296000000}, {t 1569888000000}, {t 1572566400000}, {t 1575158400000}, {t 1577836800000}, {t 1580515200000}, {t 1583020800000}, {t 1585699200000}, {t 1588291200000}, {t 1590969600000}, {t 1593561600000} );\r\nFILTER DOMAIN CASE WHEN COALESCE ( \"AP_LFA1\".\"VBUND\" , '' ) = '' THEN 'External' ELSE 'Internal' END IN ( 'External' );\r\nFILTER DOMAIN \"AP_BSEG\".\"BUKRS\" NOT IN ( '0040', '0036', '5010', '0167', '5050' );\r\n--FILTER (KPI(\"Payment After\") - KPI(\"Due After_GMH\")) >= <%=EARLY_PAYMENT_THRESH_MAX%> AND KPI(\"Payment After\") - KPI(\"Due After_GMH\") < <%=EARLY_PAYMENT_THRESH_MIN%>;"
+  }
+}

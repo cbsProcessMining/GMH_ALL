@@ -1,0 +1,487 @@
+[
+  {
+    "name": "ButtonDrilldown6",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Qualit\u00e4t: Akzeptiert"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "whitelist",
+    "type": "text_replacement",
+    "value": "'Qualit\u00e4t: Akzeptiert'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "EKO GMH Systems"
+      }
+    ],
+    "linkedFormula": "<%=benchmark_criterion%>",
+    "name": "benchmark2",
+    "type": "text_replacement",
+    "value": "EKO GMH Systems"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Mannstaedt"
+      }
+    ],
+    "linkedFormula": "<%=benchmark_criterion%>",
+    "name": "benchmark1",
+    "type": "text_replacement",
+    "value": "Mannstaedt"
+  },
+  {
+    "name": "benchmark_criterion",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKORG_TEXT\""
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 1,
+        "selected": true,
+        "value": "Adjustment Charge"
+      },
+      {
+        "available": true,
+        "id": 2,
+        "selected": true,
+        "value": "Block Purchase Order Item"
+      },
+      {
+        "available": true,
+        "id": 3,
+        "selected": true,
+        "value": "Cancel Goods Receipt"
+      },
+      {
+        "available": true,
+        "id": 4,
+        "selected": true,
+        "value": "Cancel Invoice Receipt"
+      },
+      {
+        "available": true,
+        "id": 5,
+        "selected": true,
+        "value": "Change Currency"
+      },
+      {
+        "available": true,
+        "id": 6,
+        "selected": true,
+        "value": "Change Price"
+      },
+      {
+        "available": true,
+        "id": 7,
+        "selected": true,
+        "value": "Change Quantity"
+      },
+      {
+        "available": true,
+        "id": 8,
+        "selected": true,
+        "value": "Change Vendor"
+      },
+      {
+        "available": true,
+        "id": 12,
+        "selected": true,
+        "value": "Delete Purchase Order Item"
+      },
+      {
+        "available": true,
+        "id": 13,
+        "selected": true,
+        "value": "Dun Order Confirmation"
+      },
+      {
+        "available": true,
+        "id": 15,
+        "selected": true,
+        "value": "Reactivate Purchase Order Item"
+      },
+      {
+        "available": true,
+        "id": 21,
+        "selected": true,
+        "value": "Send Overdue Notice"
+      },
+      {
+        "available": true,
+        "id": 22,
+        "selected": true,
+        "value": "Send Purchase Order Update"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "rework_activities",
+    "type": "text_replacement",
+    "value": "'Adjustment Charge','Block Purchase Order Item','Cancel Goods Receipt','Cancel Invoice Receipt','Change Currency','Change Price','Change Quantity','Change Vendor','Delete Purchase Order Item','Dun Order Confirmation','Reactivate Purchase Order Item','Send Overdue Notice','Send Purchase Order Update'"
+  },
+  {
+    "name": "date_picker",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"TS_AEDAT\""
+  },
+  {
+    "name": "language",
+    "type": "text_replacement",
+    "value": "DE"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_automation_rate",
+    "type": "text_replacement",
+    "value": "40"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_automation_rate",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_rework_rate",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_rework_rate",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_change_rate",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_change_rate",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "name": "unitTCT",
+    "type": "text_replacement",
+    "value": "days"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color_CT",
+    "type": "text_replacement",
+    "value": "40"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color_CT",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "name": "unit",
+    "type": "text_replacement",
+    "value": "days"
+  },
+  {
+    "name": "filter1_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"BUKRS\"}"
+  },
+  {
+    "name": "filter2_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"WERKS\"}"
+  },
+  {
+    "name": "filter3_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKORG\"}"
+  },
+  {
+    "name": "filter4_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKGRP\"}"
+  },
+  {
+    "name": "filter5_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"BSART\"}"
+  },
+  {
+    "name": "filter6_text",
+    "type": "text_replacement",
+    "value": "#{\"LFA1\".\"VBUND\"}"
+  },
+  {
+    "name": "filter7_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"LOEKZ\"}"
+  },
+  {
+    "name": "filter1",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+  },
+  {
+    "name": "filter2",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+  },
+  {
+    "name": "filter3",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+  },
+  {
+    "name": "filter4",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+  },
+  {
+    "name": "filter5",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+  },
+  {
+    "name": "filter6",
+    "type": "text_replacement",
+    "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+  },
+  {
+    "name": "filter7",
+    "type": "text_replacement",
+    "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 1,
+        "selected": true,
+        "value": "Cancel Goods Receipt"
+      },
+      {
+        "available": true,
+        "id": 2,
+        "selected": true,
+        "value": "Cancel Invoice Receipt"
+      },
+      {
+        "available": true,
+        "id": 9,
+        "selected": true,
+        "value": "Change Price"
+      },
+      {
+        "available": true,
+        "id": 10,
+        "selected": true,
+        "value": "Change Quantity"
+      },
+      {
+        "available": true,
+        "id": 14,
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      },
+      {
+        "available": true,
+        "id": 15,
+        "selected": true,
+        "value": "Create Purchase Requisition Item"
+      },
+      {
+        "available": true,
+        "id": 16,
+        "selected": true,
+        "value": "Delete Purchase Order Item"
+      },
+      {
+        "available": true,
+        "id": 17,
+        "selected": true,
+        "value": "Reactivate Purchase Order Item"
+      },
+      {
+        "available": true,
+        "id": 18,
+        "selected": true,
+        "value": "Receive Order Confirmation"
+      },
+      {
+        "available": true,
+        "id": 19,
+        "selected": true,
+        "value": "Record Goods Receipt"
+      },
+      {
+        "available": true,
+        "id": 20,
+        "selected": true,
+        "value": "Record Invoice Receipt"
+      },
+      {
+        "available": true,
+        "id": 22,
+        "selected": true,
+        "value": "Release Purchase Requisition"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "activities_used_in_automation_rate",
+    "type": "text_replacement",
+    "value": "'Cancel Goods Receipt','Cancel Invoice Receipt','Change Price','Change Quantity','Create Purchase Order Item','Create Purchase Requisition Item','Delete Purchase Order Item','Reactivate Purchase Order Item','Receive Order Confirmation','Record Goods Receipt','Record Invoice Receipt','Release Purchase Requisition'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Approval for Purchase Order"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Contract"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Currency"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Deletion Flag for Purchase Order Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Price"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Quantity"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Storage Location"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Change Vendor"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Delete Purchase Order Item"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Update Order Confirmation"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+    "name": "ChangedFields",
+    "type": "text_replacement",
+    "value": "'Change Approval for Purchase Order','Change Contract','Change Currency','Change Deletion Flag for Purchase Order Item','Change Price','Change Quantity','Change Storage Location','Change Vendor','Delete Purchase Order Item','Update Order Confirmation'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "B",
+        "selected": true,
+        "value": "B"
+      }
+    ],
+    "name": "auto_user_type",
+    "type": "text_replacement",
+    "value": "'B'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Lege BANF Position an"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "From",
+    "type": "text_replacement",
+    "value": "'Lege BANF Position an'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Lege Bestellposition an"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "To",
+    "type": "text_replacement",
+    "value": "'Lege Bestellposition an'"
+  },
+  {
+    "name": "exclude_CHANGED_FIELD",
+    "type": "text_replacement",
+    "value": "('KEY','LOEKZ')"
+  },
+  {
+    "name": "ButtonDrilldown1",
+    "type": "text_replacement",
+    "value": "CASE WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") >= 0 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 100 THEN 'a) 0 - 100\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 100 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 500 THEN 'b) 100 - 500\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 500 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 1000 THEN 'c) 500 - 1.000\u20ac' WHEN PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") > 1000 AND PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\") <= 10000 THEN 'd) 1.000 - 10.000\u20ac' ELSE 'e) > 10.000\u20ac' END"
+  },
+  {
+    "name": "ButtonDrilldown2",
+    "type": "text_replacement",
+    "value": "\"LFA1\".\"LIFNR\" || ' - ' || \"LFA1\".\"NAME1\""
+  },
+  {
+    "name": "ButtonDrilldown3",
+    "type": "text_replacement",
+    "value": "\"LFA1\".\"LIFNR\" || ' - ' || \"LFA1\".\"NAME1\""
+  },
+  {
+    "name": "ButtonDrilldown4",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"MATNR\" || ' - ' || \"EKPO\".\"MATNR_TEXT\""
+  },
+  {
+    "name": "ButtonDrilldown5",
+    "type": "text_replacement",
+    "value": "\"LFA1\".\"LIFNR\" || ' - ' || \"LFA1\".\"NAME1\""
+  },
+  {
+    "linkedEntries": [],
+    "name": "currency_symbol",
+    "type": "text_replacement",
+    "value": "\u20ac"
+  }
+]

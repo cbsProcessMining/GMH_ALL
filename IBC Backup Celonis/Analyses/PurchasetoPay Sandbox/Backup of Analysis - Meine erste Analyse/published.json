@@ -1,0 +1,23 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "colorMappings": [],
+    "editMode": true,
+    "id": "5ace9b4f-87c9-49a6-bbb3-2012c1db2d52",
+    "kpiViews": [],
+    "name": "Meine erste Analyse",
+    "palettes": [],
+    "rawDataExportLimit": 20000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "9dd57ef1-0947-4100-98a4-480ee4cd016b",
+  "lastChangeDate": 1595588959187,
+  "lastChangeUserId": "6b7e2700-21e4-449e-9981-de00c312f260",
+  "lastChangeUserName": "christoph.schmitz@gmh-gruppe.de(Christoph Schmitz)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

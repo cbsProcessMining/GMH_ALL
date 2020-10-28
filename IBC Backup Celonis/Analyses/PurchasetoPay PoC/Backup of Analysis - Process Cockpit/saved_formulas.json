@@ -1,0 +1,74 @@
+[
+  {
+    "description": "This KPI calculates the rate of considered activities performed by an automatic user type.",
+    "id": "fc4d7d97-ff0f-4f80-8b07-7a0fa860f391",
+    "name": "Automation Rate Case Level",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "PU_AVG(\"EKPO\",\r\n    CASE\r\n        WHEN \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\" NOT IN (<%= activities_used_in_automation_rate %>)\r\n        THEN\r\n            NULL\r\n        WHEN \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" IN (<%= auto_user_type %>)\r\n        THEN\r\n            1.0\r\n        ELSE\r\n            0.0\r\nEND\r\n)"
+  },
+  {
+    "description": "",
+    "id": "4160cfc7-f94f-4116-9a71-9e24e1bcc3d0",
+    "name": "Total Rework Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100.0*AVG(CASE \r\nWHEN PU_COUNT(\"EKPO\",\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\",\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\" IN (<%=rework_activities%>)) > 0 \r\nTHEN 1.0 \r\nELSE 0.0 \r\nEND)"
+  },
+  {
+    "description": "This KPI calculates percentage of cases where the process includes a predefined change activities.",
+    "id": "551f2dd6-9205-4229-8700-2f1531fe67d7",
+    "name": "Change Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100.0*AVG(\n\nCASE WHEN PU_COUNT(\"EKPO\",\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\",\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FIELD_TEXT_<%=language%>\" IN (<%=ChangedFields%>)) > 0\n    THEN\n        1.0 \n    ELSE\n        0.0 \nEND\n\n)\n"
+  },
+  {
+    "description": "Calculates the number of changes performed manually.",
+    "id": "afda63da-de8f-4d85-a989-213710374fc8",
+    "name": "Manual Changes",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(CASE\n        WHEN \"_CEL_P2P_ACTIVITIES\".\"CHANGED_FIELD_TEXT_<%=language%>\" NOT IN (<%=ChangedFields%>)\n            THEN \n                NULL\n        WHEN  \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" IN (<%=auto_user_type%>) \n            THEN \n                0.0\n        WHEN ISNULL(\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\")=1 \n            THEN\n                1.0 \n            ELSE\n                1.0 \n    END\n)"
+  },
+  {
+    "description": "This KPI calculates percentage of cases where the process includes a predefined rework activities.",
+    "id": "ba75e798-2c24-4b57-972e-e5ef5b02e06a",
+    "name": "Total Loop Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100.0*AVG(\n\nCASE WHEN PU_COUNT(\"EKPO\",\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\" ) - PU_COUNT_DISTINCT(\"EKPO\",\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\" ) > 0\n    THEN\n        1.0 \n    ELSE\n        0.0 \nEND\n\n)"
+  },
+  {
+    "description": "",
+    "id": "889247c4-e463-443e-93c4-d73348e3190a",
+    "name": "CT Subprocess",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(\nCALC_THROUGHPUT(FIRST_OCCURRENCE[<%= From %>] TO LAST_OCCURRENCE[<%= To %>], REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", <%=unit%>))\n)\n"
+  },
+  {
+    "description": "Counts the number of automated activities (out of the considered activities)",
+    "id": "130cf416-fd22-46cf-aedb-5852a6220373",
+    "name": "Automated Activities",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(\n\nCASE WHEN \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\" IN (<%= whitelist %>) \n         THEN NULL\n    WHEN ISNULL( \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\") = 1\n         THEN NULL\n    WHEN  \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" IN (<%= auto_user_type %>)\n         THEN 1.0\n    ELSE\n        0.0\nEND\n)\n"
+  },
+  {
+    "description": "This KPI calculates the rate of considered activities performed by an automatic user type.",
+    "id": "942ecd5d-d844-4562-b3fd-2c7a0ed2556c",
+    "name": "Automation Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100.0*AVG(\n\nCASE\n    WHEN \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\" IN (<%= whitelist %>) \n    THEN \n        NULL\n    WHEN ISNULL( \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\") = 1\n    THEN \n        NULL\n    WHEN \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" IN (<%= auto_user_type %>) \n    THEN\n        1.0 \n    ELSE\n        0.0 \nEND\n\n)\n"
+  },
+  {
+    "description": "This KPI calculates the median time from the process start until the process end in days.",
+    "id": "511e7f02-7227-42e6-8e88-739d0ac24172",
+    "name": "CT Total",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(\n\n  CALC_THROUGHPUT(CASE_START TO CASE_END, REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", <%=unit%>))\n\n)"
+  }
+]

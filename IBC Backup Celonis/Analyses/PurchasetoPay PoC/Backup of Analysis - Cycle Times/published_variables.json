@@ -1,0 +1,193 @@
+[
+  {
+    "linkedEntries": [],
+    "name": "targetCT",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "name": "ButtonDrilldown3",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"MATKL\" || ' - ' || \"EKPO\".\"MATKL_TEXT\""
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Record Goods Receipt"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Record Invoice Receipt"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+    "name": "completion_activity",
+    "type": "text_replacement",
+    "value": "'Record Goods Receipt','Record Invoice Receipt'"
+  },
+  {
+    "name": "ButtonDrilldown2",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"MATNR\" || ' - ' || \"EKPO\".\"MATNR_TEXT\""
+  },
+  {
+    "name": "unit_timeseries",
+    "type": "text_replacement",
+    "value": "WEEK"
+  },
+  {
+    "name": "date_picker",
+    "type": "text_replacement",
+    "value": "ROUND_DAY(\"EKKO\".\"TS_AEDAT\")"
+  },
+  {
+    "name": "language",
+    "type": "text_replacement",
+    "value": "DE"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Storniere Wareneingang"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+    "name": "end_activity",
+    "type": "text_replacement",
+    "value": "Storniere Wareneingang"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Lege Bestellposition an"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%=language%>\"",
+    "name": "start_activity",
+    "type": "text_replacement",
+    "value": "Lege Bestellposition an"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "B",
+        "selected": true,
+        "value": "B"
+      }
+    ],
+    "name": "auto_user_type",
+    "type": "text_replacement",
+    "value": "'B'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_CT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "name": "unit",
+    "type": "text_replacement",
+    "value": "days"
+  },
+  {
+    "name": "ButtonDrilldown1",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+  },
+  {
+    "name": "filter1",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+  },
+  {
+    "name": "filter2",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+  },
+  {
+    "name": "filter3",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+  },
+  {
+    "name": "filter4",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+  },
+  {
+    "name": "filter5",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+  },
+  {
+    "name": "filter6",
+    "type": "text_replacement",
+    "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+  },
+  {
+    "name": "filter7",
+    "type": "text_replacement",
+    "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+  },
+  {
+    "name": "filter1_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"BUKRS\"}"
+  },
+  {
+    "name": "filter2_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"WERKS\"}"
+  },
+  {
+    "name": "filter3_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKORG\"}"
+  },
+  {
+    "name": "filter4_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKGRP\"}"
+  },
+  {
+    "name": "filter5_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"BSART\"}"
+  },
+  {
+    "name": "filter6_text",
+    "type": "text_replacement",
+    "value": "#{\"LFA1\".\"VBUND\"}"
+  },
+  {
+    "name": "filter7_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"LOEKZ\"}"
+  },
+  {
+    "linkedEntries": [],
+    "name": "currency_symbol",
+    "type": "text_replacement",
+    "value": "\u20ac"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color",
+    "type": "text_replacement",
+    "value": "12"
+  }
+]

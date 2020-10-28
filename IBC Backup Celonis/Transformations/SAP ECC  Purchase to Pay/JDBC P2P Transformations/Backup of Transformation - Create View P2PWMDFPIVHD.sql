@@ -1,0 +1,26 @@
+/*DESCRIPTION:
+View for Metadata in Reporting Layer
+*/
+DROP VIEW IF EXISTS "P2P_/WMD/FP_IVHD";
+CREATE VIEW "P2P_/WMD/FP_IVHD" AS 
+SELECT DISTINCT 
+    H.*,
+ 	CAST(H.BLDAT AS DATE) AS TS_BLDAT, 
+    CAST(H.BUDAT AS DATE) AS TS_BUDAT,
+    cast(H.ZFBDT as Date) as TS_ZFBDT,
+    cast(H.SCANDATE as Date) as TS_SCANDATE,
+    to_TIMESTAMP(H.Entry, 'YYYYMMDDHHMMSS') as TS_ENTRY,
+    to_TIMESTAMP(H.UPD_TIME, 'YYYYMMDDHHMMSS') as TS_UPD_TIME,
+      P.EBELN as "EBELN", 
+    P.EBELP as "EBELP" 
+ from  TMP_P2P_EKKO_EKPO AS E 
+        inner join "/WMD/FP_IVPO" as P on 1 = 1
+        AND P.MANDT = E.MANDT
+        AND P.EBELN = E.EBELN
+        AND P.EBELP = E.EBELP
+INNER JOIN "/WMD/FP_IVHD" AS H ON 1=1
+    and H.MANDT = P.MANDT 
+    and H."RECNO" = P.RECNO;
+
+
+    

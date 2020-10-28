@@ -1,0 +1,477 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "allowBpmnExport": true,
+    "allowRawDataExport": true,
+    "colorMappings": [
+      {
+        "id": "5d30785c-9cd3-4e59-a0b3-14613f9820a0",
+        "name": "New Color Mapping",
+        "thresholds": [],
+        "type": "dimension"
+      },
+      {
+        "id": "420fb060-5fc6-41c8-8dc2-87153ac416f2",
+        "name": "Too Early",
+        "thresholds": [
+          {
+            "color": "#ff8884",
+            "compare": ">=",
+            "formula": "0.15"
+          },
+          {
+            "color": "#FFB55C",
+            "compare": "<",
+            "formula": "0.15"
+          },
+          {
+            "color": "#96ba55",
+            "compare": "<",
+            "formula": "0.1"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "9f98a167-2f8b-421d-9078-9f9f3849b724",
+        "name": "In Target",
+        "thresholds": [
+          {
+            "color": "#c8484f",
+            "compare": ">=",
+            "formula": "0"
+          },
+          {
+            "color": "#96ba55",
+            "compare": ">=",
+            "formula": "0.8"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "66f2e472-114b-4e30-81a0-a4d158a81875",
+        "name": "Price Delta",
+        "thresholds": [
+          {
+            "color": "#ff797b",
+            "compare": ">=",
+            "formula": "0"
+          },
+          {
+            "color": "#96ba55",
+            "compare": "<",
+            "formula": "0"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "8aa252a9-2a8b-44d3-9b5d-f04499c471c6",
+        "name": "FTR",
+        "thresholds": [
+          {
+            "color": "#ff8884",
+            "compare": ">=",
+            "formula": "0"
+          },
+          {
+            "color": "#FFB710",
+            "compare": ">=",
+            "formula": "0.4"
+          },
+          {
+            "color": "#76d1bb",
+            "compare": ">",
+            "formula": "0.85"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "17dd9dc1-4216-4d62-804b-864a788ebf11",
+        "name": "CT Total",
+        "thresholds": [
+          {
+            "color": "#76d1bb",
+            "compare": ">=",
+            "formula": "0"
+          },
+          {
+            "color": "#ffd062",
+            "compare": ">=",
+            "formula": "15"
+          },
+          {
+            "color": "#ff8884",
+            "compare": ">=",
+            "formula": "25"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "ebcb2fe4-e224-4cd6-a5f9-20ddeabd78a0",
+        "name": "Days",
+        "thresholds": [
+          {
+            "color": "#76d1bb",
+            "compare": ">=",
+            "formula": "0"
+          },
+          {
+            "color": "#ffd062",
+            "compare": ">=",
+            "formula": "10"
+          },
+          {
+            "color": "#ff8884",
+            "compare": ">=",
+            "formula": "15"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "2e962daa-1c20-438d-9d81-c4f42d3804d7",
+        "name": "SOD Rate",
+        "thresholds": [
+          {
+            "color": "#ff8884",
+            "compare": "<=",
+            "formula": "100"
+          },
+          {
+            "color": "#FFB55C",
+            "compare": "<=",
+            "formula": "10"
+          },
+          {
+            "color": "#76d1bb",
+            "compare": "<=",
+            "formula": "5"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "3eeda4b8-9aa9-4e9b-a343-7a005e11aa08",
+        "name": "Price Change",
+        "thresholds": [
+          {
+            "color": "#76d1bb",
+            "compare": "<=",
+            "formula": "<%=changes_upper%>"
+          },
+          {
+            "color": "#ffb55c",
+            "compare": ">",
+            "formula": "<%=changes_upper%>"
+          },
+          {
+            "color": "#ff8884",
+            "compare": ">=",
+            "formula": "<%=changes_lower%>"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "ecd6fee4-9f44-4765-b77f-0cd1cf304b44",
+        "name": "Three-way-match",
+        "thresholds": [
+          {
+            "color": "#ff8884",
+            "compare": "<",
+            "formula": "0.7"
+          },
+          {
+            "color": "#FFB55C",
+            "compare": ">=",
+            "formula": "0.7"
+          },
+          {
+            "color": "#76d1bb",
+            "compare": ">=",
+            "formula": "0.9"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "b0c6b63e-009a-45f7-a5cf-e78c6e39b732",
+        "name": "On Time Delivery",
+        "thresholds": [
+          {
+            "color": "#ff797b",
+            "compare": "<=",
+            "formula": "<%=otd_lower%>"
+          },
+          {
+            "color": "#ffb55c",
+            "compare": ">",
+            "formula": "<%=otd_lower%>"
+          },
+          {
+            "color": "#96ba55",
+            "compare": ">=",
+            "formula": "<%=otd_upper%>"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "c4aa6c2c-95f4-4f38-bbe3-fe9a80173d08",
+        "name": "Automation Rate",
+        "thresholds": [
+          {
+            "color": "#ff8884",
+            "compare": "<=",
+            "formula": "<%=auto_lower%>"
+          },
+          {
+            "color": "#FFB55C",
+            "compare": ">",
+            "formula": "<%=auto_lower%>"
+          },
+          {
+            "color": "#76d1bb",
+            "compare": ">=",
+            "formula": "<%=auto_upper%>"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "1e559010-7888-459c-ad7d-5fe57a777508",
+        "name": "% Changes",
+        "thresholds": [
+          {
+            "color": "#b61608",
+            "compare": ">",
+            "formula": "0.3"
+          },
+          {
+            "color": "#FF8B00",
+            "compare": "<",
+            "formula": "0.3"
+          },
+          {
+            "color": "#78B604",
+            "compare": "<",
+            "formula": "0.1"
+          }
+        ],
+        "type": "series"
+      }
+    ],
+    "editMode": false,
+    "id": "f4c774ed-4f70-4d21-9f2a-cdb5bfd53a4e",
+    "kpiViews": [
+      {
+        "activityKpis": [],
+        "connectionKpi": {
+          "id": "84419f7a-b2ec-4aa7-bf51-7ee9de8f90fa",
+          "name": "Throughput Time",
+          "text": "CASE WHEN \nAVG(1.0*DATEDIFF(dd, SOURCE(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"), \nTARGET(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"))) > 1 \nTHEN STR_TO_INT(AVG(1.0*DATEDIFF(dd, SOURCE(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"), TARGET(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\")))||'')||' days' \nWHEN AVG(1.0*DATEDIFF(hh, SOURCE(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"), TARGET(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"))) > 1 \nTHEN STR_TO_INT(AVG(1.0*DATEDIFF(hh, SOURCE(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"), TARGET(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\")))||'')||' hours' ELSE STR_TO_INT(AVG(1.0*DATEDIFF(mi, SOURCE(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"), \nTARGET(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\")))||'') ||' minutes' END"
+        },
+        "connectionKpis": [
+          {
+            "id": "84419f7a-b2ec-4aa7-bf51-7ee9de8f90fa",
+            "name": "Throughput Time",
+            "text": "CASE WHEN \nAVG(1.0*DATEDIFF(dd, SOURCE(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"), \nTARGET(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"))) > 1 \nTHEN STR_TO_INT(AVG(1.0*DATEDIFF(dd, SOURCE(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"), TARGET(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\")))||'')||' days' \nWHEN AVG(1.0*DATEDIFF(hh, SOURCE(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"), TARGET(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"))) > 1 \nTHEN STR_TO_INT(AVG(1.0*DATEDIFF(hh, SOURCE(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"), TARGET(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\")))||'')||' hours' ELSE STR_TO_INT(AVG(1.0*DATEDIFF(mi, SOURCE(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\"), \nTARGET(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\")))||'') ||' minutes' END"
+          }
+        ],
+        "description": "",
+        "edgesFormatting": {
+          "colorThresholds": []
+        },
+        "icon": "icons/icon-time.svg",
+        "id": "f48fdc44-abba-4a7b-acbc-fa7a3c1c7462",
+        "nodesFormatting": {
+          "colorThresholds": []
+        },
+        "title": "Throughput Time (AVG, Unit variable)"
+      },
+      {
+        "activityKpi": {
+          "id": "9c6265ae-7f4a-4c4a-b6c8-915aa433fe89",
+          "name": "Occurrences",
+          "text": "(1.0*COUNT_TABLE(EKPO))/(1.0*GLOBAL(COUNT_TABLE(EKPO)))\r\n",
+          "valueFormat": "%"
+        },
+        "activityKpis": [
+          {
+            "id": "9c6265ae-7f4a-4c4a-b6c8-915aa433fe89",
+            "name": "Occurrences",
+            "text": "(1.0*COUNT_TABLE(EKPO))/(1.0*GLOBAL(COUNT_TABLE(EKPO)))\r\n",
+            "valueFormat": "%"
+          }
+        ],
+        "connectionKpis": [],
+        "description": "",
+        "edgesFormatting": {},
+        "icon": "icons/icon-return.svg",
+        "id": "95e1a15f-9003-4565-8224-54718ea256b0",
+        "nodesFormatting": {
+          "colorThresholds": []
+        },
+        "title": "% Activity Occurence"
+      },
+      {
+        "activityKpi": {
+          "id": "6eb862f7-c0df-4ed0-867c-703496fae360",
+          "name": "<%=CC1%>",
+          "text": "(COUNT( DISTINCT (CASE WHEN \"EKPO\".\"BUKRS\" = <%=CC1%> THEN \n\"EKPO\".\"EBELN\" || \"EKPO\".\"EBELP\" ELSE NULL END))) / COUNT_TABLE(\"EKPO\")",
+          "valueFormat": "%"
+        },
+        "activityKpis": [
+          {
+            "id": "6eb862f7-c0df-4ed0-867c-703496fae360",
+            "name": "<%=CC1%>",
+            "text": "(COUNT( DISTINCT (CASE WHEN \"EKPO\".\"BUKRS\" = <%=CC1%> THEN \n\"EKPO\".\"EBELN\" || \"EKPO\".\"EBELP\" ELSE NULL END))) / COUNT_TABLE(\"EKPO\")",
+            "valueFormat": "%"
+          },
+          {
+            "id": "05b08a53-7931-4813-8f80-4c850a378da7",
+            "name": "<%=CC2%>",
+            "text": "(COUNT( DISTINCT (CASE WHEN \"EKPO\".\"BUKRS\" = <%=CC2%> THEN \n\"EKPO\".\"EBELN\" || \"EKPO\".\"EBELP\" ELSE NULL END))) / COUNT_TABLE(\"EKPO\")",
+            "valueFormat": "%"
+          },
+          {
+            "id": "b9655f7c-5187-4696-b783-fa7ee3d7d940",
+            "name": "<%=CC3%>",
+            "text": "(COUNT( DISTINCT (CASE WHEN \"EKPO\".\"BUKRS\" = <%=CC3%> THEN \n\"EKPO\".\"EBELN\" || \"EKPO\".\"EBELP\" ELSE NULL END))) / COUNT_TABLE(\"EKPO\")",
+            "valueFormat": "%"
+          }
+        ],
+        "connectionKpis": [],
+        "description": "",
+        "edgesFormatting": {},
+        "hideCaseCount": true,
+        "icon": "icons/icon-improvement.svg",
+        "id": "d91b4112-7055-4cff-99c3-70ca10c3b1b5",
+        "nodesFormatting": {
+          "colorThresholds": []
+        },
+        "title": "System Heterogeneity"
+      },
+      {
+        "activityKpi": {
+          "id": "11e48d35-48ab-4848-a7f2-a030de925fe7",
+          "name": "Automation Rate",
+          "text": "AVG(CASE WHEN ISNULL(\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\") = 1 THEN NULL WHEN \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" = 'C' OR \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" = 'B' THEN 1.0 ELSE 0.0 END)",
+          "valueFormat": "%"
+        },
+        "activityKpis": [
+          {
+            "id": "11e48d35-48ab-4848-a7f2-a030de925fe7",
+            "name": "Automation Rate",
+            "text": "AVG(CASE WHEN ISNULL(\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\") = 1 THEN NULL\nWHEN \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" IN(<%=automatic_users%>) THEN 1.0 ELSE 0.0 END)\n",
+            "valueFormat": "%"
+          }
+        ],
+        "connectionKpis": [],
+        "edgesFormatting": {
+          "colorThresholds": []
+        },
+        "icon": "icons/icon-percentage.svg",
+        "id": "557092bf-e2ab-475e-9122-3bcd8fd93b83",
+        "nodesFormatting": {
+          "colorThresholds": [
+            {
+              "color": "#e58023",
+              "compare": ">",
+              "formula": "<%=auto_lower%>"
+            },
+            {
+              "color": "#229a00",
+              "compare": ">=",
+              "formula": "<%=auto_upper%>"
+            },
+            {
+              "color": "#b61608",
+              "compare": "<=",
+              "formula": "<%=auto_lower%>"
+            }
+          ]
+        },
+        "title": "Automation Rate"
+      }
+    ],
+    "loadScript": "",
+    "multiselectMode": false,
+    "name": "Management Presentation [WIP]",
+    "palettes": [
+      {
+        "colors": [
+          "#E70117",
+          "#00000"
+        ],
+        "custom": true,
+        "id": "f396a68a-547f-4de3-a4e0-bc6a7e8c2fae",
+        "type": "linear"
+      }
+    ],
+    "preventVariants": false,
+    "rawDataExportLimit": 500000,
+    "rootCauseColumns": [
+      "\"EKET\".\"ETENR\"",
+      "\"EKKO\".\"BSART\"",
+      "\"EKKO\".\"BSTYP_TEXT\"",
+      "\"EKKO\".\"BSART_TEXT\"",
+      "\"EKKO\".\"EKORG_TEXT\"",
+      "\"EKPO\".\"BUKRS\"",
+      "\"EKPO\".\"WERKS\"",
+      "\"EKPO\".\"MATKL\"",
+      "\"EKPO\".\"ABSKZ\"",
+      "\"EKPO\".\"PSTYP\"",
+      "\"EKPO\".\"BANFN\"",
+      "\"EKPO\".\"BNFPO\"",
+      "\"EKPO\".\"MATKL_TEXT\"",
+      "\"EKPO\".\"MATNR_TEXT\"",
+      "\"EKPO\".\"BUKRS_TEXT\"",
+      "\"EKPO\".\"WERKS_TEXT\"",
+      "\"EKPO\".\"LGORT_TEXT\"",
+      "\"EKPO\".\"PSTYP_TEXT\"",
+      "\"EKPO\".\"KNTTP_TEXT\"",
+      "\"EKPO\".\"WAERS\"",
+      "\"EKBE\".\"VGABE\"",
+      "\"EKBE\".\"SHKZG\"",
+      "\"EKES\".\"EBTYP\"",
+      "\"EKES\".\"ESTKZ\"",
+      "\"LFA1\".\"LAND1\"",
+      "\"LFA1\".\"NAME1\"",
+      "\"LFA1\".\"KTOKK\"",
+      "\"LFA1\".\"VBUND\"",
+      "\"NAST\".\"KSCHL\"",
+      "\"NAST\".\"NACHA\"",
+      "\"NAST\".\"AENDE\"",
+      "\"NAST\".\"NACHA_TEXT\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_DE\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_TABLE\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FIELD\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FROM\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_TO\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGE_NUMBER\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"TRANSACTION_CODE\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"USER_NAME\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_TABLE_TEXT_DE\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_TABLE_TEXT_EN\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FIELD_TEXT_DE\"",
+      "\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FIELD_TEXT_EN\""
+    ],
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "dc62612a-1e2f-4060-91a9-acff6a604ae6",
+  "lastChangeDate": 1600325176437,
+  "lastChangeUserId": "79131ff5-ec28-4869-8a94-4f03938cfd85",
+  "lastChangeUserName": "christopher.knaps@cbs-consulting.de(Christopher)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

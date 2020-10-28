@@ -1,0 +1,806 @@
+[
+  {
+    "name": "buffer",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "name": "EPV_GMH",
+    "type": "static_value",
+    "value": "118545217"
+  },
+  {
+    "linkedEntries": [],
+    "name": "cd_potential",
+    "type": "text_replacement",
+    "value": "0.75"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_PERCENT_OF_YEAR",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ANALYSES_EFF",
+    "type": "text_replacement",
+    "value": "8"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ANALYSES_FTE",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "ANALYSES_IMP",
+    "type": "text_replacement",
+    "value": "60"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Clear Invoice"
+      }
+    ],
+    "linkedFormula": "\"<%= SETUP_NAME_ACTIVITY_TABLE %>\".\"ACTIVITY_<%= SETUP_LANGUAGE %>\"",
+    "name": "AUTOMATION_ACT_1",
+    "type": "text_replacement",
+    "value": "Clear Invoice"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_1_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_1_TRGT",
+    "type": "text_replacement",
+    "value": "95"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Remove Payment Block"
+      }
+    ],
+    "linkedFormula": "\"<%= SETUP_NAME_ACTIVITY_TABLE %>\".\"ACTIVITY_<%= SETUP_LANGUAGE %>\"",
+    "name": "AUTOMATION_ACT_2",
+    "type": "text_replacement",
+    "value": "Remove Payment Block"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_2_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_2_TRGT",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Enter in SAP"
+      }
+    ],
+    "linkedFormula": "\"<%= SETUP_NAME_ACTIVITY_TABLE %>\".\"ACTIVITY_<%= SETUP_LANGUAGE %>\"",
+    "name": "AUTOMATION_ACT_3",
+    "type": "text_replacement",
+    "value": "Enter in SAP"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Cancel Goods Issue",
+        "selected": true,
+        "value": "Cancel Goods Issue"
+      }
+    ],
+    "name": "AUTOMATION_ACT_3_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_3_TRGT",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_4",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_4_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_4_TRGT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_5",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_5_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_5_TRGT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_6",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_6_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_6_TRGT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_7",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_7_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_7_TRGT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_8",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_8_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "AUTOMATION_ACT_8_TRGT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Remove Payment Block",
+        "selected": true,
+        "value": "Remove Payment Block"
+      }
+    ],
+    "name": "BLOCK_ACT_1",
+    "type": "text_replacement",
+    "value": "Remove Payment Block"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_1_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_1_POT",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_2",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_2_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_2_POT",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_3",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_3_EFF",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BLOCK_ACT_3_POT",
+    "type": "text_replacement",
+    "value": "30"
+  },
+  {
+    "name": "CONSULTING_COMPANY",
+    "type": "text_replacement",
+    "value": "UPPER(\"LFA1\".\"NAME1\") LIKE '%CONSULT%'\nOR UPPER(\"LFA1\".\"NAME1\") LIKE '%ERATUNG%'\nOR UPPER(\"LFA1\".\"NAME1\") LIKE '%MCKINSEY%'\nOR UPPER(\"LFA1\".\"NAME1\") LIKE '%BCG%'\nOR UPPER(\"LFA1\".\"NAME1\") LIKE '%DELOITTE%'\nOR UPPER(\"LFA1\".\"NAME1\") LIKE '%KPMG%'\nOR UPPER(\"LFA1\".\"NAME1\") LIKE '%ERNST & YOUNG%'\nOR UPPER(\"LFA1\".\"NAME1\") LIKE '%ERNST&YOUNG%'\nOR UPPER(\"LFA1\".\"NAME1\") LIKE '%WYMAN%'\nOR UPPER(\"LFA1\".\"NAME1\") LIKE '%STRATEGY&%'\nOR UPPER(\"LFA1\".\"NAME1\") LIKE '%PWC%'\nOR UPPER(\"LFA1\".\"NAME1\") LIKE '%CAPGEMINI%'\nOR UPPER(\"LFA1\".\"NAME1\") LIKE '%ACCENTURE%'\nOR UPPER(\"LFA1\".\"NAME1\") LIKE '%PRICEWATERHOUSE%'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CONSULTING_IMP",
+    "type": "text_replacement",
+    "value": "60"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CONSULTING_PERCENT",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CONSULTING_TIME",
+    "type": "text_replacement",
+    "value": "80"
+  },
+  {
+    "linkedEntries": [],
+    "name": "DISCOUNT_OPT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [],
+    "name": "EARLY_PAYMENT_OPT",
+    "type": "text_replacement",
+    "value": "100"
+  },
+  {
+    "linkedEntries": [],
+    "name": "EARLY_PAYMENT_THRESH_MAX",
+    "type": "text_replacement",
+    "value": "14"
+  },
+  {
+    "linkedEntries": [],
+    "name": "EARLY_PAYMENT_THRESH_MIN",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "linkedEntries": [],
+    "name": "LATE_PAYMENT_PENALTY",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "LATE_PAYMENT_POT",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": [],
+    "name": "LATE_PAYMENT_THRESH_MAX",
+    "type": "text_replacement",
+    "value": "100"
+  },
+  {
+    "linkedEntries": [],
+    "name": "LATE_PAYMENT_THRESH_MIN",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Change Baseline Date",
+        "selected": true,
+        "value": "Change Baseline Date"
+      }
+    ],
+    "name": "MAN_CHANGE_ACT_1",
+    "type": "text_replacement",
+    "value": "Change Baseline Date"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_1_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_1_POT",
+    "type": "text_replacement",
+    "value": "40"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_10",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_10_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_10_POT",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Change Payment Days 1",
+        "selected": true,
+        "value": "Change Payment Days 1"
+      }
+    ],
+    "name": "MAN_CHANGE_ACT_2",
+    "type": "text_replacement",
+    "value": "Change Payment Days 1"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_2_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_2_POT",
+    "type": "text_replacement",
+    "value": "40"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "Change Payment Term",
+        "selected": true,
+        "value": "Change Payment Term"
+      }
+    ],
+    "name": "MAN_CHANGE_ACT_3",
+    "type": "text_replacement",
+    "value": "Change Payment Term"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_3_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_3_POT",
+    "type": "text_replacement",
+    "value": "40"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_4",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_4_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_4_POT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_5",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_5_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_5_POT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_6",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_6_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_6_POT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_7",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_7_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_7_POT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_8",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_8_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_8_POT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_9",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_9_EFF",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAN_CHANGE_ACT_9_POT",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAV_BUYING_DISCOUNT",
+    "type": "text_replacement",
+    "value": "1.5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAV_BUYING_LIMIT",
+    "type": "text_replacement",
+    "value": "100000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "MAV_BUYING_POT",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "name": "MAV_IS_MAVERICK",
+    "type": "text_replacement",
+    "value": "(\"BKPF\".\"AWTYP\" = 'RMRP')"
+  },
+  {
+    "name": "OTD_LATEST",
+    "type": "text_replacement",
+    "value": "20170925"
+  },
+  {
+    "name": "REPORTING_EFF",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REPORTING_FTE",
+    "type": "text_replacement",
+    "value": "12"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REPORTING_IMP",
+    "type": "text_replacement",
+    "value": "60"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Enter in SAP"
+      }
+    ],
+    "linkedFormula": "\"_CEL_AP_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "REWORK_ACT_1",
+    "type": "text_replacement",
+    "value": "Enter in SAP"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_1_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_1_POT",
+    "type": "text_replacement",
+    "value": "60"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_2",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_2_EFF",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_2_POT",
+    "type": "text_replacement",
+    "value": "60"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_3",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_3_EFF",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_3_POT",
+    "type": "text_replacement",
+    "value": "40"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_4",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_4_EFF",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_4_POT",
+    "type": "text_replacement",
+    "value": "40"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_5",
+    "type": "text_replacement",
+    "value": ""
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_5_EFF",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "REWORK_ACT_5_POT",
+    "type": "text_replacement",
+    "value": "40"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_BG_COLOR_1",
+    "type": "text_replacement",
+    "value": "14A9D5"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_BG_COLOR_2",
+    "type": "text_replacement",
+    "value": "6AD4F3"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_BG_COLOR_ANALYSES",
+    "type": "text_replacement",
+    "value": "444444"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_BG_COLOR_ASSUMPTIONS",
+    "type": "text_replacement",
+    "value": "FFB710"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_BUSINESS_PROCESS",
+    "type": "text_replacement",
+    "value": "Accounts Payable"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_CLEARING_DATE",
+    "type": "text_replacement",
+    "value": "PU_FIRST(AP_BSEG,\"_CEL_AP_ACTIVITIES\".\"EVENTTIME\",\"_CEL_AP_ACTIVITIES\".\"ACTIVITY_EN\" = 'Clear Invoice')"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_COMPANY_NAME",
+    "type": "text_replacement",
+    "value": "Celonis"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_CURRENCY",
+    "type": "text_replacement",
+    "value": "EUR"
+  },
+  {
+    "name": "SETUP_DISCOUNT_DATE",
+    "type": "text_replacement",
+    "value": "PU_LAST(AP_BSEG,\"_CEL_AP_ACTIVITIES\".\"EVENTTIME\",\"_CEL_AP_ACTIVITIES\".\"ACTIVITY_EN\" = 'Cash Discount Due Date passed')"
+  },
+  {
+    "name": "SETUP_DUE_DATE",
+    "type": "text_replacement",
+    "value": "PU_FIRST(AP_BSEG,\"_CEL_AP_ACTIVITIES\".\"EVENTTIME\",\"_CEL_AP_ACTIVITIES\".\"ACTIVITY_EN\" = 'Due Date passed')"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_FACTOR",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "name": "SETUP_FTE_COST",
+    "type": "text_replacement",
+    "value": "50000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_FTE_HOURS",
+    "type": "text_replacement",
+    "value": "1880"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_LANGUAGE",
+    "type": "text_replacement",
+    "value": "EN"
+  },
+  {
+    "linkedEntries": [
+      {
+        "formattedValue": "A",
+        "selected": true,
+        "value": "A"
+      }
+    ],
+    "name": "SETUP_MANUAL_USER_TYPE",
+    "type": "text_replacement",
+    "value": "'A'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_NAME_ACTIVITY_TABLE",
+    "type": "text_replacement",
+    "value": "_CEL_AP_ACTIVITIES"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_NAME_CASE_TABLE",
+    "type": "text_replacement",
+    "value": "AP_BSEG"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_NUMBER_OF_FTE",
+    "type": "text_replacement",
+    "value": "13"
+  },
+  {
+    "linkedEntries": [],
+    "name": "SETUP_ROIC",
+    "type": "text_replacement",
+    "value": "8"
+  },
+  {
+    "name": "SETUP_TIME_FACTOR",
+    "type": "text_replacement",
+    "value": "1"
+  }
+]

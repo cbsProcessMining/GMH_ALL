@@ -1,0 +1,61 @@
+/*DESCRIPTION:
+1. Transformation Description:
+This transformation creates a view with the following name: P2P_QAVE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Required Tables:
+QALS
+QAVE
+_CEL_P2P_CASES
+
+3. Required Columns:
+QALS.EBELN
+QALS.EBELP
+QALS.MANDANT
+QALS.PRUEFLOS
+QAVE.*
+QAVE.MANDANT
+QAVE.PRUEFLOS
+_CEL_P2P_CASES.EBELN
+_CEL_P2P_CASES.EBELP
+_CEL_P2P_CASES.MANDT
+
+4. Columns used for timestamp:
+None
+
+5. Parameters used in where clause:
+None
+
+6. Parameters used in joins:
+None
+*/
+DROP VIEW IF EXISTS P2P_QAVE;
+
+CREATE VIEW P2P_QAVE AS (
+SELECT DISTINCT 
+    QAVE.*,
+    CAST(QAVE.VDATUM AS DATE) AS TS_VDATUM,
+    CAST(QAVE.VAEDATUM AS DATE) AS TS_VAEDATUM
+FROM QAVE
+	INNER JOIN QALS AS QALS ON 1=1
+		AND QAVE.MANDANT = QALS.MANDANT
+		AND QAVE.PRUEFLOS = QALS.PRUEFLOS
+  	INNER JOIN _CEL_P2P_CASES AS CASES ON 1=1
+		AND QALS.MANDANT = CASES.MANDT
+		AND QALS.EBELN = CASES.EBELN
+		AND QALS.EBELP = CASES.EBELP
+);
+

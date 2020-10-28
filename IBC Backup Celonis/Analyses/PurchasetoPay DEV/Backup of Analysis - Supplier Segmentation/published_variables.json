@@ -1,0 +1,260 @@
+[
+  {
+    "name": "Net_order_value",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"NETWR_CONVERTED\""
+  },
+  {
+    "name": "ANALYSIS_KPI",
+    "type": "text_replacement",
+    "value": "\"EKET\".\"EINDT\""
+  },
+  {
+    "name": "tolerance_time_minus",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "name": "tolerance_time_plus",
+    "type": "text_replacement",
+    "value": "6"
+  },
+  {
+    "name": "GR_VARIABLE",
+    "type": "text_replacement",
+    "value": "PU_LAST(EKPO,\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\",\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"='Record Goods Receipt')"
+  },
+  {
+    "name": "Filter8_Text",
+    "type": "text_replacement",
+    "value": "#{FiscalYear}"
+  },
+  {
+    "name": "Filter8",
+    "type": "text_replacement",
+    "value": "\"RSEG\".\"GJAHR\""
+  },
+  {
+    "name": "Delete_PO_Item_ratio",
+    "type": "text_replacement",
+    "value": "KPI(\"Ratio\",  PROCESS EQUALS 'Delete Purchase Order Item')"
+  },
+  {
+    "name": "ASN_ratio",
+    "type": "text_replacement",
+    "value": "KPI(\"Ratio\",  PROCESS EQUALS 'Receive advanced shipment notice (ASN)')"
+  },
+  {
+    "name": "PO_Items",
+    "type": "text_replacement",
+    "value": "SUM(PU_COUNT(DOMAIN_TABLE(LFA1.NAME1),\"EKPO\".\"EBELP\"))"
+  },
+  {
+    "name": "PO",
+    "type": "text_replacement",
+    "value": "SUM(PU_COUNT(DOMAIN_TABLE(LFA1.NAME1),\"EKKO\".\"EBELN\"))"
+  },
+  {
+    "name": "K_global",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "name": "Quantity_avg",
+    "type": "text_replacement",
+    "value": "PU_AVG(\"LFA1\", PU_AVG(\"EKKO\", \"EKPO\".\"MENGE\"))"
+  },
+  {
+    "name": "Po_items",
+    "type": "text_replacement",
+    "value": "PU_SUM(\"LFA1\", PU_COUNT(\"EKKO\", \"EKPO\".\"NETWR_CONVERTED\"))"
+  },
+  {
+    "name": "Y_d_name",
+    "type": "text_replacement",
+    "value": "#{P2P53OnTimeDeliveryRatio}"
+  },
+  {
+    "name": "Y_d",
+    "type": "text_replacement",
+    "value": "PU_AVG(DOMAIN_TABLE(LFA1.NAME1),(\n    CASE\n        -- no reqeusted due date (not part of the analysis)\n        WHEN ISNULL(\"EKET\".\"EINDT\") = 1 THEN NULL \n        -- requested due date in the future \n        WHEN ISNULL(PU_LAST(EKPO,\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\",\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"='Record Goods Receipt')) = 1 AND DAYS_BETWEEN(TODAY()  ,\"EKET\".\"EINDT\") >= 0 THEN NULL \n        -- no goods receipt and requested due date more than the tolerance in the past, seen as 'overdue' \n        WHEN ISNULL(PU_LAST(EKPO,\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\",\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"='Record Goods Receipt')) = 1 AND DAYS_BETWEEN(TODAY()  ,\"EKET\".\"EINDT\") < (-1.0 * 5) THEN 0.0 \n        -- no goods receipt and requested due date in the past, but still in the tolerance buffer\n        WHEN ISNULL(PU_LAST(EKPO,\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\",\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"='Record Goods Receipt')) = 1 AND DAYS_BETWEEN(TODAY()  ,\"EKET\".\"EINDT\") >= (-1.0 * 5) THEN NULL\n        -- delivery during the tolerance buffer\n        WHEN PU_COUNT(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = 'Record Goods Receipt' ) > 0\n        AND DAYS_BETWEEN(\"EKET\".\"EINDT\", PU_LAST(EKPO,\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\",\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"='Record Goods Receipt')) <= 5\n        AND  DAYS_BETWEEN(\"EKET\".\"EINDT\", PU_LAST(EKPO,\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\",\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"='Record Goods Receipt')) >= (-1.0 * 10)\n        THEN 1.0 \n        -- else: delivery too early or too late\n        ELSE 0.0 \n    END\n) *100)"
+  },
+  {
+    "name": "X_d_name",
+    "type": "text_replacement",
+    "value": "#{NetOrderValue}"
+  },
+  {
+    "name": "X_d",
+    "type": "text_replacement",
+    "value": "PU_COUNT(DOMAIN_TABLE(LFA1.NAME1),\"EKPO\".\"NETWR_CONVERTED\")"
+  },
+  {
+    "name": "K",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "name": "Filter1",
+    "type": "text_replacement",
+    "value": "\"BSEG\".\"BUKRS\""
+  },
+  {
+    "name": "Filter3",
+    "type": "text_replacement",
+    "value": "CASE WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'extern'\nELSE 'intern' END"
+  },
+  {
+    "name": "Filter1_text",
+    "type": "text_replacement",
+    "value": "#{\"BSEG\".\"BUKRS\"}"
+  },
+  {
+    "name": "Filter3_text",
+    "type": "text_replacement",
+    "value": "#{\"LFA1\".\"VBUND\"}"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Currency_symbol",
+    "type": "text_replacement",
+    "value": "\u20ac"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 16,
+        "selected": true,
+        "value": "Receive Order Confirmation"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "receive_order_confirmation_activity",
+    "type": "text_replacement",
+    "value": "Receive Order Confirmation"
+  },
+  {
+    "name": "unit",
+    "type": "text_replacement",
+    "value": "MONTH"
+  },
+  {
+    "name": "language",
+    "type": "text_replacement",
+    "value": "EN"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 17,
+        "selected": true,
+        "value": "Record Goods Receipt"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "record_goods_receipt_activity",
+    "type": "text_replacement",
+    "value": "Record Goods Receipt"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 6,
+        "selected": true,
+        "value": "Change Price"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\"",
+    "name": "change_price_activity",
+    "type": "text_replacement",
+    "value": "Change Price"
+  },
+  {
+    "linkedEntries": [],
+    "name": "change_value_price_1",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "linkedEntries": [],
+    "name": "change_value_price_2",
+    "type": "text_replacement",
+    "value": "100"
+  },
+  {
+    "linkedEntries": [],
+    "name": "change_value_price_3",
+    "type": "text_replacement",
+    "value": "1000"
+  },
+  {
+    "name": "time_per_item",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "name": "filter2",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+  },
+  {
+    "name": "filter3",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+  },
+  {
+    "name": "filter4",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+  },
+  {
+    "name": "filter5",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+  },
+  {
+    "name": "filter7",
+    "type": "text_replacement",
+    "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+  },
+  {
+    "name": "filter2_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"WERKS\"}"
+  },
+  {
+    "name": "filter3_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKORG\"}"
+  },
+  {
+    "name": "filter4_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKGRP\"}"
+  },
+  {
+    "name": "filter5_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"BSART\"}"
+  },
+  {
+    "name": "filter7_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"LOEKZ\"}"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color",
+    "type": "text_replacement",
+    "value": "15"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color",
+    "type": "text_replacement",
+    "value": "30"
+  }
+]

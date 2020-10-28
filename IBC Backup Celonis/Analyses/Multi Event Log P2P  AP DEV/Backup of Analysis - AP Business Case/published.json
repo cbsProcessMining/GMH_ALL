@@ -1,0 +1,139 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "allowRawDataExport": true,
+    "colorMappings": [
+      {
+        "id": "28293040-745c-40d6-934d-fdcdbae6f956",
+        "name": "EPI Color",
+        "thresholds": [
+          {
+            "color": "#FFB710",
+            "compare": "<",
+            "formula": ".8"
+          },
+          {
+            "color": "#FF8B00",
+            "compare": "<",
+            "formula": ".6"
+          },
+          {
+            "color": "#D70A0A",
+            "compare": "<=",
+            "formula": ".4"
+          },
+          {
+            "color": "#78B604",
+            "compare": ">=",
+            "formula": ".8"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "8724498e-cbf6-44d4-ac00-227f9567e8a7",
+        "name": "Differences_LP",
+        "thresholds": [
+          {
+            "color": "#78B604",
+            "compare": ">=",
+            "formula": "0"
+          },
+          {
+            "color": "#FFB710",
+            "compare": ">=",
+            "formula": "1"
+          },
+          {
+            "color": "#D70A0A",
+            "compare": ">",
+            "formula": "<%=tolerance_lp%>"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "567d3c7e-e395-422d-9f89-f9c03de0a579",
+        "name": "Difference",
+        "thresholds": [
+          {
+            "color": "#78B604",
+            "compare": "==",
+            "formula": "0"
+          },
+          {
+            "color": "#FFB710",
+            "compare": "<",
+            "formula": "0"
+          },
+          {
+            "color": "#D70A0A",
+            "compare": "<",
+            "formula": "-3"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "787a1fef-e0ad-4e84-8b11-5d5750d83019",
+        "name": "Indicator",
+        "thresholds": [
+          {
+            "color": "#78B604",
+            "compare": "==",
+            "formula": "Invoice w PO"
+          },
+          {
+            "color": "#D70A0A",
+            "compare": "==",
+            "formula": "Invoice w/o PO"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "e390e098-d825-40d9-957e-afe25b3d36c6",
+        "name": "Rejection Reasons",
+        "thresholds": [
+          {
+            "color": "#78B604",
+            "compare": "==",
+            "formula": "'Program Reason Code'"
+          }
+        ],
+        "type": "dimension"
+      },
+      {
+        "id": "3b6f622b-41f5-41d7-ac99-0fce122854a7",
+        "name": "tpt",
+        "thresholds": [
+          {
+            "color": "#FFB710",
+            "compare": ">=",
+            "formula": "1"
+          }
+        ],
+        "type": "series"
+      }
+    ],
+    "editMode": true,
+    "id": "84fd9058-4ba6-4154-ae90-e62c517352b4",
+    "kpiViews": [],
+    "loadScript": "",
+    "multiselectMode": false,
+    "name": "AP Business Case",
+    "palettes": [],
+    "rawDataExportLimit": 1000000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "5fc419b4-4e3f-4e58-ba83-0f8fb55047af",
+  "lastChangeDate": 1599815723850,
+  "lastChangeUserId": "79131ff5-ec28-4869-8a94-4f03938cfd85",
+  "lastChangeUserName": "christopher.knaps@cbs-consulting.de(Christopher)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

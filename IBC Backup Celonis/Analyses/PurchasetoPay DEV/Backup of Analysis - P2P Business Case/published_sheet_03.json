@@ -1,0 +1,5036 @@
+{
+  "components": [
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#286782",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "7377e86b-5367-46d6-919b-6f426882a791",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=21][color=#000000][b] Analysis:[/b][/color][/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 19,
+      "x": 1,
+      "y": 1,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "3f290d3a-dd23-4649-8312-81827463a757",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b][color=#000000][size=21] Manual changes: How often do manual change activities occur in the procurement process?[/size][/color][/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 79,
+      "x": 20,
+      "y": 1,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "01ee8b5a-1252-44a9-b179-c82b82e4ed06",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=21][color=#000000][b] Benefit:[/b][/color][/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 19,
+      "x": 1,
+      "y": 4,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "e887be99-7e2c-4439-9a0f-f4ee921a9348",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15][b][color=#000000]  Change activities slow down the process significantly and introduce a doubling in cost per change activity. \n  Identifying and reducing those manual change activities reduces associated FTE cost.[/color][/b][/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 79,
+      "x": 20,
+      "y": 4,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=BG_COLOR_ASSUMPTIONS%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#0085A9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "3e0a8967-cec9-4549-8e30-b79c9ee79590",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[color=#ffffff][size=19] Assumptions:[/size][/color]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "unfilteredInput": false,
+      "vertical": false,
+      "width": 48,
+      "x": 1,
+      "y": 11,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=BG_COLOR_ANALYSES%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "d6638fa7-8738-48f2-bb3d-acb62fa7ee14",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[color=#ffffff][size=19] Analysis (unscaled):[/size][/color]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 49,
+      "x": 50,
+      "y": 11,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "2a326462-edf6-4b9c-9e32-103f11f8d3fa",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[color=#000000][b][size=21] Calculation:[/size][/b][/color]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 19,
+      "x": 1,
+      "y": 7,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=BG_COLOR_1%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#78B604",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Savings per Year",
+          "text": "KPI(\"Impact: Manual changes\")",
+          "textColorMapping": "",
+          "translatedName": "Savings per Year",
+          "units": "  ",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 5,
+      "id": "15a1fddc-13d2-4307-9a39-bc3028190ee7",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][color=#ffffff][b][size=25] ${Savings per Year}\n          [/size][/b][/color][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 44,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#14A9D5",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 3,
+      "id": "e67622a3-780a-44f6-a711-21e127c8f897",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[color=#000000][size=15][b]  Financial impact = Manual change activities (#) * invested effort per manual change (min) * FTE costs (<%=Currency%>/min) * realization potential (%) * time factor (x)[/b][/size][/color]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 79,
+      "x": 20,
+      "y": 7,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=BG_COLOR_1%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "'<%= Currency %>'",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": " "
+        }
+      ],
+      "hasBackground": true,
+      "height": 5,
+      "id": "0ba2b6b5-5fc8-4cf4-8631-c9b86491cb5c",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=25][b][color=#ffffff] Annual financial impact (<%=Currency%>)[/color][/b][/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 50,
+      "y": 44,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "8e982dc3-a603-4328-90f7-d08479ef707b",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15]  Time factor (scaling factor for a full 1 year period)[/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 50,
+      "y": 42,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#eeeeee",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Time Factor",
+          "text": "<%= Time_Factor %>",
+          "textColorMapping": "",
+          "translatedName": "Time Factor",
+          "units": " ",
+          "valueFormat": ",.2f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "5e2e9b50-39f8-4ff9-a739-168e430a6a87",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[center][b][size=15]${Time Factor}[/size][/b][/center]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 42,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "3f21a87e-6e77-43ea-b422-b871c8d3502b",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[left][size=15] Effort (min)[/size][/left]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 9,
+      "x": 30,
+      "y": 13,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "5bb163c8-98a0-4bd8-b427-693b324b0934",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[left][size=15] Realization potential (%)[/size][/left]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 9,
+      "x": 40,
+      "y": 13,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "3a1194b8-6f2d-4b33-a1af-2193a674e60b",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[size=15]  Manual change activity[/size]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 28,
+      "x": 1,
+      "y": 13,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "Change activity: <%=CHANGE_ACT_1%>",
+      "buttons": [],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "23c5d7c0-1145-4a40-9bdc-9cae6fccb7d9",
+      "inputType": "Load Entries",
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+          "units": " "
+        },
+        "isMultiSelect": false,
+        "preview": "Value",
+        "separator": "",
+        "variableName": "CHANGE_ACT_1",
+        "wrappingCharEnd": "",
+        "wrappingCharStart": ""
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 28,
+      "x": 1,
+      "y": 15,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "Change activity: <%=CHANGE_ACT_2%>",
+      "buttons": [],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "00d09bc5-815d-4e7c-9588-a804b6ac4fc9",
+      "inputType": "Load Entries",
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+          "units": " "
+        },
+        "isMultiSelect": false,
+        "preview": "Value",
+        "separator": "",
+        "variableName": "CHANGE_ACT_2",
+        "wrappingCharEnd": "",
+        "wrappingCharStart": ""
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 28,
+      "x": 1,
+      "y": 17,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "Change activity: <%=CHANGE_ACT_3%>",
+      "buttons": [],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "006a273f-4fd8-4687-b57c-a8ad5c73b7d7",
+      "inputType": "Load Entries",
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+          "units": " "
+        },
+        "isMultiSelect": false,
+        "preview": "Value",
+        "separator": "",
+        "variableName": "CHANGE_ACT_3",
+        "wrappingCharEnd": "",
+        "wrappingCharStart": ""
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 28,
+      "x": 1,
+      "y": 19,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "Change activity: <%=CHANGE_ACT_4%>",
+      "buttons": [],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "705d6ceb-cccf-41b5-9a42-cc0400589dbd",
+      "inputType": "Load Entries",
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+          "units": " "
+        },
+        "isMultiSelect": false,
+        "preview": "Value",
+        "separator": "",
+        "variableName": "CHANGE_ACT_4",
+        "wrappingCharEnd": "",
+        "wrappingCharStart": ""
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 28,
+      "x": 1,
+      "y": 21,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "Change activity: <%=CHANGE_ACT_5%>",
+      "buttons": [],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "ebbf52f8-ff45-4185-8122-9769ec13b998",
+      "inputType": "Load Entries",
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+          "units": " "
+        },
+        "isMultiSelect": false,
+        "preview": "Value",
+        "separator": "",
+        "variableName": "CHANGE_ACT_5",
+        "wrappingCharEnd": "",
+        "wrappingCharStart": ""
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 28,
+      "x": 1,
+      "y": 23,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "b221a7f0-48cd-4230-8974-2714fbb1e752",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_1_EFF",
+      "vertical": false,
+      "width": 9,
+      "x": 30,
+      "y": 15,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "729f7848-a2b6-498f-ac32-c33361f8534f",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_2_EFF",
+      "vertical": false,
+      "width": 9,
+      "x": 30,
+      "y": 17,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "07a8414f-e115-4592-983e-3d9c10182f0c",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_3_EFF",
+      "vertical": false,
+      "width": 9,
+      "x": 30,
+      "y": 19,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "68f0e927-5962-4f2b-875a-879846e43f0d",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_4_EFF",
+      "vertical": false,
+      "width": 9,
+      "x": 30,
+      "y": 21,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "85cd9f9a-ea42-40a6-80d3-98fb632a52cb",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_5_EFF",
+      "vertical": false,
+      "width": 9,
+      "x": 30,
+      "y": 23,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "8a331c33-ce63-4cbb-866f-1eca29f3b655",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_1_POT",
+      "vertical": false,
+      "width": 9,
+      "x": 40,
+      "y": 15,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "7c3a433d-e9eb-49a3-bad4-188fec9ac14c",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_2_POT",
+      "vertical": false,
+      "width": 9,
+      "x": 40,
+      "y": 17,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "91629c2d-6843-4cde-b7c6-7a6909cf1ee8",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_3_POT",
+      "vertical": false,
+      "width": 9,
+      "x": 40,
+      "y": 19,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "b7a2c49d-423c-44d8-a715-fb0b11d749ee",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_4_POT",
+      "vertical": false,
+      "width": 9,
+      "x": 40,
+      "y": 21,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "d8285e86-33e4-4a14-8c33-fc42408800c9",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_5_POT",
+      "vertical": false,
+      "width": 9,
+      "x": 40,
+      "y": 23,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "2c000f49-c00b-43e8-aeb0-06375976535a",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[left][size=15] Quantity of activity\n[/size][/left]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 50,
+      "y": 13,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Quantity of CHANGE_ACT",
+          "text": "SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_1 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Quantity of CHANGE_ACT",
+          "units": " ",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "3a8c0ddd-6a83-42a0-a1ea-3528381d28ca",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Quantity of CHANGE_ACT}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 50,
+      "y": 15,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Financial Impact",
+          "text": "--minutes of change activity\r\n<%= CHANGE_ACT_1_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_1_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_1 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Financial Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "ffeb17d1-e98c-4d9b-9c23-9f86589dee02",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Financial Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 15,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "'<%= Currency %>'",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": " "
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "136aaa4a-9624-4984-bfbf-1e9ac24b023c",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[left][size=15] Financial impact (<%=Currency%>)\n[/size][/left]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 13,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Financial Impact",
+          "text": "--minutes of change activity\r\n<%= CHANGE_ACT_2_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_2_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_2 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Financial Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "1c0ae38c-f191-4fa6-a8b3-bf0ba00217b0",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Financial Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 17,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Financial Impact",
+          "text": "--minutes of change activity\r\n<%= CHANGE_ACT_3_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_3_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_3 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Financial Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "58c82989-2be7-4ca8-bd84-e1c991cf8f50",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Financial Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 19,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Financial Impact",
+          "text": "--minutes of change activity\r\n<%= CHANGE_ACT_4_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_4_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_4 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Financial Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "8b1cc03a-4b09-4414-9c4c-80746fb7a827",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Financial Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 21,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Financial Impact",
+          "text": "--minutes of change activity\r\n<%= CHANGE_ACT_5_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_5_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n   -- \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_5 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Financial Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "f0bea838-1ad8-42ed-82a2-26f4aa69277f",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Financial Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 23,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "FTE Cost Impact",
+          "text": "--minutes of rework activity\r\n<%= CHANGE_ACT_1_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_1 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "FTE Cost Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "a2ba036f-3c3e-48a5-b0be-203a3181d26f",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${FTE Cost Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 68,
+      "y": 15,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Currency",
+          "text": "'<%= Currency %>'",
+          "textColorMapping": "",
+          "translatedName": "Currency",
+          "units": " "
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "f2a4eb59-b5c1-4dca-9979-bfcdea94fe44",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[left][size=15] Change activity cost (<%=Currency%>)\n[/size][/left]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 68,
+      "y": 13,
+      "zIndex": 2
+    },
+    {
+      "axis0": [
+        {
+          "fillStyle": {
+            "opacity": 1
+          },
+          "meta": {
+            "columnName": "#{_CEL_O2C_ACTIVITIES.ACTIVITY_EN}",
+            "columnType": "string",
+            "expressionLhs": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" AS \"#{_CEL_O2C_ACTIVITIES.ACTIVITY_EN}\"",
+            "format": ""
+          },
+          "name": "#{_CEL_O2C_ACTIVITIES.ACTIVITY_EN}",
+          "notIncluded": false,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showNames": true,
+          "sortingIndex": null,
+          "text": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+          "translatedName": "_CEL_O2C_ACTIVITIES.ACTIVITY_EN",
+          "type": "dimension",
+          "units": ""
+        }
+      ],
+      "axis0Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "gapWidth": 0.45,
+        "gridlineStyle": {
+          "lineOpacity": 1
+        },
+        "seriesOverlap": 0.45,
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "axis1": [],
+      "axis1Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "x-small 11px",
+            "value": 11
+          },
+          "fontColor": "",
+          "fontSize": 11
+        },
+        "axisLineStyle": {
+          "lineOpacity": 1
+        },
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {
+          "lineColor": "#e4e4e4",
+          "lineOpacity": 1,
+          "lineWidth": 1
+        },
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showGridlines": true,
+        "showTickLines": true
+      },
+      "axis2": [
+        {
+          "dataLabelStyle": {
+            "backgroundColor": "",
+            "borderColor": "",
+            "currentFontSize": {
+              "name": "medium 14px",
+              "value": 14
+            },
+            "fontColor": "",
+            "fontSize": 14
+          },
+          "dataLabelsPosition": "middle",
+          "fillStyle": {
+            "opacity": 1
+          },
+          "ignoreSeriesPalettes": false,
+          "legendMarkerColor": "#14a9d5",
+          "lineStyle": {
+            "lineOpacity": 1,
+            "lineWidth": 3,
+            "opacityInDec": 100
+          },
+          "meta": {
+            "columnName": "Activitiy Count",
+            "columnType": "int",
+            "expressionLhs": null,
+            "format": ",f"
+          },
+          "name": "Activitiy Count",
+          "noFunction": true,
+          "notIncluded": false,
+          "ratioFormula": {},
+          "secondaryAxis": false,
+          "seriesColor": "",
+          "seriesColorMapping": "",
+          "seriesPalette": "",
+          "showDataLabels": true,
+          "showPercentages": true,
+          "showValues": true,
+          "sorting": "DESC",
+          "sortingIndex": 0,
+          "spline": true,
+          "text": "COUNT_TABLE(\"_CEL_P2P_ACTIVITIES\")",
+          "textColor": "",
+          "textColorMapping": "",
+          "translatedName": "Activitiy Count",
+          "type": "INTEGER",
+          "units": " ",
+          "valueFormat": ",f"
+        }
+      ],
+      "axis2Config": {
+        "autoTickCount": true,
+        "axisLabelStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "fontColor": ""
+        },
+        "axisLineStyle": {},
+        "axisTitleStyle": {
+          "backgroundColor": "",
+          "borderColor": "",
+          "currentFontSize": {
+            "name": "small 13px",
+            "value": 13
+          },
+          "fontColor": "",
+          "fontSize": 13
+        },
+        "boundsMode": "AUTO",
+        "gridlineStyle": {},
+        "showAxis": true,
+        "showAxisLabels": true,
+        "showTickLines": true
+      },
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "chartType": "column",
+      "clickToFilter": true,
+      "componentFilter": "FILTER \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" LIKE '%hange%';\nFILTER \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" = 'A';",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "dataLabelsPositions": [
+        "top",
+        "middle",
+        "bottom",
+        "custom"
+      ],
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "disableSelections": false,
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 13,
+      "id": "bf854c00-c1b4-4834-8620-6d6e30a6728d",
+      "labelsCount": 10,
+      "legendFontStyle": {
+        "backgroundColor": "",
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-small 11px",
+          "value": 11
+        },
+        "fontColor": "",
+        "fontSize": 11
+      },
+      "legendOverlay": false,
+      "legendPosition": "bc",
+      "legendShow": false,
+      "limitMode": "SCROLL",
+      "limitNumber": 7,
+      "maximized": false,
+      "selection": [],
+      "setCountLimit": false,
+      "showHeader": true,
+      "showOthers": false,
+      "showTitle": true,
+      "technicalNames": false,
+      "textStyle": {
+        "currentFontSize": {
+          "name": "medium 14px",
+          "value": 14
+        },
+        "fontSize": 14
+      },
+      "title": "# Manual Change Activities",
+      "titleStyle": {
+        "backgroundColor": "#<%=BG_COLOR_ANALYSES%>",
+        "bold": false,
+        "borderColor": "",
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#ffffff",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "tooltips": true,
+      "type": "pql-table",
+      "unfilteredInput": false,
+      "vertical": true,
+      "width": 48,
+      "x": 1,
+      "y": 36,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "Change activity: <%=CHANGE_ACT_6%>",
+      "buttons": [],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "d132ad74-82c7-487e-9be7-ccd527f0bb66",
+      "inputType": "Load Entries",
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+          "units": " "
+        },
+        "isMultiSelect": false,
+        "preview": "Value",
+        "separator": "",
+        "variableName": "CHANGE_ACT_6",
+        "wrappingCharEnd": "",
+        "wrappingCharStart": ""
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 28,
+      "x": 1,
+      "y": 25,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "Change activity: <%=CHANGE_ACT_7%>",
+      "buttons": [],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "e07fa43d-ded2-44ee-872b-c98eeaff34b9",
+      "inputType": "Load Entries",
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+          "units": " "
+        },
+        "isMultiSelect": false,
+        "preview": "Value",
+        "separator": "",
+        "variableName": "CHANGE_ACT_7",
+        "wrappingCharEnd": "",
+        "wrappingCharStart": ""
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 28,
+      "x": 1,
+      "y": 27,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "Change activity: <%=CHANGE_ACT_8%>",
+      "buttons": [],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "a5a2ba28-3f7d-45ba-9019-ba5a264c596d",
+      "inputType": "Load Entries",
+      "lastColumnType": "string",
+      "loadEntries": {
+        "formula": {
+          "text": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+          "units": " "
+        },
+        "isMultiSelect": false,
+        "preview": "Value",
+        "separator": "",
+        "variableName": "CHANGE_ACT_8",
+        "wrappingCharEnd": "",
+        "wrappingCharStart": ""
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 28,
+      "x": 1,
+      "y": 29,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "Change activity: <%=CHANGE_ACT_9%>",
+      "buttons": [],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "e4451cc9-1d5d-4ddb-ab77-6eb5f8e10c0e",
+      "inputType": "Load Entries",
+      "loadEntries": {
+        "formula": {
+          "text": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+          "units": " "
+        },
+        "isMultiSelect": false,
+        "preview": "Value",
+        "separator": "",
+        "variableName": "CHANGE_ACT_9",
+        "wrappingCharEnd": "",
+        "wrappingCharStart": ""
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 28,
+      "x": 1,
+      "y": 31,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "buttonTitle": "Change activity: <%=CHANGE_ACT_10%>",
+      "buttons": [],
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "aca76b6a-f220-4d66-b33c-1c4de90b62ea",
+      "inputType": "Load Entries",
+      "loadEntries": {
+        "formula": {
+          "text": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+          "units": " "
+        },
+        "isMultiSelect": false,
+        "preview": "Value",
+        "separator": "",
+        "variableName": "CHANGE_ACT_10",
+        "wrappingCharEnd": "",
+        "wrappingCharStart": ""
+      },
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button_dropdown",
+      "vertical": false,
+      "width": 28,
+      "x": 1,
+      "y": 33,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "00c4be3f-1ed9-4aa3-b103-2697dc15eca8",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_6_EFF",
+      "vertical": false,
+      "width": 9,
+      "x": 30,
+      "y": 25,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "686bdbc9-02fa-48a0-8046-77a7e2c8db86",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_7_EFF",
+      "vertical": false,
+      "width": 9,
+      "x": 30,
+      "y": 27,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "89b8b619-643d-40b8-bc05-8509ebaf9631",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_8_EFF",
+      "vertical": false,
+      "width": 9,
+      "x": 30,
+      "y": 29,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "54c4a39f-c93c-473e-bebf-199b2d55c6d5",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_9_EFF",
+      "vertical": false,
+      "width": 9,
+      "x": 30,
+      "y": 31,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "b62700df-e409-4182-8c83-3edfdef2cb20",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_10_EFF",
+      "vertical": false,
+      "width": 9,
+      "x": 30,
+      "y": 33,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "ff3f7ea3-595d-4b74-8004-859a705d78fc",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_6_POT",
+      "vertical": false,
+      "width": 9,
+      "x": 40,
+      "y": 25,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "c942ecda-4a76-4163-ae51-a40ea6305e97",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_7_POT",
+      "vertical": false,
+      "width": 9,
+      "x": 40,
+      "y": 27,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "17e53628-2b83-4ac9-baf9-510466055df0",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_8_POT",
+      "vertical": false,
+      "width": 9,
+      "x": 40,
+      "y": 29,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "e3b49076-977d-4eef-82e0-790bf4971731",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_9_POT",
+      "vertical": false,
+      "width": 9,
+      "x": 40,
+      "y": 31,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "height": 2,
+      "id": "5f290c68-cf83-4bbc-a7d7-ba7e8f902938",
+      "maximized": false,
+      "placeholder": "placeholder",
+      "selection": [],
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "variable_input",
+      "variableName": "CHANGE_ACT_10_POT",
+      "vertical": false,
+      "width": 9,
+      "x": 40,
+      "y": 33,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Financial Impact",
+          "text": "--minutes of change activity\r\n<%= CHANGE_ACT_6_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_6_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_6 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Financial Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "5bfa4739-b363-4a8b-ab42-17f0a3e8202f",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Financial Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 25,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Financial Impact",
+          "text": "--minutes of change activity\r\n<%= CHANGE_ACT_7_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_7_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_7 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Financial Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "f0ab64cc-ff08-4239-9e90-e6e62895abb0",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Financial Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 27,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Financial Impact",
+          "text": "--minutes of change activity\r\n<%= CHANGE_ACT_8_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_8_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_8 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Financial Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "9641c40b-681f-42b5-87d3-783dbf73832a",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Financial Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 29,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Financial Impact",
+          "text": "--minutes of change activity\r\n<%= CHANGE_ACT_9_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_9_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_9 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Financial Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "55779c4b-068a-45af-815a-aa961555d381",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Financial Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 31,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Financial Impact",
+          "text": "--minutes of change activity\r\n<%= CHANGE_ACT_10_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_10_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_10 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Financial Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "8528bfee-690a-4eb0-922f-4a8b51292ea9",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Financial Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 33,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "FTE Cost Impact",
+          "text": "--minutes of rework activity\r\n<%= CHANGE_ACT_2_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_2 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "FTE Cost Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "538eb044-e024-44a5-bded-a39a359ec19e",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${FTE Cost Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 68,
+      "y": 17,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "FTE Cost Impact",
+          "text": "--minutes of rework activity\r\n<%= CHANGE_ACT_4_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_4 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "FTE Cost Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "1419f0f4-d576-4a6c-93ab-cfcf424c7366",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${FTE Cost Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 68,
+      "y": 21,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "FTE Cost Impact",
+          "text": "--minutes of rework activity\r\n<%= CHANGE_ACT_3_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_3 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "FTE Cost Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "369cad41-7b4d-4eea-943a-f48b603e4b9f",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${FTE Cost Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 68,
+      "y": 19,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "FTE Cost Impact",
+          "text": "--minutes of rework activity\r\n<%= CHANGE_ACT_5_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n   -- \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_5 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "FTE Cost Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "4c6d6c24-645c-44fe-bf93-226f618f4d2e",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${FTE Cost Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 68,
+      "y": 23,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "FTE Cost Impact",
+          "text": "--minutes of rework activity\r\n<%= CHANGE_ACT_6_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_6 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "FTE Cost Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "4be4880b-6615-484e-9f26-6f667b97cd07",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${FTE Cost Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 68,
+      "y": 25,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "FTE Cost Impact",
+          "text": "--minutes of rework activity\r\n<%= CHANGE_ACT_7_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_7 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "FTE Cost Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "0d3397a1-02d8-4277-91de-09c6461fef33",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${FTE Cost Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 68,
+      "y": 27,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "FTE Cost Impact",
+          "text": "--minutes of rework activity\r\n<%= CHANGE_ACT_8_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_8 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "FTE Cost Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "f5f6aba2-06c6-4ac5-8677-4abbb192b5aa",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${FTE Cost Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 68,
+      "y": 29,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "FTE Cost Impact",
+          "text": "--minutes of rework activity\r\n<%= CHANGE_ACT_9_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_9 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "FTE Cost Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "09bf8568-03a7-4065-8cad-89226aee54b4",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${FTE Cost Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 68,
+      "y": 31,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "FTE Cost Impact",
+          "text": "--minutes of rework activity\r\n<%= CHANGE_ACT_10_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_10 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "FTE Cost Impact",
+          "units": "",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "91170b3d-b67f-4a60-9289-1bd75b8e3683",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${FTE Cost Impact}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 68,
+      "y": 33,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=BG_COLOR_1%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "New Expression",
+          "text": "'<%= Currency %>'",
+          "textColorMapping": "",
+          "translatedName": "New Expression",
+          "units": " "
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "b172dd9a-69ad-4ee5-b268-7a028a985ada",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[b][color=#ffffff][size=17] Financial impact (<%=Currency%>)[/size][/color][/b]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 35,
+      "x": 50,
+      "y": 39,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=BG_COLOR_1%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#78B604",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Savings",
+          "text": "\r\n(\r\n(\r\n--minutes of change activity\r\n<%= CHANGE_ACT_1_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_1_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_1 %>'\r\n)\r\n)\r\n)\r\n\r\n+\r\n\r\n(\r\n--minutes of change activity\r\n<%= CHANGE_ACT_2_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_2_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_2 %>'\r\n)\r\n)\r\n)\r\n\r\n+\r\n\r\n(\r\n--minutes of change activity\r\n<%= CHANGE_ACT_3_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_3_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_3 %>'\r\n)\r\n)\r\n)\r\n\r\n+\r\n\r\n(\r\n--minutes of change activity\r\n<%= CHANGE_ACT_4_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_4_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_4 %>'\r\n)\r\n)\r\n)\r\n\r\n+\r\n\r\n(\r\n--minutes of change activity\r\n<%= CHANGE_ACT_5_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_5_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_5 %>'\r\n)\r\n)\r\n)\r\n\r\n+\r\n\r\n(\r\n--minutes of change activity\r\n<%= CHANGE_ACT_6_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_6_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_6 %>'\r\n)\r\n)\r\n)\r\n\r\n+\r\n\r\n(\r\n--minutes of change activity\r\n<%= CHANGE_ACT_7_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_7_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_7 %>'\r\n)\r\n)\r\n)\r\n\r\n+\r\n\r\n(\r\n--minutes of change activity\r\n<%= CHANGE_ACT_8_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_8_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_8 %>'\r\n)\r\n)\r\n)\r\n\r\n+\r\n\r\n(\r\n--minutes of change activity\r\n<%= CHANGE_ACT_9_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_9_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_9 %>'\r\n)\r\n)\r\n)\r\n\r\n+\r\n\r\n(\r\n--minutes of change activity\r\n<%= CHANGE_ACT_10_EFF %>\r\n\r\n--fte cost per minute\r\n*(<%= FTE_COST %>/(<%= FTE_HOURS %>*60.0))\r\n\r\n--potential to reduce change act\r\n*(<%= CHANGE_ACT_10_POT %>/100.0)\r\n\r\n--quantity of change activity\r\n*SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_10 %>'\r\n)\r\n)\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Savings",
+          "units": "  ",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "e5c99062-1d84-4356-9161-745ac0fba14d",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][color=#ffffff][b][size=19]${Savings}[/size][/b][/color][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 86,
+      "y": 39,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#<%=BG_COLOR_ANALYSES%>",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#00A4DA",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "height": 2,
+      "id": "54bf6081-1164-42e5-b0bb-a95cc704ac5c",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[color=#ffffff][size=19] Analysis Results (unscaled, summed):[/size][/color]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 49,
+      "x": 50,
+      "y": 36,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Quantity of CHANGE_ACT",
+          "text": "SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_2 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Quantity of CHANGE_ACT",
+          "units": " ",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "800fc51e-5cd6-4d8c-80ce-5ecf12b89fa0",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Quantity of CHANGE_ACT}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 50,
+      "y": 17,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Quantity of CHANGE_ACT",
+          "text": "SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_3 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Quantity of CHANGE_ACT",
+          "units": " ",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "ffff549f-4255-4120-9556-8b124b4084a9",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Quantity of CHANGE_ACT}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 50,
+      "y": 19,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Quantity of CHANGE_ACT",
+          "text": "SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_4 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Quantity of CHANGE_ACT",
+          "units": " ",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "5e750300-5c63-4cde-9df9-e829fa0fa801",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Quantity of CHANGE_ACT}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 50,
+      "y": 21,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Quantity of CHANGE_ACT",
+          "text": "SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n   -- \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_5 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Quantity of CHANGE_ACT",
+          "units": " ",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "3aed450a-1b25-4dc3-9d86-296f935104a1",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Quantity of CHANGE_ACT}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 50,
+      "y": 23,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Quantity of CHANGE_ACT",
+          "text": "SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_10 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Quantity of CHANGE_ACT",
+          "units": " ",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "876bafc4-c519-492f-83b8-d37bf5b011d1",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Quantity of CHANGE_ACT}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 50,
+      "y": 33,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Quantity of CHANGE_ACT",
+          "text": "SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_7 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Quantity of CHANGE_ACT",
+          "units": " ",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "c1e42424-2661-421b-b41a-4bc34ff8a4ab",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Quantity of CHANGE_ACT}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 50,
+      "y": 27,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Quantity of CHANGE_ACT",
+          "text": "SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_8 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Quantity of CHANGE_ACT",
+          "units": " ",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "52e56842-f53b-4f33-8e38-9580f3ebdc01",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Quantity of CHANGE_ACT}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 50,
+      "y": 29,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Quantity of CHANGE_ACT",
+          "text": "SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_9 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Quantity of CHANGE_ACT",
+          "units": " ",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "0d17428e-06aa-458e-8bcc-8d8511c827ba",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Quantity of CHANGE_ACT}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 50,
+      "y": 31,
+      "zIndex": 2
+    },
+    {
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#eeeeee",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "color": "#6FA7D1",
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1,
+        "opacityInDec": 100
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [
+        {
+          "name": "Quantity of CHANGE_ACT",
+          "text": "SUM(\r\nPU_COUNT(\r\n    \"EKPO\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\",\r\n    \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"='A' AND \r\n    \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = '<%= CHANGE_ACT_6 %>'\r\n)\r\n)",
+          "textColorMapping": "",
+          "translatedName": "Quantity of CHANGE_ACT",
+          "units": " ",
+          "valueFormat": ",f"
+        }
+      ],
+      "hasBackground": true,
+      "height": 2,
+      "id": "3c9347bc-5757-4461-a635-57ff2e95ea05",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[right][b][size=19]${Quantity of CHANGE_ACT}\n[/size][/b][/right]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 13,
+      "x": 50,
+      "y": 25,
+      "zIndex": 2
+    },
+    {
+      "action": "openTab",
+      "allowDataLink": false,
+      "backgroundColor": "#14A9D5",
+      "border": false,
+      "buttonTitle": "Go Back to Overview",
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": false,
+      "diagramBackgroundStyle": {
+        "fillColor": "",
+        "opacity": 1
+      },
+      "diagramBorder": true,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 2,
+      "id": "f858db3e-03bb-432e-991c-fc072c52d464",
+      "maximized": false,
+      "selection": [],
+      "sheetId": "2b5c3cad-b7cd-4f29-84dd-559729828649",
+      "showHeader": true,
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontColor": "#ffffff",
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "button",
+      "vertical": false,
+      "width": 12,
+      "x": 72,
+      "y": 46,
+      "zIndex": 2
+    }
+  ],
+  "format": "FULLSCREEN",
+  "id": "d9c6a398-50f5-416b-8106-43b11d9f8fe6",
+  "name": "Manual changes",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1200
+  },
+  "sheetFilter": {
+    "text": "FILTER DOMAIN ROUND_MONTH ( \"EKKO\".\"TS_AEDAT\" ) AS \"#{\\\"EKKO\\\".\\\"TS_AEDAT\\\"}\" FORMAT \"%Y-%m\" IN ( {t 1564617600000}, {t 1567296000000}, {t 1569888000000}, {t 1572566400000}, {t 1575158400000}, {t 1577836800000}, {t 1580515200000}, {t 1583020800000}, {t 1585699200000}, {t 1588291200000}, {t 1590969600000}, {t 1593561600000} );"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "colorMappings": [
+      {
+        "id": "b9aad372-a77d-4e88-9966-4cb8ae2af117",
+        "name": "Electronic Order Message Ratio",
+        "thresholds": [
+          {
+            "color": "#78B604",
+            "compare": ">",
+            "formula": "<%=high_color%>"
+          },
+          {
+            "color": "#D70A0A",
+            "compare": "<",
+            "formula": "<%=low_color%>"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "888ad3bc-e33e-4045-ab1d-d93e61140f5b",
+        "name": "Classification",
+        "thresholds": [
+          {
+            "color": "#aaaaaa",
+            "compare": "==",
+            "formula": "No order message"
+          },
+          {
+            "color": "#78B604",
+            "compare": "==",
+            "formula": "Electronic order message"
+          },
+          {
+            "color": "#D70A0A",
+            "compare": "==",
+            "formula": "Print order message"
+          },
+          {
+            "color": "#E88000",
+            "compare": "==",
+            "formula": "Mail order message"
+          },
+          {
+            "color": "#aaaaaa",
+            "compare": "==",
+            "formula": "Other"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "fd0654ad-80d8-41ba-94be-bf0d33b20056",
+        "name": "New Color Mapping",
+        "thresholds": [
+          {
+            "color": ""
+          }
+        ],
+        "type": "series"
+      }
+    ],
+    "editMode": false,
+    "id": "a841198d-75b0-4858-8451-0a48e574f4c2",
+    "kpiViews": [],
+    "loadScript": "",
+    "multiselectMode": false,
+    "name": "Electronic Order Messages",
+    "palettes": [
+      {
+        "colors": [
+          "#F32F2B",
+          "#5BC6E6"
+        ],
+        "custom": true,
+        "id": "be97dd78-77bd-4c75-843d-0652c04f066c",
+        "type": "ordinal"
+      },
+      {
+        "colors": [
+          "#5BC6E6",
+          "#ff797b",
+          "#c8ec84"
+        ],
+        "custom": true,
+        "id": "efaa7fb8-0ae2-49b4-9cbd-497c9b1cc999",
+        "type": "ordinal"
+      }
+    ],
+    "rawDataExportLimit": 20000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "afeb22dd-fdd1-4310-9879-e2e0c8cb4d8f",
+  "lastChangeDate": 1596625970174,
+  "lastChangeUserId": "82d6fd56-8f56-40b1-be78-5258759f518e",
+  "lastChangeUserName": "a.helfer@celonis.com(Alexander Helfer)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

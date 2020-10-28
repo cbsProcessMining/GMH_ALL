@@ -1,0 +1,218 @@
+[
+  {
+    "description": "",
+    "id": "668e6fe1-1b9d-44f3-9b05-b245d5b983b2",
+    "name": "Message Type Classification",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "\n\nCASE\n    WHEN PU_COUNT(\"EKKO\",\"NAST\".\"NACHA\") = 0 \n    THEN 'No order message'\n    \n    WHEN PU_COUNT(\"EKKO\",\"NAST\".\"OBJKY\",\"NAST\".\"NACHA\" IN (<%=EDI%>)) >= 1 AND ISNULL(\"NAST\".\"DATVR\")=0\n    THEN 'Electronic order message'\n    \n    WHEN PU_COUNT(\"EKKO\",\"NAST\".\"OBJKY\",\"NAST\".\"NACHA\" IN (<%=Print%>)) >= 1 AND ISNULL(\"NAST\".\"DATVR\")=0\n    THEN 'Print order message'\n    \n    WHEN PU_COUNT(\"EKKO\",\"NAST\".\"OBJKY\",\"NAST\".\"NACHA\" IN (<%=Mail%>)) >= 1 AND ISNULL(\"NAST\".\"DATVR\")=0\n    THEN 'Mail order message'\n    \n    ELSE 'Other'\nEND\n"
+  },
+  {
+    "description": "",
+    "id": "56a9b72d-04c9-4328-8607-37c7bdd27790",
+    "name": "Processing Status",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE \n    WHEN PU_LAST(\"EKKO\",\"NAST\".\"VSTAT\") = '0'\n    THEN 'Message not processed'\n    \n    WHEN PU_LAST(\"EKKO\",\"NAST\".\"VSTAT\") = '1'\n    THEN 'Message processed successfully'\n    \n    WHEN PU_LAST(\"EKKO\",\"NAST\".\"VSTAT\") = '2'\n    THEN 'Message processed incorrectly'\n    \n    WHEN ISNULL(PU_LAST(\"EKKO\",\"NAST\".\"VSTAT\")) = 1\n    THEN 'No Message'\n    \n    ELSE 'n.A.'\nEND"
+  },
+  {
+    "description": "Classifies a Purchase Order by the last message type of an purchase order.",
+    "id": "9ead0a59-8451-4788-9a92-90fff2da83bb",
+    "name": "Message Type Classification OLD",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE\r\n    WHEN PU_COUNT(\"EKKO\",\"NAST\".\"NACHA\") = 0 \r\n    THEN 'No order message'\r\n    \r\n    WHEN PU_COUNT(\"EKKO\",\"NAST\".\"NACHA\",\"NAST\".\"NACHA\" IN (<%=EDI%>)) >= 1 \r\n    THEN 'Electronic order message'\r\n    \r\n    WHEN PU_COUNT(\"EKKO\",\"NAST\".\"NACHA\",\"NAST\".\"NACHA\" IN (<%=Print%>)) >= 1 \r\n    THEN 'Print order message'\r\n    \r\n    WHEN PU_COUNT(\"EKKO\",\"NAST\".\"NACHA\",\"NAST\".\"NACHA\" IN (<%=Mail%>)) >= 1\r\n    THEN 'Mail order message'\r\n    ELSE 'Other'\r\nEND"
+  },
+  {
+    "description": "",
+    "id": "105bd6f0-f866-43fe-96f0-6a629530a0f2",
+    "name": "Cycle Time Median EDI",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(REMAP_TIMESTAMPS(PU_LAST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = <%=To_EDI%>), days) - \nREMAP_TIMESTAMPS(PU_FIRST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\" = <%=From_EDI%>), days))"
+  },
+  {
+    "description": "Calculates througput time between defined activities.",
+    "id": "929de07b-9616-48ec-a406-3a08d3802af8",
+    "name": "Cycle Time",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "DAYS_BETWEEN(\n    PU_FIRST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\" = <%= From %> ),\n    PU_LAST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\" = <%= To %>)\n)"
+  },
+  {
+    "description": "",
+    "id": "6aa9f296-430c-49c5-a678-a3232d95c855",
+    "name": "ABC_Vendor",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE\r\n  WHEN  ISNULL(ABC(PU_SUM(\"LFA1\", PU_SUM(\"EKKO\", \"EKPO\".\"NETWR_CONVERTED\"))  , <%= ABC_upper_limit %>, <%= ABC_lower_limit %>)) = 1\r\n  THEN 'Vendors without orders'\r\n\r\n  WHEN ABC(PU_SUM(\"LFA1\", PU_SUM(\"EKKO\", \"EKPO\".\"NETWR_CONVERTED\"))  , <%= ABC_upper_limit %>, <%= ABC_lower_limit %>) = 1\r\n  THEN 'A'\r\n\r\n  WHEN ABC(PU_SUM(\"LFA1\", PU_SUM(\"EKKO\", \"EKPO\".\"NETWR_CONVERTED\"))  , <%= ABC_upper_limit %>, <%= ABC_lower_limit %>) = 2\r\n  THEN 'B'\r\n\r\n  ELSE 'C'\r\nEND"
+  },
+  {
+    "description": "",
+    "id": "dd25897a-c2ed-4e2c-9658-6eecf9b4bd4f",
+    "name": "Send_PO",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "'Send Purchase Order'"
+  },
+  {
+    "description": "",
+    "id": "a9102a65-c754-4ace-b48d-1765c28d4ab7",
+    "name": "Mail Order Message Ratio",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100*SUM(\n    CASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=Mail%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Message_Types%>)) > 0\n    THEN 1.0\n    ELSE 0.0 \n    END\n)/COUNT_TABLE(\"EKKO\")\n\n"
+  },
+  {
+    "description": "Formula returns if the Message was processed manually or not.",
+    "id": "e2b26901-fb8d-4a0f-a88b-9b6d103d8836",
+    "name": "Manual Message Processing Classification",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE\n    WHEN PU_COUNT(\"EKKO\",\"NAST\".\"MANUE\") = 0 \n    THEN 'No manual processing'\n    ELSE 'Manual Processing'\nEND"
+  },
+  {
+    "description": "Value of invoices with Electronic Order Messages",
+    "id": "726c84c3-7859-4b61-aa29-d983ce604e0d",
+    "name": "Invoice Value with EDI",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM\n(CASE\n    WHEN PU_COUNT(\"EKKO\",\"NAST\".\"NACHA\",\"NAST\".\"NACHA\" IN (<%=EDI%>)) >= 1\n    THEN \"EKPO\".\"NETWR_CONVERTED\"\n    ELSE 0.0\nEND)"
+  },
+  {
+    "description": "",
+    "id": "bdc804ec-a86c-465c-b916-29078fbece69",
+    "name": "Electronic Order Message Ratio",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(\r\nPU_AVG(\"EKKO\", \r\nCASE \r\nWHEN \"NAST\".\"NACHA\" IN (<%=EDI%>) AND COALESCE(\"NAST\".\"DATVR\", '' ) <> '' AND NAST.KSCHL IN (<%=Message_Types%>) \r\nTHEN 1.0 ELSE 0.0 END)\r\n)\r\n\r\n\r\n\r\n"
+  },
+  {
+    "description": "",
+    "id": "0a6974e1-6122-402a-9c56-69e2da280225",
+    "name": "Number of Purchase Orders with EDI",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "(CASE WHEN <%=EDI_Activity%> = 'Send Purchase Order' \nTHEN\nSUM(\nCASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=EDI%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Send_PO%>)) > 0\nTHEN 1.0\nELSE 0.0 END)\n\nWHEN <%=EDI_Activity%> = 'Send Purchase Order Update' \nTHEN\nSUM(\nCASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=EDI%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Send_PO_Update%>) AND NAST.AENDE = 'X') > 0\nTHEN 1.0\nELSE 0.0 END)\n\nWHEN <%=EDI_Activity%> = 'Dun Order Confirmation' \nTHEN\nSUM(\nCASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=EDI%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Dun_Order_Confirmation%>)) > 0\nTHEN 1.0\nELSE 0.0 END)\n\nWHEN <%=EDI_Activity%> = 'Send Overdue Notice' \nTHEN\nSUM(\nCASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=EDI%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Send_Overdue_Notice%>)) > 0\nTHEN 1.0\nELSE 0.0 END)\n\nELSE 0.0 END)\n"
+  },
+  {
+    "description": "",
+    "id": "2a5d1972-be73-4d8d-8a16-0cb531d106a3",
+    "name": "Mail Order Messages",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(\n    CASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=Mail%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Message_Types%>)) > 0\n    THEN 1.0\n    ELSE 0.0 \n    END\n)\n\n"
+  },
+  {
+    "description": "Number of PO Items with EDI",
+    "id": "cc7225bf-3053-4e40-8b83-6de706e91328",
+    "name": "PO Items with EDI",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(CASE WHEN PU_COUNT(\"EKKO\",\"NAST\".\"NACHA\",\"NAST\".\"NACHA\" IN (<%=EDI%>)) >= 1 THEN 1.0 ELSE 0.0 END)"
+  },
+  {
+    "description": "",
+    "id": "467c7434-f6cd-47ba-af3e-bd657c3199f4",
+    "name": "Telefax Order Message Ratio",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100*SUM(\n    CASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=Fax%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Message_Types%>)) > 0\n    THEN 1.0\n    ELSE 0.0 \n    END\n)\n/COUNT_TABLE(\"EKKO\")\n\n"
+  },
+  {
+    "description": "Formula returns if the Message was processed manually or not.",
+    "id": "a03213ce-a85d-4427-90dc-825534e5bb1f",
+    "name": "Manually Processed Messages",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(\n    CASE\n    WHEN PU_COUNT(\"EKKO\",\"NAST\".\"MANUE\") > 0 \n    THEN 1.0\n    ELSE 0.0\n    END\n)"
+  },
+  {
+    "description": "Calculates median througput time between defined activities.",
+    "id": "8f444cb0-236a-4bfe-90eb-dc6a2773df3d",
+    "name": "Median Cycle Time Total (Header Level)",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(CALC_THROUGHPUT(ALL_OCCURRENCE['Process Start'] TO ALL_OCCURRENCE['Process End'], REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", <%=unit%>)))"
+  },
+  {
+    "description": "",
+    "id": "74f31f74-0967-455a-8b43-02e038e4e175",
+    "name": "Print Order Messages",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(\n    CASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=Print%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Message_Types%>)) > 0\n    THEN 1.0\n    ELSE 0.0 \n    END\n)\n\n"
+  },
+  {
+    "description": "",
+    "id": "c4c256dc-f264-4979-a435-aabf52b9c878",
+    "name": "Print Order Message Ratio",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100*SUM(\n    CASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=Print%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Message_Types%>)) > 0\n    THEN 1.0\n    ELSE 0.0 \n    END\n)\n/\nCOUNT_TABLE(\"EKKO\")\n\n"
+  },
+  {
+    "description": "Calculates median througput time between defined activities.",
+    "id": "7e315da8-9eac-45dc-85b9-2bdd22946671",
+    "name": "Median Cycle Time Subprocess (Header Level)",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(\n    <%=unit%>_BETWEEN(\n        PU_FIRST(\"EKKO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\" = <%= From %> ),\n        PU_LAST(\"EKKO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\" = <%= To %>)\n    )\n)\n\n"
+  },
+  {
+    "description": "Calculates median througput time between defined activities.",
+    "id": "2b2fdd4a-cc84-47ed-a720-0801984fe194",
+    "name": "Cycle Time Median",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(\n    <%=unit%>_BETWEEN(\n        PU_FIRST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\" = <%= From %> ),\n        PU_LAST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\" = <%= To %>)\n    )\n)\n\n"
+  },
+  {
+    "description": "",
+    "id": "3409f473-f0d3-4860-9e91-ae26a42eeff9",
+    "name": "Net Order Value (Header Level)",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(PU_SUM(\"EKKO\",\"EKPO\".\"NETWR_CONVERTED\"))"
+  },
+  {
+    "description": "",
+    "id": "5b070ac4-ed02-410b-9a20-2ad1976e4380",
+    "name": "Electronic Order Messages",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(\n    CASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=EDI%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Message_Types%>)) > 0\n    THEN 1.0\n    ELSE 0.0 \n    END\n)\n\n"
+  },
+  {
+    "description": "",
+    "id": "c7608a91-efa9-48a0-b25c-aeaaf00d520d",
+    "name": "Telefax Order Messages",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(\n    CASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=Fax%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Message_Types%>)) > 0\n    THEN 1.0\n    ELSE 0.0 \n    END\n)\n\n"
+  },
+  {
+    "description": "",
+    "id": "ebe4888d-44bb-445a-8da1-850e2c6fd893",
+    "name": "Purchase Orders with EDI",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "(CASE WHEN <%=EDI_Activity%> = 'Send Purchase Order' \nTHEN\nSUM(\nCASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=EDI%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Send_PO%>)) > 0\nTHEN 1.0\nELSE 0.0 END)\n\nWHEN <%=EDI_Activity%> = 'Send Purchase Order Update' \nTHEN\nSUM(\nCASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=EDI%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Send_PO_Update%>) AND NAST.AENDE = 'X') > 0\nTHEN 1.0\nELSE 0.0 END)\n\nWHEN <%=EDI_Activity%> = 'Dun Order Confirmation' \nTHEN\nSUM(\nCASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=EDI%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Dun_Order_Confirmation%>)) > 0\nTHEN 1.0\nELSE 0.0 END)\n\nWHEN <%=EDI_Activity%> = 'Send Overdue Notice' \nTHEN\nSUM(\nCASE WHEN PU_COUNT(\"EKKO\", \"NAST\".\"OBJKY\", \"NAST\".\"NACHA\" IN (<%=EDI%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Send_Overdue_Notice%>)) > 0\nTHEN 1.0\nELSE 0.0 END)\n\nELSE 0.0 END)\n/\nCOUNT_TABLE(\"EKKO\")"
+  },
+  {
+    "description": "",
+    "id": "ca9da7e1-3216-45bb-b449-18f1a611651c",
+    "name": "Invoice value without EDI",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM\n(CASE\n    WHEN PU_COUNT(\"EKKO\",\"NAST\".\"NACHA\",\"NAST\".\"NACHA\" IN (<%=EDI%>)) < 1\n    THEN \"EKPO\".\"NETWR_CONVERTED\"\n    ELSE 0.0\nEND)"
+  },
+  {
+    "description": "",
+    "id": "b2c08188-ef9a-49fb-88ef-52eadf465e77",
+    "name": "EDI_Ratio_Activity",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE WHEN <%=EDI_Activity%> = 'Sende Bestellung' \nTHEN\nSUM(\nCASE WHEN \"NAST\".\"NACHA\" IN (<%=EDI%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Send_PO%>) \nTHEN 1.0\n    WHEN ISNULL(NAST.DATVR)=1 THEN 0.0\n    ELSE 0.0 END)/\nSUM(CASE WHEN ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Send_PO%>) \nTHEN 1.0\n    WHEN ISNULL(NAST.DATVR)=1 THEN 0.0\n    ELSE 0.0 END)\n\nWHEN <%=EDI_Activity%> = 'Send Purchase Order Update' \nTHEN\nSUM(\nCASE WHEN \"NAST\".\"NACHA\" IN (<%=EDI%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Send_PO_Update%>) AND NAST.AENDE = 'X'\nTHEN 1.0\n    WHEN ISNULL(NAST.DATVR)=1 THEN 0.0\n    ELSE 0.0 END)/\nSUM(CASE WHEN ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Send_PO_Update%>) AND NAST.AENDE = 'X'\nTHEN 1.0\n    WHEN ISNULL(NAST.DATVR)=1 THEN 0.0\n    WHEN ISNULL(\"NAST\".\"UHRVR\")=1 THEN 0.0    ELSE 0.0 END)\n\nWHEN <%=EDI_Activity%> = 'Dun Order Confirmation' \nTHEN\nSUM(\nCASE WHEN \"NAST\".\"NACHA\" IN (<%=EDI%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Dun_Order_Confirmation%>) \nTHEN 1.0\n   WHEN ISNULL(NAST.DATVR)=1 THEN 0.0\n\n    ELSE 0.0 END)/\nSUM(CASE WHEN ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Dun_Order_Confirmation%>) \nTHEN 1.0\n    WHEN ISNULL(NAST.DATVR)=1 THEN 0.0\n    ELSE 0.0 END)\n\nWHEN <%=EDI_Activity%> = 'Send Overdue Notice' \nTHEN\nSUM(\nCASE WHEN \"NAST\".\"NACHA\" IN (<%=EDI%>) AND ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Send_Overdue_Notice%>) \nTHEN 1.0\n  WHEN ISNULL(NAST.DATVR)=1 THEN 0.0\n    ELSE 0.0 END)/\nSUM(CASE WHEN ISNULL(\"NAST\".\"DATVR\")=0 AND NAST.KSCHL IN (<%=Send_Overdue_Notice%>) \nTHEN 1.0\n    WHEN ISNULL(NAST.DATVR)=1 THEN 0.0\n    ELSE 0.0 END)\nELSE 0.0 END"
+  }
+]

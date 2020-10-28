@@ -1,0 +1,50 @@
+[
+  {
+    "description": "Ratio of automated activities",
+    "id": "113b2965-654f-4108-ae67-14af9f5c3360",
+    "name": "Automation Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100.0*AVG(\r\nCASE\r\nWHEN  \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\" IN (<%= white_listed_activities %>) \r\nTHEN NULL\r\nWHEN ISNULL( \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\") = 1\r\nTHEN NULL\r\nWHEN  \"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\" IN (<%= auto_user_type %>)\r\nTHEN 1.0\r\nELSE 0.0\r\nEND) "
+  },
+  {
+    "description": "Median time between first and last activity of all PO items",
+    "id": "40f35f72-a291-4979-adc3-7b5e21eaba59",
+    "name": "CT Total",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "MEDIAN(\r\n\r\n  CALC_THROUGHPUT(CASE_START TO CASE_END, REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", <%=unit%>))\r\n\r\n)"
+  },
+  {
+    "description": "Relative amount of deliveries that are delivered 0 or maximally 3 days after document entry date. (delivered within 3 days after entry in SAP)",
+    "id": "c8badaeb-c987-4dd7-bcb6-e4a966495543",
+    "name": "On Time Delivery Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "AVG(\r\n    CASE\r\n        -- no reqeusted due date (not part of the analysis)\r\n        WHEN ISNULL(<%= ANALYSIS_KPI %>) = 1 THEN NULL \r\n        -- requested due date in the future \r\n        WHEN ISNULL(<%= GR_VARIABLE %>) = 1 AND DAYS_BETWEEN(TO_TIMESTAMP(<%= forExtractChar %><%= DayOfDataExtract %><%= forExtractChar %>, 'YYYY-MM-DD' ) ,<%= ANALYSIS_KPI %>) >= 0 THEN NULL \r\n        -- no goods receipt and requested due date more than the tolerance in the past, seen as 'overdue' \r\n        WHEN ISNULL(<%= GR_VARIABLE %>) = 1 AND DAYS_BETWEEN(TO_TIMESTAMP(<%= forExtractChar %><%= DayOfDataExtract %><%= forExtractChar %>, 'YYYY-MM-DD' ) ,<%= ANALYSIS_KPI %>) < (-1.0 * <%= tolerance_time_plus %>) THEN 0.0 \r\n        -- no goods receipt and requested due date in the past, but still in the tolerance buffer\r\n        WHEN ISNULL(<%= GR_VARIABLE %>) = 1 AND DAYS_BETWEEN(TO_TIMESTAMP(<%= forExtractChar %><%= DayOfDataExtract %><%= forExtractChar %>, 'YYYY-MM-DD' ) ,<%= ANALYSIS_KPI %>) >= (-1.0 * <%= tolerance_time_plus %>) THEN NULL\r\n        -- delivery during the tolerance buffer\r\n        WHEN PU_COUNT(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\", \"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\" = '<%= record_goods_receipt_activity %>' ) > 0\r\n        AND DAYS_BETWEEN(<%= ANALYSIS_KPI %>, <%= GR_VARIABLE %>) <= <%= tolerance_time_plus %>\r\n        AND  DAYS_BETWEEN(<%= ANALYSIS_KPI %>, <%= GR_VARIABLE %>) >= (-1.0 * <%= tolerance_time_minus %>)\r\n        THEN 1.0 \r\n        -- else: delivery too early or too late\r\n        ELSE 0.0 \r\n    END\r\n) *100"
+  },
+  {
+    "description": "This KPI calculates the ratio of purchases order items made in reference to a contract.",
+    "id": "e6821f2d-5218-49fa-9b08-a3a00408fbd7",
+    "name": "Contract Release Order Item Ratio",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100.0*AVG(\n    CASE WHEN ISNULL(\"EKPO\".\"KONNR\")=1 \n    THEN 0.0\n    ELSE 1.0\nEND)"
+  },
+  {
+    "description": "Percentage of cases with matching quantity in purchase order, goods receipt and invoice and matching price per unit in purchase order and invoice.",
+    "id": "7637fb5b-433f-458f-b021-301dbc892f1f",
+    "name": "Full Match Ratio",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100*(1.0*COUNT(DISTINCT CASE \n-- No quantity match if order quantity is 0\nWHEN \"EKPO\".\"MENGE\" = 0 THEN NULL\nWHEN\n-- Quantity match\n\n    --Order Quantity = GR Quantity\n    (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\n    -- Order Quantity = IR Quantity\n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \n    AND (((1.0*\"EKPO\".\"MENGE\") - (1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\n  -- IR Quantity = GR Quantity (with tolerance of Order Quanitty)\n  AND (((1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\")) - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) >= (-1*((1.0*\"EKPO\".\"MENGE\") *(<%=tolerance_high_quantity%>/100.00)))) \n    AND (((1.0*PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\")) - (1.0*PU_SUM(\"EKPO\",\"EKBE\".\"MENGE\",\"EKBE\".\"VGABE\"='1' AND \"EKBE\".\"SHKZG\" = 'S'))) <= (((1.0*\"EKPO\".\"MENGE\")*(<%=tolerance_low_quantity%>/100.00))))\n\n-- Value match \n--(Price per Unit (PO) - Price per Unit (Invoice) >= -price increase tolerance (diff is negative when price increases) \n--and Price per Unit (PO) - Price per Unit (Invoice) <= price decrease tolerance (diff is positive when price decreases))\n    AND(((<%=netwr%>/EKPO.MENGE) - (PU_SUM(\"EKPO\",\"RSEG\".\"WRBTR\")/PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) >= (-1*((<%=netwr%>/EKPO.MENGE)*(<%=tolerance_high_price%>/100.00)))) \n    AND (((<%=netwr%>/EKPO.MENGE) - (PU_SUM(\"EKPO\",\"RSEG\".\"WRBTR\")/PU_SUM(\"EKPO\",\"RSEG\".\"MENGE\"))) <= (((<%=netwr%>/EKPO.MENGE)*(<%=tolerance_low_price%>/100.00))))\n    \n    THEN \"EKPO\".\"MANDT\"||\"EKPO\".\"EBELN\"||\"EKPO\".\"EBELP\" \n    ELSE NULL \n\nEND)/COUNT_TABLE(\"EKPO\"))"
+  },
+  {
+    "description": "Ratio of PO items with changes",
+    "id": "02e01a79-af26-4e0e-ad69-14b4f7452753",
+    "name": "Change Rate",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100.0*AVG(\nCASE WHEN PU_COUNT(\"EKPO\",\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_<%= language %>\",\"_CEL_P2P_ACTIVITIES\".\"CHANGED_FIELD\" IN (<%=ChangedFields%>)) > 0\n    THEN\n        1.0 \n    ELSE\n        0.0 \nEND)"
+  }
+]

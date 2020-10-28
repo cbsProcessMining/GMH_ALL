@@ -1,0 +1,99 @@
+/*DESCRIPTION:
+1. Transformation Description:
+This transformation creates an activity with the following name: Begin PR Approval
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Required Tables:
+QALS
+TMP_P2P_EKKO_EKPO
+USR02
+
+3. Required Columns:
+QALS.EBELN
+QALS.EBELP
+QALS.ERSTELLER
+QALS.MANDANT
+QALS.NOW
+QALS.PASTRTERM
+QALS.PASTRZEIT
+TMP_P2P_EKKO_EKPO.EBELN
+TMP_P2P_EKKO_EKPO.EBELP
+TMP_P2P_EKKO_EKPO.MANDT
+TMP_P2P_EKKO_EKPO._CASE_KEY
+USR02.BNAME
+USR02.MANDT
+USR02.USTYP
+
+4. Columns used for timestamp:
+QALS.PASTRTERM
+QALS.PASTRZEIT
+
+5. Parameters used in where clause:
+None
+
+6. Parameters used in joins:
+None
+*/
+INSERT INTO _CEL_P2P_ACTIVITIES (
+    "_CASE_KEY"
+    ,"MANDT"
+    ,"EBELN"
+    ,"EBELP"
+    ,"ACTIVITY_DE"
+    ,"ACTIVITY_EN"
+    ,"EVENTTIME"
+    ,"_SORTING"
+    ,"USER_NAME" 
+    ,"USER_TYPE"
+	,"TRANSACTION_CODE"
+    ,"_ACTIVITY_KEY")
+SELECT DISTINCT
+    E._CASE_KEY AS "_CASE_KEY" 
+    , E.MANDT AS "MANDT"
+	, E.EBELN AS "EBELN"
+	, E.EBELP AS "EBELP"
+    ,'Start Banffreigabe' AS "ACTIVITY_DE" 
+    ,'Start PR Release' AS "ACTIVITY_EN" 
+    ,CASE
+        WHEN coalesce(CDHDR.UDATE,'') <> ''  THEN CAST(CDHDR.UDATE AS DATE) + CAST(CDHDR.UTIME AS TIME)
+        ELSE CAST(EBAN.BADAT AS DATE) + CAST('00:00:01' AS TIME)
+    END AS "EVENTTIME"
+    ,210 AS "_SORTING" -- Sorting > 200, da mitunter zeitgleich mit BANF-Anlage 
+    ,EBAN.ERNAM AS "USER_NAME"
+    ,USR02.USTYP AS "USER_TYPE"
+    ,CDHDR.TCODE AS "TRANSACTION_CODE"
+    , EBAN.MANDT || EBAN.BANFN || EBAN.BNFPO AS "_ACTIVITY_KEY"
+FROM 
+    TMP_P2P_EKKO_EKPO AS E
+    INNER JOIN EBAN AS EBAN ON 1=1
+        AND EBAN.MANDT = E.MANDT 
+        AND EBAN.BANFN = E.BANFN 
+        AND EBAN.BNFPO = E.BNFPO 
+    LEFT JOIN CDPOS AS CDPOS ON 1=1 
+        AND CDPOS.MANDANT = E.MANDT 
+        AND CDPOS.TABKEY = E."TABKEY_EBAN"
+        AND CDPOS.TABNAME = 'EBAN'
+        AND CDPOS.CHNGIND = 'I'
+        AND CDPOS.OBJECTCLAS = 'BANF'
+    LEFT JOIN CDHDR AS CDHDR ON 1=1
+        AND CDPOS.MANDANT = CDHDR.MANDANT 
+        AND CDPOS.CHANGENR = CDHDR.CHANGENR
+    LEFT JOIN USR02 AS USR02 ON 1=1
+        AND EBAN.MANDT = USR02.MANDT 
+        AND EBAN.ERNAM = USR02.BNAME 
+WHERE 
+	coalesce(EBAN.EBELN,'') <> ''
+    AND coalesce(EBAN.FRGST,'') <> '';

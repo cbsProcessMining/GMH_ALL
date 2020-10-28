@@ -1,0 +1,122 @@
+{
+  "bpmnModel": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<bpmn2:definitions xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:bpmn2=\"http://www.omg.org/spec/BPMN/20100524/MODEL\" xmlns:bpmndi=\"http://www.omg.org/spec/BPMN/20100524/DI\" xmlns:dc=\"http://www.omg.org/spec/DD/20100524/DC\" xmlns:di=\"http://www.omg.org/spec/DD/20100524/DI\" id=\"discovered-model\" targetNamespace=\"http://bpmn.io/schema/bpmn\" xsi:schemaLocation=\"http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd\">\n<bpmn2:process id=\"Process_1\" isExecutable=\"false\">\n<bpmn2:startEvent id=\"StartEvent_-1\">\n<bpmn2:outgoing>Task_1</bpmn2:outgoing>\n</bpmn2:startEvent>\n<bpmn2:endEvent id=\"EndEvent_-2\">\n<bpmn2:incoming>Task_5</bpmn2:incoming>\n</bpmn2:endEvent>\n<bpmn2:task id=\"Task_1\" name=\"Lege Bestellposition an\">\n<bpmn2:outgoing>Task_2</bpmn2:outgoing>\n<bpmn2:incoming>StartEvent_-1</bpmn2:incoming>\n</bpmn2:task>\n<bpmn2:task id=\"Task_2\" name=\"Lieferant erstellt Rechnung\">\n<bpmn2:outgoing>Task_3</bpmn2:outgoing>\n<bpmn2:incoming>Task_1</bpmn2:incoming>\n</bpmn2:task>\n<bpmn2:task id=\"Task_3\" name=\"Erfasse Wareneingang\">\n<bpmn2:outgoing>Task_4</bpmn2:outgoing>\n<bpmn2:incoming>Task_2</bpmn2:incoming>\n</bpmn2:task>\n<bpmn2:task id=\"Task_4\" name=\"Erfasse Rechnungseingang\">\n<bpmn2:outgoing>Task_5</bpmn2:outgoing>\n<bpmn2:incoming>Task_3</bpmn2:incoming>\n</bpmn2:task>\n<bpmn2:task id=\"Task_5\" name=\"Gleiche Rechnung aus\">\n<bpmn2:outgoing>EndEvent_-2</bpmn2:outgoing>\n<bpmn2:incoming>Task_4</bpmn2:incoming>\n</bpmn2:task>\n<bpmn2:sequenceFlow id=\"SequenceFlow_-1_1\" sourceRef=\"StartEvent_-1\" targetRef=\"Task_1\"/>\n<bpmn2:sequenceFlow id=\"SequenceFlow_1_2\" sourceRef=\"Task_1\" targetRef=\"Task_2\"/>\n<bpmn2:sequenceFlow id=\"SequenceFlow_2_3\" sourceRef=\"Task_2\" targetRef=\"Task_3\"/>\n<bpmn2:sequenceFlow id=\"SequenceFlow_3_4\" sourceRef=\"Task_3\" targetRef=\"Task_4\"/>\n<bpmn2:sequenceFlow id=\"SequenceFlow_4_5\" sourceRef=\"Task_4\" targetRef=\"Task_5\"/>\n<bpmn2:sequenceFlow id=\"SequenceFlow_5_-2\" sourceRef=\"Task_5\" targetRef=\"EndEvent_-2\"/>\n</bpmn2:process>\n<bpmndi:BPMNDiagram id=\"BPMNDiagram_1\">\n<bpmndi:BPMNPlane id=\"BPMNPlane_1\" bpmnElement=\"Process_1\">\n<bpmndi:BPMNShape id=\"StartEvent_-1_di\" bpmnElement=\"StartEvent_-1\">\n<dc:Bounds x=\"0\" y=\"22.000320000000002\" width=\"36\" height=\"36\"/>\n</bpmndi:BPMNShape>\n<bpmndi:BPMNShape id=\"EndEvent_-2_di\" bpmnElement=\"EndEvent_-2\">\n<dc:Bounds x=\"747\" y=\"22.000320000000002\" width=\"36\" height=\"36\"/>\n</bpmndi:BPMNShape>\n<bpmndi:BPMNShape id=\"Task_1_di\" bpmnElement=\"Task_1\">\n<dc:Bounds x=\"72\" y=\"0.0007200000000011642\" width=\"100\" height=\"80\"/>\n</bpmndi:BPMNShape>\n<bpmndi:BPMNShape id=\"Task_2_di\" bpmnElement=\"Task_2\">\n<dc:Bounds x=\"207\" y=\"0.0007200000000011642\" width=\"100\" height=\"80\"/>\n</bpmndi:BPMNShape>\n<bpmndi:BPMNShape id=\"Task_3_di\" bpmnElement=\"Task_3\">\n<dc:Bounds x=\"342\" y=\"0.0007200000000011642\" width=\"100\" height=\"80\"/>\n</bpmndi:BPMNShape>\n<bpmndi:BPMNShape id=\"Task_4_di\" bpmnElement=\"Task_4\">\n<dc:Bounds x=\"477\" y=\"0.0007200000000011642\" width=\"100\" height=\"80\"/>\n</bpmndi:BPMNShape>\n<bpmndi:BPMNShape id=\"Task_5_di\" bpmnElement=\"Task_5\">\n<dc:Bounds x=\"612\" y=\"0.0007200000000011642\" width=\"100\" height=\"80\"/>\n</bpmndi:BPMNShape>\n<bpmndi:BPMNEdge id=\"SequenceFlow_-1_1_di\" bpmnElement=\"SequenceFlow_-1_1\">\n<di:waypoint xsi:type=\"dc:Point\" x=\"36.21816\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"46.05912\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"58.94568\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"71.67096000000001\" y=\"40.00032\"/>\n</bpmndi:BPMNEdge>\n<bpmndi:BPMNEdge id=\"SequenceFlow_1_2_di\" bpmnElement=\"SequenceFlow_1_2\">\n<di:waypoint xsi:type=\"dc:Point\" x=\"171.26639999999998\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"182.8368\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"195.1704\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"206.73360000000002\" y=\"40.00032\"/>\n</bpmndi:BPMNEdge>\n<bpmndi:BPMNEdge id=\"SequenceFlow_2_3_di\" bpmnElement=\"SequenceFlow_2_3\">\n<di:waypoint xsi:type=\"dc:Point\" x=\"306.26640000000003\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"317.8368\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"330.17040000000003\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"341.73359999999997\" y=\"40.00032\"/>\n</bpmndi:BPMNEdge>\n<bpmndi:BPMNEdge id=\"SequenceFlow_3_4_di\" bpmnElement=\"SequenceFlow_3_4\">\n<di:waypoint xsi:type=\"dc:Point\" x=\"441.26640000000003\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"452.8368\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"465.17040000000003\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"476.73359999999997\" y=\"40.00032\"/>\n</bpmndi:BPMNEdge>\n<bpmndi:BPMNEdge id=\"SequenceFlow_4_5_di\" bpmnElement=\"SequenceFlow_4_5\">\n<di:waypoint xsi:type=\"dc:Point\" x=\"576.2664\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"587.8368\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"600.1704\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"611.7336\" y=\"40.00032\"/>\n</bpmndi:BPMNEdge>\n<bpmndi:BPMNEdge id=\"SequenceFlow_5_-2_di\" bpmnElement=\"SequenceFlow_5_-2\">\n<di:waypoint xsi:type=\"dc:Point\" x=\"711.1656\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"723.96\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"736.9920000000001\" y=\"40.00032\"/>\n<di:waypoint xsi:type=\"dc:Point\" x=\"746.856\" y=\"40.00032\"/>\n</bpmndi:BPMNEdge>\n</bpmndi:BPMNPlane>\n</bpmndi:BPMNDiagram>\n</bpmn2:definitions>\n",
+  "components": [
+    {
+      "formula": {
+        "formulaField": "conformanceLevel",
+        "name": "Conformance ratio",
+        "text": "AVG(CASE WHEN PU_SUM(\"EKPO\", ABS(REMAP_INTS(CONFORMANCE(\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_DE\", [\"P_0\" \"P_1\" \"P_2\" \"P_3\" \"P_4\" \"P_5\" \"P_6\" \"P_10\"], [\"T_7\" \"T_11\" \"T_14\" \"T_17\" \"T_20\" \"T_23\" \"T_26\"], [[\"P_6\" \"T_7\"] [\"T_7\" \"P_0\"] [\"T_11\" \"P_10\"] [\"P_5\" \"T_11\"] [\"P_0\" \"T_14\"] [\"T_14\" \"P_1\"] [\"P_1\" \"T_17\"] [\"T_17\" \"P_2\"] [\"P_2\" \"T_20\"] [\"T_20\" \"P_3\"] [\"P_3\" \"T_23\"] [\"T_23\" \"P_4\"] [\"P_4\" \"T_26\"] [\"T_26\" \"P_5\"]], [['Lege Bestellposition an' \"T_14\"] ['Lieferant erstellt Rechnung' \"T_17\"] ['Erfasse Wareneingang' \"T_20\"] ['Erfasse Rechnungseingang' \"T_23\"] ['Gleiche Rechnung aus' \"T_26\"]], [\"P_6\"], [\"P_10\"]), [2147483647, 0])))=0 THEN 1.0 ELSE 0.0 END)",
+        "translatedName": "Conformance Ratio",
+        "valueFormat": ""
+      },
+      "id": "84ff7931-be68-45ba-8e36-ba47dcbcfea6",
+      "kpiValue": 0.11593002722709833,
+      "kpiValueField": "conformanceLevel",
+      "tile": {
+        "actionTitle": "Send KPI to Transformation Center",
+        "kpiFormatting": "%",
+        "title": "Conforming cases (%)",
+        "transformationCentreKPIEnabled": true
+      },
+      "tileType": "overviewTile",
+      "type": "single-kpi"
+    },
+    {
+      "id": "06c2211f-80c1-4df8-bf60-9aa31dba4b49",
+      "kpiComparisonValue": 508159,
+      "kpiComparisonValueField": "nonConformingCount",
+      "kpiValue": 66636,
+      "kpiValueField": "conformingCount",
+      "tile": {
+        "actionTitle": "Filter on Cases",
+        "comparisonTitle": "Non-conforming cases",
+        "comparisonTitleClickFunctionName": "filterNonConforming",
+        "kpiFormatting": ".3s",
+        "title": "Conforming cases",
+        "titleClickFunctionName": "filterConforming",
+        "vsDanger": true
+      },
+      "tileType": "overviewTile"
+    },
+    {
+      "id": "f25db94e-1b82-4f55-bc27-aa3f6ebdf686",
+      "kpiValue": 51,
+      "kpiValueField": "violationCount",
+      "tile": {
+        "actionTitle": "Go To Violations",
+        "className": "color-red-light",
+        "kpiFormatting": ",f",
+        "title": "Violations",
+        "titleClickFunctionName": "scrollToViolations"
+      },
+      "tileType": "overviewTile"
+    },
+    {
+      "id": "67e99860-ae8a-4525-b415-38d5f0845994",
+      "kpiValue": 9,
+      "kpiValueField": "whitelistedCount",
+      "tile": {
+        "actionTitle": "Go To Whitelisted Violations",
+        "kpiFormatting": ",f",
+        "title": "Whitelisted violations",
+        "titleClickFunctionName": "openWhitelist"
+      },
+      "tileType": "overviewTile"
+    }
+  ],
+  "conformanceKpis": [
+    {
+      "name": "Total Cycle Time (Median)",
+      "text": "MEDIAN(CALC_THROUGHPUT(ALL_OCCURRENCE['Process Start'] TO ALL_OCCURRENCE['Process End'], REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", DAYS)))",
+      "translatedName": "Total Cycle Time (Median)",
+      "units": "days"
+    },
+    {
+      "name": "PR - PO (Median)",
+      "text": "MEDIAN(CALC_THROUGHPUT(FIRST_OCCURRENCE['Create Purchase Requisition Item'] TO LAST_OCCURRENCE['Create Purchase Order Item'], REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", HOURS)))",
+      "translatedName": "PR - PO (Median)",
+      "units": " h"
+    },
+    {
+      "name": "PR - SO (Median)",
+      "text": "MEDIAN(CALC_THROUGHPUT(FIRST_OCCURRENCE['Create Purchase Requisition Item'] TO LAST_OCCURRENCE['Send Purchase Order'], REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", HOURS)))",
+      "translatedName": "PR - SO (Median)",
+      "units": " h"
+    },
+    {
+      "name": "PO - SO (Median)",
+      "text": "MEDIAN(CALC_THROUGHPUT(FIRST_OCCURRENCE['Create Purchase Order Item'] TO LAST_OCCURRENCE['Send Purchase Order'], REMAP_TIMESTAMPS(\"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\", HOURS)))",
+      "translatedName": "PO - SO (Median)",
+      "units": " h"
+    }
+  ],
+  "contentType": "conformance-checking",
+  "format": "FULLSCREEN",
+  "id": "71cdd12b-4873-485f-8bce-7360bdec7f60",
+  "name": "Conformance",
+  "position": {
+    "height": 804,
+    "left": 0,
+    "top": 0,
+    "width": 1260
+  },
+  "sheetFilter": {
+    "text": "FILTER DOMAIN PU_FIRST(\"EKPO\", \"_CEL_P2P_ACTIVITIES\".\"EVENTTIME\") >= {t 1514764800000}"
+  },
+  "state": "MODEL",
+  "throughputTimeCalculation": "MEDIAN",
+  "throughputTimeUnits": "DAYS",
+  "variableName": "conformance",
+  "whitelistedViolations": {
+    "{\"incompleteViolationKey\":2147483647}": true,
+    "{\"missingActivity\":\"A2 Release\",\"violatingActivity\":\"Send Purchase Order\"}": true,
+    "{\"missingActivity\":\"Send Purchase Order\",\"violatingActivity\":\"Record Invoice Receipt\"}": true,
+    "{\"undesiredActivity\":\"A1 Release\"}": true,
+    "{\"undesiredActivity\":\"Change Approval for Purchase Order\"}": true,
+    "{\"undesiredActivity\":\"Receive Order Confirmation\"}": true,
+    "{\"undesiredActivity\":\"Release Purchase Order\"}": true,
+    "{\"undesiredActivity\":\"Send Purchase Order Update\"}": true,
+    "{\"undesiredActivity\":\"Vendor Creates Invoice\"}": true
+  },
+  "writeToVariable": true
+}

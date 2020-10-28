@@ -1,0 +1,167 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "colorMappings": [
+      {
+        "id": "15ebd5ef-251b-4a17-97ba-a6758c0634bb",
+        "name": "Class",
+        "thresholds": [
+          {
+            "color": "#1084A6",
+            "compare": "==",
+            "formula": "0"
+          },
+          {
+            "color": "#14D5D2",
+            "compare": "==",
+            "formula": "1"
+          },
+          {
+            "color": "#FFB710",
+            "compare": "==",
+            "formula": "2"
+          },
+          {
+            "color": "#FF8B00",
+            "compare": "==",
+            "formula": "3"
+          },
+          {
+            "color": "#31C9A8",
+            "compare": "==",
+            "formula": "4"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "2bd45c77-b75d-4ea0-abf7-f4adf3a9ca0f",
+        "name": "Ratio ColorMapping",
+        "thresholds": [
+          {
+            "color": "#D70A0A",
+            "compare": "<",
+            "formula": "<%=low_color%>"
+          },
+          {
+            "color": "#78B604",
+            "compare": ">",
+            "formula": "<%=high_color%>"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "f0bf7441-ad20-4330-b720-19f910bf1d5f",
+        "name": "Classifciation",
+        "thresholds": [
+          {
+            "color": "#D70A0A",
+            "compare": "==",
+            "formula": "0"
+          },
+          {
+            "color": "#78B604",
+            "compare": "==",
+            "formula": "1"
+          },
+          {
+            "color": "#0085A9",
+            "compare": "==",
+            "formula": "2"
+          },
+          {
+            "color": "#FFB710",
+            "compare": "==",
+            "formula": "3"
+          },
+          {
+            "color": "#FF8B00",
+            "compare": "==",
+            "formula": "4"
+          },
+          {
+            "color": "#FF797B",
+            "compare": "==",
+            "formula": "5"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "f522e9ff-598c-463a-ad53-d8798f22435c",
+        "name": "DaysToOTD",
+        "thresholds": [
+          {
+            "color": "#78B604",
+            "compare": ">=",
+            "formula": "-<%=tolerance_time_minus%>"
+          },
+          {
+            "color": "#78B604",
+            "compare": "<=",
+            "formula": "<%=tolerance_time_plus%>"
+          },
+          {
+            "color": "#D70A0A",
+            "compare": "<",
+            "formula": "-<%=tolerance_time_minus%>"
+          },
+          {
+            "color": "#D70A0A",
+            "compare": ">",
+            "formula": "<%=tolerance_time_plus%>"
+          }
+        ],
+        "title": "New Color Mapping",
+        "type": "series"
+      }
+    ],
+    "editMode": true,
+    "id": "8053d617-f46e-4282-abb0-c6c769faff49",
+    "isPublished": true,
+    "kpiViews": [],
+    "loadScript": "",
+    "multiselectMode": false,
+    "name": "Supplier Segmentation",
+    "palettes": [
+      {
+        "colors": [
+          "#5BC6E6",
+          "#78B604",
+          "#FFB710",
+          "#F32F2B",
+          "#570092",
+          "#C8EC84",
+          "#FF797B",
+          "#A750EB",
+          "#F49929",
+          "#2ca02c",
+          "#0085A9"
+        ],
+        "custom": true,
+        "id": "cad122db-866d-45db-bd15-af95263236e0",
+        "type": "linear"
+      }
+    ],
+    "preventVariants": true,
+    "publishedSelections": [],
+    "rawDataExportLimit": 20000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {
+      "Classification for PO Items without PR": {
+        "de": "Klassifizierung von Bestellungen ohne Bestellanforderung",
+        "en": "Classification for PO Items without PR"
+      }
+    }
+  },
+  "id": "5609fc7d-1e9c-48e1-b933-c039c3ee1e42",
+  "lastChangeDate": 1596626047352,
+  "lastChangeUserId": "82d6fd56-8f56-40b1-be78-5258759f518e",
+  "lastChangeUserName": "a.helfer@celonis.com(Alexander Helfer)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

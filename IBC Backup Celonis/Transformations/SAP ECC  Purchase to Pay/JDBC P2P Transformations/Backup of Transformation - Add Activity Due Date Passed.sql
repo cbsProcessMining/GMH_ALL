@@ -1,0 +1,63 @@
+
+INSERT INTO _CEL_P2P_ACTIVITIES(
+    "_CASE_KEY"
+    ,"MANDT"
+    ,"EBELN"
+    ,"EBELP"
+    ,"ACTIVITY_DE"
+    ,"ACTIVITY_EN"
+    ,"EVENTTIME"
+    ,"_SORTING"
+    ,"USER_NAME"
+    ,"USER_TYPE"
+    ,"TRANSACTION_CODE"
+    ,"_ACTIVITY_KEY" )
+ SELECT DISTINCT
+	E._CASE_KEY AS "_CASE_KEY"
+	,E.MANDT AS "MANDT"
+	,E.EBELN AS "EBELN"
+	,E.EBELP AS "EBELP"
+,'Erreiche Zahlfrist' AS "ACTIVITY_DE"
+	,'Due Date passed' AS "ACTIVITY_EN"
+		,CAST( CASE
+		WHEN B."ZBD3T">0 
+			THEN cast(B."ZFBDT" as date) + B."ZBD3T" * INTERVAL '1 day'
+		WHEN B."ZBD3T"=0 AND B."ZBD2T">0 
+			THEN cast(B."ZFBDT" as date) + B."ZBD2T" * INTERVAL '1 day'
+		WHEN B."ZBD3T"=0 AND B."ZBD2T"=0 AND B."ZBD1T">0 
+			THEN cast(B."ZFBDT"as date) + B."ZBD1T" * INTERVAL '1 day'
+		ELSE 
+		    cast(B."ZFBDT" as date)
+       	END AS DATE) + CAST('23:59:59' AS TIME)
+	AS "EVENTTIME"
+    ,2700 AS "_SORTING"
+	,BKPF_Z.USNAM AS "USER_NAME"
+	,USR02.USTYP AS "USER_TYPE"
+	,BKPF_Z.TCODE AS "TRANSACTION_CODE"
+    ,B."MANDT" || B."BUKRS" || B."BELNR" || B."GJAHR" AS "_ACTIVITY_KEY"
+FROM 
+	RSEG AS RSEG
+	INNER JOIN TMP_P2P_EKKO_EKPO AS E ON 1=1
+	    AND RSEG.MANDT = E.MANDT
+	    AND RSEG.EBELN = E.EBELN
+	    AND RSEG.EBELP = E.EBELP
+	INNER JOIN TMP_P2P_BKPF_BSEG AS B ON 1=1
+		AND B.MANDT = RSEG.MANDT
+		AND SUBSTRING(B.AWKEY,1,14) = RSEG.BELNR || CAST(RSEG.GJAHR AS VARCHAR(4))
+	LEFT JOIN BKPF AS BKPF_Z ON 1=1
+		AND B.MANDT = BKPF_Z.MANDT
+		AND B.BUKRS = BKPF_Z.BUKRS
+		AND B.AUGBL = BKPF_Z.BELNR
+		AND B.AUGGJ = BKPF_Z.GJAHR
+	LEFT JOIN USR02 AS USR02 ON 1=1
+		AND BKPF_Z.MANDT = USR02.MANDT
+		AND BKPF_Z.USNAM = USR02.BNAME
+WHERE
+	B.KOART = 'K' AND	
+	coalesce(B.AUGBL,'') <> '' AND
+	coalesce(BKPF_Z.CPUDT,'') <> '';
+
+-- Due Date Passed Aktivität, cbs 07.08.2020, Josef Rieger
+-- Keine where clause liefert 698815,
+-- mit k liefert 698815
+-- mit <> liefert 694018, den Bezug kenne ich leider nicht warum die exclusion

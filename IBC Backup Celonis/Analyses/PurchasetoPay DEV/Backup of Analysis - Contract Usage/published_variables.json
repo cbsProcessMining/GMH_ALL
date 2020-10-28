@@ -1,0 +1,208 @@
+[
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "B"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"USER_TYPE\"",
+    "name": "auto_user_type",
+    "type": "text_replacement",
+    "value": "'B'"
+  },
+  {
+    "name": "unit2",
+    "type": "text_replacement",
+    "value": "Year"
+  },
+  {
+    "name": "ButtonDrilldown4",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"BUKRS\" || ' - ' || \"EKPO\".\"BUKRS_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "automatic_users",
+    "type": "text_replacement",
+    "value": "'B','S'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "DrilldownRootCause",
+    "type": "text_replacement",
+    "value": "\"LFA1\".\"LIFNR\" || ' - ' || \"LFA1\".\"NAME1\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "process_explorer_classification",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ABC_lower_limit",
+    "type": "text_replacement",
+    "value": "0.15"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ABC_upper_limit",
+    "type": "text_replacement",
+    "value": "0.80"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldown3",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldown2",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"BUKRS\" || ' - ' || \"EKPO\".\"BUKRS_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "unit",
+    "type": "text_replacement",
+    "value": "YEAR"
+  },
+  {
+    "linkedEntries": null,
+    "name": "date_picker",
+    "type": "text_replacement",
+    "value": "ROUND_DAY(\"EKKO\".\"TS_AEDAT\")"
+  },
+  {
+    "linkedEntries": null,
+    "name": "language",
+    "type": "text_replacement",
+    "value": "EN"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter1",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter2",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"WERKS\" || '-' || \"EKPO\".\"WERKS_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter3",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKORG\" || ' - ' || \"EKKO\".\"EKORG_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter4",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"EKGRP\" || ' - ' || \"EKKO\".\"EKGRP_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter5",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter6",
+    "type": "text_replacement",
+    "value": "CASE\n    WHEN ISNULL(\"LFA1\".\"VBUND\") = 1 THEN 'External'\n    ELSE 'Internal'\nEND"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter7",
+    "type": "text_replacement",
+    "value": "CASE WHEN ISNULL(\"EKPO\".\"LOEKZ\") = 1 THEN 'not deleted'\n     WHEN \"EKPO\".\"LOEKZ\" = 'S' THEN 'locked'\n     WHEN \"EKPO\".\"LOEKZ\" = 'L' THEN 'deleted'\n     ELSE \"EKPO\".\"LOEKZ\"\nEND"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter1_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"BUKRS\"}"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter2_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"WERKS\"}"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter3_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKORG\"}"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter4_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"EKGRP\"}"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter5_text",
+    "type": "text_replacement",
+    "value": "#{\"EKKO\".\"BSART\"}"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter6_text",
+    "type": "text_replacement",
+    "value": "#{\"LFA1\".\"VBUND\"}"
+  },
+  {
+    "linkedEntries": null,
+    "name": "filter7_text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"LOEKZ\"}"
+  },
+  {
+    "linkedEntries": [],
+    "name": "currency_symbol",
+    "type": "text_replacement",
+    "value": "\u20ac"
+  },
+  {
+    "linkedEntries": [],
+    "name": "low_color",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": [],
+    "name": "high_color",
+    "type": "text_replacement",
+    "value": "55"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ButtonDrilldownText1",
+    "type": "text_replacement",
+    "value": "#{\"LFA1\".\"LIFNR\"}"
+  },
+  {
+    "name": "ButtonDrilldownText2",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"BUKRS\"}"
+  },
+  {
+    "name": "ButtonDrilldownText3",
+    "type": "text_replacement",
+    "value": "#{Year}"
+  },
+  {
+    "name": "ButtonDrilldownText4",
+    "type": "text_replacement",
+    "value": "Year"
+  }
+]

@@ -1,0 +1,195 @@
+DROP VIEW IF EXISTS "AP_NAME_MAPPING_COLUMNS";
+
+CREATE VIEW "AP_NAME_MAPPING_COLUMNS" AS(
+SELECT 
+	"TABNAME" as "TABLE_NAME",
+	"FIELDNAME" as "FIELD_NAME",
+	"DDLANGUAGE" AS "LANGUAGE",
+	"SCRTEXT_L" || ' (' || "FIELDNAME" || ')' AS "PRETTY_NAME"
+FROM 
+	"DD03M"
+	
+UNION
+
+SELECT 
+	"TABNAME" AS "TABLE_NAME",
+	"FIELDNAME" || '_TEXT' as "FIELD_NAME",
+	"DDLANGUAGE" AS "LANGUAGE",
+	"SCRTEXT_L" || ' (Text)' AS "PRETTY_NAME"
+FROM 
+	"DD03M"
+	
+UNION
+
+SELECT 
+	"TABNAME" AS "TABLE_NAME",
+	"FIELDNAME" || '_EUR' AS "FIELD_NAME",
+	"DDLANGUAGE" AS "LANGUAGE",
+	"SCRTEXT_L" || ' (Euro)' AS "PRETTY_NAME"
+FROM 
+	"DD03M"
+	
+UNION
+
+SELECT 
+	"TABNAME" AS "TABLE_NAME",
+	"FIELDNAME" || '_CONVERTED' AS "FIELD_NAME",
+	"DDLANGUAGE" AS "LANGUAGE",
+	"SCRTEXT_L" || ' ({{TO_CURRENCY}})' AS "PRETTY_NAME"
+FROM 
+	"DD03M"
+
+UNION
+
+SELECT 
+	"TABNAME" AS "TABLE_NAME",
+	'TS_' || "FIELDNAME" AS "FIELD_NAME",
+	"DDLANGUAGE" AS "LANGUAGE",
+	"SCRTEXT_L" || ' (Timestamp)' AS "PRETTY_NAME"
+FROM 
+	"DD03M"
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'ACTIVITY_EN',
+	'E',
+	'Activity (English)'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'ACTIVITY_EN',
+	'D',
+	'AktivitÃ¤t (Englisch)'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'ACTIVITY_DE',
+	'E',
+	'Activity (German)'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'ACTIVITY_DE',
+	'D',
+	'AktivitÃ¤t (Deutsch)'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'EVENTTIME',
+	'E',
+	'Timestamp'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'EVENTTIME',
+	'D',
+	'Zeitstempel'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'CHANGED_FIELD',
+	'E',
+	'Changed Field'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'CHANGED_FIELD',
+	'D',
+	'GeÃ¤ndertes Feld'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'CHANGED_TABLE',
+	'E',
+	'Changed Table'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'CHANGED_TABLE',
+	'D',
+	'GeÃ¤nderte Tabelle'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'CHANGED_FROM',
+	'E',
+	'Changed From'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'CHANGED_FROM',
+	'D',
+	'GeÃ¤ndert von'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'CHANGED_TO',
+	'E',
+	'Changed To'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'CHANGED_TO',
+	'D',
+	'GeÃ¤ndert nach'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'CHANGED_NUMBER',
+	'E',
+	'Change Number'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'CHANGED_NUMBER',
+	'D',
+	'Ãnderungsnummer'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'TRANSACTION_CODE',
+	'E',
+	'Transaction Code'
+
+UNION
+
+SELECT
+	'_CEL_AP_ACTIVITIES',
+	'TRANSACTION_CODE',
+	'D',
+	'Transaktionscode'
+);

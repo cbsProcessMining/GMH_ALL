@@ -1,0 +1,50 @@
+[
+  {
+    "description": "Classification by the usage of a contract.",
+    "id": "a1397dc1-80bc-410b-8dc8-26051e2a1e19",
+    "name": "Contract Classification",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE \n    WHEN COALESCE(\"EKPO\".\"KONNR\",'') = ''\n    THEN 'Standard PO Item'\n    ELSE 'Contract Release Order Item' \nEND"
+  },
+  {
+    "description": "Net value of contract release order items",
+    "id": "96e17821-98c1-452f-94d0-ba4b83df0bda",
+    "name": "Net Value Of Contract Release Order Items",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "SUM(CASE\n    WHEN COALESCE(\"EKPO\".\"KONNR\",'') <> ''\n    THEN \"EKPO\".\"NETWR_CONVERTED\"\n    ELSE 0.0\nEND)"
+  },
+  {
+    "description": "In the ABC Analysis, group A represents the values with the highest share of the sum of all values (by default 0.8, so 80% of the sum).",
+    "id": "221489c0-434d-4d79-ad41-0702bac07e57",
+    "name": "ABC_Vendor_Classification",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "CASE\r\n  WHEN  ISNULL(ABC(PU_SUM(\"LFA1\", PU_SUM(\"EKKO\", \"EKPO\".\"NETWR_CONVERTED\"))  , <%= ABC_upper_limit %>, <%= ABC_lower_limit %>)) = 1\r\n  THEN 'Vendors without orders'\r\n\r\n  WHEN ABC(PU_SUM(\"LFA1\", PU_SUM(\"EKKO\", \"EKPO\".\"NETWR_CONVERTED\"))  , <%= ABC_upper_limit %>, <%= ABC_lower_limit %>) = 1\r\n  THEN 'A'\r\n\r\n  WHEN ABC(PU_SUM(\"LFA1\", PU_SUM(\"EKKO\", \"EKPO\".\"NETWR_CONVERTED\"))  , <%= ABC_upper_limit %>, <%= ABC_lower_limit %>) = 2\r\n  THEN 'B'\r\n\r\n  ELSE 'C'\r\nEND"
+  },
+  {
+    "description": "This KPI calculates the ratio of purchases order items made in reference to a contract.",
+    "id": "98dbfd99-280f-4b2c-838e-a8920371272f",
+    "name": "Contract Release Order Item Ratio_1",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100.0*AVG(\n    CASE WHEN COALESCE(\"EKPO\".\"KONNR\",'') = ''\n    THEN 0.0\n    ELSE 1.0\nEND)"
+  },
+  {
+    "description": "This KPI calculates the number of Contract Release Order Items",
+    "id": "d6c6c763-3f97-4fb2-9b3c-1217f7537125",
+    "name": "Contract Release Order Items",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "COUNT(DISTINCT CASE \nWHEN COALESCE(\"EKPO\".\"KONNR\",'') <> ''\n-- (ISNULL(\"EKPO\".\"KONNR\")=0) OR \"EKPO\".\"KONNR\" = '' \nTHEN \"_CEL_P2P_ACTIVITIES\".\"_CASE_KEY\"\nELSE NULL\nEND)\n"
+  },
+  {
+    "description": "This KPI calculates the ratio of purchases order items made in reference to a contract.",
+    "id": "3a0fd2f5-2ee9-48c6-b904-527a16f2a6ee",
+    "name": "Contract Release Order Item Ratio",
+    "parameterCount": 0,
+    "parameters": [],
+    "template": "100.0*AVG(\n    CASE WHEN COALESCE(\"EKPO\".\"KONNR\",'') = ''\n    THEN 0.0\n    ELSE 1.0\nEND)"
+  }
+]

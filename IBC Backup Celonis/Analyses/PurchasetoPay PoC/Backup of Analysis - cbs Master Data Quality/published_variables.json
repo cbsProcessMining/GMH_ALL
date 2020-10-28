@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Unit",
+    "type": "text_replacement",
+    "value": "days"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Erfasse Wareneingang"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_DE\"",
+    "name": "To",
+    "type": "text_replacement",
+    "value": "'Erfasse Wareneingang'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Sende Bestellung"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_DE\"",
+    "name": "From",
+    "type": "text_replacement",
+    "value": "'Sende Bestellung'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Erh\u00f6he Vertrags Preis"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "L\u00f6sche Bestellposition"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Mahne Auftragsbest\u00e4tigung"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Reaktiviere Bestellposition"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Senke Vertrags Preis"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Storniere Rechnungseingang"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Storniere Wareneingang"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Auftragsbest\u00e4tigung"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Endauslieferungskennzeichen"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Freigabe f\u00fcr Bestellung"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Lagerort"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Lieferant"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Menge"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Preis"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Vertrag"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere W\u00e4hrung"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_DE\"",
+    "name": "Rework_Activities",
+    "type": "text_replacement",
+    "value": "'Erh\u00f6he Vertrags Preis','L\u00f6sche Bestellposition','Mahne Auftragsbest\u00e4tigung','Reaktiviere Bestellposition','Senke Vertrags Preis','Storniere Rechnungseingang','Storniere Wareneingang','\u00c4ndere Auftragsbest\u00e4tigung','\u00c4ndere Endauslieferungskennzeichen','\u00c4ndere Freigabe f\u00fcr Bestellung','\u00c4ndere Lagerort','\u00c4ndere Lieferant','\u00c4ndere Menge','\u00c4ndere Preis','\u00c4ndere Vertrag','\u00c4ndere W\u00e4hrung'"
+  }
+]

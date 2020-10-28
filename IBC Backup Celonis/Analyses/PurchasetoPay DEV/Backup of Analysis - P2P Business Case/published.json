@@ -1,0 +1,51 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "allowRawDataExport": true,
+    "colorMappings": [
+      {
+        "id": "e390e098-d825-40d9-957e-afe25b3d36c6",
+        "name": "Rejection Reasons",
+        "thresholds": [
+          {
+            "color": "#78B604",
+            "compare": "==",
+            "formula": "'Program Reason Code'"
+          }
+        ],
+        "type": "dimension"
+      },
+      {
+        "id": "3b6f622b-41f5-41d7-ac99-0fce122854a7",
+        "name": "tpt",
+        "thresholds": [
+          {
+            "color": "#FFB710",
+            "compare": ">=",
+            "formula": "1"
+          }
+        ],
+        "type": "series"
+      }
+    ],
+    "editMode": true,
+    "id": "0d428530-1b01-4e4c-97be-cd538cfd7f13",
+    "kpiViews": [],
+    "loadScript": "",
+    "multiselectMode": false,
+    "name": "P2P Business Case",
+    "palettes": [],
+    "rawDataExportLimit": 1000000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {}
+  },
+  "id": "3babde61-3cdf-462c-b80f-7fd45eba1398",
+  "lastChangeDate": 1598525528039,
+  "lastChangeUserId": "79131ff5-ec28-4869-8a94-4f03938cfd85",
+  "lastChangeUserName": "christopher.knaps@cbs-consulting.de(Christopher)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}

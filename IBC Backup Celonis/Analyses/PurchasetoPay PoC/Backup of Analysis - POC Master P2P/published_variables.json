@@ -1,0 +1,903 @@
+[
+  {
+    "linkedEntries": [],
+    "name": "otd_upper",
+    "type": "text_replacement",
+    "value": "0.6"
+  },
+  {
+    "linkedEntries": [],
+    "name": "otd_lower",
+    "type": "text_replacement",
+    "value": "0.3"
+  },
+  {
+    "linkedEntries": [],
+    "name": "changes_upper",
+    "type": "text_replacement",
+    "value": "0.1"
+  },
+  {
+    "linkedEntries": [],
+    "name": "changes_lower",
+    "type": "text_replacement",
+    "value": "0.3"
+  },
+  {
+    "linkedEntries": [],
+    "name": "auto_upper",
+    "type": "text_replacement",
+    "value": "0.6"
+  },
+  {
+    "linkedEntries": [],
+    "name": "auto_lower",
+    "type": "text_replacement",
+    "value": "0.2"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Benchmark6",
+    "type": "text_replacement",
+    "value": "0.5362"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Benchmark5",
+    "type": "text_replacement",
+    "value": "65.99"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Benchmark4",
+    "type": "text_replacement",
+    "value": "0.40"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Benchmark3",
+    "type": "text_replacement",
+    "value": "0.72"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Benchmark2",
+    "type": "text_replacement",
+    "value": "0.051"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Benchmark1",
+    "type": "text_replacement",
+    "value": "0.1068"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Filter_Option4_Text",
+    "type": "text_replacement",
+    "value": "#{\"EBAN\".\"BSART\"}"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Filter_Option4",
+    "type": "text_replacement",
+    "value": "\"EKKO\".\"BSART\" || ' - ' || \"EKKO\".\"BSART_TEXT\""
+  },
+  {
+    "linkedEntries": [],
+    "name": "Text_Color1",
+    "type": "text_replacement",
+    "value": "E2001A"
+  },
+  {
+    "linkedEntries": null,
+    "name": "time_set_text",
+    "type": "text_replacement",
+    "value": "Month"
+  },
+  {
+    "linkedEntries": null,
+    "name": "time_set",
+    "type": "text_replacement",
+    "value": "ROUND_MONTH"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Activity_Type2",
+    "type": "text_replacement",
+    "value": "Activity before"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Activity_Type",
+    "type": "text_replacement",
+    "value": "Activity after"
+  },
+  {
+    "linkedEntries": null,
+    "name": "create_purchase_requisition_item_activity",
+    "type": "text_replacement",
+    "value": "Create Purchase Requisition Item"
+  },
+  {
+    "linkedEntries": null,
+    "name": "conformance",
+    "type": "text_replacement",
+    "value": "REMAP_INTS(CONFORMANCE(\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_DE\", [\"P_0\" \"P_1\" \"P_2\" \"P_3\" \"P_4\" \"P_5\" \"P_6\" \"P_10\"], [\"T_7\" \"T_11\" \"T_14\" \"T_17\" \"T_20\" \"T_23\" \"T_26\"], [[\"P_6\" \"T_7\"] [\"T_7\" \"P_0\"] [\"T_11\" \"P_10\"] [\"P_5\" \"T_11\"] [\"P_0\" \"T_14\"] [\"T_14\" \"P_1\"] [\"P_1\" \"T_17\"] [\"T_17\" \"P_2\"] [\"P_2\" \"T_20\"] [\"T_20\" \"P_3\"] [\"P_3\" \"T_23\"] [\"T_23\" \"P_4\"] [\"P_4\" \"T_26\"] [\"T_26\" \"P_5\"]], [['Lege Bestellposition an' \"T_14\"] ['Lieferant erstellt Rechnung' \"T_17\"] ['Erfasse Wareneingang' \"T_20\"] ['Erfasse Rechnungseingang' \"T_23\"] ['Gleiche Rechnung aus' \"T_26\"]], [\"P_6\"], [\"P_10\"]), [2147483647, 0])"
+  },
+  {
+    "linkedEntries": [],
+    "name": "language",
+    "type": "text_replacement",
+    "value": "DE"
+  },
+  {
+    "linkedEntries": null,
+    "name": "NEW_VARIABLE",
+    "type": "text_replacement",
+    "value": "'Record Goods Receipt'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "TypeOfMB2",
+    "type": "text_replacement",
+    "value": "\"EKBE\".\"VGABE\" = '2'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "TypeOfMB1",
+    "type": "text_replacement",
+    "value": "\"EKBE\".\"VGABE\" = '1'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "MBTypeSelector",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "linkedEntries": null,
+    "name": "MB_Type",
+    "type": "text_replacement",
+    "value": "Goods Receipt before PO Creation"
+  },
+  {
+    "linkedEntries": null,
+    "name": "to_occ2",
+    "type": "text_replacement",
+    "value": "First"
+  },
+  {
+    "linkedEntries": null,
+    "name": "from_occ2",
+    "type": "text_replacement",
+    "value": "First"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "To_Activity",
+    "type": "text_replacement",
+    "value": "'Create Purchase Order Item'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Vendor Creates Invoice"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "From_Activity",
+    "type": "text_replacement",
+    "value": "'Vendor Creates Invoice'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "BG_COLOR_ANALYSES",
+    "type": "text_replacement",
+    "value": "555555"
+  },
+  {
+    "linkedEntries": [],
+    "name": "BG_COLOR_ASSUMPTIONS",
+    "type": "text_replacement",
+    "value": "FFB710"
+  },
+  {
+    "linkedEntries": null,
+    "name": "BG_COLOR_1",
+    "type": "text_replacement",
+    "value": "14A9D5"
+  },
+  {
+    "linkedEntries": null,
+    "name": "percentageofYE",
+    "type": "text_replacement",
+    "value": "20"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Currency",
+    "type": "text_replacement",
+    "value": "EUR"
+  },
+  {
+    "linkedEntries": null,
+    "name": "BUSINESS_PROCESS",
+    "type": "text_replacement",
+    "value": "Procure-to-Pay"
+  },
+  {
+    "linkedEntries": null,
+    "name": "COMPANY_NAME",
+    "type": "text_replacement",
+    "value": "Celonis"
+  },
+  {
+    "linkedEntries": null,
+    "name": "ROIC",
+    "type": "text_replacement",
+    "value": "10"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Factor",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": null,
+    "name": "number_of_FTE",
+    "type": "text_replacement",
+    "value": "100"
+  },
+  {
+    "linkedEntries": null,
+    "name": "FTE_COST",
+    "type": "text_replacement",
+    "value": "70000"
+  },
+  {
+    "linkedEntries": null,
+    "name": "FTE_HOURS",
+    "type": "text_replacement",
+    "value": "1880"
+  },
+  {
+    "linkedEntries": null,
+    "name": "target",
+    "type": "text_replacement",
+    "value": "50"
+  },
+  {
+    "linkedEntries": null,
+    "name": "agg",
+    "type": "text_replacement",
+    "value": "AVG"
+  },
+  {
+    "linkedEntries": null,
+    "name": "to_occ",
+    "type": "text_replacement",
+    "value": "Last"
+  },
+  {
+    "linkedEntries": null,
+    "name": "from_occ",
+    "type": "text_replacement",
+    "value": "First"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 12,
+        "selected": true,
+        "value": "Clear Invoice"
+      },
+      {
+        "available": true,
+        "id": 13,
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      },
+      {
+        "available": true,
+        "id": 19,
+        "selected": true,
+        "value": "Record Goods Receipt"
+      },
+      {
+        "available": true,
+        "id": 20,
+        "selected": true,
+        "value": "Record Invoice Receipt"
+      },
+      {
+        "available": true,
+        "id": 25,
+        "selected": true,
+        "value": "Send Purchase Order"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "automated_activities",
+    "type": "text_replacement",
+    "value": "'Clear Invoice','Create Purchase Order Item','Record Goods Receipt','Record Invoice Receipt','Send Purchase Order'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CC3",
+    "type": "text_replacement",
+    "value": "'0080'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CC2",
+    "type": "text_replacement",
+    "value": "'0030'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "CC1",
+    "type": "text_replacement",
+    "value": "'0010'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Telex",
+    "type": "text_replacement",
+    "value": "'4'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Fax",
+    "type": "text_replacement",
+    "value": "'2'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "External_Send",
+    "type": "text_replacement",
+    "value": "'5'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Send Purchase Order Update"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "EDI_Activity",
+    "type": "text_replacement",
+    "value": "'Send Purchase Order Update'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Other_KSCHL",
+    "type": "text_replacement",
+    "value": "'n.a.'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Dun_Order_Confirmation",
+    "type": "text_replacement",
+    "value": "'AUFB'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Send_Overdue_Notice",
+    "type": "text_replacement",
+    "value": "'MAHN'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Send_PO_Update",
+    "type": "text_replacement",
+    "value": "'ZNEU'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Send_PO",
+    "type": "text_replacement",
+    "value": "'NEU'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Preis"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".ACTIVITY_<%=language%>",
+    "name": "Selected_Non_First_Time_Right",
+    "type": "text_replacement",
+    "value": "'\u00c4ndere Preis'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "L\u00f6sche Bestellposition"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Reaktiviere Bestellposition"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Senke Vertrags Preis"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Sperre Bestellposition"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Storniere Rechnungseingang"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "Storniere Wareneingang"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Auftragsbest\u00e4tigung"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Endauslieferungskennzeichen"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Endlieferungskennzeichen"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Endrechnungskennzeichen"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Freigabe f\u00fcr Bestellung"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Lagerort"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Lieferant"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Menge"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Preis"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Vertrag"
+      },
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere W\u00e4hrung"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".ACTIVITY_<%=language%>",
+    "name": "rework_activities",
+    "type": "text_replacement",
+    "value": "'L\u00f6sche Bestellposition','Reaktiviere Bestellposition','Senke Vertrags Preis','Sperre Bestellposition','Storniere Rechnungseingang','Storniere Wareneingang','\u00c4ndere Auftragsbest\u00e4tigung','\u00c4ndere Endauslieferungskennzeichen','\u00c4ndere Endlieferungskennzeichen','\u00c4ndere Endrechnungskennzeichen','\u00c4ndere Freigabe f\u00fcr Bestellung','\u00c4ndere Lagerort','\u00c4ndere Lieferant','\u00c4ndere Menge','\u00c4ndere Preis','\u00c4ndere Vertrag','\u00c4ndere W\u00e4hrung'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Median_Automation",
+    "type": "text_replacement",
+    "value": "0.28"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Median_Threewaymatch",
+    "type": "text_replacement",
+    "value": "0.8"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Median_Pricechanges",
+    "type": "text_replacement",
+    "value": "0.1"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Median_OTD",
+    "type": "text_replacement",
+    "value": "0.8"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Worst_OTD",
+    "type": "text_replacement",
+    "value": "0.45"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Worst_Threewaymatch",
+    "type": "text_replacement",
+    "value": "0.6"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Worst_Automation",
+    "type": "text_replacement",
+    "value": "0.01"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Worst_Pricechanges",
+    "type": "text_replacement",
+    "value": "0.4"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Best_OTD",
+    "type": "text_replacement",
+    "value": "0.97"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Best_Automation",
+    "type": "text_replacement",
+    "value": "0.39"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Best_Pricechanges",
+    "type": "text_replacement",
+    "value": "0.02"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Best_Threewaymatch",
+    "type": "text_replacement",
+    "value": "0.98"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Customer",
+    "type": "text_replacement",
+    "value": "Celonis"
+  },
+  {
+    "linkedEntries": null,
+    "name": "unit",
+    "type": "text_replacement",
+    "value": "days"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Beginn Rechnungsfreigabe EASY"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".ACTIVITY_<%=language%>",
+    "name": "From",
+    "type": "text_replacement",
+    "value": "'Beginn Rechnungsfreigabe EASY'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "Ende Rechnungsfreigabe EASY"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".ACTIVITY_<%=language%>",
+    "name": "To",
+    "type": "text_replacement",
+    "value": "'Ende Rechnungsfreigabe EASY'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 13,
+        "selected": true,
+        "value": "Create Purchase Order Item"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "From_EDI",
+    "type": "text_replacement",
+    "value": "'Create Purchase Order Item'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "id": 12,
+        "selected": true,
+        "value": "Clear Invoice"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".\"ACTIVITY_EN\"",
+    "name": "To_EDI",
+    "type": "text_replacement",
+    "value": "'Clear Invoice'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Print",
+    "type": "text_replacement",
+    "value": "'1'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Mail",
+    "type": "text_replacement",
+    "value": "'7'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "EDI",
+    "type": "text_replacement",
+    "value": "'6'"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Days_back",
+    "type": "text_replacement",
+    "value": "'13-01-2020'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "tolerance_high_price_text",
+    "type": "text_replacement",
+    "value": "1%"
+  },
+  {
+    "linkedEntries": null,
+    "name": "tolerance_low_price_text",
+    "type": "text_replacement",
+    "value": "2%"
+  },
+  {
+    "linkedEntries": null,
+    "name": "tolerance_high_quantity_text",
+    "type": "text_replacement",
+    "value": "2%"
+  },
+  {
+    "linkedEntries": null,
+    "name": "tolerance_low_quantity_text",
+    "type": "text_replacement",
+    "value": "1%"
+  },
+  {
+    "linkedEntries": null,
+    "name": "netwr",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"NETWR\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "Filter_Option3_Text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"BUKRS\"}"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Filter_Option2_Text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"MANDT\"}"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Filter_Option1_Text",
+    "type": "text_replacement",
+    "value": "External/ Internal"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Filter_Option3",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "Filter_Option2",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"MANDT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "Filter_Option1",
+    "type": "text_replacement",
+    "value": "CASE WHEN COALESCE(LFA1.VBUND, '') = '' THEN 'External' ELSE 'Internal' END"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "0004-GMH Recycling GmbH"
+      }
+    ],
+    "linkedFormula": "<%=Benchmarking_Dimension%>",
+    "name": "B2",
+    "type": "text_replacement",
+    "value": "'0004-GMH Recycling GmbH'"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "0001-Georgsmarienh\u00fctte GmbH"
+      }
+    ],
+    "linkedFormula": "<%=Benchmarking_Dimension%>",
+    "name": "B1",
+    "type": "text_replacement",
+    "value": "'0001-Georgsmarienh\u00fctte GmbH'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Benchmarking_Dimension",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"BUKRS\" || '-' || \"EKPO\".\"BUKRS_TEXT\""
+  },
+  {
+    "linkedEntries": null,
+    "name": "Benchmarking_Dimension_Text",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"BUKRS\"}"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Due_Date_Text",
+    "type": "text_replacement",
+    "value": "#{StatisticalDeliveryDate}"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Dimensionbutton",
+    "type": "text_replacement",
+    "value": "#{\"EKPO\".\"MATKL\"}"
+  },
+  {
+    "linkedEntries": null,
+    "name": "tolerance_low_quantity",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "linkedEntries": null,
+    "name": "tolerance_high_quantity",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "linkedEntries": null,
+    "name": "tolerance_low_price",
+    "type": "text_replacement",
+    "value": "2"
+  },
+  {
+    "linkedEntries": null,
+    "name": "tolerance_high_price",
+    "type": "text_replacement",
+    "value": "1"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Company_Color2",
+    "type": "text_replacement",
+    "value": "000000"
+  },
+  {
+    "linkedEntries": [],
+    "name": "Company_Color1",
+    "type": "text_replacement",
+    "value": "E2001A"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OTD_upper",
+    "type": "text_replacement",
+    "value": "0"
+  },
+  {
+    "linkedEntries": [],
+    "name": "OTD_lower",
+    "type": "text_replacement",
+    "value": "5"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Preis"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".ACTIVITY_<%=language%>",
+    "name": "FromSOD",
+    "type": "text_replacement",
+    "value": "\u00c4ndere Preis"
+  },
+  {
+    "linkedEntries": [
+      {
+        "available": true,
+        "selected": true,
+        "value": "\u00c4ndere Lieferant"
+      }
+    ],
+    "linkedFormula": "\"_CEL_P2P_ACTIVITIES\".ACTIVITY_<%=language%>",
+    "name": "ToSOD",
+    "type": "text_replacement",
+    "value": "\u00c4ndere Lieferant"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Dimensionbutton_Overview",
+    "type": "text_replacement",
+    "value": "\"EKPO\".\"MATKL_TEXT\""
+  },
+  {
+    "linkedEntries": [],
+    "name": "currency_symbol",
+    "type": "text_replacement",
+    "value": "\u20ac"
+  },
+  {
+    "linkedEntries": [],
+    "name": "automatic_users",
+    "type": "text_replacement",
+    "value": "'null','B'"
+  },
+  {
+    "linkedEntries": null,
+    "name": "GR_VARIABLE",
+    "type": "text_replacement",
+    "value": "PU_LAST(\"EKPO\", \"EKBE\".\"CPUDT\", \"EKBE\".\"VGABE\" = '1' AND \"EKBE\".\"SHKZG\" = 'S')"
+  },
+  {
+    "linkedEntries": null,
+    "name": "Due_Date",
+    "type": "text_replacement",
+    "value": "PU_LAST(\"EKPO\",\"EKET\".\"SLFDT\")"
+  }
+]

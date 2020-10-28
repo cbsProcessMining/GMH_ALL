@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "allowDataLink": false,
+      "backgroundColor": "#ffffff",
+      "border": false,
+      "clickToFilter": true,
+      "componentFilter": "",
+      "contextMenuMethods": {
+        "componentFilter": true,
+        "copy": true,
+        "deletable": true,
+        "export": true,
+        "fullscreen": true,
+        "layers": true,
+        "settings": true
+      },
+      "diagramBackground": true,
+      "diagramBackgroundStyle": {
+        "fillColor": "#ffffff",
+        "opacity": 1
+      },
+      "diagramBorder": false,
+      "diagramBorderStyle": {
+        "lineColor": "#e9e9e9",
+        "lineOpacity": 1,
+        "lineWidth": 1
+      },
+      "feedbackMode": false,
+      "filteringSelf": true,
+      "formulas": [],
+      "hasBackground": true,
+      "hasHoverbuttons": false,
+      "height": 38,
+      "id": "dc676c5a-3955-443b-bb49-92605bc9838e",
+      "maximized": false,
+      "selection": [],
+      "showHeader": true,
+      "text": "[table][tr][td][b]Analysis Section:[/b][/td][td][b]Assumption Name:[/b][/td][td][b]Assumption Description:[/b][/td][td][b]Assumption Value:[/b][/td][/tr]\n[tr][td][b]Setup[/b][/td][td]Annual FTE cost (<%=SETUP_CURRENCY%>)[/td][td]to calculate FTE COST PER MINUTE, used in various calculations[/td][td]<%= SETUP_FTE_COST %>[/td][/tr]\n[tr][td][b]Setup[/b][/td][td]Annual FTE hours (h)[/td][td]to calculate FTE COST PER MINUTE, used in various calculations[/td][td]<%= SETUP_FTE_HOURS %>[/td][/tr]\n[tr][td][b]Setup[/b][/td][td]Organizational factor[/td][td]this is the factor scaling the investigated organization to its worldwide scope[/td][td]<%= SETUP_FACTOR %>[/td][/tr]\n[tr][td][b]Setup[/b][/td][td]ROIC (%)[/td][td]can also be changed on cover page, find out using business report[/td][td]<%= SETUP_ROIC %>[/td][/tr]\n[tr][td][b]Setup[/b][/td][td]Manual user type(s) (Typically A or B)[/td][td]used in rework, automation, and manual changes among other buckets[/td][td]<%= SETUP_MANUAL_USER_TYPE %>[/td][/tr]\n[tr][td][b]Setup[/b][/td][td]Number of full time employees on this process[/td][td]Define using table to the left (count number of user names with a count > 1000)[/td][td]<%= SETUP_NUMBER_OF_FTE %>[/td][/tr]\n[tr][td][b]Setup[/b][/td][td]Percentage of yearly employee expenditure[/td][td]upper limit roughly 25%[/td][td]<%= SETUP_PERCENT_OF_YEAR %>[/td][/tr]\n[tr][td][b]-[/b][/td][td][/td][td][/td][td][/td][/tr]\n[tr][td][b]Manual Changes[/b][/td][td]Change activity: <%=MAN_CHANGE_ACT_1%>[/td][td]Effort required to change in minutes (includes discovery, communication, action)[/td][td]<%= MAN_CHANGE_ACT_1_EFF %>[/td][/tr]\n[tr][td][b]Manual Changes[/b][/td][td]Change activity: <%=MAN_CHANGE_ACT_2%>[/td][td]Effort required to change in minutes (includes discovery, communication, action)[/td][td]<%= MAN_CHANGE_ACT_2_EFF %>[/td][/tr]\n[tr][td][b]Manual Changes[/b][/td][td]Change activity: <%=MAN_CHANGE_ACT_3%>[/td][td]Effort required to change in minutes (includes discovery, communication, action)[/td][td]<%= MAN_CHANGE_ACT_3_EFF %>[/td][/tr]\n[tr][td][b]-[/b][/td][td][/td][td][/td][td][/td][/tr]\n[tr][td][b]Automation[/b][/td][td]Automation activity: <%=AUTOMATION_ACT_1%>[/td][td]Effort required for manual step in minutes (includes communication, action, and record keeping)[/td][td]<%= AUTOMATION_ACT_1_EFF %>[/td][/tr]\n[tr][td][b]Automation[/b][/td][td]Automation activity: <%=AUTOMATION_ACT_2%>[/td][td]Effort required for manual step in minutes (includes communication, action, and record keeping)[/td][td]<%= AUTOMATION_ACT_2_EFF %>[/td][/tr]\n[tr][td][b]Automation[/b][/td][td]Automation activity: <%=AUTOMATION_ACT_3%>[/td][td]Effort required for manual step in minutes (includes communication, action, and record keeping)[/td][td]<%= AUTOMATION_ACT_3_EFF %>[/td][/tr]\n[tr][td][b]-[/b][/td][td][/td][td][/td][td][/td][/tr]\n[tr][td][b]Payment Blocks[/b][/td][td]Block Activity: <%=BLOCK_ACT_1%>[/td][td]Effort required to  manually block in minutes (includes discovery, communication, and action)[/td][td]<%= BLOCK_ACT_1_EFF %>[/td][/tr]\n[tr][td][b]-[/b][/td][td][/td][td][/td][td][/td][/tr]\n[tr][td][b]Payment Blocks[/b][/td][td]Block Activity: <%=BLOCK_ACT_1%>[/td][td]Possible Improvement due to Celonis[/td][td]<%= BLOCK_ACT_1_POT %>[/td][/tr]\n[tr][td][b]-[/b][/td][td][/td][td][/td][td][/td][/tr]\n[tr][td][b]Early Payments[/b][/td][td]Threshold for early payments (days):[/td][td]Minimum number of days before expected Payment Date in which to consider as an \"Early Payment\"[/td][td]<%= EARLY_PAYMENT_THRESH_MIN %>[/td][/tr]\n[tr][td][b]Early Payments[/b][/td][td]Max days early [/td][td]Maximum number of days before expected Payment Date in which to consider as an \"Early Payment\"[/td][td]<%= EARLY_PAYMENT_THRESH_MAX %>[/td][/tr]\n[tr][td][b]Early Payments[/b][/td][td]Assumed potential for optimization (%)[/td][td]Potential improvement by using Celonis (%)[/td][td]<%= EARLY_PAYMENT_OPT %>[/td][/tr]\n[tr][td][b]-[/b][/td][td][/td][td][/td][td][/td][/tr]\n[tr][td][b]Late Payments[/b][/td][td]Threshold for late payments (days):[/td][td]Minimum number of days after expected Payment Date in which to consider as an \"Late Payment\"[/td][td]<%= LATE_PAYMENT_THRESH_MIN %>[/td][/tr]\n[tr][td][b]Late Payments[/b][/td][td]Max days late[/td][td]Maximum number of days after expected Payment Date in which to consider as an \"Late Payment\"[/td][td]<%= LATE_PAYMENT_THRESH_MAX %>[/td][/tr]\n[tr][td][b]Late Payments[/b][/td][td]Penalty Payment (%)[/td][td]Penalty incurred by company to pay customer if Late Payment occurs[/td][td]<%= LATE_PAYMENT_PENALTY %>[/td][/tr]\n[tr][td][b]Late Payments[/b][/td][td]Assumed potential for optimization (%)[/td][td]Potential improvement by using Celonis (%)[/td][td]<%= LATE_PAYMENT_POT %>[/td][/tr]\n[tr][td][b]-[/b][/td][td][/td][td][/td][td][/td][/tr]\n[tr][td][b]Discount Losses[/b][/td][td]Assumed potential for optimization (%)[/td][td]Potential improvement by using Celonis (%)[/td][td]<%= DISCOUNT_OPT %>[/td][/tr]\n[tr][td][b]-[/b][/td][td][/td][td][/td][td][/td][/tr]\n[tr][td][b]Rework[/b][/td][td]Activity: <%=REWORK_ACT_1%>[/td][td]Effort required to change in minutes (includes discovery, communication, action, and record keeping)[/td][td]<%= REWORK_ACT_1_EFF %>[/td][/tr]\n[tr][td][b]-[/b][/td][td][/td][td][/td][td][/td][/tr]\n[tr][td][b]Analysis & Reporting[/b][/td][td]FTE in Process Analytics[/td][td]Full time employees involved in process analyses[/td][td]<%= ANALYSES_FTE %>[/td][/tr]\n[tr][td][b]Analysis & Reporting[/b][/td][td]Process RCA Time Slice[/td][td]Time spent on process root cause analyses per week per involved employee (hours)[/td][td]<%= ANALYSES_FTE %>[/td][/tr]\n[tr][td][b]Analysis & Reporting[/b][/td][td]Potential Celonis Optimization Improvement[/td][td]Possible reduction in analysis effort through using Celonis (%)[/td][td]<%= ANALYSES_IMP %>[/td][/tr]\n[tr][td][b]-[/b][/td][td][/td][td][/td][td][/td][/tr]\n[tr][td][b]Analysis & Reporting[/b][/td][td]FTE in Process Reporting[/td][td]Full time employees involved in process reporting[/td][td]<%= REPORTING_FTE %>[/td][/tr]\n[tr][td][b]Analysis & Reporting[/b][/td][td]Process Reporting Time Slice[/td][td]Time spent on reporting per week per involved employee (hours)[/td][td]<%= REPORTING_EFF %>[/td][/tr]\n[tr][td][b]Analysis & Reporting[/b][/td][td]Potential Celonis Optimization Improvement[/td][td]Possible reduction in reporting effort through using Celonis (%)[/td][td]<%= REPORTING_IMP %>[/td][/tr]\n[tr][td][b]-[/b][/td][td][/td][td][/td][td][/td][/tr]\n[tr][td][b]Maverick Buying[/b][/td][td]Discount potential (%)[/td][td]Possible discount potential by using approved Accounts Payable process versus unapproved process[/td][td]<%= MAV_BUYING_DISCOUNT %>[/td][/tr]\n[tr][td][b]Maverick Buying[/b][/td][td]Realization potential (%)[/td][td]Potential improvement by using Celonis (%)[/td][td]<%= MAV_BUYING_POT %>[/td][/tr]\n[tr][td][b]Maverick Buying[/b][/td][td]Maverick Buying limit (USD)[/td][td]Upper Purchase Order Line Item limit that will be considered as Maverick Buying[/td][td]<%= MAV_BUYING_LIMIT %>[/td][/tr]\n[tr][td][b]-[/b][/td][td][/td][td][/td][td][/td][/tr]\n[tr][td][b]Consulting[/b][/td][td]Consulting on the AP process (%)[/td][td]Consulting on the AP process (%)[/td][td]<%= CONSULTING_PERCENT %>[/td][/tr]\n[tr][td][b]Consulting[/b][/td][td]Process RCA Consulting Need[/td][td]Time spent by consultancies to understand the process and find root-causes (%)[/td][td]<%= CONSULTING_TIME %>[/td][/tr]\n[tr][td][b]Consulting[/b][/td][td]Potential Celonis Optimization Improvement[/td][td]Potential improvement by using Celonis (%)[/td][td]<%= CONSULTING_IMP %>[/td][/tr][/table]",
+      "title": "",
+      "titleStyle": {
+        "currentFontSize": {
+          "name": "x-large 17px",
+          "value": 17
+        },
+        "fontSize": 17
+      },
+      "toolBorder": false,
+      "type": "text",
+      "vertical": false,
+      "width": 100,
+      "x": 0,
+      "y": 0,
+      "zIndex": 1
+    }
+  ],
+  "contentType": "blank-sheet",
+  "format": "A4_LANDSCAPE",
+  "id": "30163460-eae6-4f4d-801d-fb248ca5e4b0",
+  "name": "Assumption Summary",
+  "position": {
+    "height": 972,
+    "left": 0,
+    "top": 0,
+    "width": 1375
+  },
+  "sheetFilter": {
+    "text": ""
+  }
+}

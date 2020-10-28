@@ -1,0 +1,98 @@
+{
+  "document": {
+    "KPILibrary": [],
+    "colorMappings": [
+      {
+        "id": "d64e589e-7716-4917-b804-4bcfcd95b23b",
+        "name": "Default Binary",
+        "thresholds": [
+          {
+            "color": ""
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "3aaeb00b-fd2b-413b-94b6-e8c54272f6b2",
+        "name": "Automation",
+        "thresholds": [
+          {
+            "color": "#97dbf0",
+            "compare": "==",
+            "formula": "Manual"
+          },
+          {
+            "color": "#eeeeee",
+            "compare": "==",
+            "formula": "No Purchase Requistion"
+          },
+          {
+            "color": "#dddddd",
+            "compare": "==",
+            "formula": "No User Type"
+          },
+          {
+            "color": "#daefb4",
+            "compare": "==",
+            "formula": "Automated"
+          }
+        ],
+        "type": "series"
+      },
+      {
+        "id": "f522e9ff-598c-463a-ad53-d8798f22435c",
+        "name": "CT subprocess",
+        "thresholds": [
+          {
+            "color": "#D70A0A",
+            "compare": ">",
+            "formula": "<%=high_color%>"
+          },
+          {
+            "color": "#78B604",
+            "compare": "<",
+            "formula": "<%=low_color%>"
+          }
+        ],
+        "title": "New Color Mapping",
+        "type": "series"
+      }
+    ],
+    "editMode": true,
+    "id": "14f07c08-871e-49bc-9ded-8ba080fe2e40",
+    "isPublished": true,
+    "kpiViews": [],
+    "loadScript": "",
+    "multiselectMode": false,
+    "name": "Cycle Times",
+    "palettes": [
+      {
+        "colors": [
+          "#ff000e",
+          "#5BC6E6"
+        ],
+        "custom": true,
+        "id": "a4cdd3bb-b1c1-4d27-839e-e62ea811dab6",
+        "type": "ordinal"
+      }
+    ],
+    "preventVariants": false,
+    "rawDataExportLimit": 20000,
+    "showFiltersForViewers": false,
+    "statelessLoadScript": "",
+    "theme": "celonis_legacy",
+    "translationMap": {
+      "Classification for PO Items without PR": {
+        "de": "Klassifizierung von Bestellungen ohne Bestellanforderung",
+        "en": "Classification for PO Items without PR"
+      }
+    }
+  },
+  "id": "b725dc91-f2f6-469c-8804-19ac08ca7927",
+  "lastChangeDate": 1596025514090,
+  "lastChangeUserId": "f1fe7945-5d72-40b0-b86c-2b41ceeee231",
+  "lastChangeUserName": "josef.rieger@cbs-consulting.de(Josef.rieger@cbs-consulting.de)",
+  "lockedUntilDate": 0,
+  "sourceId": null,
+  "title": null
+}
